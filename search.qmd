@@ -1,0 +1,50 @@
+---
+title: Tìm kiếm
+format: html
+page-layout: full
+---
+
+:::{.search-container}
+
+<input type="text" id="searchInput" placeholder="Nhập từ khóa..." style="width: 100%; padding: 10px; font-size: 1.2em; margin-bottom: 20px;" />
+
+<div id="results"></div>
+
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script>
+  // Tải dữ liệu từ search-index.json
+  fetch("search-index.json")
+    .then(response => response.json())
+    .then(data => {
+      const fuse = new Fuse(data, {
+        keys: ["title", "description", "tags"],
+        threshold: 0.3,
+        includeScore: true
+      });
+
+      const input = document.getElementById("searchInput");
+      const resultsDiv = document.getElementById("results");
+
+      input.addEventListener("input", function () {
+        const query = input.value.trim();
+        if (query.length === 0) {
+          resultsDiv.innerHTML = "";
+          return;
+        }
+
+        const results = fuse.search(query);
+        resultsDiv.innerHTML = results.map(result => {
+          const item = result.item;
+          return `
+            <div style="margin-bottom: 20px;">
+              <a href="${item.path}" style="font-size: 1.2em; font-weight: bold;">${item.title}</a><br>
+              <span style="color: #666;">${item.description}</span><br>
+              <small>Tags: ${item.tags.join(", ")}</small>
+            </div>
+          `;
+        }).join("");
+      });
+    });
+</script>

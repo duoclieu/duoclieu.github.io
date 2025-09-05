@@ -1,0 +1,143 @@
+---
+title: "Justicia secunda"
+subtitle: "Loài Justicia secunda (Họ Acanthaceae)"
+description: "Loài *Justicia secunda* thuộc họ Acanthaceae phân bố tại một số vùng trên thế giới như nan, Benin, Suriname, Côte d’Ivoire, Jamaica, Guadeloupe, French Guiana, Venezuela (Bolivarian Republic of), Gabon, Colombia, unknown or invalid, Bonaire, Sint Eustatius and Saba, Barbados, Martinique, Panama, Sao Tome and Principe, Dominica, Trinidad and Tobago, Honduras, Guatemala, Brazil, Costa Rica, Peru, United States of America, Dominican Republic, Ecuador, Congo, El Salvador, Congo, Democratic Republic of the, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc lợi tiểu', 'trinidad: thuốc lợi tiểu'.Từ loài này đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm diazines."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Justicia%20secunda%20%2814061429146%29.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Justicia secunda", "Acanthaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Justicia secunda* thuộc họ Acanthaceae phân bố tại một số vùng trên thế giới như nan, Benin, Suriname, Côte d’Ivoire, Jamaica, Guadeloupe, French Guiana, Venezuela (Bolivarian Republic of), Gabon, Colombia, unknown or invalid, Bonaire, Sint Eustatius and Saba, Barbados, Martinique, Panama, Sao Tome and Principe, Dominica, Trinidad and Tobago, Honduras, Guatemala, Brazil, Costa Rica, Peru, United States of America, Dominican Republic, Ecuador, Congo, El Salvador, Congo, Democratic Republic of the, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc lợi tiểu', 'trinidad: thuốc lợi tiểu'.Từ loài này đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm diazines.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Acanthaceae
+- **Genus:** Justicia
+- **Species:** *Justicia secunda*
+- **Scientific Name:** *Justicia secunda Vahl*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Acanthaceae - Genus: Justicia - Species: *Justicia secunda* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Justicia%20secunda%20%2814061429146%29.jpg){ group="GIBF" }
+
+![](https://cch2.org/imglib/cch2/LOB/LOB102/LOB102786.jpg){ group="GIBF" }
+
+![](http://images.mobot.org/tropicosimages3/detailimages/TropicosImageVol3/100805000/E496F5A1-BD23-4EF8-9854-DF44FD7B9D54.jpg){ group="GIBF" }
+
+![](http://images.mobot.org/tropicosimages3/detailimages/TropicosImageVol3/100805000/A3B16CD8-A3B6-49AE-8047-812DCDA6B663.jpg){ group="GIBF" }
+
+![](http://jbrj-public-img.s3-sa-east-1.amazonaws.com/JPG/rb/1/42/29/10/01422910.jpg){ group="GIBF" }
+
+![](http://jbrj-public-img.s3-sa-east-1.amazonaws.com/JPG/rb/1/44/1/34/01440134.jpg){ group="GIBF" }
+
+![](http://jbrj-public-img.s3-sa-east-1.amazonaws.com/JPG/rb/1/44/1/36/01440136.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Benin, Suriname, Côte d’Ivoire, Jamaica, Guadeloupe, French Guiana, Venezuela (Bolivarian Republic of), Gabon, Colombia, unknown or invalid, Bonaire, Sint Eustatius and Saba, Barbados, Martinique, Panama, Sao Tome and Principe, Dominica, Trinidad and Tobago, Honduras, Guatemala, Brazil, Costa Rica, Peru, United States of America, Dominican Republic, Ecuador, Congo, El Salvador, Congo, Democratic Republic of the, Guyana
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Acanthaceae",
+  iso3_codes: ['MTQ', 'DOM', 'BRA', 'ECU', 'GTM', 'GUY', 'STP', 'PER', 'PAN', 'JAM', 'BRB', 'GAB', 'GLP', 'SUR', 'GUF', 'HND', 'COL', 'SLV', 'TTO', 'USA', 'CRI', 'COG', 'BEN', 'DMA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Justicia secunda* đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm diazines. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Diazines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0107066](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107066)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Thuốc lợi tiểu  |
+| Row1      | Trinidad        | Thuốc lợi tiểu  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "N=c1nc(-c2ccccc2)cc(-c2ccccc2)[nH]1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

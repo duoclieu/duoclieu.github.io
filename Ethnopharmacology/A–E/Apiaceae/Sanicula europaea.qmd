@@ -1,0 +1,158 @@
+---
+title: "Sanicula europaea"
+subtitle: "Loài Sanicula europaea (Họ Apiaceae)"
+description: "Loài *Sanicula europaea* thuộc họ Apiaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Bulgaria, Hungary, Spain, Poland, Sweden, Russian Federation, Romania, United Kingdom of Great Britain and Northern Ireland, Türkiye, Ukraine, Serbia, Italy, Slovenia, Norway, Denmark, Austria, Ireland, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất khử trùng, thuốc cầm máu', 'europe: dạ dày, chất làm se', 'turkey: chất làm se, cầm máu, dạ dày, dễ bị tổn thương'.Từ loài này đã phân lập và xác định được 9 hoạt chất thuộc  về 2 nhóm gồm cinnamic acids and derivatives, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Sanicula%20europaea%20050606.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Sanicula europaea", "Apiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Sanicula europaea* thuộc họ Apiaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Bulgaria, Hungary, Spain, Poland, Sweden, Russian Federation, Romania, United Kingdom of Great Britain and Northern Ireland, Türkiye, Ukraine, Serbia, Italy, Slovenia, Norway, Denmark, Austria, Ireland, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất khử trùng, thuốc cầm máu', 'europe: dạ dày, chất làm se', 'turkey: chất làm se, cầm máu, dạ dày, dễ bị tổn thương'.Từ loài này đã phân lập và xác định được 9 hoạt chất thuộc  về 2 nhóm gồm cinnamic acids and derivatives, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Apiales
+- **Family:** Apiaceae
+- **Genus:** Sanicula
+- **Species:** *Sanicula europaea*
+- **Scientific Name:** *Sanicula europaea L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[sanicle]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Apiaceae - Genus: Sanicula - Species: *Sanicula europaea* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Sanicula%20europaea%20050606.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344266629/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344266636/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344818607/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344818630/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344818646/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344861931/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345350544/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347123312/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Germany, Switzerland, Czechia, Netherlands, Bulgaria, Hungary, Spain, Poland, Sweden, Russian Federation, Romania, United Kingdom of Great Britain and Northern Ireland, Türkiye, Ukraine, Serbia, Italy, Slovenia, Norway, Denmark, Austria, Ireland, Luxembourg
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Apiaceae",
+  iso3_codes: ['NLD', 'LUX', 'RUS', 'CZE', 'SRB', 'ROU', 'CHE', 'ESP', 'GBR', 'DNK', 'NOR', 'POL', 'ITA', 'FRA', 'SWE', 'SVN', 'IRL', 'BGR', 'AUT', 'HUN', 'UKR', 'TUR', 'DEU'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Sanicula europaea* đã phân lập và xác định được 9 hoạt chất thuộc  về 2 nhóm gồm cinnamic acids and derivatives, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0128050](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128050)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0124509](https://lotus.naturalproducts.net/compound/lotus_id/LTS0124509)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0128557](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128557)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0207820](https://lotus.naturalproducts.net/compound/lotus_id/LTS0207820)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0027481](https://lotus.naturalproducts.net/compound/lotus_id/LTS0027481)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0154886](https://lotus.naturalproducts.net/compound/lotus_id/LTS0154886)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0273755](https://lotus.naturalproducts.net/compound/lotus_id/LTS0273755)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0015608](https://lotus.naturalproducts.net/compound/lotus_id/LTS0015608)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0256894](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256894)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                  |
+|-----------|-----------------|------------------------------------------------|
+| Row0      | Elsewhere       | Chất khử trùng, Thuốc cầm máu                  |
+| Row1      | Europe          | dạ dày, Chất làm se                            |
+| Row2      | Turkey          | Chất làm se, cầm máu, dạ dày, dễ bị tổn thương |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=C(O)/C=C/c1ccc(O)c(O)c1" },
+{id: "canvas_Row1", smiles: "O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H](Cc1ccc(O)c(O)c1)C(=O)O" },
+{id: "canvas_Row2", smiles: "O=C(C=Cc1ccc(O)c(O)c1)OC(Cc1ccc(O)c(O)c1)C(=O)O" },
+{id: "canvas_Row3", smiles: "CC=C(C)C(=O)OC1C(O)C2(CO)C(CC1(C)C)C1=CCC3C4(C)CCC(OC5OC(C(=O)OCCC)C(O)C(OC6OC(CO)C(OC7OCC(O)C(O)C7O)C(O)C6O)C5O)C(C)(C)C4CCC3(C)C1(C)C(O)C2O" },
+{id: "canvas_Row4", smiles: "C/C=C(/C)C(=O)O[C@H]1[C@H](O)[C@@]2(CO)[C@@H](CC1(C)C)C1=CC[C@@H]3[C@@]4(C)CC[C@H](O[C@@H]5O[C@H](C(=O)OCCC)[C@@H](O)[C@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7OC[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)[C@H]5O)C(C)(C)[C@@H]4CC[C@@]3(C)[C@]1(C)[C@@H](O)[C@H]2O" },
+{id: "canvas_Row5", smiles: "O=C(/C=C/c1ccc(O)c(O)c1)O[C@H](Cc1ccc(O)c(O)c1)C(=O)O" },
+{id: "canvas_Row6", smiles: "O=C(O)C=Cc1ccc(O)c(O)c1" },
+{id: "canvas_Row7", smiles: "C/C=C(/C)C(=O)O[C@H]1[C@H](O)[C@@]2(CO)[C@@H](CC1(C)C)C1=CC[C@@H]3[C@@]4(C)CC[C@H](O[C@@H]5O[C@H](C(=O)OCCC)[C@H](O)[C@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7OC[C@@H](O)[C@@H](O)[C@@H]7O)[C@H](O)[C@H]6O)[C@H]5O)C(C)(C)[C@@H]4CC[C@@]3(C)[C@]1(C)[C@@H](O)[C@H]2O" },
+{id: "canvas_Row8", smiles: "CCC(C)C(=O)O[C@H]1[C@H](O)[C@@]2(CO)[C@@H](CC1(C)C)C1=CC[C@@H]3[C@@]4(C)CC[C@H](O[C@@H]5O[C@H](C(=O)O)[C@@H](O)[C@H](O[C@H]6OC[C@@H](O)[C@@H](O)[C@@H]6O)[C@H]5O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)C(C)(C)[C@@H]4CC[C@@]3(C)[C@]1(C)[C@@H](O)[C@H]2O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,183 @@
+---
+title: "Aristolochia chilensis"
+subtitle: "Loài Aristolochia chilensis (Họ Aristolochiaceae)"
+description: "Loài *Aristolochia chilensis* thuộc họ Aristolochiaceae phân bố tại một số vùng trên thế giới như Chile. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'chile: emmenagogue'.Từ loài này đã phân lập và xác định được 10 hoạt chất thuộc  về 6 nhóm gồm aporphines, aristolactams, furanoid lignans, phenanthrenes and derivatives, proaporphines, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Oreja%20de%20Zorro%20en%20el%20Parque%20natural%20G%C3%B3mez%20Carre%C3%B1o.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Aristolochia chilensis", "Aristolochiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Aristolochia chilensis* thuộc họ Aristolochiaceae phân bố tại một số vùng trên thế giới như Chile. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'chile: emmenagogue'.Từ loài này đã phân lập và xác định được 10 hoạt chất thuộc  về 6 nhóm gồm aporphines, aristolactams, furanoid lignans, phenanthrenes and derivatives, proaporphines, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Piperales
+- **Family:** Aristolochiaceae
+- **Genus:** Aristolochia
+- **Species:** *Aristolochia chilensis*
+- **Scientific Name:** *Aristolochia chilensis Bridges ex Lindl.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Aristolochiaceae - Genus: Aristolochia - Species: *Aristolochia chilensis* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Oreja%20de%20Zorro%20en%20el%20Parque%20natural%20G%C3%B3mez%20Carre%C3%B1o.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355441264/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355441196/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355441193/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355441190/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355441271/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355623330/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355623317/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355643138/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355643089/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355643078/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355643095/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356320119/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356320082/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356320105/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356320127/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356320153/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/455573755/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Chile
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Aristolochiaceae",
+  iso3_codes: ['CHL'],
+  color: [1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Aristolochia chilensis* đã phân lập và xác định được 10 hoạt chất thuộc  về 6 nhóm gồm aporphines, aristolactams, furanoid lignans, phenanthrenes and derivatives, proaporphines, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Aporphines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0083545](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083545)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0118685](https://lotus.naturalproducts.net/compound/lotus_id/LTS0118685)</div></div></div>
+<div class="group-title">Aristolactams</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0173717](https://lotus.naturalproducts.net/compound/lotus_id/LTS0173717)</div></div></div>
+<div class="group-title">Furanoid lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0081487](https://lotus.naturalproducts.net/compound/lotus_id/LTS0081487)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0091274](https://lotus.naturalproducts.net/compound/lotus_id/LTS0091274)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0035152](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035152)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0001858](https://lotus.naturalproducts.net/compound/lotus_id/LTS0001858)</div></div></div>
+<div class="group-title">Phenanthrenes and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0093447](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093447)</div></div></div>
+<div class="group-title">Proaporphines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0233300](https://lotus.naturalproducts.net/compound/lotus_id/LTS0233300)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0201798](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201798)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Chile           | Emmenagogue     |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cccc2c1cc([N+](=O)[O-])c1c(C(=O)O)cc3c(c12)OCO3" },
+{id: "canvas_Row1", smiles: "COc1cccc2c1cc1c3c(cc4c(c32)OCO4)C(O)=N1" },
+{id: "canvas_Row2", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row3", smiles: "CN1C(=O)C(=O)c2cc3c(c4c2c1cc1ccccc14)OCO3" },
+{id: "canvas_Row4", smiles: "COc1c(O)cc2c3c(cc4ccccc4c13)N(C)C(=O)C2=O" },
+{id: "canvas_Row5", smiles: "COc1ccc([C@@H]2O[C@H](c3ccc4c(c3)OCO4)[C@@H](C)[C@@H]2C)cc1OC" },
+{id: "canvas_Row6", smiles: "COc1cc2c3c(c1O)C1(C=CC(=O)C=C1)C[C@H]3N(C)CC2" },
+{id: "canvas_Row7", smiles: "COc1cc([C@H]2O[C@@H](c3ccc(OC)c(OC)c3)[C@@H](C)[C@@H]2C)ccc1O" },
+{id: "canvas_Row8", smiles: "COc1cc(C2OC(c3ccc4c(c3)OCO4)C(C)C2C)ccc1O" },
+{id: "canvas_Row9", smiles: "C[C@@H]1[C@H](c2ccc3c(c2)OCO3)O[C@@H](c2ccc3c(c2)OCO3)[C@@H]1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

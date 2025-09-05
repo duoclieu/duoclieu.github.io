@@ -1,0 +1,168 @@
+---
+title: "Polygala vulgaris"
+subtitle: "Loài Polygala vulgaris (Họ Polygalaceae)"
+description: "Loài *Polygala vulgaris* thuộc họ Polygalaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Hungary, Spain, Sweden, Australia, Portugal, United Kingdom of Great Britain and Northern Ireland, Ukraine, Italy, Slovenia, Norway, Denmark, Austria, Ireland, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất khử trùng, thuốc long đờm, thuốc bổ, có mùi hôi'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, benzopyrans, cinnamic acids and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Polygala%20vulgaris%20290504.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Polygala vulgaris", "Polygalaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Polygala vulgaris* thuộc họ Polygalaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Hungary, Spain, Sweden, Australia, Portugal, United Kingdom of Great Britain and Northern Ireland, Ukraine, Italy, Slovenia, Norway, Denmark, Austria, Ireland, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất khử trùng, thuốc long đờm, thuốc bổ, có mùi hôi'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, benzopyrans, cinnamic acids and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Polygalaceae
+- **Genus:** Polygala
+- **Species:** *Polygala vulgaris*
+- **Scientific Name:** *Polygala vulgaris L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[Common Milkwort, Common Milkwort]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Polygalaceae - Genus: Polygala - Species: *Polygala vulgaris* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Polygala%20vulgaris%20290504.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Dettaglio%20-%20Polygaleae%20Polygala%20vulgaris%20Lin.%20Erbario%20Frizzi%20Perugia%20n.%202623.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/82164317.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/82164316.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352004859/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352004860/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352698049/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352698035/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352711988/original.jpeg){ group="GIBF" }
+
+![](https://observation.org/photos/84144658.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/84144659.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356324414/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356324449/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356324431/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356324402/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356324371/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Germany, Switzerland, Czechia, Netherlands, Hungary, Spain, Sweden, Australia, Portugal, United Kingdom of Great Britain and Northern Ireland, Ukraine, Italy, Slovenia, Norway, Denmark, Austria, Ireland, Luxembourg
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Polygalaceae",
+  iso3_codes: ['DEU', 'CHE', 'CZE', 'AUS', 'ITA', 'ESP', 'NLD', 'UKR', 'AUT', 'DNK', 'FRA', 'SVN', 'IRL', 'PRT', 'GBR', 'HUN', 'NOR', 'LUX', 'SWE'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Polygala vulgaris* đã phân lập và xác định được 5 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, benzopyrans, cinnamic acids and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0087457](https://lotus.naturalproducts.net/compound/lotus_id/LTS0087457)</div></div></div>
+<div class="group-title">Benzopyrans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0106883](https://lotus.naturalproducts.net/compound/lotus_id/LTS0106883)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0202001](https://lotus.naturalproducts.net/compound/lotus_id/LTS0202001)</div></div></div>
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0095510](https://lotus.naturalproducts.net/compound/lotus_id/LTS0095510)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0009618](https://lotus.naturalproducts.net/compound/lotus_id/LTS0009618)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                        |
+|-----------|-----------------|------------------------------------------------------|
+| Row0      | Turkey          | Chất khử trùng, Thuốc long đờm, Thuốc bổ, có mùi hôi |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1ccc2oc3c(OC)c(O)c(OC)c(O)c3c(=O)c2c1" },
+{id: "canvas_Row1", smiles: "COc1cc2oc3cc(O)c(O)c(O)c3c(=O)c2cc1Cl" },
+{id: "canvas_Row2", smiles: "COc1cc(OC)cc(-c2ccc(O)cc2)c1" },
+{id: "canvas_Row3", smiles: "COC(=O)C=Cc1cc(OC)c(O)c(OC)c1" },
+{id: "canvas_Row4", smiles: "COC(=O)/C=C/c1cc(OC)c(O)c(OC)c1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

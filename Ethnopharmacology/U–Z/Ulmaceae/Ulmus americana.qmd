@@ -1,0 +1,184 @@
+---
+title: "Ulmus americana"
+subtitle: "Loài Ulmus americana (Họ Ulmaceae)"
+description: "Loài *Ulmus americana* thuộc họ Ulmaceae phân bố tại một số vùng trên thế giới như Canada, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'us: thuốc lợi tiểu, thuốc bổ, thuốc đắp', 'us(appalachia): chất làm mềm'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm naphthalenes, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Img%20ulmus%20americana%202209.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Ulmus americana", "Ulmaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Ulmus americana* thuộc họ Ulmaceae phân bố tại một số vùng trên thế giới như Canada, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'us: thuốc lợi tiểu, thuốc bổ, thuốc đắp', 'us(appalachia): chất làm mềm'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm naphthalenes, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Rosales
+- **Family:** Ulmaceae
+- **Genus:** Ulmus
+- **Species:** *Ulmus americana*
+- **Scientific Name:** *Ulmus americana L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[American elm, water elm, white elm]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Ulmaceae - Genus: Ulmus - Species: *Ulmus americana* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Img%20ulmus%20americana%202209.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344172108/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344189646/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344189659/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344368020/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344368040/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344368024/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344368038/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344368011/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344368033/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344372732/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344372734/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344372745/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344372719/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344372752/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344372733/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374918/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374874/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374909/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374872/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374908/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374888/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374897/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344374893/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Canada, United States of America
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Ulmaceae",
+  iso3_codes: ['USA', 'CAN'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Ulmus americana* đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm naphthalenes, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Naphthalenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0263375](https://lotus.naturalproducts.net/compound/lotus_id/LTS0263375)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0179205](https://lotus.naturalproducts.net/compound/lotus_id/LTS0179205)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0266356](https://lotus.naturalproducts.net/compound/lotus_id/LTS0266356)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0141117](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141117)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0260677](https://lotus.naturalproducts.net/compound/lotus_id/LTS0260677)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0025305](https://lotus.naturalproducts.net/compound/lotus_id/LTS0025305)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                       |
+|-----------|-----------------|-------------------------------------|
+| Row0      | US              | Thuốc lợi tiểu, Thuốc bổ, Thuốc đắp |
+| Row1      | US(Appalachia)  | Chất làm mềm                        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC1=Cc2c(C(C)C)ccc(C)c2C(=O)C1=O" },
+{id: "canvas_Row1", smiles: "CC1=C2OCC(C)c3ccc(C)c(c32)C(=O)C1=O" },
+{id: "canvas_Row2", smiles: "CC1=Cc2c(c(C)cc3c2C(C)CO3)C(=O)C1=O" },
+{id: "canvas_Row3", smiles: "CC1=Cc2c(c(C)cc(O)c2C(C)C)C(=O)C1=O" },
+{id: "canvas_Row4", smiles: "CC1=COC2=C(C)C(=O)C(=O)c3c(C)ccc1c32" },
+{id: "canvas_Row5", smiles: "CC1=CC2=C(C(=O)C1=O)C(C)CCC2C(C)C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

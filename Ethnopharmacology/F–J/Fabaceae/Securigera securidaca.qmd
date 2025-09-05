@@ -1,0 +1,153 @@
+---
+title: "Securigera securidaca"
+subtitle: "Loài Securigera securidaca (Họ Fabaceae)"
+description: "Loài *Securigera securidaca* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như Syrian Arab Republic, Israel, Lebanon, United States of America, Russian Federation, Croatia, Montenegro, Sweden, Italy, Slovenia, Greece, Iraq, Albania, Azerbaijan, Bulgaria, Türkiye, Ukraine, Cyprus. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc trợ tim'.Từ loài này đã phân lập và xác định được 4 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, flavonoids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Securigera%20securidaca-IMG%204802.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Securigera securidaca", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Securigera securidaca* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như Syrian Arab Republic, Israel, Lebanon, United States of America, Russian Federation, Croatia, Montenegro, Sweden, Italy, Slovenia, Greece, Iraq, Albania, Azerbaijan, Bulgaria, Türkiye, Ukraine, Cyprus. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc trợ tim'.Từ loài này đã phân lập và xác định được 4 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, flavonoids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Coronilla
+- **Species:** *Coronilla securidaca*
+- **Scientific Name:** *Securigera securidaca (L.) Degen & Dörfl.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Securigera - Species: *Securigera securidaca* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Securigera%20securidaca-IMG%204802.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365004644/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365004660/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365004676/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/366541283/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/366541324/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/366541572/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/367133475/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/367131695/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/367522109/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Syrian Arab Republic, Israel, Lebanon, United States of America, Russian Federation, Croatia, Montenegro, Sweden, Italy, Slovenia, Greece, Iraq, Albania, Azerbaijan, Bulgaria, Türkiye, Ukraine, Cyprus
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['BGR', 'MNE', 'ITA', 'LBN', 'ALB', 'ISR', 'SWE', 'IRQ', 'RUS', 'CYP', 'SVN', 'UKR', 'USA', 'GRC', 'HRV', 'AZE', 'SYR', 'TUR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Securigera securidaca* đã phân lập và xác định được 4 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, flavonoids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0162728](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162728)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0193112](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193112)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0209186](https://lotus.naturalproducts.net/compound/lotus_id/LTS0209186)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0035187](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035187)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Thuốc trợ tim   |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=c1cc(-c2ccc(O)cc2)oc2cc(O)c([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c(O)c12" },
+{id: "canvas_Row1", smiles: "O=c1ccc2ccc(O)cc2o1" },
+{id: "canvas_Row2", smiles: "COc1cc2ccc(=O)oc2cc1O" },
+{id: "canvas_Row3", smiles: "O=c1cc(-c2ccc(O)cc2)oc2cc(O)c(C3OC(CO)C(O)C(O)C3O)c(O)c12" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

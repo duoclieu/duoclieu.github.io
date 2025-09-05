@@ -1,0 +1,167 @@
+---
+title: "Tacca leontopetaloides"
+subtitle: "Loài Tacca leontopetaloides (Họ Dioscoreaceae)"
+description: "Loài *Tacca leontopetaloides* thuộc họ Dioscoreaceae phân bố tại một số vùng trên thế giới như Benin, Malawi, Gambia, Tanzania, United Republic of, Zambia, Cook Islands, Vanuatu, New Caledonia, Marshall Islands, Micronesia (Federated States of), Kenya, Mayotte, French Polynesia, Seychelles, Chinese Taipei, American Samoa, Wallis and Futuna, Australia, Madagascar, Indonesia, Niue, Nigeria, Mozambique, Burkina Faso, India, Northern Mariana Islands, Guam, Thailand, Philippines, Fiji, Malaysia, Samoa, Maldives. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: rubefacient'.Từ loài này đã phân lập và xác định được 12 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, organooxygen compounds, prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Tacca%20leontopetaloides%20MS%206484.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Tacca leontopetaloides", "Dioscoreaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Tacca leontopetaloides* thuộc họ Dioscoreaceae phân bố tại một số vùng trên thế giới như Benin, Malawi, Gambia, Tanzania, United Republic of, Zambia, Cook Islands, Vanuatu, New Caledonia, Marshall Islands, Micronesia (Federated States of), Kenya, Mayotte, French Polynesia, Seychelles, Chinese Taipei, American Samoa, Wallis and Futuna, Australia, Madagascar, Indonesia, Niue, Nigeria, Mozambique, Burkina Faso, India, Northern Mariana Islands, Guam, Thailand, Philippines, Fiji, Malaysia, Samoa, Maldives. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: rubefacient'.Từ loài này đã phân lập và xác định được 12 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, organooxygen compounds, prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Dioscoreales
+- **Family:** Dioscoreaceae
+- **Genus:** Tacca
+- **Species:** *Tacca leontopetaloides*
+- **Scientific Name:** *Tacca leontopetaloides (L.) Kuntze*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Tacca leontopetaloides]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Taccaceae - Genus: Tacca - Species: *Tacca leontopetaloides* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Tacca%20leontopetaloides%20MS%206484.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343953416/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343953442/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343953377/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343996838/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345122616/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345122580/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345310517/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345754624/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345754587/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345754459/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Benin, Malawi, Gambia, Tanzania, United Republic of, Zambia, Cook Islands, Vanuatu, New Caledonia, Marshall Islands, Micronesia (Federated States of), Kenya, Mayotte, French Polynesia, Seychelles, Chinese Taipei, American Samoa, Wallis and Futuna, Australia, Madagascar, Indonesia, Niue, Nigeria, Mozambique, Burkina Faso, India, Northern Mariana Islands, Guam, Thailand, Philippines, Fiji, Malaysia, Samoa, Maldives
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Dioscoreaceae",
+  iso3_codes: ['PYF', 'ZMB', 'MDV', 'AUS', 'FJI', 'WSM', 'NGA', 'WLF', 'TZA', 'MNP', 'MDG', 'IDN', 'NCL', 'MYS', 'NIU', 'GMB', 'MOZ', 'ASM', 'COK', 'SYC', 'GUM', 'BFA', 'IND', 'MYT', 'BEN', 'MWI', 'MHL', 'PHL', 'THA', 'VUT', 'KEN'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Tacca leontopetaloides* đã phân lập và xác định được 12 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, organooxygen compounds, prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0080180](https://lotus.naturalproducts.net/compound/lotus_id/LTS0080180)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0045953](https://lotus.naturalproducts.net/compound/lotus_id/LTS0045953)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0265005](https://lotus.naturalproducts.net/compound/lotus_id/LTS0265005)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0158536](https://lotus.naturalproducts.net/compound/lotus_id/LTS0158536)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0255796](https://lotus.naturalproducts.net/compound/lotus_id/LTS0255796)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0035986](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035986)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0252845](https://lotus.naturalproducts.net/compound/lotus_id/LTS0252845)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0017429](https://lotus.naturalproducts.net/compound/lotus_id/LTS0017429)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0086191](https://lotus.naturalproducts.net/compound/lotus_id/LTS0086191)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0159379](https://lotus.naturalproducts.net/compound/lotus_id/LTS0159379)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0063468](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063468)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0076754](https://lotus.naturalproducts.net/compound/lotus_id/LTS0076754)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Rubefacient     |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CCC[C@@](O)(CO)O2" },
+{id: "canvas_Row1", smiles: "C[C@@H]1[C@@H]2[C@H](C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@@]5(C)[C@H]4CC[C@]32C)O[C@@]12CCC(CO)(CO)O2" },
+{id: "canvas_Row2", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row3", smiles: "C[C@H]1[C@H]2[C@H](C[C@@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CCC[C@](O)(CO)O2" },
+{id: "canvas_Row4", smiles: "CC1C2C(CC3C4CC=C5CC(O)CCC5(C)C4CCC32C)OC12CCCC(O)(CO)O2" },
+{id: "canvas_Row5", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@H]4[C@H](CC[C@@]32C)[C@@]2(C)CC[C@H](O)C[C@@]2(O)[C@@H]4C=O)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row6", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@@]12CCC(CO)(CO)O2" },
+{id: "canvas_Row7", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@](C)(O)CO2" },
+{id: "canvas_Row8", smiles: "CC1CCC2(OC1)OC1CC3C4C(CCC3(C)C1C2C)C1(C)CCC(O)CC1(O)C4C=O" },
+{id: "canvas_Row9", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@](C)(CO)O2" },
+{id: "canvas_Row10", smiles: "CC1C2C(CC3C4CC=C5CC(O)CCC5(C)C4CCC32C)OC12CCC(CO)(CO)O2" },
+{id: "canvas_Row11", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CCC(O)(CO)CO2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,152 @@
+---
+title: "Euryale ferox"
+subtitle: "Loài Euryale ferox (Họ Nymphaeaceae)"
+description: "Loài *Euryale ferox* thuộc họ Nymphaeaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Russian Federation, China, Chinese Taipei, Hong Kong, Norway, Japan, India, Korea, Republic of, Australia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất làm se, chất làm se, thuốc bổ, thuốc giảm đau, thuốc kích thích tình dục, thuốc bổ', 'india: thuốc bổ, chất làm se'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm fatty acyls, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Euryale%20ferox.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Euryale ferox", "Nymphaeaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Euryale ferox* thuộc họ Nymphaeaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Russian Federation, China, Chinese Taipei, Hong Kong, Norway, Japan, India, Korea, Republic of, Australia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất làm se, chất làm se, thuốc bổ, thuốc giảm đau, thuốc kích thích tình dục, thuốc bổ', 'india: thuốc bổ, chất làm se'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm fatty acyls, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Nymphaeales
+- **Family:** Nymphaeaceae
+- **Genus:** Euryale
+- **Species:** *Euryale ferox*
+- **Scientific Name:** *Euryale ferox Salisb. ex K.D.Koenig & Sims*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** [Euryale ferox]
+ - **Tên tiếng Anh: **[Fox nut, Gorgon plant, prickly waterlily, Onibasu, prickly lotus]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Nymphaeaceae - Genus: Euryale - Species: *Euryale ferox* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Euryale%20ferox.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/372769043/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/372998696/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/389335043/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/435769780/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/435769751/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/442575027/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/442574996/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, United States of America, Russian Federation, China, Chinese Taipei, Hong Kong, Norway, Japan, India, Korea, Republic of, Australia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Nymphaeaceae",
+  iso3_codes: ['NOR', 'IND', 'USA', 'HKG', 'JPN', 'CHN', 'RUS', 'AUS'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Euryale ferox* đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm fatty acyls, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0187897](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187897)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0275180](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275180)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0276036](https://lotus.naturalproducts.net/compound/lotus_id/LTS0276036)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0088820](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088820)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0061351](https://lotus.naturalproducts.net/compound/lotus_id/LTS0061351)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0160640](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160640)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                                                           |
+|-----------|-----------------|-----------------------------------------------------------------------------------------|
+| Row0      | China           | Chất làm se, Chất làm se, Thuốc bổ, Thuốc giảm đau, Thuốc kích thích tình dục, Thuốc bổ |
+| Row1      | India           | Thuốc bổ, Chất làm se                                                                   |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC1=C(C)[C@@]23Oc4c(C)c(C)c5c(c4C[C@@]2(CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)[C@]2(Cc3c4c(c(C)c(C)c3O2)O[C@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)CC4)C1=O)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O5" },
+{id: "canvas_Row1", smiles: "CCCCCCC/C=C/CC/C=C/[C@@H](O)[C@H](CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)N=C(O)[C@H](O)CCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row2", smiles: "CCCCCCCC=CCCC=CC(O)C(COC1OC(CO)C(O)C(O)C1O)N=C(O)C(O)CCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row3", smiles: "CCCCCCCC=CCCC=CC(O)C(COC1OC(CO)C(O)C(O)C1O)N=C(O)C(O)CCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row4", smiles: "CCCCCCC/C=C/CC/C=C/[C@@H](O)[C@H](CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)N=C(O)[C@H](O)CCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row5", smiles: "CC1=C(C)[C@]23Oc4c(C)c(C)c5c(c4C[C@]2(CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)[C@@]2(Cc3c4c(c(C)c(C)c3O2)O[C@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)CC4)C1=O)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O5" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

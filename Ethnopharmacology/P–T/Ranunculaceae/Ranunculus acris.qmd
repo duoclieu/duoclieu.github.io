@@ -1,0 +1,163 @@
+---
+title: "Ranunculus acris"
+subtitle: "Loài Ranunculus acris (Họ Ranunculaceae)"
+description: "Loài *Ranunculus acris* thuộc họ Ranunculaceae phân bố tại một số vùng trên thế giới như Germany, France, United States of America, Switzerland, Croatia, United Kingdom of Great Britain and Northern Ireland, Norway, New Zealand, Netherlands, Denmark, Hungary, Argentina, Austria, Ireland. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất gây ảo giác, chất chống kích ứng', 'elsewhere: chất độc', 'turkey: chất gây ảo giác, chất độc, chất chống kích ứng, bàng quang'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 4 nhóm gồm ?, dihydrofurans, organooxygen compounds, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Ranunculus%20acris%20niittyleinikki.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Ranunculus acris", "Ranunculaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Ranunculus acris* thuộc họ Ranunculaceae phân bố tại một số vùng trên thế giới như Germany, France, United States of America, Switzerland, Croatia, United Kingdom of Great Britain and Northern Ireland, Norway, New Zealand, Netherlands, Denmark, Hungary, Argentina, Austria, Ireland. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất gây ảo giác, chất chống kích ứng', 'elsewhere: chất độc', 'turkey: chất gây ảo giác, chất độc, chất chống kích ứng, bàng quang'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 4 nhóm gồm ?, dihydrofurans, organooxygen compounds, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ranunculales
+- **Family:** Ranunculaceae
+- **Genus:** Ranunculus
+- **Species:** *Ranunculus acris*
+- **Scientific Name:** *Ranunculus acris L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[common buttercup, giant buttercup, meadow buttercup, tall buttercup]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Ranunculaceae - Genus: Ranunculus - Species: *Ranunculus acris* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Ranunculus%20acris%20niittyleinikki.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343889930/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343889918/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343889940/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343912371/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343912357/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343912399/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343937104/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344141528/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346433972/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Germany, France, United States of America, Switzerland, Croatia, United Kingdom of Great Britain and Northern Ireland, Norway, New Zealand, Netherlands, Denmark, Hungary, Argentina, Austria, Ireland
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Ranunculaceae",
+  iso3_codes: ['ARG', 'IRL', 'GBR', 'USA', 'NOR', 'AUT', 'HRV', 'DNK', 'NZL', 'HUN', 'CHE', 'NLD', 'FRA', 'DEU'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Ranunculus acris* đã phân lập và xác định được 8 hoạt chất thuộc  về 4 nhóm gồm ?, dihydrofurans, organooxygen compounds, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0174350](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174350)</div></div></div>
+<div class="group-title">Dihydrofurans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0245229](https://lotus.naturalproducts.net/compound/lotus_id/LTS0245229)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0133358](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133358)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0141949](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141949)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0205297](https://lotus.naturalproducts.net/compound/lotus_id/LTS0205297)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0147583](https://lotus.naturalproducts.net/compound/lotus_id/LTS0147583)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0174303](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174303)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0017844](https://lotus.naturalproducts.net/compound/lotus_id/LTS0017844)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                               |
+|-----------|-----------------|-------------------------------------------------------------|
+| Row0      | China           | Chất gây ảo giác, Chất chống kích ứng                       |
+| Row1      | Elsewhere       | Chất độc                                                    |
+| Row2      | Turkey          | Chất gây ảo giác, Chất độc, Chất chống kích ứng, Bàng quang |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC1=C[C@H](O)CC(C)(C)[C@H]1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)C[C@@H](O)CC1(C)C" },
+{id: "canvas_Row1", smiles: "CC1=CC(O)CC(C)(C)C1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)\C=C/C=C(\C)C1C=C2C(C)(C)CC(O)CC2(C)O1" },
+{id: "canvas_Row2", smiles: "O=C1C=C[C@@H](CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)O1" },
+{id: "canvas_Row3", smiles: "CC1=C[C@H](O)CC(C)(C)[C@H]1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\C)[C@@H]1C=C2C(C)(C)C[C@H](O)C[C@@]2(C)O1" },
+{id: "canvas_Row4", smiles: "CC1=C[C@H](O)CC(C)(C)[C@H]1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\C)[C@H]1C=C2C(C)(C)C[C@H](O)C[C@@]2(C)O1" },
+{id: "canvas_Row5", smiles: "O=C1C=CC2(CCC23C=CC(=O)O3)O1" },
+{id: "canvas_Row6", smiles: "C=C1C=CC(=O)O1" },
+{id: "canvas_Row7", smiles: "C/C(=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\C)C=C=C1C(C)(C)C[C@H](O)C[C@@]1(C)O)C1C=C2C(C)(C)C[C@H](O)C[C@@]2(C)O1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

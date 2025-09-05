@@ -1,0 +1,150 @@
+---
+title: "Cissampelos fasciculata"
+subtitle: "Loài Cissampelos fasciculata (Họ Menispermaceae)"
+description: "Loài *Cissampelos fasciculata* thuộc họ Menispermaceae phân bố tại một số vùng trên thế giới như nan, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Honduras, Colombia, El Salvador, Ecuador, Guatemala, Brazil, Panama, Costa Rica, Peru, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc hạ sốt, chất làm se, thuốc bổ'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 2 nhóm gồm aporphines, organooxygen compounds."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Cissampelos%20fasciculata.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Cissampelos fasciculata", "Menispermaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Cissampelos fasciculata* thuộc họ Menispermaceae phân bố tại một số vùng trên thế giới như nan, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Honduras, Colombia, El Salvador, Ecuador, Guatemala, Brazil, Panama, Costa Rica, Peru, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc hạ sốt, chất làm se, thuốc bổ'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 2 nhóm gồm aporphines, organooxygen compounds.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ranunculales
+- **Family:** Menispermaceae
+- **Genus:** Cissampelos
+- **Species:** *Cissampelos fasciculata*
+- **Scientific Name:** *Cissampelos fasciculata Benth.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Meniermaceae - Genus: Cissampelos - Species: *Cissampelos fasciculata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Cissampelos%20fasciculata.jpg){ group="GIBF" }
+
+![](https://swbiodiversity.org/imglib/seinet/swnode/ASU_Plants/CSP13/CSP13677.jpg){ group="GIBF" }
+
+![](http://d2seqvvyy3b8p2.cloudfront.net/74a7e48962dfc1e7bd94183e99e7b77b.jpg){ group="GIBF" }
+
+![](https://sernecportal.org/imglib/seinet/sernec/EKY/31234100736/31234100736956.jpg){ group="GIBF" }
+
+![](https://image.bgbm.org/images/internal/HerbarThumbs/B101147268_1700){ group="GIBF" }
+
+![](https://herbarium.bgbm.org/data/iiif/B101147268/manifest.json){ group="GIBF" }
+
+![](http://images.mobot.org/tropicosimages4/detailimages/TropicosImagesVol4/101191000/86A52651-299F-430A-BFF8-00AC08F46E44.jpg){ group="GIBF" }
+
+![](http://images.mobot.org/tropicosimages4/detailimages/TropicosImagesVol4/101222000/11F4AB3F-2352-4ECB-94DD-D7D35D61811E.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Honduras, Colombia, El Salvador, Ecuador, Guatemala, Brazil, Panama, Costa Rica, Peru, Guyana
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Menispermaceae",
+  iso3_codes: ['GTM', 'COL', 'ECU', 'PAN', 'HND', 'GUF', 'BRA', 'PER', 'GUY', 'CRI', 'MEX', 'SLV'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Cissampelos fasciculata* đã phân lập và xác định được 5 hoạt chất thuộc  về 2 nhóm gồm aporphines, organooxygen compounds. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Aporphines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0063811](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063811)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0089038](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089038)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0159923](https://lotus.naturalproducts.net/compound/lotus_id/LTS0159923)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0275029](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275029)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0025637](https://lotus.naturalproducts.net/compound/lotus_id/LTS0025637)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                       |
+|-----------|-----------------|-------------------------------------|
+| Row0      | Elsewhere       | thuốc hạ sốt, Chất làm se, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc2c3cc1Oc1cc(ccc1O)C[C@@H]1Cc4c(cc(OC)c(c4O)OCc4ccc(cc4)C[C@H]3N(C)CC2)CN1C" },
+{id: "canvas_Row1", smiles: "COc1cc2c3c(c1O)-c1c(ccc(OC)c1OC)C[C@@H]3N(C)CC2" },
+{id: "canvas_Row2", smiles: "COc1cc2c3c(c1O)-c1c(ccc(OC)c1OC)CC3N(C)CC2" },
+{id: "canvas_Row3", smiles: "COc1cc2c3cc1Oc1cc(ccc1O)CC1c4c(cc(OC)c(c4O)OCc4ccc(cc4)CC3N(C)CC2)CCN1C" },
+{id: "canvas_Row4", smiles: "COc1cc2c3cc1Oc1cc(ccc1O)C[C@H]1c4c(cc(OC)c(c4O)OCc4ccc(cc4)C[C@@H]3N(C)CC2)CCN1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

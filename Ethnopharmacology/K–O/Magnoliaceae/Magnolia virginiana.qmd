@@ -1,0 +1,183 @@
+---
+title: "Magnolia virginiana"
+subtitle: "Loài Magnolia virginiana (Họ Magnoliaceae)"
+description: "Loài *Magnolia virginiana* thuộc họ Magnoliaceae phân bố tại một số vùng trên thế giới như United States of America, nan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: thuốc trợ tim, có mùi hôi', 'us: thuốc bổ, thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm ?, benzene and substituted derivatives, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Sweetbay%20Magnolia%20Magnolia%20virginiana%20Comparison%204400px.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Magnolia virginiana", "Magnoliaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Magnolia virginiana* thuộc họ Magnoliaceae phân bố tại một số vùng trên thế giới như United States of America, nan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: thuốc trợ tim, có mùi hôi', 'us: thuốc bổ, thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm ?, benzene and substituted derivatives, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Magnoliales
+- **Family:** Magnoliaceae
+- **Genus:** Magnolia
+- **Species:** *Magnolia virginiana*
+- **Scientific Name:** *Magnolia virginiana L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[sweet bay, laurel magnolia, Magnolia glauca, beavertail, sweetbay, white bay, beaver tree, swamp magnolia, swampbay, sweetbay magnolia]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Magnoliaceae - Genus: Magnolia - Species: *Magnolia virginiana* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Sweetbay%20Magnolia%20Magnolia%20virginiana%20Comparison%204400px.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343951037/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343950994/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343951016/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343954612/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343954639/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343954616/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344334430/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344334453/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344334403/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344334488/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344346300/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344346312/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344387100/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344387146/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: United States of America, nan
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Magnoliaceae",
+  iso3_codes: ['USA'],
+  color: [1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Magnolia virginiana* đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm ?, benzene and substituted derivatives, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0199298](https://lotus.naturalproducts.net/compound/lotus_id/LTS0199298)</div></div></div>
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0194504](https://lotus.naturalproducts.net/compound/lotus_id/LTS0194504)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0033178](https://lotus.naturalproducts.net/compound/lotus_id/LTS0033178)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0014450](https://lotus.naturalproducts.net/compound/lotus_id/LTS0014450)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0136238](https://lotus.naturalproducts.net/compound/lotus_id/LTS0136238)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0018499](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018499)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0056969](https://lotus.naturalproducts.net/compound/lotus_id/LTS0056969)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0024172](https://lotus.naturalproducts.net/compound/lotus_id/LTS0024172)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0218598](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218598)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0219148](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219148)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0122282](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122282)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0193224](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193224)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0034984](https://lotus.naturalproducts.net/compound/lotus_id/LTS0034984)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0165801](https://lotus.naturalproducts.net/compound/lotus_id/LTS0165801)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0232082](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232082)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0101430](https://lotus.naturalproducts.net/compound/lotus_id/LTS0101430)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0275649](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275649)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0222871](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222871)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0058648](https://lotus.naturalproducts.net/compound/lotus_id/LTS0058648)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0187917](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187917)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0003247](https://lotus.naturalproducts.net/compound/lotus_id/LTS0003247)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh               |
+|-----------|-----------------|-----------------------------|
+| Row0      | Turkey          | Thuốc trợ tim, có mùi hôi   |
+| Row1      | US              | Thuốc bổ, Thuốc nhuận tràng |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1C(=O)O[C@@H]2C=C(C)CC/C=C(\C)CC[C@@H]12" },
+{id: "canvas_Row1", smiles: "C=C1C(=O)O[C@@H]2/C=C(\C)CC/C=C(\C)CC[C@@H]12" },
+{id: "canvas_Row2", smiles: "C=C1C(=O)O[C@H]2[C@@H]1CC/C(C)=C/CC[C@@]1(C)O[C@H]21" },
+{id: "canvas_Row3", smiles: "C=CCc1ccc(O)c(-c2cc(CC=C)ccc2O)c1" },
+{id: "canvas_Row4", smiles: "C=C1C(=O)O[C@H]2[C@H]1CC/C(C)=C\CC[C@@]1(C)O[C@@H]21" },
+{id: "canvas_Row5", smiles: "C=CCc1ccc(O)c(-c2ccc(O)c(CC=C)c2)c1" },
+{id: "canvas_Row6", smiles: "C=CCc1ccc(O)c(-c2ccc(OC)c(CC=C)c2)c1" },
+{id: "canvas_Row7", smiles: "C=CCc1ccc(Oc2ccc(CC=C)c(O)c2)c(O)c1" },
+{id: "canvas_Row8", smiles: "C=C1C(=O)OC2C=C(C)CCC=C(C)CCC12" },
+{id: "canvas_Row9", smiles: "C=C1[C@@H](O)O[C@@H]2/C=C(/C)CC/C=C(/C)CC[C@@H]12" },
+{id: "canvas_Row10", smiles: "C=C1[C@@H]2CC/C(C)=C\CC/C(C)=C\[C@H]2O[C@@H]1O[C@H]1O[C@@H]2/C=C(/C)CC/C=C(/C)CC[C@H]2C1=C" },
+{id: "canvas_Row11", smiles: "C=C1C(=O)O[C@@H]2/C=C(/C)CC/C=C(/C)CC[C@@H]12" },
+{id: "canvas_Row12", smiles: "C=C1C(=O)O[C@H]2[C@H]1CC/C(C)=C\CC[C@]1(C)O[C@@H]21" },
+{id: "canvas_Row13", smiles: "C=C1C(OC2OC3C=C(C)CCC=C(C)CCC3C2=C)OC2C=C(C)CCC=C(C)CCC12" },
+{id: "canvas_Row14", smiles: "C=C1C(O)OC2C=C(C)CCC=C(C)CCC12" },
+{id: "canvas_Row15", smiles: "C=C1[C@@H](O)O[C@H]2/C=C(\C)CC/C=C(/C)CC[C@@H]12" },
+{id: "canvas_Row16", smiles: "C=C1C(=O)O[C@H]2[C@H]1CC/C(C)=C/CC[C@@]1(C)O[C@H]21" },
+{id: "canvas_Row17", smiles: "C=C1C(=O)O[C@H]2[C@H]1CCC(C)=CCC[C@]1(C)O[C@@H]21" },
+{id: "canvas_Row18", smiles: "C=C1C(=O)O[C@H]2/C=C(\C)CC/C=C(\C)CC[C@@H]12" },
+{id: "canvas_Row19", smiles: "C=C1C(=O)O[C@H]2[C@H]1CC[C@@](C)(O)[C@H]1CCC(=C)[C@H]21" },
+{id: "canvas_Row20", smiles: "C=C1C(=O)OC2C1CCC(C)(O)C1CCC(=C)C21" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,24 @@
+---
+title: "Cơ sở dữ liệu Dược dân tộc học"
+author: "TS. Hoàng Lê Sơn"
+listing:
+  id: Ethnopharmacology
+  contents: "./*.qmd"
+  sort: "subtitle"
+  type: table
+  fields: [image, title, subtitle, description]
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+
+::: {.callout-note title = "Dược dân tộc học là gì"}
+    
+Dược dân tộc học (Ethnopharmacology) là thuật ngữ xuất hiện năm 1967 được hiểu là môn khoa học nghiên cứu về các nguyên liệu một nhóm dân tộc sử dụng như thuốc. Nghiên cứu thuốc cổ truyền, kinh nghiệm dân gian có thể hiểu là một phần dược dân tộc nhưng nếu đặt trong ví dụ về qua trình kinh nghiệm sử dụng một loài dược liệu xuất hiện và truyền miệng trong cộng đồng dù trước đó chưa được biết tới do giao thương văn hóa làm nổi bật sự khác biệt của dược dân tộc học. Dược dân tộc học thường đề cập tới thực vật bậc cao do đó đây là nhánh của thực vật dân tộc học - chuyên nghiên cứu về ứng dụng của một loài thực vật trong đời sống hàng ngày của cộng đồng đơn giản như cỏ tranh được sử dụng để lợp mái nhà, hoặc cây sơn để làm sơn mài. Một nghiên cứu dược dân tộc học yêu cầu tập hợp kiến thức các chuyên ngành khác nhau thường bắt đầu từ điều tra kinh nghiệm sử dụng nguyên liệu làm thuốc trong không gian cộng đồng và kết thúc là nghiên cứu cung cấp bằng chứng khoa học trong phòng thí nghiệm. Dược dân tộc học đóng vai trò quan trọng chỉ dẫn đối tượng nghiên cứu trong phát triển thuốc từ thảo mộc.    
+
+:::
+
+:::{#Ethnopharmacology}
+:::

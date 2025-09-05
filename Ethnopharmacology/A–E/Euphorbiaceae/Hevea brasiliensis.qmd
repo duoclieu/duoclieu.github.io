@@ -1,0 +1,178 @@
+---
+title: "Hevea brasiliensis"
+subtitle: "Loài Hevea brasiliensis (Họ Euphorbiaceae)"
+description: "Loài *Hevea brasiliensis* thuộc họ Euphorbiaceae phân bố tại một số vùng trên thế giới như Benin, Côte d’Ivoire, Singapore, Sri Lanka, Seychelles, Ghana, Colombia, Liberia, Lao People’s Democratic Republic, Panama, Indonesia, Sao Tome and Principe, Trinidad and Tobago, India, Brazil, Costa Rica, Viet Nam, Thailand, Bolivia (Plurinational State of), United States of America, Philippines, China, Malaysia, Guinea. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: xà phòng'.Từ loài này đã phân lập và xác định được 19 hoạt chất thuộc  về 5 nhóm gồm carboxylic acids and derivatives, coumarins and derivatives, fatty acyls, organooxygen compounds, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Hevea%20brasiliensis%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-071.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Hevea brasiliensis", "Euphorbiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Hevea brasiliensis* thuộc họ Euphorbiaceae phân bố tại một số vùng trên thế giới như Benin, Côte d’Ivoire, Singapore, Sri Lanka, Seychelles, Ghana, Colombia, Liberia, Lao People’s Democratic Republic, Panama, Indonesia, Sao Tome and Principe, Trinidad and Tobago, India, Brazil, Costa Rica, Viet Nam, Thailand, Bolivia (Plurinational State of), United States of America, Philippines, China, Malaysia, Guinea. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: xà phòng'.Từ loài này đã phân lập và xác định được 19 hoạt chất thuộc  về 5 nhóm gồm carboxylic acids and derivatives, coumarins and derivatives, fatty acyls, organooxygen compounds, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malpighiales
+- **Family:** Euphorbiaceae
+- **Genus:** Hevea
+- **Species:** *Hevea brasiliensis*
+- **Scientific Name:** *Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** [Hevea brasiliensis, Cây cao su]
+ - **Tên tiếng Anh: **[Para rubber tree, rubber tree]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Euphorbiaceae - Genus: Hevea - Species: *Hevea brasiliensis* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Hevea%20brasiliensis%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-071.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344100345/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344100977/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344101124/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344100987/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344101131/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346788918/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346789147/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346789142/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347619045/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347619047/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349078118/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Benin, Côte d’Ivoire, Singapore, Sri Lanka, Seychelles, Ghana, Colombia, Liberia, Lao People’s Democratic Republic, Panama, Indonesia, Sao Tome and Principe, Trinidad and Tobago, India, Brazil, Costa Rica, Viet Nam, Thailand, Bolivia (Plurinational State of), United States of America, Philippines, China, Malaysia, Guinea
+
+**Phấn bố ở Việt nam:** Lâm Đồng
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Euphorbiaceae",
+  iso3_codes: ['VNM', 'COL', 'PHL', 'SYC', 'MYS', 'TTO', 'STP', 'GIN', 'USA', 'IND', 'IDN', 'BEN', 'GHA', 'LBR', 'LKA', 'BRA', 'CRI', 'SGP', 'THA', 'CHN', 'PAN'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Hevea brasiliensis* đã phân lập và xác định được 19 hoạt chất thuộc  về 5 nhóm gồm carboxylic acids and derivatives, coumarins and derivatives, fatty acyls, organooxygen compounds, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0231703](https://lotus.naturalproducts.net/compound/lotus_id/LTS0231703)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0254747](https://lotus.naturalproducts.net/compound/lotus_id/LTS0254747)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0248878](https://lotus.naturalproducts.net/compound/lotus_id/LTS0248878)</div></div></div>
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0193112](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193112)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0069773](https://lotus.naturalproducts.net/compound/lotus_id/LTS0069773)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0040547](https://lotus.naturalproducts.net/compound/lotus_id/LTS0040547)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0020460](https://lotus.naturalproducts.net/compound/lotus_id/LTS0020460)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0023485](https://lotus.naturalproducts.net/compound/lotus_id/LTS0023485)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0126731](https://lotus.naturalproducts.net/compound/lotus_id/LTS0126731)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0153167](https://lotus.naturalproducts.net/compound/lotus_id/LTS0153167)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0206216](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206216)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0184222](https://lotus.naturalproducts.net/compound/lotus_id/LTS0184222)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0164111](https://lotus.naturalproducts.net/compound/lotus_id/LTS0164111)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0103893](https://lotus.naturalproducts.net/compound/lotus_id/LTS0103893)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0152579](https://lotus.naturalproducts.net/compound/lotus_id/LTS0152579)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0037977](https://lotus.naturalproducts.net/compound/lotus_id/LTS0037977)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0050903](https://lotus.naturalproducts.net/compound/lotus_id/LTS0050903)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0018168](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018168)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0163589](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163589)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Xà phòng        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COC1=C(OC)C(=O)C(CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)=C(C)C1=O" },
+{id: "canvas_Row1", smiles: "COC1=C(OC)C(=O)C(C/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CCC=C(C)C)=C(C)C1=O" },
+{id: "canvas_Row2", smiles: "COC1=C(OC)C(=O)C(C/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CCC=C(C)C)=C(C)C1=O" },
+{id: "canvas_Row3", smiles: "CC(C)[C@H](N)C(=O)O" },
+{id: "canvas_Row4", smiles: "COC1=C(OC)C(=O)C(CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)=C(C)C1=O" },
+{id: "canvas_Row5", smiles: "COC1=C(OC)C(=O)C(C/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CC/C=C(\C)CCC=C(C)C)=C(C)C1=O" },
+{id: "canvas_Row6", smiles: "CC(C)C(N)C(=O)O" },
+{id: "canvas_Row7", smiles: "CCCCCC[C@@H](O)C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row8", smiles: "CCCCCCC(O)CC=CCCCCCCCC(=O)O" },
+{id: "canvas_Row9", smiles: "COC1=C(OC)C(=O)C(CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)=C(C)C1=O" },
+{id: "canvas_Row10", smiles: "COc1cc2ccc(=O)oc2cc1O" },
+{id: "canvas_Row11", smiles: "O=c1ccc2ccccc2o1" },
+{id: "canvas_Row12", smiles: "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O" },
+{id: "canvas_Row13", smiles: "CC(C)(C#N)O[C@@H]1O[C@H](CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row14", smiles: "CC[C@](C)(C#N)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row15", smiles: "CC[C@](C)(C#N)O[C@@H]1O[C@H](CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row16", smiles: "O=C(O)CCC(O)(CC(O)C(=O)O)C(=O)O" },
+{id: "canvas_Row17", smiles: "CC(C)(C#N)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row18", smiles: "CCC(C)(C#N)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

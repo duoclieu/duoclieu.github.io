@@ -1,0 +1,171 @@
+---
+title: "Teucrium marum"
+subtitle: "Loài Teucrium marum (Họ Lamiaceae)"
+description: "Loài *Teucrium marum* thuộc họ Lamiaceae phân bố tại một số vùng trên thế giới như France, Spain, Italy. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'europe: thuốc long đờm, thuốc lợi tiểu', 'french: thuốc lợi tiểu', 'italian: thuốc long đờm', 'us: chất kích thích', 'ain: đổ mồ hôi', 'anish: sternutatory'.Từ loài này đã phân lập và xác định được 13 hoạt chất thuộc  về 2 nhóm gồm lactones, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/CATTHYME.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Teucrium marum", "Lamiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Teucrium marum* thuộc họ Lamiaceae phân bố tại một số vùng trên thế giới như France, Spain, Italy. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'europe: thuốc long đờm, thuốc lợi tiểu', 'french: thuốc lợi tiểu', 'italian: thuốc long đờm', 'us: chất kích thích', 'ain: đổ mồ hôi', 'anish: sternutatory'.Từ loài này đã phân lập và xác định được 13 hoạt chất thuộc  về 2 nhóm gồm lactones, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Lamiaceae
+- **Genus:** Teucrium
+- **Species:** *Teucrium marum*
+- **Scientific Name:** *Teucrium marum L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Lamiaceae - Genus: Teucrium - Species: *Teucrium marum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/CATTHYME.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347905449/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349707131/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349707041/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349707135/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354167543/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354167465/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359460184/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359460208/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362835171/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362842137/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362835161/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Spain, Italy
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Lamiaceae",
+  iso3_codes: ['FRA', 'ESP', 'ITA'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Teucrium marum* đã phân lập và xác định được 13 hoạt chất thuộc  về 2 nhóm gồm lactones, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Lactones</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0146238](https://lotus.naturalproducts.net/compound/lotus_id/LTS0146238)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0058012](https://lotus.naturalproducts.net/compound/lotus_id/LTS0058012)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0180119](https://lotus.naturalproducts.net/compound/lotus_id/LTS0180119)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0144129](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144129)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0250838](https://lotus.naturalproducts.net/compound/lotus_id/LTS0250838)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0238179](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238179)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0204720](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204720)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0242567](https://lotus.naturalproducts.net/compound/lotus_id/LTS0242567)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0249973](https://lotus.naturalproducts.net/compound/lotus_id/LTS0249973)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0021360](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021360)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0047296](https://lotus.naturalproducts.net/compound/lotus_id/LTS0047296)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0033406](https://lotus.naturalproducts.net/compound/lotus_id/LTS0033406)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0117717](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117717)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                  |
+|-----------|-----------------|--------------------------------|
+| Row0      | Europe          | Thuốc long đờm, Thuốc lợi tiểu |
+| Row1      | French          | Thuốc lợi tiểu                 |
+| Row2      | Italian         | Thuốc long đờm                 |
+| Row3      | US              | Chất kích thích                |
+| Row4      | ain             | Đổ mồ hôi                      |
+| Row5      | anish           | Sternutatory                   |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1COC(=O)[C@@H]2[C@@H](C)CC[C@H]12" },
+{id: "canvas_Row1", smiles: "C=C(C=O)[C@H]1CC[C@H](C)[C@@H]1C=O" },
+{id: "canvas_Row2", smiles: "CC(=O)OC[C@@]12[C@H](C[C@H](O)C[C@]13CO3)[C@@]1(C[C@@H](c3ccoc3)OC1=O)[C@H](C)C[C@H]2O" },
+{id: "canvas_Row3", smiles: "C[C@@H]1[C@H]2C3=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]2(C(=O)O)CC[C@H]1C" },
+{id: "canvas_Row4", smiles: "CC(=O)OCC12C(O)CC(C)C3(CC(c4ccoc4)OC3=O)C1CC(O)CC21CO1" },
+{id: "canvas_Row5", smiles: "C=C(C=O)[C@H]1CC[C@H](C)[C@H]1C=O" },
+{id: "canvas_Row6", smiles: "C=C1COC(=O)C2C(C)CCC12" },
+{id: "canvas_Row7", smiles: "C=C1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CCC4[C@@]5(C)CC[C@H](O)C(C)(C)C5CC[C@]43C)[C@@H]2[C@H]1C" },
+{id: "canvas_Row8", smiles: "C=C(C=O)C1CCC(C)C1C=O" },
+{id: "canvas_Row9", smiles: "CC(=O)OCC1=CO[C@H](OC(C)=O)[C@H]2[C@H](C)CC[C@@H]12" },
+{id: "canvas_Row10", smiles: "C=C1C(=O)OC[C@@H]2[C@@H](C)CC[C@H]12" },
+{id: "canvas_Row11", smiles: "CC(=O)OCC1=COC(OC(C)=O)C2C(C)CCC12" },
+{id: "canvas_Row12", smiles: "CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2C1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

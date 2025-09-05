@@ -1,0 +1,183 @@
+---
+title: "Celosia cristata"
+subtitle: "Loài Celosia cristata (Họ Amaranthaceae)"
+description: "Loài *Celosia cristata* thuộc họ Amaranthaceae phân bố tại một số vùng trên thế giới như nan, Germany, Korea, Republic of, Chile, Spain, Venezuela (Bolivarian Republic of), Mexico, Chinese Taipei, Japan, Russian Federation, Portugal, Burkina Faso, United Kingdom of Great Britain and Northern Ireland, Brazil, Peru, Ukraine, Viet Nam, Thailand, United States of America, China, Pakistan, Italy, Greece, Ecuador, Lao People’s Democratic Republic, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất làm se, cầm máu', 'elsewhere: thuốc chống tiêu chảy, chất làm se, làm dịu', 'iraq: làm dịu', 'japan: thuốc lợi tiểu'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 6 nhóm gồm betalains, carboxylic acids and derivatives, flavonoids, isoflavonoids, phenols, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/CelosiaCristataYellowToreador.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Celosia cristata", "Amaranthaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Celosia cristata* thuộc họ Amaranthaceae phân bố tại một số vùng trên thế giới như nan, Germany, Korea, Republic of, Chile, Spain, Venezuela (Bolivarian Republic of), Mexico, Chinese Taipei, Japan, Russian Federation, Portugal, Burkina Faso, United Kingdom of Great Britain and Northern Ireland, Brazil, Peru, Ukraine, Viet Nam, Thailand, United States of America, China, Pakistan, Italy, Greece, Ecuador, Lao People’s Democratic Republic, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất làm se, cầm máu', 'elsewhere: thuốc chống tiêu chảy, chất làm se, làm dịu', 'iraq: làm dịu', 'japan: thuốc lợi tiểu'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 6 nhóm gồm betalains, carboxylic acids and derivatives, flavonoids, isoflavonoids, phenols, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Caryophyllales
+- **Family:** Amaranthaceae
+- **Genus:** Celosia
+- **Species:** *Celosia argentea*
+- **Scientific Name:** *Celosia cristata L.*  
+- **Mô tả thực vật:** [, ]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[cockscomb, cockscomb]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Amaranthaceae - Genus: Celosia - Species: *Celosia cristata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/CelosiaCristataYellowToreador.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Dettaglio%20-%20Amarantaceae%20Celosia%20cristata%20Lin.%20Erbario%20Frizzi%20Perugia%20n.%2090.jpg){ group="GIBF" }
+
+![](https://herbarium.bgbm.org/data/iiif/B101098610/manifest.json){ group="GIBF" }
+
+![](https://image.bgbm.org/images/internal/HerbarThumbs/B101098610_1700){ group="GIBF" }
+
+![](http://live.staticflickr.com/4699/26038238978_627cc010b1_b.jpg){ group="GIBF" }
+
+![](http://live.staticflickr.com/714/22092965165_4e21c58e59_b.jpg){ group="GIBF" }
+
+![](http://live.staticflickr.com/616/22102960731_892bd42222_b.jpg){ group="GIBF" }
+
+![](http://live.staticflickr.com/630/22066729816_96e720c8a9_b.jpg){ group="GIBF" }
+
+![](http://www.westafricanplants.senckenberg.de/images/pictures/celosia_cristata-_cultivated_ouaga-_hotel_la_palmeraie-_1_porembski2014-11_4917_3eb904.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Germany, Korea, Republic of, Chile, Spain, Venezuela (Bolivarian Republic of), Mexico, Chinese Taipei, Japan, Russian Federation, Portugal, Burkina Faso, United Kingdom of Great Britain and Northern Ireland, Brazil, Peru, Ukraine, Viet Nam, Thailand, United States of America, China, Pakistan, Italy, Greece, Ecuador, Lao People’s Democratic Republic, Guyana
+
+**Phấn bố ở Việt nam:** Kon Tum
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Amaranthaceae",
+  iso3_codes: ['GRC', 'BRA', 'ESP', 'DEU', 'ECU', 'GUY', 'CHL', 'THA', 'BFA', 'VNM', 'UKR', 'JPN', 'PRT', 'ITA', 'PER', 'USA', 'CHN', 'RUS', 'PAK', 'MEX', 'GBR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Celosia cristata* đã phân lập và xác định được 25 hoạt chất thuộc  về 6 nhóm gồm betalains, carboxylic acids and derivatives, flavonoids, isoflavonoids, phenols, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Betalains</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0075996](https://lotus.naturalproducts.net/compound/lotus_id/LTS0075996)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0232775](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232775)</div></div></div>
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0168087](https://lotus.naturalproducts.net/compound/lotus_id/LTS0168087)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0222707](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222707)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0265200](https://lotus.naturalproducts.net/compound/lotus_id/LTS0265200)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0128002](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128002)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0200041](https://lotus.naturalproducts.net/compound/lotus_id/LTS0200041)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0000911](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000911)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0203557](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203557)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0073587](https://lotus.naturalproducts.net/compound/lotus_id/LTS0073587)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0096902](https://lotus.naturalproducts.net/compound/lotus_id/LTS0096902)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0261770](https://lotus.naturalproducts.net/compound/lotus_id/LTS0261770)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0143250](https://lotus.naturalproducts.net/compound/lotus_id/LTS0143250)</div></div></div>
+<div class="group-title">Isoflavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0139973](https://lotus.naturalproducts.net/compound/lotus_id/LTS0139973)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0115211](https://lotus.naturalproducts.net/compound/lotus_id/LTS0115211)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0018773](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018773)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0226132](https://lotus.naturalproducts.net/compound/lotus_id/LTS0226132)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0239927](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239927)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0077845](https://lotus.naturalproducts.net/compound/lotus_id/LTS0077845)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0142259](https://lotus.naturalproducts.net/compound/lotus_id/LTS0142259)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0029311](https://lotus.naturalproducts.net/compound/lotus_id/LTS0029311)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0057877](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057877)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0046755](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046755)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0018584](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018584)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0102304](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102304)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                               |
+|-----------|-----------------|---------------------------------------------|
+| Row0      | China           | Chất làm se, cầm máu                        |
+| Row1      | Elsewhere       | Thuốc chống tiêu chảy, Chất làm se, Làm dịu |
+| Row2      | Iraq            | Làm dịu                                     |
+| Row3      | Japan           | Thuốc lợi tiểu                              |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C(CC[C@@H](C)[C@H]1CC[C@@]2(C)C3CC[C@H]4C(C)(C)[C@@H](O)CC[C@@]45C[C@@]35CC[C@]12C)C(C)C" },
+{id: "canvas_Row1", smiles: "CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC[C@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row2", smiles: "O=C(O)C1=C/C(=C/C=N\CCc2ccc(O)c(O)c2)C[C@H](C(=O)O)N1" },
+{id: "canvas_Row3", smiles: "O=C([O-])C1=CC(=CC=[N+]2c3cc(O)c(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O[C@@H]4O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@@H]4O)cc3C[C@H]2C(=O)O)C[C@@H](C(=O)O)N1" },
+{id: "canvas_Row4", smiles: "O=C(O)C1=CC(=CC=NCCc2ccc(O)c(O)c2)CC(C(=O)O)N1" },
+{id: "canvas_Row5", smiles: "O=C([O-])C1=CC(=CC=[N+]2c3cc(O)c(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O[C@@H]4O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]4O)cc3C[C@H]2C(=O)O)C[C@@H](C(=O)O)N1" },
+{id: "canvas_Row6", smiles: "CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row7", smiles: "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CCC4(C)[C@H]3CCC21C" },
+{id: "canvas_Row8", smiles: "CC(C)C(C)CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row9", smiles: "O=C/C=C1/C=C(C(=O)O)N[C@H](C(=O)O)C1" },
+{id: "canvas_Row10", smiles: "COc1cc(CC/N=C/C=C2/C=C(C(=O)O)N[C@H](C(=O)O)C2)ccc1O" },
+{id: "canvas_Row11", smiles: "C=C(CC[C@@H](C)[C@H]1CC[C@@]2(C)[C@@H]3CC[C@H]4C(C)(C)[C@@H](O)CC[C@@]45C[C@@]35CC[C@]12C)C(C)C" },
+{id: "canvas_Row12", smiles: "CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C" },
+{id: "canvas_Row13", smiles: "O=C(O)C1=C/C(=C/C=N\CCc2ccc(O)c(O)c2)C[C@@H](C(=O)O)N1" },
+{id: "canvas_Row14", smiles: "O=C(O)C1=C/C(=C/C=NC(Cc2c[nH]c3ccccc23)C(=O)O)CC(C(=O)O)N1" },
+{id: "canvas_Row15", smiles: "COc1ccccc1-c1coc2cc3c(c(OC)c2c1=O)OCO3" },
+{id: "canvas_Row16", smiles: "COc1cc(CCN=C/C=C2/C=C(C(=O)O)NC(C(=O)O)C2)ccc1O" },
+{id: "canvas_Row17", smiles: "COc1cc(CC/N=C\C=C2\C=C(C(=O)O)N[C@H](C(=O)O)C2)ccc1O" },
+{id: "canvas_Row18", smiles: "O=C(O)C1=C/C(=C/C=N\[C@@H](Cc2c[nH]c3ccccc23)C(=O)O)C[C@@H](C(=O)O)N1" },
+{id: "canvas_Row19", smiles: "COc1c2c(cc3oc(-c4ccccc4)cc(=O)c13)OCO2" },
+{id: "canvas_Row20", smiles: "COc1cc2oc(-c3ccccc3)cc(=O)c2c(O)c1OC" },
+{id: "canvas_Row21", smiles: "COc1cc(OC)c2c(=O)cc(-c3ccccc3)oc2c1" },
+{id: "canvas_Row22", smiles: "COc1ccccc1-c1coc2cc(OC)c(CO)c(O)c2c1=O" },
+{id: "canvas_Row23", smiles: "O=c1cc(-c2ccccc2)oc2cc3c(c(O)c12)OCO3" },
+{id: "canvas_Row24", smiles: "COc1cc(O)c2c(=O)cc(-c3ccccc3)oc2c1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

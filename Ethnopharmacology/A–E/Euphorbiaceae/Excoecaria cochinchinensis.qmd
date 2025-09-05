@@ -1,0 +1,182 @@
+---
+title: "Excoecaria cochinchinensis"
+subtitle: "Loài Excoecaria cochinchinensis (Họ Euphorbiaceae)"
+description: "Loài *Excoecaria cochinchinensis* thuộc họ Euphorbiaceae phân bố tại một số vùng trên thế giới như nan, Korea, Republic of, Singapore, French Polynesia, Seychelles, Chinese Taipei, Hong Kong, unknown or invalid, Cambodia, Indonesia, Myanmar, Trinidad and Tobago, India, Viet Nam, Thailand, United States of America, Philippines, China, Malaysia, New Zealand, Puerto Rico, Macao, Lao People’s Democratic Republic. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'java: cầm máu'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 5 nhóm gồm benzene and substituted derivatives, benzofurans, flavonoids, organooxygen compounds, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Excoecaria%20cochinchinensis%20Firestorm.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Excoecaria cochinchinensis", "Euphorbiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Excoecaria cochinchinensis* thuộc họ Euphorbiaceae phân bố tại một số vùng trên thế giới như nan, Korea, Republic of, Singapore, French Polynesia, Seychelles, Chinese Taipei, Hong Kong, unknown or invalid, Cambodia, Indonesia, Myanmar, Trinidad and Tobago, India, Viet Nam, Thailand, United States of America, Philippines, China, Malaysia, New Zealand, Puerto Rico, Macao, Lao People’s Democratic Republic. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'java: cầm máu'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 5 nhóm gồm benzene and substituted derivatives, benzofurans, flavonoids, organooxygen compounds, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malpighiales
+- **Family:** Euphorbiaceae
+- **Genus:** Excoecaria
+- **Species:** *Excoecaria cochinchinensis*
+- **Scientific Name:** *Excoecaria cochinchinensis Lour.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** [Excoecaria cochinchinensis]
+ - **Tên tiếng Anh: **[Blindness tree, Buta Buta, Chinese croton, Jungle Fire plant]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Euphorbiaceae - Genus: Excoecaria - Species: *Excoecaria cochinchinensis* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Excoecaria%20cochinchinensis%20Firestorm.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351397651/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363914519/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363914471/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358499665/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359488889/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363914491/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365937097/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/370690067/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/375514333/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/375514335/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Korea, Republic of, Singapore, French Polynesia, Seychelles, Chinese Taipei, Hong Kong, unknown or invalid, Cambodia, Indonesia, Myanmar, Trinidad and Tobago, India, Viet Nam, Thailand, United States of America, Philippines, China, Malaysia, New Zealand, Puerto Rico, Macao, Lao People’s Democratic Republic
+
+**Phấn bố ở Việt nam:** Dak Lak, Ninh Thuan, Quảng Bình, Ha Giang, Kon Tum, Khánh Hòa, Hoa Binh
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Euphorbiaceae",
+  iso3_codes: ['TTO', 'HKG', 'MAC', 'PYF', 'MYS', 'THA', 'SYC', 'PHL', 'IND', 'IDN', 'PRI', 'KHM', 'SGP', 'CHN', 'USA', 'VNM', 'NZL', 'MMR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Excoecaria cochinchinensis* đã phân lập và xác định được 25 hoạt chất thuộc  về 5 nhóm gồm benzene and substituted derivatives, benzofurans, flavonoids, organooxygen compounds, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0263634](https://lotus.naturalproducts.net/compound/lotus_id/LTS0263634)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0222857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222857)</div></div></div>
+<div class="group-title">Benzofurans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0067359](https://lotus.naturalproducts.net/compound/lotus_id/LTS0067359)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0119422](https://lotus.naturalproducts.net/compound/lotus_id/LTS0119422)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0267055](https://lotus.naturalproducts.net/compound/lotus_id/LTS0267055)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0237581](https://lotus.naturalproducts.net/compound/lotus_id/LTS0237581)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0211340](https://lotus.naturalproducts.net/compound/lotus_id/LTS0211340)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0249588](https://lotus.naturalproducts.net/compound/lotus_id/LTS0249588)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0259097](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259097)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0003899](https://lotus.naturalproducts.net/compound/lotus_id/LTS0003899)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0197942](https://lotus.naturalproducts.net/compound/lotus_id/LTS0197942)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0144910](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144910)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0064034](https://lotus.naturalproducts.net/compound/lotus_id/LTS0064034)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0088665](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088665)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0048268](https://lotus.naturalproducts.net/compound/lotus_id/LTS0048268)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0206217](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206217)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0240266](https://lotus.naturalproducts.net/compound/lotus_id/LTS0240266)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0160433](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160433)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0066688](https://lotus.naturalproducts.net/compound/lotus_id/LTS0066688)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0257232](https://lotus.naturalproducts.net/compound/lotus_id/LTS0257232)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0253445](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253445)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0255840](https://lotus.naturalproducts.net/compound/lotus_id/LTS0255840)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0122119](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122119)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0000454](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000454)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0026097](https://lotus.naturalproducts.net/compound/lotus_id/LTS0026097)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Java            | cầm máu         |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=C(O)c1ccc(O)cc1" },
+{id: "canvas_Row1", smiles: "O=C(O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row2", smiles: "CC1(C)C[C@H](O)C[C@]2(C)OC(=O)C=C12" },
+{id: "canvas_Row3", smiles: "C=C(C)[C@]12C[C@@H](C)[C@@]34OC(/C=C/C=C/CCCCC)(O[C@@H]1[C@@H]3[C@@H]1O[C@]1(CO)[C@@H](O)[C@]1(O)C(=O)C(C)=C[C@H]14)O2" },
+{id: "canvas_Row4", smiles: "O=C(O)C1=C[C@@H](O)[C@@H](O)[C@H](O)C1" },
+{id: "canvas_Row5", smiles: "O=C(O)C1=CC(O)C(O)C(O)C1" },
+{id: "canvas_Row6", smiles: "C=C[C@@]1(C)CC(=O)[C@@]2(O)[C@](C)(O1)[C@@H](O)[C@@H](OC(C)=O)[C@H]1C(C)(C)CC[C@H](O)[C@@]12C" },
+{id: "canvas_Row7", smiles: "CC1=CC(=O)CC(C)(COC2OC(CO)C(O)C(O)C2O)C1CCC(C)O" },
+{id: "canvas_Row8", smiles: "C[C@@H]1C=C[C@@]2(O1)C(CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)=CC(=O)CC2(C)C" },
+{id: "canvas_Row9", smiles: "C=C(C)[C@]12C[C@@H](C)[C@@]34OC(/C=C/C=C/CCCCC)(OC1C3C1O[C@]1(CO)[C@@H](O)[C@]1(O)C(=O)C(C)=C[C@H]14)O2" },
+{id: "canvas_Row10", smiles: "C=CC1(C)CC(=O)C2(O)C(C)(CC(O)C3C(C)(C)C(OC(C)=O)C(OC(C)=O)CC32C)O1" },
+{id: "canvas_Row11", smiles: "CC1(C)CC(O)CC2(C)OC(=O)C=C12" },
+{id: "canvas_Row12", smiles: "O=c1c(OC2OC(CO)C(O)C(O)C2O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row13", smiles: "O=c1c(O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row14", smiles: "CC1OC(Oc2c(-c3ccc(O)cc3)oc3cc(O)cc(O)c3c2=O)C(O)C(O)C1O" },
+{id: "canvas_Row15", smiles: "CC1=CC(=O)C[C@@](C)(CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1CC[C@H](C)O" },
+{id: "canvas_Row16", smiles: "C=CC1(C)CC(=O)C2(O)C(C)(O1)C(O)C(OC(C)=O)C1C(C)(C)CCC(O)C12C" },
+{id: "canvas_Row17", smiles: "O=c1c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row18", smiles: "C=C[C@@]1(C)CC(=O)[C@]2(O)[C@@]3(C)C[C@H](OC(C)=O)[C@H](OC(C)=O)C(C)(C)[C@@H]3[C@@H](O)C[C@@]2(C)O1" },
+{id: "canvas_Row19", smiles: "C=C[C@@]1(C)CC(=O)[C@@]2(O)[C@](C)(O1)[C@@H](O)[C@@H](OC(C)=O)[C@H]1C(C)(C)CC[C@H](OC(C)=O)[C@@]12C" },
+{id: "canvas_Row20", smiles: "CC1C=CC2(O1)C(COC1OC(CO)C(O)C(O)C1O)=CC(=O)CC2(C)C" },
+{id: "canvas_Row21", smiles: "CC(O)CCC1C(COC2OC(CO)C(O)C(O)C2O)=CC(=O)CC1(C)C" },
+{id: "canvas_Row22", smiles: "C=CC1(C)CC(=O)C2(O)C(C)(O1)C(O)C(OC(C)=O)C1C(C)(C)CCC(OC(C)=O)C12C" },
+{id: "canvas_Row23", smiles: "C[C@H](O)CC[C@H]1C(CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)=CC(=O)CC1(C)C" },
+{id: "canvas_Row24", smiles: "C[C@@H]1O[C@@H](Oc2c(-c3ccc(O)cc3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

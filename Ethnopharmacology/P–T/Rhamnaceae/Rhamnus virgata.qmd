@@ -1,0 +1,148 @@
+---
+title: "Rhamnus virgata"
+subtitle: "Loài Rhamnus virgata (Họ Rhamnaceae)"
+description: "Loài *Rhamnus virgata* thuộc họ Rhamnaceae phân bố tại một số vùng trên thế giới như Thailand, Latvia, United States of America, Russian Federation, China, Pakistan, New Zealand, Japan, India, Korea, Republic of, Nepal. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: gây nôn, thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 3 hoạt chất thuộc  về 1 nhóm gồm anthracenes."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Rhamnus virgata", "Rhamnaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Rhamnus virgata* thuộc họ Rhamnaceae phân bố tại một số vùng trên thế giới như Thailand, Latvia, United States of America, Russian Federation, China, Pakistan, New Zealand, Japan, India, Korea, Republic of, Nepal. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: gây nôn, thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 3 hoạt chất thuộc  về 1 nhóm gồm anthracenes.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Rosales
+- **Family:** Rhamnaceae
+- **Genus:** Rhamnus
+- **Species:** *Rhamnus virgata*
+- **Scientific Name:** *Rhamnus virgata Roxb.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rhamnaceae - Genus: Rhamnus - Species: *Rhamnus virgata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/370390930/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/370390976/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371410296/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371410282/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371410355/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/379126036/original.png){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/381322559/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/381325224/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Thailand, Latvia, United States of America, Russian Federation, China, Pakistan, New Zealand, Japan, India, Korea, Republic of, Nepal
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rhamnaceae",
+  iso3_codes: ['CHN', 'RUS', 'JPN', 'NPL', 'PAK', 'IND', 'LVA', 'NZL', 'THA', 'USA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Rhamnus virgata* đã phân lập và xác định được 3 hoạt chất thuộc  về 1 nhóm gồm anthracenes. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Anthracenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0052688](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052688)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0149645](https://lotus.naturalproducts.net/compound/lotus_id/LTS0149645)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0239856](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239856)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh              |
+|-----------|-----------------|----------------------------|
+| Row0      | India           | gây nôn, Thuốc nhuận tràng |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc(O)c2c(c1)C(=O)c1cc(C)cc(O)c1C2=O" },
+{id: "canvas_Row1", smiles: "COc1cc(O[C@@H]2O[C@H](CO[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)c2c(c1)C(=O)c1cc(C)cc(O)c1C2=O" },
+{id: "canvas_Row2", smiles: "COc1cc(OC2OC(COC3OC(CO)C(O)C(O)C3O)C(O)C(O)C2O)c2c(c1)C(=O)c1cc(C)cc(O)c1C2=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

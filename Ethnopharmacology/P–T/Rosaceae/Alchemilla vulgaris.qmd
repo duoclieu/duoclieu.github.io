@@ -1,0 +1,157 @@
+---
+title: "Alchemilla vulgaris"
+subtitle: "Loài Alchemilla vulgaris (Họ Rosaceae)"
+description: "Loài *Alchemilla vulgaris* thuộc họ Rosaceae phân bố tại một số vùng trên thế giới như Germany, Spain, Poland, Russian Federation, Estonia, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, Norway, Czechia, Finland, Denmark, Belarus, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất làm se, cầm máu, chất làm lạnh, dạ dày, thuốc cầm máu, thuốc bổ, thuốc lợi tiểu, dễ bị tổn thương, làm dịu'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm flavonoids, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Alchemilla%20vulgaris0%20clean.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Alchemilla vulgaris", "Rosaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Alchemilla vulgaris* thuộc họ Rosaceae phân bố tại một số vùng trên thế giới như Germany, Spain, Poland, Russian Federation, Estonia, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, Norway, Czechia, Finland, Denmark, Belarus, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất làm se, cầm máu, chất làm lạnh, dạ dày, thuốc cầm máu, thuốc bổ, thuốc lợi tiểu, dễ bị tổn thương, làm dịu'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm flavonoids, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Rosales
+- **Family:** Rosaceae
+- **Genus:** Alchemilla
+- **Species:** *Alchemilla vulgaris*
+- **Scientific Name:** *Alchemilla vulgaris L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[lady's mantle, lady's mantle]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rosaceae - Genus: Alchemilla - Species: *Alchemilla vulgaris* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Alchemilla%20vulgaris0%20clean.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Nordens%20flora%20Alchemilla%20vulgaris.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357417319/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368203223/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368203389/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368572508/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368572427/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371806504/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371856489/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371856636/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371856783/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Germany, Spain, Poland, Russian Federation, Estonia, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland, Norway, Czechia, Finland, Denmark, Belarus, Austria
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rosaceae",
+  iso3_codes: ['NOR', 'UKR', 'CZE', 'GBR', 'ESP', 'POL', 'FIN', 'AUT', 'RUS', 'DNK', 'SWE', 'DEU', 'EST', 'BLR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Alchemilla vulgaris* đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm flavonoids, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0004651](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004651)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0205657](https://lotus.naturalproducts.net/compound/lotus_id/LTS0205657)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0250838](https://lotus.naturalproducts.net/compound/lotus_id/LTS0250838)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0231285](https://lotus.naturalproducts.net/compound/lotus_id/LTS0231285)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0102591](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102591)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0117717](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117717)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                                                                                   |
+|-----------|-----------------|-----------------------------------------------------------------------------------------------------------------|
+| Row0      | Turkey          | Chất làm se, cầm máu, Chất làm lạnh, dạ dày, Thuốc cầm máu, Thuốc bổ, Thuốc lợi tiểu, dễ bị tổn thương, Làm dịu |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2[C@]1(C)O" },
+{id: "canvas_Row1", smiles: "C[C@@H]1[C@H]2C3=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]2(C(=O)O)CC[C@H]1C" },
+{id: "canvas_Row2", smiles: "C[C@@H]1[C@H]2C3=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@H](O)C(C)(C)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]2(C(=O)O)CC[C@H]1C" },
+{id: "canvas_Row3", smiles: "C[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2[C@]1(C)O" },
+{id: "canvas_Row4", smiles: "CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2C1" },
+{id: "canvas_Row5", smiles: "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

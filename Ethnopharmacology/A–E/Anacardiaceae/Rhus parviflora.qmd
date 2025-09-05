@@ -1,0 +1,140 @@
+---
+title: "Rhus parviflora"
+subtitle: "Loài Rhus parviflora (Họ Anacardiaceae)"
+description: "Loài *Rhus parviflora* thuộc họ Anacardiaceae phân bố tại một số vùng trên thế giới như nan, unknown or invalid, South Africa, India, Nepal, Bhutan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc tẩy giun'.Từ loài này đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm carboxylic acids and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Rhus parviflora", "Anacardiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Rhus parviflora* thuộc họ Anacardiaceae phân bố tại một số vùng trên thế giới như nan, unknown or invalid, South Africa, India, Nepal, Bhutan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc tẩy giun'.Từ loài này đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm carboxylic acids and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Anacardiaceae
+- **Genus:** Searsia
+- **Species:** *Searsia parviflora*
+- **Scientific Name:** *Rhus parviflora Roxb.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Anacardiaceae - Genus: Rhus - Species: *Rhus parviflora* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://d2seqvvyy3b8p2.cloudfront.net/e34f581af15987052a5bfc1ba162bfc5.jpg){ group="GIBF" }
+
+![](https://d2seqvvyy3b8p2.cloudfront.net/6883a14958d99f24e25df3347b91179c.jpg){ group="GIBF" }
+
+![](https://d2seqvvyy3b8p2.cloudfront.net/92af2b991aacd1070a276f3e125c990a.jpg){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/U.1071206/format/large){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3995555ca-4e3c-4f4b-b458-1a6458594f78){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, unknown or invalid, South Africa, India, Nepal, Bhutan
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Anacardiaceae",
+  iso3_codes: ['NPL', 'ZAF', 'BTN', 'IND'],
+  color: [1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Rhus parviflora* đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm carboxylic acids and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0256362](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256362)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Thuốc tẩy giun  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=CC(C)(C)c1[nH]c2c(CC=C(C)C)cc(CC=C(C)C)cc2c1C[C@@H]1N=C(O)[C@H](C)N=C1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

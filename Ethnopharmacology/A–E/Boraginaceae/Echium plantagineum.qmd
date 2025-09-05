@@ -1,0 +1,185 @@
+---
+title: "Echium plantagineum"
+subtitle: "Loài Echium plantagineum (Họ Boraginaceae)"
+description: "Loài *Echium plantagineum* thuộc họ Boraginaceae phân bố tại một số vùng trên thế giới như France, Israel, Spain, United States of America, Portugal, Algeria, Italy, Chile, South Africa, New Zealand, Greece, Australia, Argentina. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'us: chất độc'.Từ loài này đã phân lập và xác định được 20 hoạt chất thuộc  về 4 nhóm gồm , fatty acyls, naphthalenes, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Echium%20April%202010-2.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Echium plantagineum", "Boraginaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Echium plantagineum* thuộc họ Boraginaceae phân bố tại một số vùng trên thế giới như France, Israel, Spain, United States of America, Portugal, Algeria, Italy, Chile, South Africa, New Zealand, Greece, Australia, Argentina. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'us: chất độc'.Từ loài này đã phân lập và xác định được 20 hoạt chất thuộc  về 4 nhóm gồm , fatty acyls, naphthalenes, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Boraginales
+- **Family:** Boraginaceae
+- **Genus:** Echium
+- **Species:** *Echium plantagineum*
+- **Scientific Name:** *Echium plantagineum L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Boraginaceae - Genus: Echium - Species: *Echium plantagineum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Echium%20April%202010-2.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343983214/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344016493/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344160541/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344160602/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344160571/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344230131/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344230170/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376191/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376259/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376063/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376022/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376109/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376224/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344376152/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344375950/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Israel, Spain, United States of America, Portugal, Algeria, Italy, Chile, South Africa, New Zealand, Greece, Australia, Argentina
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Boraginaceae",
+  iso3_codes: ['DZA', 'GRC', 'ZAF', 'USA', 'CHL', 'ARG', 'PRT', 'ITA', 'ESP', 'AUS', 'NZL', 'FRA', 'ISR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Echium plantagineum* đã phân lập và xác định được 20 hoạt chất thuộc  về 4 nhóm gồm , fatty acyls, naphthalenes, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0199624](https://lotus.naturalproducts.net/compound/lotus_id/LTS0199624)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0243229](https://lotus.naturalproducts.net/compound/lotus_id/LTS0243229)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0262136](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262136)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0009719](https://lotus.naturalproducts.net/compound/lotus_id/LTS0009719)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0160094](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160094)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0266267](https://lotus.naturalproducts.net/compound/lotus_id/LTS0266267)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0187229](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187229)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0116959](https://lotus.naturalproducts.net/compound/lotus_id/LTS0116959)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0228733](https://lotus.naturalproducts.net/compound/lotus_id/LTS0228733)</div></div></div>
+<div class="group-title">Naphthalenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0139652](https://lotus.naturalproducts.net/compound/lotus_id/LTS0139652)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0184282](https://lotus.naturalproducts.net/compound/lotus_id/LTS0184282)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0106307](https://lotus.naturalproducts.net/compound/lotus_id/LTS0106307)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0056709](https://lotus.naturalproducts.net/compound/lotus_id/LTS0056709)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0092719](https://lotus.naturalproducts.net/compound/lotus_id/LTS0092719)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0046691](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046691)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0159863](https://lotus.naturalproducts.net/compound/lotus_id/LTS0159863)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0035450](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035450)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0087384](https://lotus.naturalproducts.net/compound/lotus_id/LTS0087384)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0219422](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219422)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0023700](https://lotus.naturalproducts.net/compound/lotus_id/LTS0023700)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | US              | Chất độc        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCCCC/C=C\C/C=C\C/C=C\CCCCC(=O)O" },
+{id: "canvas_Row1", smiles: "CCCCC/C=C\C/C=C/CCCCCCCC(=O)O" },
+{id: "canvas_Row2", smiles: "C/C=C(/C)C(=O)O[C@@H]1CCN2CC=C(COC(=O)[C@@](O)([C@H](C)O)C(C)(C)O)[C@H]12" },
+{id: "canvas_Row3", smiles: "CC=C(C)C(=O)OC1CCN2CC=C(COC(=O)C(O)(C(C)O)C(C)(C)O)C12" },
+{id: "canvas_Row4", smiles: "CC(C)=CC[C@@H](O)C1=CC(=O)c2c(O)ccc(O)c2C1=O" },
+{id: "canvas_Row5", smiles: "CC(C)=CCC(O)C1=CC(=O)c2c(O)ccc(O)c2C1=O" },
+{id: "canvas_Row6", smiles: "CC(=O)O[C@H](CC=C(C)C)C1=CC(=O)c2c(O)ccc(O)c2C1=O" },
+{id: "canvas_Row7", smiles: "CC=C(C)C(=O)OC1CCN2CC=C(COC(=O)C(O)(C(C)C)C(C)O)C12" },
+{id: "canvas_Row8", smiles: "CC(=O)OC(CC=C(C)C)C1=CC(=O)c2c(O)ccc(O)c2C1=O" },
+{id: "canvas_Row9", smiles: "[2H]C(CC(OC(C)=O)C1=CC(=O)c2c(O)ccc(O)c2C1=O)=C(C([2H])([2H])[2H])C([2H])([2H])[2H]" },
+{id: "canvas_Row10", smiles: "CCC=CCC=CCC=CCC=CCCCCC(=O)O" },
+{id: "canvas_Row11", smiles: "CC(C)=CC[C@@H](OC(=O)CC(C)(C)O)C1=CC(=O)c2c(O)ccc(O)c2C1=O" },
+{id: "canvas_Row12", smiles: "CC(C)=CCC(OC(=O)CC(C)(C)O)C1=CC(=O)c2c(O)ccc(O)c2C1=O" },
+{id: "canvas_Row13", smiles: "CCCCCC=CCC=CCC=CCCCCC(=O)O" },
+{id: "canvas_Row14", smiles: "CC/C=C\C/C=C\C/C=C\C/C=C\CCCCC(=O)O" },
+{id: "canvas_Row15", smiles: "CC(=O)OC(CC=C(C)C)c1coc(C2=CC(=O)C=CC2=O)c1" },
+{id: "canvas_Row16", smiles: "CC(=O)O[C@@H](CC=C(C)C)c1coc(C2=CC(=O)C=CC2=O)c1" },
+{id: "canvas_Row17", smiles: "C/C=C(/C)C(=O)O[C@@H]1CCN2CC=C(COC(=O)[C@](O)(C(C)C)[C@H](C)O)[C@H]12" },
+{id: "canvas_Row18", smiles: "COc1c([C@H](CC=C(C)C)OC(C)=O)cc(O)c2c1C(=O)C=CC2=O" },
+{id: "canvas_Row19", smiles: "COc1c(C(CC=C(C)C)OC(C)=O)cc(O)c2c1C(=O)C=CC2=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

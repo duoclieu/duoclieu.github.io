@@ -1,0 +1,153 @@
+---
+title: "Mercurialis leiocarpa"
+subtitle: "Loài Mercurialis leiocarpa (Họ Euphorbiaceae)"
+description: "Loài *Mercurialis leiocarpa* thuộc họ Euphorbiaceae phân bố tại một số vùng trên thế giới như nan, Nepal, Japan, China, Chinese Taipei, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: đổ mồ hôi'.Từ loài này đã phân lập và xác định được 2 hoạt chất thuộc  về 1 nhóm gồm carboxylic acids and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Mercurialis%20leiiocarpa%20yamaai01.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Mercurialis leiocarpa", "Euphorbiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Mercurialis leiocarpa* thuộc họ Euphorbiaceae phân bố tại một số vùng trên thế giới như nan, Nepal, Japan, China, Chinese Taipei, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: đổ mồ hôi'.Từ loài này đã phân lập và xác định được 2 hoạt chất thuộc  về 1 nhóm gồm carboxylic acids and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malpighiales
+- **Family:** Euphorbiaceae
+- **Genus:** Mercurialis
+- **Species:** *Mercurialis leiocarpa*
+- **Scientific Name:** *Mercurialis leiocarpa Siebold & Zucc.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Euphorbiaceae - Genus: Mercurialis - Species: *Mercurialis leiocarpa* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Mercurialis%20leiiocarpa%20yamaai01.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345822733/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346465439/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346465404/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346465458/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346465424/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346465388/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351239202/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/353046028/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/353046032/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/366392399/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/366392373/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Nepal, Japan, China, Chinese Taipei, Korea, Republic of
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Euphorbiaceae",
+  iso3_codes: ['NPL', 'CHN', 'JPN'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Mercurialis leiocarpa* đã phân lập và xác định được 2 hoạt chất thuộc  về 1 nhóm gồm carboxylic acids and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0175822](https://lotus.naturalproducts.net/compound/lotus_id/LTS0175822)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0142366](https://lotus.naturalproducts.net/compound/lotus_id/LTS0142366)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | China           | Đổ mồ hôi       |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COC(=O)C1(O)C(OC)=C(C2=C(OC)C(O)(C(=O)OC)N(C)C2=O)C(=O)N1C" },
+{id: "canvas_Row1", smiles: "COC(=O)[C@@]1(O)C(OC)=C(C2=C(OC)[C@](O)(C(=O)OC)N(C)C2=O)C(=O)N1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

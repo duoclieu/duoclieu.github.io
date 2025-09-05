@@ -1,0 +1,147 @@
+---
+title: "Perezia hebeclada"
+subtitle: "Loài Perezia hebeclada (Họ Asteraceae)"
+description: "Loài *Perezia hebeclada* thuộc họ Asteraceae phân bố tại một số vùng trên thế giới như Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: có mùi hôi'.Từ loài này đã phân lập và xác định được 12 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Perezia hebeclada", "Asteraceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Perezia hebeclada* thuộc họ Asteraceae phân bố tại một số vùng trên thế giới như Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: có mùi hôi'.Từ loài này đã phân lập và xác định được 12 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asterales
+- **Family:** Asteraceae
+- **Genus:** Perezia
+- **Species:** *Perezia hebeclada*
+- **Scientific Name:** *Perezia hebeclada DC.*  
+- **Mô tả thực vật:** []
+- **Description (EN):** []
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Asteraceae - Genus: Perezia - Species: *Perezia hebeclada* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://botanydb.colorado.edu/COLO_V/01486/01486240.jpg){ group="GIBF" }
+
+![](https://mam.business-services.upenn.edu/DOV/0065/DOV0065529.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Mexico
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Asteraceae",
+  iso3_codes: ['MEX'],
+  color: [1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Perezia hebeclada* đã phân lập và xác định được 12 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0131173](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131173)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0166356](https://lotus.naturalproducts.net/compound/lotus_id/LTS0166356)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0262701](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262701)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0275160](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275160)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0122307](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122307)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0065990](https://lotus.naturalproducts.net/compound/lotus_id/LTS0065990)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0122100](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122100)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0156911](https://lotus.naturalproducts.net/compound/lotus_id/LTS0156911)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0118776](https://lotus.naturalproducts.net/compound/lotus_id/LTS0118776)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0247919](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247919)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0012599](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012599)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0107520](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107520)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Mexico          | có mùi hôi      |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC(C)=CCC[C@H](C)C1=C(O)C(=O)C(C)=C(O)C1=O" },
+{id: "canvas_Row1", smiles: "CC(C)=CCCC(C)C1=C(O)C(=O)C(C)=C(O)C1=O" },
+{id: "canvas_Row2", smiles: "C/C=C(\C)C(=O)O[C@@]12C(=O)[C@]3(C(=O)C(O)=C1C)[C@H](C)CC[C@@H]3C2(C)C" },
+{id: "canvas_Row3", smiles: "COc1cc(=O)oc2c(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc(C)c12" },
+{id: "canvas_Row4", smiles: "CC1=C(O)C(=O)C23C(=O)C1(O)C(C)(C)C2CCC3C" },
+{id: "canvas_Row5", smiles: "COc1cc(=O)oc2c(OC3OC(CO)C(O)C(O)C3O)ccc(C)c12" },
+{id: "canvas_Row6", smiles: "CC(C)=CCC[C@@H](C)C1=C(O)C(=O)C(C)=C(OC(=O)CC(C)C)C1=O" },
+{id: "canvas_Row7", smiles: "CC1=C(O)C(=O)[C@@]23C(=O)[C@]1(O)C(C)(C)[C@@H]2CC[C@H]3C" },
+{id: "canvas_Row8", smiles: "Cc1cccc2oc(=O)cc(OC3OC(CO)C(O)C(O)C3O)c12" },
+{id: "canvas_Row9", smiles: "Cc1cccc2oc(=O)cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c12" },
+{id: "canvas_Row10", smiles: "C/C=C(\C)C(=O)O[C@]12C(=O)[C@]3(C(=O)C(O)=C1C)[C@@H](CC[C@H]3C)C2(C)C" },
+{id: "canvas_Row11", smiles: "CC(C)=CCC[C@@H](C)C1=C(OC(=O)CC(C)C)C(=O)C(C)=C(O)C1=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

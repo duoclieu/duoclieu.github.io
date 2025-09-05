@@ -1,0 +1,151 @@
+---
+title: "Philodendron hederaceum"
+subtitle: "Loài Philodendron hederaceum (Họ Araceae)"
+description: "Loài *Philodendron hederaceum* thuộc họ Araceae phân bố tại một số vùng trên thế giới như Cook Islands, Suriname, Bahamas, French Polynesia, Singapore, Guadeloupe, French Guiana, Mexico, Chinese Taipei, Colombia, Hong Kong, Belize, Australia, Panama, Indonesia, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, Guatemala, India, Brazil, Costa Rica, Peru, Argentina, United States of America, Philippines, Montserrat, China, Pakistan, Fiji, Malaysia, Ecuador, Puerto Rico, El Salvador, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất độc'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 2 nhóm gồm benzene and substituted derivatives, phenols."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Philodendron%20scandens%20subsp%20oxycardium2.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Philodendron hederaceum", "Araceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Philodendron hederaceum* thuộc họ Araceae phân bố tại một số vùng trên thế giới như Cook Islands, Suriname, Bahamas, French Polynesia, Singapore, Guadeloupe, French Guiana, Mexico, Chinese Taipei, Colombia, Hong Kong, Belize, Australia, Panama, Indonesia, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, Guatemala, India, Brazil, Costa Rica, Peru, Argentina, United States of America, Philippines, Montserrat, China, Pakistan, Fiji, Malaysia, Ecuador, Puerto Rico, El Salvador, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất độc'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 2 nhóm gồm benzene and substituted derivatives, phenols.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Alismatales
+- **Family:** Araceae
+- **Genus:** Philodendron
+- **Species:** *Philodendron hederaceum*
+- **Scientific Name:** *Philodendron hederaceum (Jacq.) Schott*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Araceae - Genus: Philodendron - Species: *Philodendron hederaceum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Philodendron%20scandens%20subsp%20oxycardium2.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344519660/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344894062/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344894083/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344915881/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345118522/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345203162/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Cook Islands, Suriname, Bahamas, French Polynesia, Singapore, Guadeloupe, French Guiana, Mexico, Chinese Taipei, Colombia, Hong Kong, Belize, Australia, Panama, Indonesia, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, Guatemala, India, Brazil, Costa Rica, Peru, Argentina, United States of America, Philippines, Montserrat, China, Pakistan, Fiji, Malaysia, Ecuador, Puerto Rico, El Salvador, Guyana
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Araceae",
+  iso3_codes: ['AUS', 'MSR', 'SLV', 'ECU', 'SGP', 'PAK', 'PYF', 'PHL', 'FJI', 'SUR', 'CHN', 'PAN', 'GTM', 'ARG', 'BLZ', 'TTO', 'COK', 'GUF', 'COL', 'IDN', 'GLP', 'MEX', 'BRA', 'MYS', 'KNA', 'USA', 'PRI', 'IND', 'CRI', 'GUY', 'HKG', 'BHS', 'HND', 'PER'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Philodendron hederaceum* đã phân lập và xác định được 8 hoạt chất thuộc  về 2 nhóm gồm benzene and substituted derivatives, phenols. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0193595](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193595)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0169325](https://lotus.naturalproducts.net/compound/lotus_id/LTS0169325)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0111335](https://lotus.naturalproducts.net/compound/lotus_id/LTS0111335)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0199601](https://lotus.naturalproducts.net/compound/lotus_id/LTS0199601)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0132543](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132543)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0029901](https://lotus.naturalproducts.net/compound/lotus_id/LTS0029901)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0074700](https://lotus.naturalproducts.net/compound/lotus_id/LTS0074700)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0133196](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133196)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Chất độc        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCC=CCC=CCC=CCCCCCCCc1cccc(O)c1C(=O)O" },
+{id: "canvas_Row1", smiles: "CCC=CCC=CCC=CCCCCCCCc1cc(O)cc(O)c1" },
+{id: "canvas_Row2", smiles: "CC/C=C\C/C=C\C/C=C\CCCCCCCc1cccc(O)c1C(=O)O" },
+{id: "canvas_Row3", smiles: "CC/C=C\C/C=C\C/C=C\CCCCCCCc1cc(O)cc(O)c1" },
+{id: "canvas_Row4", smiles: "NCCc1ccc(O)c(O)c1" },
+{id: "canvas_Row5", smiles: "NCCc1ccc(O)cc1" },
+{id: "canvas_Row6", smiles: "CCCCCCCCCCCCCCCC=Cc1c(O)cccc1O" },
+{id: "canvas_Row7", smiles: "CCCCCCCCCCCCCC=CC=Cc1c(O)cccc1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

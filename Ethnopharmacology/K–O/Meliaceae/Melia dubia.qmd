@@ -1,0 +1,182 @@
+---
+title: "Melia dubia"
+subtitle: "Loài Melia dubia (Họ Meliaceae)"
+description: "Loài *Melia dubia* thuộc họ Meliaceae phân bố tại một số vùng trên thế giới như nan, India, Japan, China, Indonesia, Philippines. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'sumatra: thuốc tẩy giun'.Từ loài này đã phân lập và xác định được 33 hoạt chất thuộc  về 1 nhóm gồm prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Melia%20dubia.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Melia dubia", "Meliaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Melia dubia* thuộc họ Meliaceae phân bố tại một số vùng trên thế giới như nan, India, Japan, China, Indonesia, Philippines. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'sumatra: thuốc tẩy giun'.Từ loài này đã phân lập và xác định được 33 hoạt chất thuộc  về 1 nhóm gồm prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Meliaceae
+- **Genus:** Melia
+- **Species:** *Melia dubia*
+- **Scientific Name:** *Melia dubia Hiern, 1875*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Meliaceae - Genus: Melia - Species: *Melia dubia* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Melia%20dubia.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/405290677/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/405290701/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/407762226/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/260870550/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/260870586/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/260870566/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/279412366/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/279412295/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/279412435/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/291165634/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, India, Japan, China, Indonesia, Philippines
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Meliaceae",
+  iso3_codes: ['IDN', 'CHN', 'JPN', 'PHL', 'IND'],
+  color: [1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Melia dubia* đã phân lập và xác định được 33 hoạt chất thuộc  về 1 nhóm gồm prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0085501](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085501)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0218756](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218756)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0184857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0184857)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0035106](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035106)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0175012](https://lotus.naturalproducts.net/compound/lotus_id/LTS0175012)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0180142](https://lotus.naturalproducts.net/compound/lotus_id/LTS0180142)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0111389](https://lotus.naturalproducts.net/compound/lotus_id/LTS0111389)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0203375](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203375)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0176626](https://lotus.naturalproducts.net/compound/lotus_id/LTS0176626)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0148832](https://lotus.naturalproducts.net/compound/lotus_id/LTS0148832)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0238072](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238072)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0171467](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171467)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0232597](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232597)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0127233](https://lotus.naturalproducts.net/compound/lotus_id/LTS0127233)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0158701](https://lotus.naturalproducts.net/compound/lotus_id/LTS0158701)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0219767](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219767)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0272529](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272529)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0255783](https://lotus.naturalproducts.net/compound/lotus_id/LTS0255783)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0235473](https://lotus.naturalproducts.net/compound/lotus_id/LTS0235473)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0217435](https://lotus.naturalproducts.net/compound/lotus_id/LTS0217435)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0238725](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238725)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0187234](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187234)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0037258](https://lotus.naturalproducts.net/compound/lotus_id/LTS0037258)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0035143](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035143)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0033164](https://lotus.naturalproducts.net/compound/lotus_id/LTS0033164)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0013933](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013933)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0026333](https://lotus.naturalproducts.net/compound/lotus_id/LTS0026333)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0114538](https://lotus.naturalproducts.net/compound/lotus_id/LTS0114538)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0238835](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238835)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0236182](https://lotus.naturalproducts.net/compound/lotus_id/LTS0236182)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0046923](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046923)</div></div> <div class="molecule-box"> <canvas id="canvas_Row31" width="150" height="150"></canvas> <div class="mol-name">[LTS0252470](https://lotus.naturalproducts.net/compound/lotus_id/LTS0252470)</div></div> <div class="molecule-box"> <canvas id="canvas_Row32" width="150" height="150"></canvas> <div class="mol-name">[LTS0271321](https://lotus.naturalproducts.net/compound/lotus_id/LTS0271321)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Sumatra         | Thuốc tẩy giun  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C(C)C(O)CCC(C(=O)OC)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row1", smiles: "COC(=O)C(CCC=C(C)C)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row2", smiles: "C=C(C)C(O)CC[C@@H](C)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row3", smiles: "C=C(C)C1CCC(C2C(O)CC3(C)C4=CCC5C(C)(C)C(=O)CCC5(C)C4CCC23C)C(=O)O1" },
+{id: "canvas_Row4", smiles: "CC=C(C)C(=O)OC1CC(OC(C)=O)C2(C)COC3C4OC5CC(c6ccoc6)C(C)=C5C4(C)C(CC(=O)OC)C1(C)C32" },
+{id: "canvas_Row5", smiles: "CC(CC=CC(C)(C)O)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row6", smiles: "C/C=C(\C)C(=O)O[C@H]1C[C@@H](OC(C)=O)[C@@]2(C)CO[C@H]3[C@H]4O[C@@H]5C[C@@H](c6ccoc6)C(C)=C5[C@@]4(C)[C@@H](CC(=O)OC)[C@]1(C)[C@@H]32" },
+{id: "canvas_Row7", smiles: "CC=C(C)C(=O)OC1CC(OC(C)=O)C2(C)COC3C4OC5CC(C6=CC(O)OC6=O)C(C)=C5C4(C)C(CC(=O)OC)C1(C)C32" },
+{id: "canvas_Row8", smiles: "CC(C)=CCC[C@@H](C)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row9", smiles: "COC(=O)C(CC=CC(C)(C)OO)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row10", smiles: "C[C@H](C/C=C/C(C)(C)O)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row11", smiles: "C=C(C)[C@@H](O)CC[C@@H](C(=O)OC)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row12", smiles: "CC(C)=CCCC(C)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row13", smiles: "C=C(C)[C@@H]1CCC([C@@H]2[C@@H](O)C[C@]3(C)C4=CC[C@H]5C(C)(C)C(=O)CC[C@]5(C)[C@H]4CC[C@@]23C)C(=O)O1" },
+{id: "canvas_Row14", smiles: "C/C=C(\C)C(=O)O[C@H]1C[C@@H](OC(C)=O)[C@@]2(C)CO[C@H]3[C@H]4O[C@H]5C[C@@H](c6ccoc6)C(C)=C5[C@@]4(C)[C@H](CC(=O)OC)[C@]1(C)[C@@H]32" },
+{id: "canvas_Row15", smiles: "COC(=O)[C@H](C/C=C/C(C)(C)O)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row16", smiles: "COC(=O)[C@H](CCC=C(C)C)C1[C@@H](O)C[C@]2(C)C3=CCC4C(C)(C)C(=O)CC[C@]4(C)C3CCC12C" },
+{id: "canvas_Row17", smiles: "CC(C)=CCC[C@H]1C(=O)O[C@H]2C[C@]3(C)C4=CC[C@H]5C(C)(C)C(=O)CC[C@]5(C)[C@H]4CC[C@@]3(C)[C@@H]21" },
+{id: "canvas_Row18", smiles: "C/C=C(\C)C(=O)O[C@H]1C[C@@H](OC(C)=O)[C@@]2(C)CO[C@@H]3C2[C@@]1(C)[C@@H](CC(=O)OC)[C@]1(C)C2=C(C)[C@H](c4ccoc4)CC2O[C@H]31" },
+{id: "canvas_Row19", smiles: "C=C(C)[C@@H](O)CC[C@@H](C)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row20", smiles: "COC(=O)[C@H](C/C=C/C(C)(C)OO)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row21", smiles: "C=C(C)C(O)CCC(C)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row22", smiles: "CC(C)=CCCC(C)C1C(O)CC2(C)C3=CCC4C(C)(C)C(O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row23", smiles: "C=C(C)[C@H]1CC[C@H]([C@@H]2[C@@H](O)C[C@]3(C)C4=CC[C@H]5C(C)(C)C(=O)CC[C@]5(C)[C@H]4CC[C@@]23C)C(=O)O1" },
+{id: "canvas_Row24", smiles: "C/C=C(\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](O)C[C@H](OC(=O)/C(C)=C/C)[C@](C)([C@H]4CC[C@]5(C)C(=CC[C@H]5c5ccoc5)[C@]14C)[C@@H]23" },
+{id: "canvas_Row25", smiles: "COC(=O)[C@H](CCC=C(C)C)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row26", smiles: "CC(C)=CCCC1C(=O)OC2CC3(C)C4=CCC5C(C)(C)C(=O)CCC5(C)C4CCC3(C)C21" },
+{id: "canvas_Row27", smiles: "CC=C(C)C(=O)OC1C2OCC3(C)C(O)CC(OC(=O)C(C)=CC)C(C)(C23)C2CCC3(C)C(=CCC3c3ccoc3)C12C" },
+{id: "canvas_Row28", smiles: "C/C=C(\C)C(=O)O[C@H]1C[C@@H](OC(C)=O)[C@@]2(C)CO[C@H]3[C@H]4O[C@H]5C[C@@H](C6=C[C@@H](O)OC6=O)C(C)=C5[C@@]4(C)[C@H](CC(=O)OC)[C@]1(C)[C@@H]32" },
+{id: "canvas_Row29", smiles: "COC(=O)C(CC=CC(C)(C)O)C1C(O)CC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row30", smiles: "C=C(C)[C@@H]1CC[C@H]([C@@H]2[C@@H](O)C[C@]3(C)C4=CC[C@H]5C(C)(C)C(=O)CC[C@]5(C)[C@H]4CC[C@@]23C)C(=O)O1" },
+{id: "canvas_Row31", smiles: "CC(C)=CCC[C@@H](C)[C@@H]1[C@@H](O)C[C@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)[C@H]3CC[C@@]12C" },
+{id: "canvas_Row32", smiles: "C/C=C(\C)C(=O)O[C@H]1C[C@@H](OC(C)=O)[C@@]2(C)CO[C@H]3[C@H]4O[C@@H]5C[C@@H](C6=CC(O)OC6=O)C(C)=C5[C@@]4(C)[C@H](CC(=O)OC)[C@]1(C)[C@@H]32" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

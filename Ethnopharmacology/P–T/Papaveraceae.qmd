@@ -1,0 +1,222 @@
+---
+title: Họ Papaveraceae
+subtitle: Họ **Papaveraceae** gồm Argemone, Bocconia, Chelidonium, Corydalis, Dicentra, Eschscholzia, Fumaria, Glaucium, Macleaya, Meconopsis, Papaver, Sanguinaria, Roemeria chi và 29 loài  được sử dụng ở 33vùng lãnh thổ điều trị 37chứng và bệnh.
+description: Họ **Papaveraceae** gồm13 chi và 29loài đã ghi nhận sử dụng làm thuốc tại 33 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất độc (8 loài), thuốc an thần (6 loài), thuốc giảm đau (6 loài), ma túy (4 loài), thuốc lợi tiểu (4 loài) . 05 loài thực vật gồm **Argemone mexicana* (11 chứng và bệnh), *Papaver somniferum* (8 chứng và bệnh), *Bocconia frutescens* (6 chứng và bệnh), *Corydalis cava* (5 chứng và bệnh), *Papaver rhoeas* (4 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Papaver somniferum* ( 120 hoạt chất), *Fumaria vaillantii* ( 89 hoạt chất), *Papaver orientale* ( 85 hoạt chất), *Chelidonium majus* ( 75 hoạt chất), *Corydalis cava* ( 69 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Papaver somniferum*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/344010869/original.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Papaveraceae
+    contents: Papaveraceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Papaveraceae có tổng cộng 13  chi và 29 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Papaveraceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                                               |   Count |
+|-----------|--------------|--------------------------------------------------------------------------------------------|---------|
+| Row3      | Corydalis    | Corydalis ambigua, Corydalis aurea, Corydalis bulbosa, Corydalis cava, Corydalis govaniana |       5 |
+| Row10     | Papaver      | Papaver dubium, Papaver nudicaule, Papaver orientale, Papaver rhoeas, Papaver somniferum   |       5 |
+| Row0      | Argemone     | Argemone mexicana, Argemone ochroleuca, Argemone platyceras, Argemone subfusiformis        |       4 |
+| Row6      | Fumaria      | Fumaria officinalis, Fumaria parviflora, Fumaria vaillantii                                |       3 |
+| Row1      | Bocconia     | Bocconia arborea, Bocconia frutescens                                                      |       2 |
+| Row4      | Dicentra     | Dicentra canadensis, Dicentra cucullaria                                                   |       2 |
+| Row7      | Glaucium     | Glaucium corniculatum, Glaucium flavum                                                     |       2 |
+| Row2      | Chelidonium  | Chelidonium majus                                                                          |       1 |
+| Row5      | Eschscholzia | Eschscholzia californica                                                                   |       1 |
+| Row8      | Macleaya     | Macleaya cordata                                                                           |       1 |
+| Row9      | Meconopsis   | Meconopsis paniculata                                                                      |       1 |
+| Row11     | Roemeria     | Roemeria argemone                                                                          |       1 |
+| Row12     | Sanguinaria  | Sanguinaria canadensis                                                                     |       1 |
+
+:::
+
+Phân bố họ trên thế giới: nan, Benin, Nepal, Bahamas, Cuba, Jamaica, Antigua and Barbuda, Oman, Cabo Verde, Spain, Mexico, Chinese Taipei, Bonaire, Sint Eustatius and Saba, Yemen, Myanmar, Virgin Islands (U.S.), Guatemala, India, Brazil, Costa Rica, United States of America, Bermuda, Pakistan, Dominican Republic, Nicaragua, Ecuador, Puerto Rico, Namibia, Tanzania, United Republic of, South Africa, Kenya, Australia, Norway, Paraguay, Bolivia (Plurinational State of), Norfolk Island, Chile, Argentina, Peru, Honduras, El Salvador, Haiti, Colombia, Réunion, New Zealand, Panama, Germany, France, Poland, Russian Federation, Portugal, Italy, United Kingdom of Great Britain and Northern Ireland, Czechia, Canada, Belgium, Netherlands, Austria, Hungary, Ukraine, Luxembourg, China, Korea, Republic of, Switzerland, Sweden, unknown or invalid, Denmark, Belarus, Slovakia, Serbia, Moldova, Croatia, Slovenia, Afghanistan, Syrian Arab Republic, Türkiye, Algeria, Greece, Iran (Islamic Republic of), North Macedonia, Cyprus, Israel, Palestine, State of, Iraq, Malta, Kazakhstan, Bulgaria, Kyrgyzstan, Romania, Uzbekistan, Tajikistan, Azerbaijan, Georgia, Morocco, Armenia, Gibraltar, Lithuania, Japan, Bhutan, Libya, Iceland, Greenland, Estonia, Mongolia, Finland, Åland Islands, Falkland Islands (Malvinas)
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Papaveraceae",
+  iso3_codes: ['YEM', 'AUT', 'AUS', 'GBR', 'CZE', 'PRI', 'NOR', 'POL', 'ZAF', 'ARM', 'FLK', 'KGZ', 'DOM', 'LBY', 'AFG', 'DNK', 'HTI', 'CHN', 'REU', 'MEX', 'KAZ', 'FRA', 'MKD', 'ISR', 'ESP', 'NZL', 'BGR', 'HND', 'UZB', 'KEN', 'HRV', 'ALA', 'ECU', 'FIN', 'BMU', 'SRB', 'SYR', 'OMN', 'ISL', 'NAM', 'SWE', 'PRY', 'MDA', 'BLR', 'COL', 'ATG', 'LUX', 'GIB', 'JPN', 'PAK', 'BEL', 'PER', 'IRQ', 'PRT', 'PAN', 'CPV', 'USA', 'ARG', 'JAM', 'SVN', 'GEO', 'SLV', 'AZE', 'RUS', 'BRA', 'NIC', 'TJK', 'SVK', 'ROU', 'UKR', 'CAN', 'CYP', 'ITA', 'TUR', 'MNG', 'CUB', 'NPL', 'BEN', 'NFK', 'DEU', 'GRL', 'TZA', 'CRI', 'EST', 'DZA', 'BTN', 'NLD', 'BHS', 'HUN', 'GRC', 'MMR', 'LTU', 'MLT', 'IND', 'GTM', 'MAR', 'CHE', 'CHL'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Papaveraceae** có tổng cộng 13  chi và 29 loài.đã phân lập và xác định được 1161 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Papaveraceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0080245</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0142299</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0149026</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0174113</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0246207</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#22" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#24" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1*)CC2NCCc3c2cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#26" width="150" height="150"></canvas> <div class="mol-name">COc1c(*)cc(cc1)CCNCCc2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#27" width="150" height="150"></canvas> <div class="mol-name">COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#28" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#29" width="150" height="150"></canvas> <div class="mol-name">c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#30" width="150" height="150"></canvas> <div class="mol-name">CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#31" width="150" height="150"></canvas> <div class="mol-name">C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#32" width="150" height="150"></canvas> <div class="mol-name">O=C(O)c1cc(O)c(c(c1)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#33" width="150" height="150"></canvas> <div class="mol-name">*=C(*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#34" width="150" height="150"></canvas> <div class="mol-name">**C(=*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#35" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#36" width="150" height="150"></canvas> <div class="mol-name">*=Cc1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#37" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#38" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#39" width="150" height="150"></canvas> <div class="mol-name">**Cc1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#41" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#42" width="150" height="150"></canvas> <div class="mol-name">C(*)(*)C(O)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#43" width="150" height="150"></canvas> <div class="mol-name">O=C(O)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#44" width="150" height="150"></canvas> <div class="mol-name">*=C(O)c1ccc(c(c1)*)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#46" width="150" height="150"></canvas> <div class="mol-name">c1cccc(c1O)C(=O)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Papaveraceae** đã được một số công động tại các quốc gia như *Central America, China, Elsewhere, Ethiopia, Guatemala, Haiti, India, Mexico, Mexico(Seri), Paraguay, Sudan, US, West Indies, Venezuela, Argentina, Ddr, Dominican Republic, Turkey, French, German, Italian, anish, France, Iraq, Kurdistan, Japan, Australia, Kalmuk, Europe, India(Ayurvedic), India(Unani), ain, US(Amerindian)* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *gây nôn, thuốc an thần, làm dịu, chất độc, thuốc nhuận tràng, thuốc lợi tiểu, xà phòng, cầm máu, chống khả năng sinh sản, thuốc thanh lọc, họ sẽ mở, thôi miên, thuốc gây mật, thuốc giảm đau, thuốc tẩy giun, thuốc diệt ký sinh trùng, thuốc gây mê, rubefacient, thuốc nhỏ mắt, đổ mồ hôi, thuốc trợ tim, emmenagogue, ma túy, thuốc bổ, họ sẽ thảo luận, buồn ngủ, chất làm se, thuốc trừ sâu, co giật, có mùi hôi, thuốc chống ho, thuốc long đờm, tiêu hóa, thuốc kích thích tình dục, chất gây say, chất làm mềm, mỹ phẩm*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Argemone mexicana* (11 chứng và bệnh), *Papaver somniferum* (8 chứng và bệnh), *Bocconia frutescens* (6 chứng và bệnh), *Corydalis cava* (5 chứng và bệnh), *Papaver rhoeas* (4 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Papaveraceae** có thể điều trị là chất độc (8 loài), thuốc an thần (6 loài), thuốc giảm đau (6 loài), ma túy (4 loài), thuốc lợi tiểu (4 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Papaveraceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Argemone     | Central America - (*Argemone mexicana* - gây nôn), China - (*Argemone mexicana* - thuốc an thần), Elsewhere - (*Argemone mexicana* - làm dịu), Ethiopia - (*Argemone mexicana* - chất độc), Guatemala - (*Argemone mexicana* - thuốc nhuận tràng), Haiti - (*Argemone mexicana* - thuốc lợi tiểu), India - (*Argemone mexicana* - làm dịu), Mexico - (*Argemone mexicana* - xà phòng), Mexico(Seri) - (*Argemone mexicana* - cầm máu), Paraguay - (*Argemone mexicana* - chống khả năng sinh sản), Sudan - (*Argemone mexicana* - thuốc thanh lọc), US - (*Argemone mexicana* - chất độc), West Indies - (*Argemone mexicana* - họ sẽ mở), Mexico - (*Argemone ochroleuca* - thôi miên), Mexico(Seri) - (*Argemone platyceras* - cầm máu), Venezuela - (*Argemone platyceras* - gây nôn), Argentina - (*Argemone subfusiformis* - thuốc gây mật)                                                                                                                                                                                                                                                                                          |
+| Row1      | Bocconia     | Mexico - (*Bocconia arborea* - thuốc giảm đau), Argentina - (*Bocconia frutescens* - chất độc), Ddr - (*Bocconia frutescens* - thuốc tẩy giun), Dominican Republic - (*Bocconia frutescens* - thuốc diệt ký sinh trùng), Elsewhere - (*Bocconia frutescens* - thuốc gây mê), Haiti - (*Bocconia frutescens* - rubefacient), Mexico - (*Bocconia frutescens* - thuốc nhỏ mắt)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Row2      | Chelidonium  | China - (*Chelidonium majus* - thuốc giảm đau), Elsewhere - (*Chelidonium majus* - đổ mồ hôi), Turkey - (*Chelidonium majus* - thuốc gây mật), US - (*Chelidonium majus* - chất độc)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Row3      | Corydalis    | China - (*Corydalis ambigua* - thuốc giảm đau), US - (*Corydalis aurea* - chất độc), China - (*Corydalis bulbosa* - thuốc an thần), Elsewhere - (*Corydalis bulbosa* - thuốc trợ tim), French - (*Corydalis cava* - thuốc tẩy giun), German - (*Corydalis cava* - emmenagogue), Italian - (*Corydalis cava* - ma túy), US - (*Corydalis cava* - thuốc bổ), anish - (*Corydalis cava* - họ sẽ thảo luận), Elsewhere - (*Corydalis govaniana* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row4      | Dicentra     | Elsewhere - (*Dicentra canadensis* - thuốc lợi tiểu), Turkey - (*Dicentra canadensis* - thuốc lợi tiểu), Elsewhere - (*Dicentra cucullaria* - thuốc bổ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Row5      | Eschscholzia | Mexico - (*Eschscholzia californica* - buồn ngủ), Turkey - (*Eschscholzia californica* - thuốc giảm đau)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row6      | Fumaria      | Elsewhere - (*Fumaria officinalis* - thuốc nhuận tràng), France - (*Fumaria officinalis* - họ sẽ mở), Iraq - (*Fumaria officinalis* - thuốc gây mật), Turkey - (*Fumaria officinalis* - thuốc gây mật), Elsewhere - (*Fumaria parviflora* - thuốc lợi tiểu), Iraq - (*Fumaria parviflora* - thuốc lợi tiểu), Mexico - (*Fumaria parviflora* - thuốc bổ), Elsewhere - (*Fumaria vaillantii* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Row7      | Glaucium     | Iraq - (*Glaucium corniculatum* - thuốc thanh lọc), Kurdistan - (*Glaucium corniculatum* - thuốc an thần), Turkey - (*Glaucium corniculatum* - thuốc nhuận tràng), Elsewhere - (*Glaucium flavum* - thuốc an thần)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Row8      | Macleaya     | China - (*Macleaya cordata* - thuốc giảm đau), Elsewhere - (*Macleaya cordata* - thuốc trừ sâu), Japan - (*Macleaya cordata* - chất độc)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row9      | Meconopsis   | Elsewhere - (*Meconopsis paniculata* - ma túy)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Row10     | Papaver      | Elsewhere - (*Papaver dubium* - chất độc), Iraq - (*Papaver dubium* - co giật), Australia - (*Papaver nudicaule* - chất độc), Elsewhere - (*Papaver nudicaule* - đổ mồ hôi), Kalmuk - (*Papaver nudicaule* - thuốc an thần), Elsewhere - (*Papaver orientale* - có mùi hôi), China - (*Papaver rhoeas* - thuốc chống ho), Dominican Republic - (*Papaver rhoeas* - ma túy), Elsewhere - (*Papaver rhoeas* - thuốc chống ho), Europe - (*Papaver rhoeas* - thuốc long đờm), India - (*Papaver rhoeas* - ma túy), Iraq - (*Papaver rhoeas* - thuốc long đờm), Turkey - (*Papaver rhoeas* - tiêu hóa), China - (*Papaver somniferum* - thuốc kích thích tình dục), Elsewhere - (*Papaver somniferum* - làm dịu), Europe - (*Papaver somniferum* - thuốc giảm đau), France - (*Papaver somniferum* - thuốc an thần), India - (*Papaver somniferum* - chất gây say), India(Ayurvedic) - (*Papaver somniferum* - thuốc kích thích tình dục), India(Unani) - (*Papaver somniferum* - thuốc kích thích tình dục), Iraq - (*Papaver somniferum* - ma túy), Turkey - (*Papaver somniferum* - chất làm mềm), ain - (*Papaver somniferum* - chất độc) |
+| Row11     | Roemeria     | ain - (*Roemeria argemone* - có mùi hôi)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row12     | Sanguinaria  | Turkey - (*Sanguinaria canadensis* - thuốc kích thích tình dục), US - (*Sanguinaria canadensis* - gây nôn), US(Amerindian) - (*Sanguinaria canadensis* - mỹ phẩm)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Papaveraceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_a_Row0#22", smiles: "Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#24", smiles: "COc1ccc(cc1*)CC2NCCc3c2cccc3" },
+{id: "canvas_a_Row0#26", smiles: "COc1c(*)cc(cc1)CCNCCc2ccccc2" },
+{id: "canvas_a_Row0#27", smiles: "COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C" },
+{id: "canvas_a_Row0#28", smiles: "COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#29", smiles: "c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C" },
+{id: "canvas_a_Row0#30", smiles: "CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C" },
+{id: "canvas_a_Row0#31", smiles: "C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*" },
+{id: "canvas_a_Row0#32", smiles: "O=C(O)c1cc(O)c(c(c1)O)O" },
+{id: "canvas_a_Row0#33", smiles: "*=C(*)c1ccccc1" },
+{id: "canvas_a_Row0#34", smiles: "**C(=*)c1ccccc1" },
+{id: "canvas_a_Row0#35", smiles: "**c1ccccc1" },
+{id: "canvas_a_Row0#36", smiles: "*=Cc1ccccc1" },
+{id: "canvas_a_Row0#37", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#38", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#39", smiles: "**Cc1ccccc1" },
+{id: "canvas_a_Row0#41", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#42", smiles: "C(*)(*)C(O)c1ccccc1" },
+{id: "canvas_a_Row0#43", smiles: "O=C(O)c1ccccc1" },
+{id: "canvas_a_Row0#44", smiles: "*=C(O)c1ccc(c(c1)*)O" },
+{id: "canvas_a_Row0#46", smiles: "c1cccc(c1O)C(=O)O" },
+{id: "canvas_Row0", smiles: "CN1CCc2cc3c(cc2C(=O)Cc2ccc4c(c2C1)OCO4)OCO3" },
+{id: "canvas_Row1", smiles: "c1c2c(cc3c1OCO3)-c1cc3ccc4c(c3c[n+]1CC2)OCO4" },
+{id: "canvas_Row2", smiles: "C[n+]1cc2c3c(ccc2c2ccc4cc5c(cc4c21)OCO5)OCO3" },
+{id: "canvas_Row3", smiles: "COc1ccc2c(c1OC)CN(C)CCc1cc3c(cc1C(=O)C2)OCO3" },
+{id: "canvas_Row4", smiles: "COc1cc2c(cc1O)C1Cc3ccc(OC)c(O)c3CN1CC2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

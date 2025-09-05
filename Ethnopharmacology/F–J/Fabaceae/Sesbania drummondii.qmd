@@ -1,0 +1,185 @@
+---
+title: "Sesbania drummondii"
+subtitle: "Loài Sesbania drummondii (Họ Fabaceae)"
+description: "Loài *Sesbania drummondii* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'us: chất độc'.Từ loài này đã phân lập và xác định được 16 hoạt chất thuộc  về 8 nhóm gồm ?, arylnaphthalene lignans, carboxylic acids and derivatives, diazanaphthalenes, oxepanes, piperidines, prenol lipids, pyridines and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/SesbaniadrummondiiPlant.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Sesbania drummondii", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Sesbania drummondii* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'us: chất độc'.Từ loài này đã phân lập và xác định được 16 hoạt chất thuộc  về 8 nhóm gồm ?, arylnaphthalene lignans, carboxylic acids and derivatives, diazanaphthalenes, oxepanes, piperidines, prenol lipids, pyridines and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Sesbania
+- **Species:** *Sesbania drummondii*
+- **Scientific Name:** *Sesbania drummondii (Rydb.) Cory*  
+- **Mô tả thực vật:** []
+- **Description (EN):** [Sesbania drummondii]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Sesbania - Species: *Sesbania drummondii* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/SesbaniadrummondiiPlant.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344352906/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344352531/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344354600/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344354226/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344352766/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344399012/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344715408/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344715426/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344715457/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345421294/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346294190/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346294754/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346294170/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: United States of America
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['USA'],
+  color: [1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Sesbania drummondii* đã phân lập và xác định được 16 hoạt chất thuộc  về 8 nhóm gồm ?, arylnaphthalene lignans, carboxylic acids and derivatives, diazanaphthalenes, oxepanes, piperidines, prenol lipids, pyridines and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0039170](https://lotus.naturalproducts.net/compound/lotus_id/LTS0039170)</div></div></div>
+<div class="group-title">Arylnaphthalene lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0069069](https://lotus.naturalproducts.net/compound/lotus_id/LTS0069069)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0163462](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163462)</div></div></div>
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0093855](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093855)</div></div></div>
+<div class="group-title">Diazanaphthalenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0275293](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275293)</div></div></div>
+<div class="group-title">Oxepanes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0115612](https://lotus.naturalproducts.net/compound/lotus_id/LTS0115612)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0099548](https://lotus.naturalproducts.net/compound/lotus_id/LTS0099548)</div></div></div>
+<div class="group-title">Piperidines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0224673](https://lotus.naturalproducts.net/compound/lotus_id/LTS0224673)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0260541](https://lotus.naturalproducts.net/compound/lotus_id/LTS0260541)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0225700](https://lotus.naturalproducts.net/compound/lotus_id/LTS0225700)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0052786](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052786)</div></div></div>
+<div class="group-title">Pyridines and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0121851](https://lotus.naturalproducts.net/compound/lotus_id/LTS0121851)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0201670](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201670)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0162104](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162104)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0214335](https://lotus.naturalproducts.net/compound/lotus_id/LTS0214335)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0047018](https://lotus.naturalproducts.net/compound/lotus_id/LTS0047018)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | US              | Chất độc        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1CO[C@](O)([C@@H]2OCO[C@H](C3CC(=O)N=C(O)C3)[C@@H]2O)[C@H]1C" },
+{id: "canvas_Row1", smiles: "COc1cc2cc3c(c(-c4ccc5c(c4)OCO5)c2cc1OC)C(=O)OC3" },
+{id: "canvas_Row2", smiles: "C=C1COC(O)(C(OC)C(O)CC2CC(=O)N=C(O)C2)C1C" },
+{id: "canvas_Row3", smiles: "CC(O)/C=C/C1(O)C2(C)COC1(C)CC(=O)C2" },
+{id: "canvas_Row4", smiles: "CC(=O)C1C[C@]2(O)[C@@]3(C)CO[C@]2(C)CC1(O)C3" },
+{id: "canvas_Row5", smiles: "C=C1CO[C@@](O)([C@@H]2OCO[C@H](C3CC(=O)N=C(O)C3)[C@@H]2O)[C@@H]1C" },
+{id: "canvas_Row6", smiles: "N=C(N)NOCC[C@H](N)C(=O)O" },
+{id: "canvas_Row7", smiles: "COc1ccc(-c2c3c(cc4cc5c(cc24)OCO5)C(=O)OC3)cc1OC" },
+{id: "canvas_Row8", smiles: "C=C1CO[C@@](O)([C@H]2OCOC(C3CC(=O)N=C(O)C3)[C@H]2O)[C@@H]1C" },
+{id: "canvas_Row9", smiles: "C=C1COC(O)(C2OCOC(C3CC(=O)N=C(O)C3)C2O)C1C" },
+{id: "canvas_Row10", smiles: "CC1=CC(=O)CC(C)(C)[C@@]1(O)C=CC(C)O" },
+{id: "canvas_Row11", smiles: "C=C1CO[C@](O)([C@H](OC)[C@H](O)CC2CC(=O)N=C(O)C2)[C@H]1C" },
+{id: "canvas_Row12", smiles: "O=C1N=C(O)c2cnccc2[C@]12CC[C@@H](O)C2" },
+{id: "canvas_Row13", smiles: "C=C1CO[C@](O)([C@@H]2OCO[C@H](C3CC(=O)N=C(O)C3)[C@@H]2O)[C@@H]1C" },
+{id: "canvas_Row14", smiles: "CC1=CC(=O)CC(C)(C)[C@@]1(O)/C=C/[C@@H](C)O" },
+{id: "canvas_Row15", smiles: "CC(O)/C=C/[C@]1(O)[C@]2(C)CO[C@@]1(C)CC(=O)C2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

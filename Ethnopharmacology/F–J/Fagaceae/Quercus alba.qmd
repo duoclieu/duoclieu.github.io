@@ -1,0 +1,168 @@
+---
+title: "Quercus alba"
+subtitle: "Loài Quercus alba (Họ Fagaceae)"
+description: "Loài *Quercus alba* thuộc họ Fagaceae phân bố tại một số vùng trên thế giới như Canada, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'french: thuốc cầm máu', 'german: cầm máu', 'us: chất làm se, chất làm se, thuốc bổ', 'anish: thuốc bổ'.Từ loài này đã phân lập và xác định được 16 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, tannins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/White%20Oak%20Tree%2C%20West%20Hartford%2C%20CT%20-%20June%2017%2C%202013.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Quercus alba", "Fagaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Quercus alba* thuộc họ Fagaceae phân bố tại một số vùng trên thế giới như Canada, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'french: thuốc cầm máu', 'german: cầm máu', 'us: chất làm se, chất làm se, thuốc bổ', 'anish: thuốc bổ'.Từ loài này đã phân lập và xác định được 16 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, tannins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fagales
+- **Family:** Fagaceae
+- **Genus:** Quercus
+- **Species:** *Quercus alba*
+- **Scientific Name:** *Quercus alba L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[eastern white oak, stave oak, white oak]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fagaceae - Genus: Quercus - Species: *Quercus alba* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/White%20Oak%20Tree%2C%20West%20Hartford%2C%20CT%20-%20June%2017%2C%202013.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343917587/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343917639/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343917611/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344007282/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344008408/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344025227/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344129702/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344129534/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Canada, United States of America
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fagaceae",
+  iso3_codes: ['USA', 'CAN'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Quercus alba* đã phân lập và xác định được 16 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, tannins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0116548](https://lotus.naturalproducts.net/compound/lotus_id/LTS0116548)</div></div></div>
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0223685](https://lotus.naturalproducts.net/compound/lotus_id/LTS0223685)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0240500](https://lotus.naturalproducts.net/compound/lotus_id/LTS0240500)</div></div></div>
+<div class="group-title">Tannins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0204098](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204098)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0058171](https://lotus.naturalproducts.net/compound/lotus_id/LTS0058171)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0087689](https://lotus.naturalproducts.net/compound/lotus_id/LTS0087689)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0232126](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232126)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0213725](https://lotus.naturalproducts.net/compound/lotus_id/LTS0213725)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0131190](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131190)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0198666](https://lotus.naturalproducts.net/compound/lotus_id/LTS0198666)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0270125](https://lotus.naturalproducts.net/compound/lotus_id/LTS0270125)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0232120](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232120)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0158965](https://lotus.naturalproducts.net/compound/lotus_id/LTS0158965)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0228955](https://lotus.naturalproducts.net/compound/lotus_id/LTS0228955)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0060522](https://lotus.naturalproducts.net/compound/lotus_id/LTS0060522)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0247655](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247655)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                      |
+|-----------|-----------------|------------------------------------|
+| Row0      | French          | Thuốc cầm máu                      |
+| Row1      | German          | cầm máu                            |
+| Row2      | US              | Chất làm se, Chất làm se, Thuốc bổ |
+| Row3      | anish           | Thuốc bổ                           |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=C(O)c1ccccc1O" },
+{id: "canvas_Row1", smiles: "O=C1OC[C@]2(O)OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@@H]3c3c(O)c(O)c(O)c4c3C(=O)OC[C@@H]3OC(=O)c5cc(O)c(O)c(O)c5-c5c(O)c(O)c(O)c6c5C(=O)O[C@H]([C@H]5OC(=O)c7c-6c(O)c(O)c(O)c7[C@@H]5O)[C@@H]3OC(=O)c3cc(O)c(O)c(O)c3-4)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row2", smiles: "O=C1OC[C@@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@@H]3C(=O)O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row3", smiles: "O=C1OCC2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)OC(C2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O)C1OC(=O)c2c-4c(O)c(O)c(O)c2C1C(=O)O" },
+{id: "canvas_Row4", smiles: "O=C1OC[C@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@@H]3[C@]3(O)OC[C@@H](O)[C@H](O)[C@H]3O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row5", smiles: "O=C1OCC2(O)OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)OC(C3OC(=O)c5c-4c(O)c(O)c(O)c5C3c3c(O)c(O)c(O)c4c3C(=O)OCC3OC(=O)c5cc(O)c(O)c(O)c5-c5c(O)c(O)c(O)c6c5C(=O)OC(C3OC(=O)c3cc(O)c(O)c(O)c3-4)C3OC(=O)c4c-6c(O)c(O)c(O)c4C3O)C2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row6", smiles: "O=C1OC[C@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@H]3O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row7", smiles: "O=C1OC[C@]2(O)OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@@H]3c3c(O)c(O)c(O)c4c3C(=O)OC[C@H]3OC(=O)c5cc(O)c(O)c(O)c5-c5c(O)c(O)c(O)c6c5C(=O)O[C@H]([C@H]5OC(=O)c7c-6c(O)c(O)c(O)c7[C@H]5O)[C@@H]3OC(=O)c3cc(O)c(O)c(O)c3-4)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row8", smiles: "O=C1OC[C@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@@H]3[C@]3(O)OC[C@@H](O)[C@H](O)[C@@H]3O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row9", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCOC(=O)/C=C/c1ccc(O)c(OC)c1" },
+{id: "canvas_Row10", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCOC(=O)C=Cc1ccc(O)c(OC)c1" },
+{id: "canvas_Row11", smiles: "O=C1OC[C@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@H]3[C@@]3(O)OC[C@H](O)[C@@H](O)[C@H]3O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row12", smiles: "O=C1OC[C@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@@H]3O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row13", smiles: "O=C1OCC2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)OC(C2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O)C1OC(=O)c2c-4c(O)c(O)c(O)c2C1C1(O)OCC(O)C(O)C1O" },
+{id: "canvas_Row14", smiles: "O=C1OCC2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)OC(C2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O)C1OC(=O)c2c-4c(O)c(O)c(O)c2C1O" },
+{id: "canvas_Row15", smiles: "O=C1OCC2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)OC([C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O)[C@@H]1OC(=O)c2c-4c(O)c(O)c(O)c2[C@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

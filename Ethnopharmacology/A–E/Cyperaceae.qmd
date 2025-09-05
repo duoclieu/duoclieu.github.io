@@ -1,0 +1,184 @@
+---
+title: Họ Cyperaceae
+subtitle: Họ **Cyperaceae** gồm Cyperus, Eleocharis, Actinoscirpus, Bolboschoenus chi và 11 loài  được sử dụng ở 18vùng lãnh thổ điều trị 14chứng và bệnh.
+description: Họ **Cyperaceae** gồm4 chi và 11loài đã ghi nhận sử dụng làm thuốc tại 18 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất làm se (5 loài), thuốc lợi tiểu (4 loài), emmenagogue (2 loài), đổ mồ hôi (2 loài), có mùi hôi (1 loài) . 05 loài thực vật gồm **Cyperus rotundus* (6 chứng và bệnh), *Cyperus esculentus* (4 chứng và bệnh), *Cyperus pedunculatus* (3 chứng và bệnh), *Actinoscirpus grossus* (2 chứng và bệnh), *Cyperus articulatus* (2 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Cyperus rotundus* ( 208 hoạt chất), *Cyperus longus* ( 79 hoạt chất), *Cyperus articulatus* ( 26 hoạt chất), *Eleocharis dulcis* ( 10 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Cyperus rotundus*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/345611309/original.jpeg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Cyperaceae
+    contents: Cyperaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Cyperaceae có tổng cộng 4  chi và 11 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Cyperaceae"}
+
+| <RowID>   | genus_GIBF    | species_GIBF                                                                                                                        |   Count |
+|-----------|---------------|-------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Row2      | Cyperus       | Cyperus articulatus, Cyperus esculentus, Cyperus iria, Cyperus longus, Cyperus rotundus, Cyperus sesquiflorus, Cyperus pedunculatus |       7 |
+| Row3      | Eleocharis    | Eleocharis dulcis, Eleocharis geniculata                                                                                            |       2 |
+| Row0      | Actinoscirpus | Actinoscirpus grossus                                                                                                               |       1 |
+| Row1      | Bolboschoenus | Bolboschoenus maritimus                                                                                                             |       1 |
+
+:::
+
+Phân bố họ trên thế giới: nan, Benin, Israel, Curaçao, Kenya, Mayotte, Seychelles, Ghana, Egypt, Guadeloupe, French Guiana, Mexico, Gabon, Colombia, Réunion, South Africa, Angola, Eswatini, Madagascar, Nigeria, Mozambique, India, Brazil, Costa Rica, Peru, Argentina, Zimbabwe, United States of America, Nicaragua, Botswana, France, Germany, Switzerland, Netherlands, Portugal, Russian Federation, Italy, Slovenia, New Zealand, Canada, Iran (Islamic Republic of), Austria, Belgium, Korea, Republic of, Singapore, Chinese Taipei, Japan, Australia, Indonesia, Thailand, Philippines, China, Malaysia, Ecuador, Puerto Rico, El Salvador, Czechia, Hungary, Spain, Palestine, State of, United Kingdom of Great Britain and Northern Ireland, Iraq, Guernsey, Croatia, Denmark, Turks and Caicos Islands, Algeria, Guam, Morocco, Hong Kong, Uruguay, New Caledonia, Solomon Islands, Tonga, Timor-Leste, Guinea, Togo, Sierra Leone, Dominican Republic, Liberia, British Indian Ocean Territory, Panama, Equatorial Guinea, Côte d’Ivoire, Belize, Myanmar, Papua New Guinea, unknown or invalid, Cambodia, Bangladesh, Sri Lanka, Lao People’s Democratic Republic, Viet Nam
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Cyperaceae",
+  iso3_codes: ['MOZ', 'NZL', 'IND', 'GAB', 'AGO', 'HKG', 'CHN', 'URY', 'PRI', 'AUS', 'GNQ', 'PER', 'BEL', 'ARG', 'CHE', 'CZE', 'MYT', 'HRV', 'NIC', 'TON', 'DEU', 'PRT', 'BWA', 'SLE', 'GUM', 'GBR', 'BRA', 'USA', 'GGY', 'ISR', 'LKA', 'THA', 'REU', 'DOM', 'COL', 'KHM', 'BGD', 'MDG', 'AUT', 'NGA', 'TGO', 'TCA', 'PAN', 'MEX', 'JPN', 'SGP', 'TLS', 'ZWE', 'LBR', 'PHL', 'BLZ', 'IDN', 'EGY', 'IOT', 'IRQ', 'ECU', 'SLV', 'GLP', 'VNM', 'GUF', 'MMR', 'MYS', 'CAN', 'NCL', 'MAR', 'KEN', 'ESP', 'SLB', 'PNG', 'SVN', 'DZA', 'CUW', 'SYC', 'RUS', 'HUN', 'ZAF', 'GHA', 'NLD', 'CRI', 'SWZ', 'FRA', 'ITA', 'GIN', 'DNK', 'BEN'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Cyperaceae** có tổng cộng 4  chi và 11 loài.đã phân lập và xác định được 574 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Cyperaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0017052</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0077168</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0271018</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0218726</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0269823</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#22" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Cyperaceae** đã được một số công động tại các quốc gia như *Africa, Elsewhere, China, Egypt, Mexico, Nigeria, India, Iran, Japan*, Java, Sanscrit, Sudan, Turkey, Argentina, Venezuela, Brazil, Guyana, India(Hindu)* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc xông khói, thuốc an thần, chất làm se, thuốc kích thích tình dục, đổ mồ hôi, chất tạo ngọt, thuốc lợi tiểu, diệt khuẩn, nước hoa, emmenagogue, thuốc tống hơi, kháng sinh, dạ dày, có mùi hôi*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Cyperus rotundus* (6 chứng và bệnh), *Cyperus esculentus* (4 chứng và bệnh), *Cyperus pedunculatus* (3 chứng và bệnh), *Actinoscirpus grossus* (2 chứng và bệnh), *Cyperus articulatus* (2 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Cyperaceae** có thể điều trị là chất làm se (5 loài), thuốc lợi tiểu (4 loài), emmenagogue (2 loài), đổ mồ hôi (2 loài), có mùi hôi (1 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Cyperaceae"}
+| <RowID>   | genus_GIBF    | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|-----------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Actinoscirpus | Elsewhere - (*Actinoscirpus grossus* - chất làm se), India - (*Actinoscirpus grossus* - thuốc lợi tiểu), India(Hindu) - (*Actinoscirpus grossus* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row1      | Bolboschoenus | China - (*Bolboschoenus maritimus* - emmenagogue)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Row2      | Cyperus       | Africa - (*Cyperus articulatus* - thuốc xông khói), Elsewhere - (*Cyperus articulatus* - thuốc an thần), China - (*Cyperus esculentus* - chất làm se), Egypt - (*Cyperus esculentus* - thuốc kích thích tình dục), Mexico - (*Cyperus esculentus* - đổ mồ hôi), Nigeria - (*Cyperus esculentus* - chất tạo ngọt), India - (*Cyperus iria* - chất làm se), Egypt - (*Cyperus longus* - thuốc lợi tiểu), Brazil - (*Cyperus pedunculatus* - có mùi hôi), Elsewhere - (*Cyperus pedunculatus* - chất làm se), Guyana - (*Cyperus pedunculatus* - thuốc lợi tiểu), China - (*Cyperus rotundus* - diệt khuẩn, emmenagogue), Egypt - (*Cyperus rotundus* - thuốc lợi tiểu), Elsewhere - (*Cyperus rotundus* - chất làm se), India - (*Cyperus rotundus* - chất làm se), Iran - (*Cyperus rotundus* - nước hoa), Japan* - (*Cyperus rotundus* - emmenagogue), Java - (*Cyperus rotundus* - thuốc lợi tiểu), Sanscrit - (*Cyperus rotundus* - chất làm se), Sudan - (*Cyperus rotundus* - đổ mồ hôi), Turkey - (*Cyperus rotundus* - chất làm se), Argentina - (*Cyperus sesquiflorus* - thuốc tống hơi) |
+| Row3      | Eleocharis    | India - (*Eleocharis dulcis* - kháng sinh), Venezuela - (*Eleocharis geniculata* - dạ dày)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Cyperaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_a_Row0#22", smiles: "Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_Row0", smiles: "O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row1", smiles: "Oc1cc(O)c2cc(O)c(-c3ccc(O)c(O)c3)[o+]c2c1" },
+{id: "canvas_Row2", smiles: "COc1cc(-c2cc(=O)c3c(O)cc(O)cc3o2)cc(OC)c1O" },
+{id: "canvas_Row3", smiles: "[O-]c1cc2c(O)cc(O)cc2[o+]c1-c1ccc(O)cc1" },
+{id: "canvas_Row4", smiles: "Oc1ccc(-c2[o+]c3cc(O)cc(O)c3cc2O)cc1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

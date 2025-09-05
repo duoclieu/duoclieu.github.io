@@ -1,0 +1,186 @@
+---
+title: "Thamnosma montana"
+subtitle: "Loài Thamnosma montana (Họ Rutaceae)"
+description: "Loài *Thamnosma montana* thuộc họ Rutaceae phân bố tại một số vùng trên thế giới như United States of America, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: thuốc bổ'.Từ loài này đã phân lập và xác định được 33 hoạt chất thuộc  về 3 nhóm gồm coumarins and derivatives, quinolines and derivatives, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Thamnosma%20montana%204.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Thamnosma montana", "Rutaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Thamnosma montana* thuộc họ Rutaceae phân bố tại một số vùng trên thế giới như United States of America, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: thuốc bổ'.Từ loài này đã phân lập và xác định được 33 hoạt chất thuộc  về 3 nhóm gồm coumarins and derivatives, quinolines and derivatives, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Rutaceae
+- **Genus:** Thamnosma
+- **Species:** *Thamnosma montana*
+- **Scientific Name:** *Thamnosma montana Torr. & Frém.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rutaceae - Genus: Thamnosma - Species: *Thamnosma montana* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Thamnosma%20montana%204.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346496987/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346496996/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347842656/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348042615/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348389899/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348389953/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348389922/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348389874/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348701629/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348693019/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: United States of America, Mexico
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rutaceae",
+  iso3_codes: ['USA', 'MEX'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Thamnosma montana* đã phân lập và xác định được 33 hoạt chất thuộc  về 3 nhóm gồm coumarins and derivatives, quinolines and derivatives, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0015558](https://lotus.naturalproducts.net/compound/lotus_id/LTS0015558)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0050427](https://lotus.naturalproducts.net/compound/lotus_id/LTS0050427)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0167350](https://lotus.naturalproducts.net/compound/lotus_id/LTS0167350)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0166000](https://lotus.naturalproducts.net/compound/lotus_id/LTS0166000)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0141363](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141363)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0163534](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163534)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0113276](https://lotus.naturalproducts.net/compound/lotus_id/LTS0113276)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0074208](https://lotus.naturalproducts.net/compound/lotus_id/LTS0074208)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0002930](https://lotus.naturalproducts.net/compound/lotus_id/LTS0002930)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0015143](https://lotus.naturalproducts.net/compound/lotus_id/LTS0015143)</div></div></div>
+<div class="group-title">Quinolines and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0126812](https://lotus.naturalproducts.net/compound/lotus_id/LTS0126812)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0194389](https://lotus.naturalproducts.net/compound/lotus_id/LTS0194389)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0193492](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193492)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0129333](https://lotus.naturalproducts.net/compound/lotus_id/LTS0129333)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0149385](https://lotus.naturalproducts.net/compound/lotus_id/LTS0149385)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0091404](https://lotus.naturalproducts.net/compound/lotus_id/LTS0091404)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0127873](https://lotus.naturalproducts.net/compound/lotus_id/LTS0127873)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0141704](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141704)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0166680](https://lotus.naturalproducts.net/compound/lotus_id/LTS0166680)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0138349](https://lotus.naturalproducts.net/compound/lotus_id/LTS0138349)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0156697](https://lotus.naturalproducts.net/compound/lotus_id/LTS0156697)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0109975](https://lotus.naturalproducts.net/compound/lotus_id/LTS0109975)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0093417](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093417)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0067249](https://lotus.naturalproducts.net/compound/lotus_id/LTS0067249)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0058110](https://lotus.naturalproducts.net/compound/lotus_id/LTS0058110)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0052211](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052211)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0038048](https://lotus.naturalproducts.net/compound/lotus_id/LTS0038048)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0004883](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004883)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0012795](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012795)</div></div> <div class="molecule-box"> <canvas id="canvas_Row31" width="150" height="150"></canvas> <div class="mol-name">[LTS0005427](https://lotus.naturalproducts.net/compound/lotus_id/LTS0005427)</div></div> <div class="molecule-box"> <canvas id="canvas_Row32" width="150" height="150"></canvas> <div class="mol-name">[LTS0246503](https://lotus.naturalproducts.net/compound/lotus_id/LTS0246503)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0204616](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204616)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0129695](https://lotus.naturalproducts.net/compound/lotus_id/LTS0129695)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Mexico          | Thuốc bổ        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row1", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@@H]3CC[C@]12C)C(C)C" },
+{id: "canvas_Row2", smiles: "COc1c2ccoc2c(OC)c2oc(=O)ccc12" },
+{id: "canvas_Row3", smiles: "C=C(CO)[C@H]1Cc2c(cc(O)c3c(=O)c4ccccc4n(C)c23)O1" },
+{id: "canvas_Row4", smiles: "Cn1c2ccccc2c(=O)c2ccccc21" },
+{id: "canvas_Row5", smiles: "O=c1c2ccccc2[nH]c2ccccc12" },
+{id: "canvas_Row6", smiles: "CC(=O)C1Cc2c(cc(O)c3c(=O)c4ccccc4n(C)c23)O1" },
+{id: "canvas_Row7", smiles: "COc1c2occc2c(C[C@H](O)C(C)(C)O)c2ccc(=O)oc12" },
+{id: "canvas_Row8", smiles: "COc1cc2oc(=O)ccc2cc1C=CC1(C)CCC(C)=CC1c1cc2ccc(=O)oc2cc1OC" },
+{id: "canvas_Row9", smiles: "CC(=O)[C@H]1Cc2c(cc(O)c3c(=O)c4ccccc4n(C)c23)O1" },
+{id: "canvas_Row10", smiles: "COc1ccc2c(OC)c3ccoc3nc2c1OC" },
+{id: "canvas_Row11", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)CC(C(O)(CO)CO)O3" },
+{id: "canvas_Row12", smiles: "CC(=O)c1cc2c(cc(O)c3c(=O)c4ccccc4n(C)c32)o1" },
+{id: "canvas_Row13", smiles: "C=C(C)[C@H]1Cc2c(cc(O)c3c(=O)c4ccccc4n(C)c23)O1" },
+{id: "canvas_Row14", smiles: "COc1c2ccoc2c(OC[C@@H](O)C(C)(C)O)c2oc(=O)ccc12" },
+{id: "canvas_Row15", smiles: "COc1cc2oc(=O)ccc2cc1/C=C/C1(C)CCC(C)=CC1c1cc2ccc(=O)oc2cc1OC" },
+{id: "canvas_Row16", smiles: "COc1cc(O)c2c(=O)c3ccccc3n(C)c2c1" },
+{id: "canvas_Row17", smiles: "COc1c2ccoc2nc2c(OC)cccc12" },
+{id: "canvas_Row18", smiles: "COc1c2ccoc2c(OCC(O)C(C)(C)O)c2oc(=O)ccc12" },
+{id: "canvas_Row19", smiles: "COc1cc2oc(=O)ccc2cc1/C=C/[C@]1(C)CCC(C)=C[C@H]1c1cc2ccc(=O)oc2cc1OC" },
+{id: "canvas_Row20", smiles: "C=C(C)C1Cc2c(cc(O)c3c(=O)c4ccccc4n(C)c23)O1" },
+{id: "canvas_Row21", smiles: "COc1c2ccoc2nc2c(O)cccc12" },
+{id: "canvas_Row22", smiles: "COc1c2occc2c(CC(O)C(C)(C)O)c2ccc(=O)oc12" },
+{id: "canvas_Row23", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)C[C@H](C(O)(CO)CO)O3" },
+{id: "canvas_Row24", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)C[C@H]([C@]1(C)CO1)O3" },
+{id: "canvas_Row25", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)C[C@@H]([C@@](C)(O)CCl)O3" },
+{id: "canvas_Row26", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)C[C@H]([C@@](C)(O)CO)O3" },
+{id: "canvas_Row27", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)CC(C(C)(O)CCl)O3" },
+{id: "canvas_Row28", smiles: "COc1c2occc2c(C(O)C(O)C(C)(C)O)c2ccc(=O)oc12" },
+{id: "canvas_Row29", smiles: "C=C(C)C(O)C(O)c1cc2ccc(=O)oc2cc1OC" },
+{id: "canvas_Row30", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)CC(C(C)(O)CO)O3" },
+{id: "canvas_Row31", smiles: "C=C(CO)C1Cc2c(cc(O)c3c(=O)c4ccccc4n(C)c23)O1" },
+{id: "canvas_Row32", smiles: "Cn1c2ccccc2c(=O)c2c(O)cc3c(c21)CC(C1(C)CO1)O3" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

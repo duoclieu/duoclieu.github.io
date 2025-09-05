@@ -1,0 +1,171 @@
+---
+title: "Rhododendron lepidotum"
+subtitle: "Loài Rhododendron lepidotum (Họ Ericaceae)"
+description: "Loài *Rhododendron lepidotum* thuộc họ Ericaceae phân bố tại một số vùng trên thế giới như United States of America, China, Pakistan, Canada, India, Nepal, Bhutan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất kích thích'.Từ loài này đã phân lập và xác định được 20 hoạt chất thuộc  về 3 nhóm gồm coumarins and derivatives, flavonoids, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Whf%20pink%2002.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Rhododendron lepidotum", "Ericaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Rhododendron lepidotum* thuộc họ Ericaceae phân bố tại một số vùng trên thế giới như United States of America, China, Pakistan, Canada, India, Nepal, Bhutan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất kích thích'.Từ loài này đã phân lập và xác định được 20 hoạt chất thuộc  về 3 nhóm gồm coumarins and derivatives, flavonoids, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ericales
+- **Family:** Ericaceae
+- **Genus:** Rhododendron
+- **Species:** *Rhododendron lepidotum*
+- **Scientific Name:** *Rhododendron lepidotum Wall.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Ericaceae - Genus: Rhododendron - Species: *Rhododendron lepidotum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Whf%20pink%2002.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/392255012/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/392256403/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/392255281/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/392255994/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/392256737/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/393259733/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/393259752/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/394846047/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/395595440/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: United States of America, China, Pakistan, Canada, India, Nepal, Bhutan
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Ericaceae",
+  iso3_codes: ['NPL', 'CHN', 'PAK', 'USA', 'BTN', 'IND', 'CAN'],
+  color: [1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Rhododendron lepidotum* đã phân lập và xác định được 20 hoạt chất thuộc  về 3 nhóm gồm coumarins and derivatives, flavonoids, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0133897](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133897)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0205061](https://lotus.naturalproducts.net/compound/lotus_id/LTS0205061)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0223763](https://lotus.naturalproducts.net/compound/lotus_id/LTS0223763)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0176360](https://lotus.naturalproducts.net/compound/lotus_id/LTS0176360)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0160083](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160083)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0162728](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162728)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0245569](https://lotus.naturalproducts.net/compound/lotus_id/LTS0245569)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0105594](https://lotus.naturalproducts.net/compound/lotus_id/LTS0105594)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0230367](https://lotus.naturalproducts.net/compound/lotus_id/LTS0230367)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0055986](https://lotus.naturalproducts.net/compound/lotus_id/LTS0055986)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0033709](https://lotus.naturalproducts.net/compound/lotus_id/LTS0033709)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0086991](https://lotus.naturalproducts.net/compound/lotus_id/LTS0086991)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0044241](https://lotus.naturalproducts.net/compound/lotus_id/LTS0044241)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0173239](https://lotus.naturalproducts.net/compound/lotus_id/LTS0173239)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0117550](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117550)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0132416](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132416)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0203280](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203280)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0085212](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085212)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0222498](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222498)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0131870](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131870)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Chất kích thích |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=c1ccc2ccc(O)c(O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)c2o1" },
+{id: "canvas_Row1", smiles: "O=c1ccc2c(OC3OC(CO)C(O)C(O)C3O)ccc(O)c2o1" },
+{id: "canvas_Row2", smiles: "COc1ccc(-c2cc(=O)c3c(O[C@H]4O[C@@H](C)[C@H](O)[C@@H](O)[C@H]4O)cccc3o2)cc1OC(C)=O" },
+{id: "canvas_Row3", smiles: "COc1c(O[C@H]2O[C@H](CO)[C@@H](O)[C@H]2O)ccc2ccc(=O)oc12" },
+{id: "canvas_Row4", smiles: "O=c1ccc2ccc(O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)c(O)c2o1" },
+{id: "canvas_Row5", smiles: "C=C1CCC2CC1C2(C)C" },
+{id: "canvas_Row6", smiles: "CC1=CCC2CC1C2(C)C" },
+{id: "canvas_Row7", smiles: "C=C1CCC[C@]2(C)CC[C@@H](C(C)(C)O)C[C@@H]12" },
+{id: "canvas_Row8", smiles: "O=c1ccc2ccc(O)c(O)c2o1" },
+{id: "canvas_Row9", smiles: "O=c1ccc2ccc(O)cc2o1" },
+{id: "canvas_Row10", smiles: "O=c1ccc2c(O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)ccc(O)c2o1" },
+{id: "canvas_Row11", smiles: "COc1c(OC2OC(CO)C(O)C2O)ccc2ccc(=O)oc12" },
+{id: "canvas_Row12", smiles: "C=C1CC/C=C(\C)CC[C@@H]2[C@@H]1CC2(C)C" },
+{id: "canvas_Row13", smiles: "CC1=CCC[C@]2(C)CC[C@@H](C(C)(C)O)C[C@@H]12" },
+{id: "canvas_Row14", smiles: "COc1c(OC2OC(CO)C(O)C(O)C2O)ccc2ccc(=O)oc12" },
+{id: "canvas_Row15", smiles: "CC(=O)Oc1ccc2ccc(=O)oc2c1C" },
+{id: "canvas_Row16", smiles: "COc1c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc2ccc(=O)oc12" },
+{id: "canvas_Row17", smiles: "C=C1CC/C=C(\C)CCC2C1CC2(C)C" },
+{id: "canvas_Row18", smiles: "O=c1ccc2ccc(O)c(O[C@@H]3O[C@H](CO)[C@@H](O)[C@@H](O)[C@H]3O)c2o1" },
+{id: "canvas_Row19", smiles: "O=c1ccc2ccc(O)c(OC3OC(CO)C(O)C(O)C3O)c2o1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,166 @@
+---
+title: "Patrinia villosa"
+subtitle: "Loài Patrinia villosa (Họ Caprifoliaceae)"
+description: "Loài *Patrinia villosa* thuộc họ Caprifoliaceae phân bố tại một số vùng trên thế giới như United States of America, Chinese Taipei, China, Japan, Korea, Republic of, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc giải độc'.Từ loài này đã phân lập và xác định được 9 hoạt chất thuộc  về 5 nhóm gồm fatty acyls, indoles and derivatives, isoflavonoids, linear 1,3-diarylpropanoids, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Patrinia%20villosa%200807.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Patrinia villosa", "Caprifoliaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Patrinia villosa* thuộc họ Caprifoliaceae phân bố tại một số vùng trên thế giới như United States of America, Chinese Taipei, China, Japan, Korea, Republic of, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc giải độc'.Từ loài này đã phân lập và xác định được 9 hoạt chất thuộc  về 5 nhóm gồm fatty acyls, indoles and derivatives, isoflavonoids, linear 1,3-diarylpropanoids, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Dipsacales
+- **Family:** Caprifoliaceae
+- **Genus:** Patrinia
+- **Species:** *Patrinia villosa*
+- **Scientific Name:** *Patrinia villosa (Thunb.) Juss.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Valerianaceae - Genus: Patrinia - Species: *Patrinia villosa* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Patrinia%20villosa%200807.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352979645/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352979650/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352979653/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356994929/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356994940/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356994932/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359471277/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/388515529/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/390207523/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/390207473/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: United States of America, Chinese Taipei, China, Japan, Korea, Republic of, Belgium
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Caprifoliaceae",
+  iso3_codes: ['JPN', 'USA', 'BEL', 'CHN'],
+  color: [1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Patrinia villosa* đã phân lập và xác định được 9 hoạt chất thuộc  về 5 nhóm gồm fatty acyls, indoles and derivatives, isoflavonoids, linear 1,3-diarylpropanoids, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div></div>
+<div class="group-title">Indoles and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0137179](https://lotus.naturalproducts.net/compound/lotus_id/LTS0137179)</div></div></div>
+<div class="group-title">Isoflavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0262376](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262376)</div></div></div>
+<div class="group-title">Linear 1,3-diarylpropanoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0020333](https://lotus.naturalproducts.net/compound/lotus_id/LTS0020333)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0117717](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117717)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0170127](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170127)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0155351](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155351)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0155830](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155830)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0192197](https://lotus.naturalproducts.net/compound/lotus_id/LTS0192197)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | China           | Thuốc giải độc  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2C1" },
+{id: "canvas_Row1", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row2", smiles: "COc1c(/C=C/C(=O)c2ccc(O)cc2)ccc2c1C=CC(C)(C)O2" },
+{id: "canvas_Row3", smiles: "O=Cc1c[nH]c2ccccc12" },
+{id: "canvas_Row4", smiles: "CC1C(=O)OCC2C1CC(O)C2(C)OC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row5", smiles: "C[C@H]1C(=O)OCC2C1C[C@H](O)[C@@]2(C)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row6", smiles: "C[C@H]1C(=O)OCC2C1C[C@H](O)[C@@]2(C)O" },
+{id: "canvas_Row7", smiles: "C[C@H]1CC[C@@H]2[C@@H](CO[C@@H]3O[C@H](CO)[C@@H](O)[C@@H](O)[C@@H]3O)COC(=O)[C@H]12" },
+{id: "canvas_Row8", smiles: "C=C(C)C1Cc2c(cc(O)c3c(=O)c4c(oc23)COc2cc(OC)c(OC)cc2-4)O1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

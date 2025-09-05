@@ -1,0 +1,179 @@
+---
+title: "Prunus mahaleb"
+subtitle: "Loài Prunus mahaleb (Họ Rosaceae)"
+description: "Loài *Prunus mahaleb* thuộc họ Rosaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Hungary, Spain, Poland, Sweden, Montenegro, Russian Federation, Romania, Uzbekistan, Argentina, Ukraine, Türkiye, Slovakia, Serbia, United States of America, Croatia, Italy, Slovenia, New Zealand, Iran (Islamic Republic of), Austria, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc trừ sâu', 'iraq: chất độc', 'turkey: thuốc lợi tiểu, nước hoa, dạ dày, thuốc bổ'.Từ loài này đã phân lập và xác định được 14 hoạt chất thuộc  về 6 nhóm gồm 3,4-dihydrocoumarins, coumarins and derivatives, lupin alkaloids, organonitrogen compounds, organooxygen compounds, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Pmahaleb%20fruit.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Prunus mahaleb", "Rosaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Prunus mahaleb* thuộc họ Rosaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Hungary, Spain, Poland, Sweden, Montenegro, Russian Federation, Romania, Uzbekistan, Argentina, Ukraine, Türkiye, Slovakia, Serbia, United States of America, Croatia, Italy, Slovenia, New Zealand, Iran (Islamic Republic of), Austria, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc trừ sâu', 'iraq: chất độc', 'turkey: thuốc lợi tiểu, nước hoa, dạ dày, thuốc bổ'.Từ loài này đã phân lập và xác định được 14 hoạt chất thuộc  về 6 nhóm gồm 3,4-dihydrocoumarins, coumarins and derivatives, lupin alkaloids, organonitrogen compounds, organooxygen compounds, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Rosales
+- **Family:** Rosaceae
+- **Genus:** Prunus
+- **Species:** *Prunus mahaleb*
+- **Scientific Name:** *Prunus mahaleb L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[, ]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rosaceae - Genus: Prunus - Species: *Prunus mahaleb* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Pmahaleb%20fruit.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Prunus%20mahaleb2.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344434746/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344434735/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344434757/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344434777/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344434789/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344434766/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347612689/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349695744/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351046896/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351046888/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/388489066/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Germany, Switzerland, Czechia, Netherlands, Hungary, Spain, Poland, Sweden, Montenegro, Russian Federation, Romania, Uzbekistan, Argentina, Ukraine, Türkiye, Slovakia, Serbia, United States of America, Croatia, Italy, Slovenia, New Zealand, Iran (Islamic Republic of), Austria, Luxembourg
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rosaceae",
+  iso3_codes: ['NZL', 'ARG', 'NLD', 'RUS', 'MNE', 'LUX', 'UKR', 'CZE', 'TUR', 'USA', 'AUT', 'POL', 'SVK', 'CHE', 'ITA', 'UZB', 'DEU', 'FRA', 'HRV', 'SRB', 'HUN', 'ESP', 'SVN', 'SWE', 'ROU'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Prunus mahaleb* đã phân lập và xác định được 14 hoạt chất thuộc  về 6 nhóm gồm 3,4-dihydrocoumarins, coumarins and derivatives, lupin alkaloids, organonitrogen compounds, organooxygen compounds, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">3,4-dihydrocoumarins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0150185](https://lotus.naturalproducts.net/compound/lotus_id/LTS0150185)</div></div></div>
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0069773](https://lotus.naturalproducts.net/compound/lotus_id/LTS0069773)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0162728](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162728)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0005886](https://lotus.naturalproducts.net/compound/lotus_id/LTS0005886)</div></div></div>
+<div class="group-title">Lupin alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0218994](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218994)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0042917](https://lotus.naturalproducts.net/compound/lotus_id/LTS0042917)</div></div></div>
+<div class="group-title">Organonitrogen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0170307](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170307)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0220157](https://lotus.naturalproducts.net/compound/lotus_id/LTS0220157)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0217561](https://lotus.naturalproducts.net/compound/lotus_id/LTS0217561)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0195697](https://lotus.naturalproducts.net/compound/lotus_id/LTS0195697)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0165607](https://lotus.naturalproducts.net/compound/lotus_id/LTS0165607)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0046755](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046755)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0068175](https://lotus.naturalproducts.net/compound/lotus_id/LTS0068175)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0052341](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052341)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                              |
+|-----------|-----------------|--------------------------------------------|
+| Row0      | Elsewhere       | Thuốc trừ sâu                              |
+| Row1      | Iraq            | Chất độc                                   |
+| Row2      | Turkey          | Thuốc lợi tiểu, Nước hoa, dạ dày, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C1CCN2CC3CC(CN4CCCC[C@H]34)[C@@H]2C1" },
+{id: "canvas_Row1", smiles: "O=c1ccc2ccccc2o1" },
+{id: "canvas_Row2", smiles: "O=C1CCc2ccccc2O1" },
+{id: "canvas_Row3", smiles: "C[N+](C)(C)CCO" },
+{id: "canvas_Row4", smiles: "C1CCN2C[C@@H]3C[C@@H](CN4CCCC[C@H]34)[C@@H]2C1" },
+{id: "canvas_Row5", smiles: "O=c1ccc2ccc(O)cc2o1" },
+{id: "canvas_Row6", smiles: "CC(C)C(C)CCC(C)C1CCC2C3CC=C4CC(OC5(C)C(C)(CO)OC(C)(O)C(C)(O)C5(C)O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row7", smiles: "OC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO" },
+{id: "canvas_Row8", smiles: "CC(C)C(C)CCC(C)C1CCC2C3CC=C4CC(OC(=O)c5ccccc5)CCC4(C)C3CCC12C" },
+{id: "canvas_Row9", smiles: "CC(C)[C@H](C)CC[C@@H](C)[C@@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@@H]3CC[C@]21C" },
+{id: "canvas_Row10", smiles: "CC(C)C(C)CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row11", smiles: "CC(C)[C@H](C)CC[C@@H](C)[C@@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](OC(=O)c5ccccc5)CC[C@]4(C)[C@@H]3CC[C@]21C" },
+{id: "canvas_Row12", smiles: "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@@H]2[C@H]3CC=C4C[C@@H](O[C@@]5(C)[C@](C)(CO)O[C@](C)(O)[C@@](C)(O)[C@@]5(C)O)CC[C@@]4(C)[C@@H]3CC[C@]12C" },
+{id: "canvas_Row13", smiles: "COc1ccc2ccc(=O)oc2c1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

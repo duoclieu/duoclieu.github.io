@@ -1,0 +1,180 @@
+---
+title: "Yucca aloifolia"
+subtitle: "Loài Yucca aloifolia (Họ Asparagaceae)"
+description: "Loài *Yucca aloifolia* thuộc họ Asparagaceae phân bố tại một số vùng trên thế giới như Israel, Saint Lucia, Bahamas, Spain, Mexico, Bonaire, Sint Eustatius and Saba, South Africa, Australia, Virgin Islands (U.S.), Portugal, Saint Kitts and Nevis, Brazil, Namibia, United States of America, Lesotho, Bermuda, Italy, Puerto Rico, Cyprus. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dominican republic: thuốc lợi tiểu', 'elsewhere: thuốc nhuận tràng', 'haiti: thuốc lợi tiểu', 'mexico: xà phòng, xà phòng'.Từ loài này đã phân lập và xác định được 22 hoạt chất thuộc  về 2 nhóm gồm prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Yucca-aloifolia-20071002-2.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Yucca aloifolia", "Asparagaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Yucca aloifolia* thuộc họ Asparagaceae phân bố tại một số vùng trên thế giới như Israel, Saint Lucia, Bahamas, Spain, Mexico, Bonaire, Sint Eustatius and Saba, South Africa, Australia, Virgin Islands (U.S.), Portugal, Saint Kitts and Nevis, Brazil, Namibia, United States of America, Lesotho, Bermuda, Italy, Puerto Rico, Cyprus. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dominican republic: thuốc lợi tiểu', 'elsewhere: thuốc nhuận tràng', 'haiti: thuốc lợi tiểu', 'mexico: xà phòng, xà phòng'.Từ loài này đã phân lập và xác định được 22 hoạt chất thuộc  về 2 nhóm gồm prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asparagales
+- **Family:** Asparagaceae
+- **Genus:** Yucca
+- **Species:** *Yucca aloifolia*
+- **Scientific Name:** *Yucca aloifolia L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[Roman Candle, Adam's Needle, Palm Lily, Spanish Dagger/Bayonet, Roman Candle, Adam's Needle, Palm Lily, Spanish Dagger/Bayonet]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Agavaceae - Genus: Yucca - Species: *Yucca aloifolia* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Yucca-aloifolia-20071002-2.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Yucca%20aloifolia%204.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344094750/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344094788/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344094838/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344094908/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344094803/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344094874/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344228850/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344228866/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344456200/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344458814/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344672768/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Israel, Saint Lucia, Bahamas, Spain, Mexico, Bonaire, Sint Eustatius and Saba, South Africa, Australia, Virgin Islands (U.S.), Portugal, Saint Kitts and Nevis, Brazil, Namibia, United States of America, Lesotho, Bermuda, Italy, Puerto Rico, Cyprus
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Asparagaceae",
+  iso3_codes: ['USA', 'AUS', 'PRT', 'KNA', 'PRI', 'CYP', 'NAM', 'MEX', 'ISR', 'ZAF', 'BHS', 'LSO', 'LCA', 'BMU', 'BRA', 'ITA', 'ESP'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Yucca aloifolia* đã phân lập và xác định được 22 hoạt chất thuộc  về 2 nhóm gồm prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0081778](https://lotus.naturalproducts.net/compound/lotus_id/LTS0081778)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0221000](https://lotus.naturalproducts.net/compound/lotus_id/LTS0221000)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0097310](https://lotus.naturalproducts.net/compound/lotus_id/LTS0097310)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0193084](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193084)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0149297](https://lotus.naturalproducts.net/compound/lotus_id/LTS0149297)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0131508](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131508)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0057356](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057356)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0238005](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238005)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0000023](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000023)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0020004](https://lotus.naturalproducts.net/compound/lotus_id/LTS0020004)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0217642](https://lotus.naturalproducts.net/compound/lotus_id/LTS0217642)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0175616](https://lotus.naturalproducts.net/compound/lotus_id/LTS0175616)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0206318](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206318)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0140032](https://lotus.naturalproducts.net/compound/lotus_id/LTS0140032)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0163061](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163061)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0182960](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182960)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0229786](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229786)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0007175](https://lotus.naturalproducts.net/compound/lotus_id/LTS0007175)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0048044](https://lotus.naturalproducts.net/compound/lotus_id/LTS0048044)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0039551](https://lotus.naturalproducts.net/compound/lotus_id/LTS0039551)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0018055](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018055)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0105751](https://lotus.naturalproducts.net/compound/lotus_id/LTS0105751)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ      | Chứng và bệnh      |
+|-----------|--------------------|--------------------|
+| Row0      | Dominican Republic | Thuốc lợi tiểu     |
+| Row1      | Elsewhere          | Thuốc nhuận tràng  |
+| Row2      | Haiti              | Thuốc lợi tiểu     |
+| Row3      | Mexico             | Xà phòng, Xà phòng |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4C[C@H](O)[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row1", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O[C@@H]7OC[C@@H](O)[C@H](O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@H]8OC[C@H](O)[C@@H](O)[C@@H]8O)[C@H]7O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row2", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC(=O)[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row3", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row4", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row5", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(O)C(O)CC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row6", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(O)CCC5(C)C4CC(=O)C3(C)C1C2C" },
+{id: "canvas_Row7", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(OC8OC(CO)C(OC9OC(C)C(O)C(O)C9O)C(O)C8O)C7OC7OC(CO)C(O)C(OC8OC(CO)C(O)C(O)C8O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row8", smiles: "C[C@@H]1O[C@@H](O[C@H]2[C@H](O)CO[C@@H](O[C@H]3[C@H](O[C@H]4[C@H](O)[C@@H](CO)O[C@@H](O[C@@H]5C[C@@H]6CC[C@@H]7[C@H](CC[C@@]8(C)[C@H]7C[C@@H]7O[C@]9(CC[C@@H](C)CO9)[C@@H](C)[C@@H]78)[C@@]6(C)C[C@H]5O)[C@@H]4O)O[C@H](CO)[C@@H](O)[C@@H]3O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row9", smiles: "C[C@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8O[C@H](CO)[C@@H](O[C@@H]9O[C@@H](C)[C@H](O)[C@@H](O)[C@H]9O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C" },
+{id: "canvas_Row10", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row11", smiles: "CC1CCC2(OC1)OC1CC3C4CC(O)C5CC(O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row12", smiles: "C[C@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8O[C@H](CO)[C@@H](O[C@@H]9O[C@@H](C)[C@H](O)[C@@H](O)[C@H]9O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8O[C@H](CO)[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C" },
+{id: "canvas_Row13", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(O)C(OC7OC(CO)C(O)C(O)C7OC7OCC(O)C(O)C7OC7OC(CO)C(O)C(OC8OCC(O)C(O)C8O)C7O)C6O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row14", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(O)C(OC7OC(CO)C(O)C(OC8OC(CO)C(O)C(O)C8O)C7OC7OCC(O)C(OC8OC(C)C(O)C(O)C8O)C7O)C6O)C(O)CC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row15", smiles: "CC1C2C(CC3C4CC(O)C5C[C@@H](O)CC[C@]5(C)C4CC[C@@]32C)OC12CC[C@@H](C)CO2" },
+{id: "canvas_Row16", smiles: "C[C@H]1CCO[C@@]2(C1)O[C@H]1C[C@H]3[C@@H]4CC[C@@H]5C[C@@H](O[C@H]6O[C@H](CO)[C@H](O)[C@H](O)[C@H]6O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C" },
+{id: "canvas_Row17", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row18", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)[C@H](O)C[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row19", smiles: "C[C@H]1[C@H]2[C@H](C[C@H]3[C@@H]4CC[C@@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@@]32C)O[C@]12CC[C@@H](C)CO2" },
+{id: "canvas_Row20", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(OC8OC(CO)C(OC9OC(C)C(O)C(O)C9O)C(O)C8O)C7OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row21", smiles: "CC1CCOC2(C1)OC1CC3C4CCC5CC(OC6OC(CO)C(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

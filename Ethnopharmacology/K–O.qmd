@@ -1,0 +1,90 @@
+---
+title: Danh sách các họ có chữ cái từ K–O
+subtitle: Tổng cộng 49 họ được liệt kê trong phần này.
+description: Tổng cộng 49 họ được liệt kê trong phần này. Danh sách các họ thực vật trong phần này gồm Lecythidaceae, Nymphaeaceae, Liliaceae, Krameriaceae, Loganiaceae, Lycopodiaceae, Schizaeaceae, Osmundaceae, Melastomataceae, Sterculiaceae, Bombacaceae, Meniermaceae, Malvaceae, Myrtaceae, Trapaceae, Lauraceae, Orchidaceae, Hydrophyllaceae, Magnoliaceae, Moringaceae, Molluginaceae, Monimiaceae, Lentibulariaceae, Ophioglossaceae, Menyanthaceae, Rubiaceae, Lamiaceae, Nyctaginaceae, Musaceae, Sonneratiaceae, Scrophulariaceae, Sargentodoxaceae, Myristicaceae, Phytolaccaceae, Onagraceae, Oleaceae, Oxalidaceae, Linaceae, Dryopteridaceae, Tiliaceae, Olacaceae, Punicaceae, Myricaceae, Melianthaceae, Lardizabalaceae, Moraceae, Lythraceae, Meliaceae, Malpighiaceae.
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Ziziphora%20tenuior%20%28Lamiaceae%29%20%2833134780696%29.jpg
+author: "TS. Hoàng Lê Sơn"
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: K–O
+    contents: /K–O/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+::: {.callout-note title = "Dr Duke"}
+
+James A. Duke sinh năm 1929-2017 là một nhà thực vật học người Mỹ. Đây là một trong những tác giả hàng đầu trong lĩnh vực dược dân tộc học với cuốn *CRC Handbook of Medicinal Herbs* và chính là người xây dựng lên cơ sở dữ liệu về hợp chất tự nhiên và dược dân tộc học tại Bộ nông nghiệp Hoa Kỳ. Các thông tin được đăng tải tại website [Dr. Duke's Phytochemical and Ethnobotanical Databases](https://phytochem.nal.usda.gov/). 
+
+Trong suốt thập niên 1970, ông lãnh đạo the Plant Taxonomy Laboratory, Plant Genetics and Germplasm Institute of the Agricultural Research Service, U.S. Department of Agriculture.
+
+Trong tài liệu này, các thông tin về dược dân tộc của các dược liệu được trích dẫn từ tài liệu của James A. Ducke với sự trợ giúp của phần mềm dịch thuật từ tiếng Anh sang tiếng Việt.
+
+:::
+
+| <RowID>   | FAMILY           |   Genus (Count) |   Loài (Count) |   Vùng đất (Count) |
+|-----------|------------------|-----------------|----------------|--------------------|
+| Row0      | Bombacaceae      |               5 |              5 |                 14 |
+| Row1      | Dryopteridaceae  |               1 |              1 |                  1 |
+| Row2      | Hydrophyllaceae  |               1 |              1 |                  1 |
+| Row3      | Krameriaceae     |               1 |              1 |                  2 |
+| Row4      | Lamiaceae        |              50 |            121 |                 53 |
+| Row5      | Lardizabalaceae  |               2 |              3 |                  3 |
+| Row6      | Lauraceae        |              10 |             23 |                 23 |
+| Row7      | Lecythidaceae    |               5 |              7 |                 14 |
+| Row8      | Lentibulariaceae |               1 |              1 |                  1 |
+| Row9      | Liliaceae        |               9 |             26 |                 27 |
+| Row10     | Linaceae         |               1 |              4 |                  8 |
+| Row11     | Loganiaceae      |               2 |              5 |                  6 |
+| Row12     | Lycopodiaceae    |               1 |              1 |                  3 |
+| Row13     | Lythraceae       |               5 |              6 |                 11 |
+| Row14     | Magnoliaceae     |               2 |              9 |                  7 |
+| Row15     | Malpighiaceae    |               5 |              6 |                 11 |
+| Row16     | Malvaceae        |              16 |             35 |                 43 |
+| Row17     | Melastomataceae  |               4 |              4 |                  6 |
+| Row18     | Meliaceae        |              19 |             32 |                 32 |
+| Row19     | Melianthaceae    |               1 |              1 |                  1 |
+| Row20     | Meniermaceae     |              15 |             28 |                 21 |
+| Row21     | Menyanthaceae    |               1 |              1 |                  6 |
+| Row22     | Molluginaceae    |               2 |              3 |                  2 |
+| Row23     | Monimiaceae      |               1 |              1 |                  2 |
+| Row24     | Moraceae         |               8 |             18 |                 27 |
+| Row25     | Moringaceae      |               1 |              2 |                 12 |
+| Row26     | Musaceae         |               1 |              1 |                  6 |
+| Row27     | Myricaceae       |               2 |              4 |                  9 |
+| Row28     | Myristicaceae    |               3 |              7 |                 13 |
+| Row29     | Myrtaceae        |               8 |             19 |                 27 |
+| Row30     | Nyctaginaceae    |               3 |              3 |                 14 |
+| Row31     | Nymphaeaceae     |               1 |              1 |                  2 |
+| Row32     | Olacaceae        |               1 |              1 |                  4 |
+| Row33     | Oleaceae         |               7 |             20 |                 19 |
+| Row34     | Onagraceae       |               1 |              1 |                  3 |
+| Row35     | Ophioglossaceae  |               1 |              1 |                  4 |
+| Row36     | Orchidaceae      |               8 |             10 |                 11 |
+| Row37     | Osmundaceae      |               1 |              1 |                  1 |
+| Row38     | Oxalidaceae      |               2 |              2 |                  5 |
+| Row39     | Phytolaccaceae   |               1 |              1 |                  2 |
+| Row40     | Punicaceae       |               1 |              1 |                 12 |
+| Row41     | Rubiaceae        |               1 |              1 |                  1 |
+| Row42     | Sargentodoxaceae |               1 |              1 |                  1 |
+| Row43     | Schizaeaceae     |               1 |              2 |                  2 |
+| Row44     | Scrophulariaceae |               4 |              4 |                  4 |
+| Row45     | Sonneratiaceae   |               1 |              1 |                  3 |
+| Row46     | Sterculiaceae    |               9 |             12 |                 15 |
+| Row47     | Tiliaceae        |               4 |              7 |                  8 |
+| Row48     | Trapaceae        |               1 |              1 |                  2 |
+
+::: {#K–O}
+:::

@@ -1,0 +1,171 @@
+---
+title: "Acer saccharinum"
+subtitle: "Loài Acer saccharinum (Họ Sapindaceae)"
+description: "Loài *Acer saccharinum* thuộc họ Sapindaceae phân bố tại một số vùng trên thế giới như Germany, Serbia, United States of America, Poland, Sweden, Ukraine, Canada, Hungary, Korea, Republic of, Netherlands, Denmark, Belarus, Austria, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất làm se'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, flavonoids, indoles and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Acer%20saccharinum%20Grimes%20Farm%201.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Acer saccharinum", "Sapindaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Acer saccharinum* thuộc họ Sapindaceae phân bố tại một số vùng trên thế giới như Germany, Serbia, United States of America, Poland, Sweden, Ukraine, Canada, Hungary, Korea, Republic of, Netherlands, Denmark, Belarus, Austria, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất làm se'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, flavonoids, indoles and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Sapindaceae
+- **Genus:** Acer
+- **Species:** *Acer saccharinum*
+- **Scientific Name:** *Acer saccharinum L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[soft maple, river maple, silver maple, white maple, soft maple, river maple, silver maple, white maple]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Aceraceae - Genus: Acer - Species: *Acer saccharinum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Acer%20saccharinum%20Grimes%20Farm%201.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Silver%20maple%20flowers%20%28Canal%20Dr%29.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344118833/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344118655/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344118799/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344118766/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344170265/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344170145/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344194895/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344194923/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344382582/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344382624/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344382652/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344382847/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344382825/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344382869/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Germany, Serbia, United States of America, Poland, Sweden, Ukraine, Canada, Hungary, Korea, Republic of, Netherlands, Denmark, Belarus, Austria, Belgium
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Sapindaceae",
+  iso3_codes: ['UKR', 'NLD', 'SRB', 'BEL', 'AUT', 'POL', 'CAN', 'BLR', 'DEU', 'DNK', 'HUN', 'USA', 'SWE'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Acer saccharinum* đã phân lập và xác định được 8 hoạt chất thuộc  về 3 nhóm gồm benzene and substituted derivatives, flavonoids, indoles and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0043810](https://lotus.naturalproducts.net/compound/lotus_id/LTS0043810)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0083222](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083222)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0221391](https://lotus.naturalproducts.net/compound/lotus_id/LTS0221391)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0013740](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013740)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0079754](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079754)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0151049](https://lotus.naturalproducts.net/compound/lotus_id/LTS0151049)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0099172](https://lotus.naturalproducts.net/compound/lotus_id/LTS0099172)</div></div></div>
+<div class="group-title">Indoles and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0099391](https://lotus.naturalproducts.net/compound/lotus_id/LTS0099391)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Turkey          | Chất làm se     |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "[O-]c1cc(-c2[o+]c3cc(O)cc(O)c3cc2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc1O" },
+{id: "canvas_Row1", smiles: "OCC1O[C@@H](Oc2cc3c(O)cc(O)cc3[o+]c2-c2ccc(O)c(O)c2)C(O)C(O)[C@@H]1O" },
+{id: "canvas_Row2", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc4c(O)cc(O)cc4[o+]c3-c3ccc(O)c([O-])c3)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row3", smiles: "[O-]c1c(O)cc(-c2[o+]c3cc(O)cc(O)c3cc2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1O" },
+{id: "canvas_Row4", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc4c(O)cc(O)cc4[o+]c3-c3cc(O)c([O-])c(O)c3)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row5", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc4c(O)cc(O)cc4[o+]c3-c3cc(O)c(O)c(O)c3)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row6", smiles: "COC(=O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row7", smiles: "CN(C)Cc1c[nH]c2ccccc12" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

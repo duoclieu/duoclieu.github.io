@@ -1,0 +1,11 @@
+---
+title: "Blog của tôi"
+listing:
+  contents: posts/*.qmd
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+:::{#posts}
+:::

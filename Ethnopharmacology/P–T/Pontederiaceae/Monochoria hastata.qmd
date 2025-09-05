@@ -1,0 +1,149 @@
+---
+title: "Monochoria hastata"
+subtitle: "Loài Monochoria hastata (Họ Pontederiaceae)"
+description: "Loài *Monochoria hastata* thuộc họ Pontederiaceae phân bố tại một số vùng trên thế giới như nan, unknown or invalid, Lao People’s Democratic Republic, Indonesia, Papua New Guinea, Cambodia, India, Nepal, Chinese Taipei, Sri Lanka, Bangladesh, Thailand, Philippines, Malaysia, Fiji, Myanmar, Viet Nam, Australia, Singapore, France, China, Brunei Darussalam, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: chất làm lạnh, thuốc bổ'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm ?, naphthalenes."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Boronokha.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Monochoria hastata", "Pontederiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Monochoria hastata* thuộc họ Pontederiaceae phân bố tại một số vùng trên thế giới như nan, unknown or invalid, Lao People’s Democratic Republic, Indonesia, Papua New Guinea, Cambodia, India, Nepal, Chinese Taipei, Sri Lanka, Bangladesh, Thailand, Philippines, Malaysia, Fiji, Myanmar, Viet Nam, Australia, Singapore, France, China, Brunei Darussalam, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: chất làm lạnh, thuốc bổ'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm ?, naphthalenes.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Commelinales
+- **Family:** Pontederiaceae
+- **Genus:** Pontederia
+- **Species:** *Pontederia hastata*
+- **Scientific Name:** *Monochoria hastata (L.) Solms*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Arrow Leaf]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Pontederiaceae - Genus: Monochoria - Species: *Monochoria hastata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Boronokha.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/11474405.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/11474406.jpg){ group="GIBF" }
+
+![](https://indiabiodiversity.org/biodiv/observations//98ce166d-8433-42b3-b536-980f46fde347/736.jpeg){ group="GIBF" }
+
+![](http://live.staticflickr.com/663/22902390372_cc71a9a971_b.jpg){ group="GIBF" }
+
+![](https://indiabiodiversity.org/biodiv/observations//118e51a2-77a1-422d-903d-f2614dc70362/100_3922.JPG){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.4181069/format/large){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, unknown or invalid, Lao People’s Democratic Republic, Indonesia, Papua New Guinea, Cambodia, India, Nepal, Chinese Taipei, Sri Lanka, Bangladesh, Thailand, Philippines, Malaysia, Fiji, Myanmar, Viet Nam, Australia, Singapore, France, China, Brunei Darussalam, United States of America
+
+**Phấn bố ở Việt nam:** Ninh Thuan, 广京山, Ninh Binh
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Pontederiaceae",
+  iso3_codes: ['IDN', 'FRA', 'THA', 'BRN', 'SGP', 'VNM', 'NPL', 'AUS', 'MMR', 'PNG', 'KHM', 'USA', 'PHL', 'FJI', 'LKA', 'CHN', 'MYS', 'BGD', 'IND'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Monochoria hastata* đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm ?, naphthalenes. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0026829](https://lotus.naturalproducts.net/compound/lotus_id/LTS0026829)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0030006](https://lotus.naturalproducts.net/compound/lotus_id/LTS0030006)</div></div></div>
+<div class="group-title">Naphthalenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0122479](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122479)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0169661](https://lotus.naturalproducts.net/compound/lotus_id/LTS0169661)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0090994](https://lotus.naturalproducts.net/compound/lotus_id/LTS0090994)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0045364](https://lotus.naturalproducts.net/compound/lotus_id/LTS0045364)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh           |
+|-----------|-----------------|-------------------------|
+| Row0      | India           | Chất làm lạnh, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "Oc1cc2cccc3c2c(c1O)C(c1ccccc1)CC3" },
+{id: "canvas_Row1", smiles: "O=C1C(O)=Cc2cccc3ccc(-c4ccccc4)c1c23" },
+{id: "canvas_Row2", smiles: "O=C1C(O)=Cc2c(O)ccc3ccc(-c4ccccc4)c1c23" },
+{id: "canvas_Row3", smiles: "Oc1cc2cccc3c2c(c1O)[C@H](c1ccccc1)CC3" },
+{id: "canvas_Row4", smiles: "O=C1C(O)=Cc2cccc3cc(-c4ccc(O)cc4)cc1c23" },
+{id: "canvas_Row5", smiles: "O=C1C(O)=Cc2ccc(O)c3ccc(-c4ccccc4)c1c23" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

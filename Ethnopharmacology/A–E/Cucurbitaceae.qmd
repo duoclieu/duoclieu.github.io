@@ -1,0 +1,219 @@
+---
+title: Họ Cucurbitaceae
+subtitle: Họ **Cucurbitaceae** gồm Bryonia, Cayaponia, Citrullus, Corallocarpus, Cucumis, Cucurbita, Ecballium, Echinocystis, Fevillea, Lagenaria, Luffa, Marah, Momordica, Sechium, Thladiantha, Trichosanthes chi và 33 loài  được sử dụng ở 39vùng lãnh thổ điều trị 30chứng và bệnh.
+description: Họ **Cucurbitaceae** gồm16 chi và 33loài đã ghi nhận sử dụng làm thuốc tại 39 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm thuốc nhuận tràng (16 loài), thuốc lợi tiểu (11 loài), chất độc (6 loài), gây nôn (6 loài), thuốc tẩy giun (5 loài) . 05 loài thực vật gồm **Momordica charantia* (8 chứng và bệnh), *Cucumis melo* (7 chứng và bệnh), *Citrullus lanatus* (6 chứng và bệnh), *Cucurbita maxima* (5 chứng và bệnh), *Lagenaria siceraria* (5 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Momordica charantia* ( 359 hoạt chất), *Cucumis sativus* ( 164 hoạt chất), *Cucumis melo* ( 155 hoạt chất), *Cucurbita pepo* ( 144 hoạt chất), *Cucurbita maxima* ( 130 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Momordica charantia*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/346159645/original.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Cucurbitaceae
+    contents: Cucurbitaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Cucurbitaceae có tổng cộng 16  chi và 33 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Cucurbitaceae"}
+
+| <RowID>   | genus_GIBF    | species_GIBF                                                                                                                                           |   Count |
+|-----------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Row15     | Trichosanthes | Trichosanthes cucumerina, Trichosanthes cucumeroides, Trichosanthes dioica, Trichosanthes kirilowii, Trichosanthes multiloba, Trichosanthes nervifolia |       6 |
+| Row5      | Cucurbita     | Cucurbita foetidissima, Cucurbita maxima, Cucurbita moschata, Cucurbita pepo                                                                           |       4 |
+| Row0      | Bryonia       | Bryonia alba, Bryonia cretica, Bryonia dioica                                                                                                          |       3 |
+| Row4      | Cucumis       | Cucumis melo, Cucumis prophetarum, Cucumis sativus                                                                                                     |       3 |
+| Row10     | Luffa         | Luffa acutangula, Luffa aegyptiaca, Luffa operculata                                                                                                   |       3 |
+| Row12     | Momordica     | Momordica balsamina, Momordica charantia, Momordica cochinchinensis                                                                                    |       3 |
+| Row2      | Citrullus     | Citrullus colocynthis, Citrullus lanatus                                                                                                               |       2 |
+| Row1      | Cayaponia     | Cayaponia racemosa                                                                                                                                     |       1 |
+| Row3      | Corallocarpus | Corallocarpus epigaeus                                                                                                                                 |       1 |
+| Row6      | Ecballium     | Ecballium elaterium                                                                                                                                    |       1 |
+| Row7      | Echinocystis  | Echinocystis lobata                                                                                                                                    |       1 |
+| Row8      | Fevillea      | Fevillea cordifolia                                                                                                                                    |       1 |
+| Row9      | Lagenaria     | Lagenaria siceraria                                                                                                                                    |       1 |
+| Row11     | Marah         | Marah oregana                                                                                                                                          |       1 |
+| Row13     | Sechium       | Sechium edule                                                                                                                                          |       1 |
+| Row14     | Thladiantha   | Thladiantha dubia                                                                                                                                      |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Germany, nan, Czechia, Austria, Hungary, Poland, Sweden, Belarus, Kyrgyzstan, Russian Federation, Uzbekistan, Ukraine, Georgia, United States of America, Kazakhstan, Italy, Lithuania, Norway, Denmark, Slovakia, France, Israel, Spain, Switzerland, Portugal, Algeria, Croatia, United Kingdom of Great Britain and Northern Ireland, Greece, Belgium, Netherlands, Luxembourg, Bahamas, Cuba, Jamaica, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Colombia, Belize, Martinique, Panama, Guatemala, Brazil, Costa Rica, Peru, Montserrat, Dominican Republic, Nicaragua, Puerto Rico, El Salvador, Guyana, Benin, Chad, Kenya, Kuwait, Oman, Cabo Verde, Egypt, Western Sahara, South Africa, United Arab Emirates, Australia, Yemen, Sudan, Tunisia, Saudi Arabia, Jordan, Libya, Iraq, India, Mauritania, Pakistan, Morocco, Iran (Islamic Republic of), Qatar, Cyprus, Gambia, Saint Vincent and the Grenadines, Curaçao, Chile, Chinese Taipei, Hong Kong, Lao People’s Democratic Republic, Mongolia, Romania, Saint Kitts and Nevis, Türkiye, Viet Nam, Thailand, Serbia, Argentina, Namibia, Philippines, Ethiopia, China, Fiji, Canada, Ecuador, Tanzania, United Republic of, Somalia, Sri Lanka, Mali, Niger, Rwanda, Madagascar, Burkina Faso, Senegal, Tajikistan, Congo, Democratic Republic of the, unknown or invalid, Maldives, Nepal, Cambodia, British Indian Ocean Territory, Sao Tome and Principe, New Zealand, Palestine, State of, Korea, Republic of, Guadeloupe, Indonesia, Estonia, Bolivia (Plurinational State of), Malaysia, Albania, Uruguay, Haiti, Saint Lucia, Armenia, Aruba, Paraguay, Dominica, Trinidad and Tobago, Nigeria, Uganda, Finland, Montenegro, Gibraltar, Malta, Bosnia and Herzegovina, Slovenia, Honduras, Zambia, Mayotte, Ghana, Réunion, Bangladesh, Angola, Japan, Zimbabwe, Botswana, French Polynesia, Central African Republic, Papua New Guinea, Micronesia (Federated States of), Cook Islands, Equatorial Guinea, Myanmar, Guinea, Côte d’Ivoire, Palau, New Caledonia, Antigua and Barbuda, Malawi, Mozambique, Guam, Northern Mariana Islands, Singapore, Eswatini, Seychelles, American Samoa, Barbados, Cayman Islands, Virgin Islands (U.S.), Vanuatu, Cameroon, Mauritius, Bhutan, Korea (Democratic People’s Republic of)
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Cucurbitaceae",
+  iso3_codes: ['JOR', 'PRI', 'PHL', 'ZMB', 'LKA', 'ASM', 'MAR', 'MOZ', 'ITA', 'TUR', 'ISR', 'GIN', 'PER', 'ZAF', 'CUW', 'NER', 'MLI', 'BGD', 'CYM', 'HUN', 'SVK', 'ECU', 'FJI', 'UGA', 'DEU', 'EST', 'IND', 'SYC', 'DOM', 'QAT', 'MMR', 'BLZ', 'GUY', 'JPN', 'COK', 'BIH', 'GTM', 'ROU', 'PAK', 'LCA', 'GIB', 'MYS', 'KAZ', 'BWA', 'COG', 'PRT', 'CPV', 'SLV', 'ABW', 'SOM', 'ESH', 'NAM', 'GRC', 'VCT', 'HKG', 'PLW', 'MUS', 'BHS', 'CUB', 'TJK', 'CAN', 'PAN', 'AUT', 'SDN', 'KHM', 'NGA', 'BFA', 'SVN', 'GHA', 'TTO', 'HND', 'MSR', 'DNK', 'CMR', 'DMA', 'RWA', 'TZA', 'LBY', 'CRI', 'CYP', 'BEN', 'MEX', 'EGY', 'UZB', 'POL', 'IOT', 'SEN', 'SWE', 'PNG', 'AGO', 'PRY', 'TCD', 'SGP', 'NLD', 'COL', 'MWI', 'NOR', 'ATG', 'HRV', 'THA', 'MRT', 'BLR', 'ETH', 'MNP', 'PYF', 'ESP', 'CHL', 'CHE', 'URY', 'ARG', 'BTN', 'ALB', 'MDV', 'BEL', 'GUM', 'IRQ', 'SWZ', 'HTI', 'GEO', 'TUN', 'NZL', 'CHN', 'REU', 'VUT', 'GBR', 'MDG', 'ARM', 'LUX', 'MYT', 'RUS', 'GUF', 'FIN', 'GLP', 'KEN', 'KWT', 'UKR', 'MLT', 'YEM', 'FRA', 'GMB', 'LTU', 'DZA', 'NCL', 'SAU', 'CAF', 'CZE', 'USA', 'JAM', 'STP', 'ZWE', 'VNM', 'KGZ', 'IDN', 'MNE', 'KNA', 'AUS', 'MTQ', 'ARE', 'BRB', 'NPL', 'BRA', 'SRB', 'OMN', 'MNG', 'NIC', 'GNQ'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Cucurbitaceae** có tổng cộng 16  chi và 33 loài.đã phân lập và xác định được 1860 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Cucurbitaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0112140</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0079439</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0076929</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0142259</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0013198</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#22" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#24" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1*)CC2NCCc3c2cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#26" width="150" height="150"></canvas> <div class="mol-name">COc1c(*)cc(cc1)CCNCCc2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#27" width="150" height="150"></canvas> <div class="mol-name">COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#28" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#29" width="150" height="150"></canvas> <div class="mol-name">c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#30" width="150" height="150"></canvas> <div class="mol-name">CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#31" width="150" height="150"></canvas> <div class="mol-name">C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#32" width="150" height="150"></canvas> <div class="mol-name">O=C(O)c1cc(O)c(c(c1)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#33" width="150" height="150"></canvas> <div class="mol-name">*=C(*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#34" width="150" height="150"></canvas> <div class="mol-name">**C(=*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#35" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Cucurbitaceae** đã được một số công động tại các quốc gia như *Turkey, Europe, Elsewhere, ain, Salvador, Egypt, Iraq, Sudan, China, Dominican Republic, French, Hawaii, Java, US, Kurdistan, Mexico, US(Tewa), Malaya, Venezuela, Haiti, US(Amerindian), Kelantan, Canada(Salish), US(Salish), Africa, Brazil, Ghana, Latin America, Panama, Trinidad, West Indies, Yucatan, Asia, India, Philippines, Japan, German, Sanscrit, Malaya (Import)* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc lợi tiểu, chất độc, thuốc nhuận tràng, thuốc thanh lọc, thuốc diệt ký sinh trùng, thuốc phá thai, làm dịu, chất khử trùng, cầm máu, chất làm se, chống rượu vang, thuốc tẩy giun, gây nôn, tanifuge, chất làm lạnh, xà phòng, lo lắng, giết người, thuốc đắp, thuốc giải độc, alexiteric, thuốc giảm đau, giờ mở cửa, thuốc bổ, thuốc kích thích tình dục, emmenagogue, thuốc diệt chó, họ sẽ mở, thuốc trợ tim, thuốc chống ho*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Momordica charantia* (8 chứng và bệnh), *Cucumis melo* (7 chứng và bệnh), *Citrullus lanatus* (6 chứng và bệnh), *Cucurbita maxima* (5 chứng và bệnh), *Lagenaria siceraria* (5 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Cucurbitaceae** có thể điều trị là thuốc nhuận tràng (16 loài), thuốc lợi tiểu (11 loài), chất độc (6 loài), gây nôn (6 loài), thuốc tẩy giun (5 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Cucurbitaceae"}
+| <RowID>   | genus_GIBF    | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|-----------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Bryonia       | Turkey - (*Bryonia alba* - thuốc lợi tiểu), Europe - (*Bryonia cretica* - chất độc), Elsewhere - (*Bryonia dioica* - thuốc lợi tiểu), ain - (*Bryonia dioica* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Row1      | Cayaponia     | Salvador - (*Cayaponia racemosa* - chất độc)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Row2      | Citrullus     | Egypt - (*Citrullus colocynthis* - thuốc thanh lọc), Elsewhere - (*Citrullus colocynthis* - thuốc thanh lọc), Iraq - (*Citrullus colocynthis* - thuốc diệt ký sinh trùng), Sudan - (*Citrullus colocynthis* - thuốc thanh lọc), Turkey - (*Citrullus colocynthis* - thuốc phá thai), ain - (*Citrullus colocynthis* - thuốc nhuận tràng), China - (*Citrullus lanatus* - làm dịu), Dominican Republic - (*Citrullus lanatus* - thuốc lợi tiểu), Elsewhere - (*Citrullus lanatus* - chất độc), French - (*Citrullus lanatus* - chất khử trùng), Hawaii - (*Citrullus lanatus* - thuốc nhuận tràng), Iraq - (*Citrullus lanatus* - thuốc lợi tiểu), Java - (*Citrullus lanatus* - cầm máu), US - (*Citrullus lanatus* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Row3      | Corallocarpus | Elsewhere - (*Corallocarpus epigaeus* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Row4      | Cucumis       | China - (*Cucumis melo* - chống rượu vang), Elsewhere - (*Cucumis melo* - thuốc lợi tiểu), Iraq - (*Cucumis melo* - chất làm se), Kurdistan - (*Cucumis melo* - thuốc nhuận tràng, thuốc tẩy giun), Mexico - (*Cucumis melo* - gây nôn), Turkey - (*Cucumis melo* - tanifuge), Elsewhere - (*Cucumis prophetarum* - chất độc), Sudan - (*Cucumis prophetarum* - gây nôn), China - (*Cucumis sativus* - thuốc lợi tiểu), Elsewhere - (*Cucumis sativus* - thuốc lợi tiểu), Iraq - (*Cucumis sativus* - chất làm lạnh), Kurdistan - (*Cucumis sativus* - tanifuge), Turkey - (*Cucumis sativus* - làm dịu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Row5      | Cucurbita     | Elsewhere - (*Cucurbita foetidissima* - xà phòng), US(Tewa) - (*Cucurbita foetidissima* - thuốc nhuận tràng), Elsewhere - (*Cucurbita maxima* - thuốc lợi tiểu), Iraq - (*Cucurbita maxima* - lo lắng), Kurdistan - (*Cucurbita maxima* - giết người), Malaya - (*Cucurbita maxima* - thuốc tẩy giun), Venezuela - (*Cucurbita maxima* - chất làm lạnh), China - (*Cucurbita moschata* - tanifuge), Dominican Republic - (*Cucurbita moschata* - thuốc tẩy giun), Haiti - (*Cucurbita moschata* - thuốc nhuận tràng), Java - (*Cucurbita moschata* - thuốc tẩy giun), Kurdistan - (*Cucurbita moschata* - tanifuge), Mexico - (*Cucurbita moschata* - thuốc tẩy giun), Turkey - (*Cucurbita moschata* - tanifuge), China - (*Cucurbita pepo* - thuốc tẩy giun), Elsewhere - (*Cucurbita pepo* - thuốc tẩy giun), Turkey - (*Cucurbita pepo* - thuốc lợi tiểu), ain - (*Cucurbita pepo* - tanifuge)                                                                                                                                                                                                                                               |
+| Row6      | Ecballium     | Elsewhere - (*Ecballium elaterium* - thuốc nhuận tràng), Turkey - (*Ecballium elaterium* - thuốc thanh lọc), ain - (*Ecballium elaterium* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Row7      | Echinocystis  | US(Amerindian) - (*Echinocystis lobata* - thuốc đắp)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row8      | Fevillea      | Dominican Republic - (*Fevillea cordifolia* - thuốc giải độc), Elsewhere - (*Fevillea cordifolia* - xà phòng), Haiti - (*Fevillea cordifolia* - thuốc giải độc), Venezuela - (*Fevillea cordifolia* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Row9      | Lagenaria     | China - (*Lagenaria siceraria* - thuốc giải độc), Dominican Republic - (*Lagenaria siceraria* - thuốc nhuận tràng), Elsewhere - (*Lagenaria siceraria* - alexiteric), Haiti - (*Lagenaria siceraria* - thuốc lợi tiểu), Hawaii - (*Lagenaria siceraria* - thuốc nhuận tràng), Iraq - (*Lagenaria siceraria* - chất làm lạnh), Turkey - (*Lagenaria siceraria* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row10     | Luffa         | Dominican Republic - (*Luffa acutangula* - gây nôn), Elsewhere - (*Luffa acutangula* - thuốc lợi tiểu), Haiti - (*Luffa acutangula* - thuốc lợi tiểu), Iraq - (*Luffa acutangula* - gây nôn), Kelantan - (*Luffa acutangula* - thuốc nhuận tràng), China - (*Luffa aegyptiaca* - thuốc giảm đau), Dominican Republic - (*Luffa aegyptiaca* - gây nôn), Haiti - (*Luffa aegyptiaca* - gây nôn), Iraq - (*Luffa aegyptiaca* - thuốc thanh lọc), Kurdistan - (*Luffa aegyptiaca* - gây nôn), Elsewhere - (*Luffa operculata* - thuốc nhuận tràng), Venezuela - (*Luffa operculata* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row11     | Marah         | Canada(Salish) - (*Marah oregana* - chất độc), US(Salish) - (*Marah oregana* - thuốc đắp)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Row12     | Momordica     | Dominican Republic - (*Momordica balsamina* - giờ mở cửa), Elsewhere - (*Momordica balsamina* - thuốc bổ), Turkey - (*Momordica balsamina* - gây nôn), Africa - (*Momordica charantia* - thuốc nhuận tràng), Brazil - (*Momordica charantia* - thuốc tẩy giun), China - (*Momordica charantia* - chất làm lạnh), Elsewhere - (*Momordica charantia* - thuốc phá thai), Ghana - (*Momordica charantia* - thuốc kích thích tình dục), Haiti - (*Momordica charantia* - thuốc nhuận tràng), Kurdistan - (*Momordica charantia* - thuốc tẩy giun), Latin America - (*Momordica charantia* - chất độc), Malaya - (*Momordica charantia* - thuốc tẩy giun), Mexico - (*Momordica charantia* - thuốc nhuận tràng), Panama - (*Momordica charantia* - emmenagogue), Trinidad - (*Momordica charantia* - thuốc tẩy giun), US - (*Momordica charantia* - thuốc diệt chó), West Indies - (*Momordica charantia* - thuốc phá thai), Yucatan - (*Momordica charantia* - thuốc kích thích tình dục), Asia - (*Momordica cochinchinensis* - xà phòng), China - (*Momordica cochinchinensis* - giờ mở cửa), Elsewhere - (*Momordica cochinchinensis* - họ sẽ mở) |
+| Row13     | Sechium       | Haiti - (*Sechium edule* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Row14     | Thladiantha   | China - (*Thladiantha dubia* - thuốc trợ tim)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Row15     | Trichosanthes | Elsewhere - (*Trichosanthes cucumerina* - giờ mở cửa, gây nôn), India - (*Trichosanthes cucumerina* - thuốc nhuận tràng), Philippines - (*Trichosanthes cucumerina* - gây nôn), Turkey - (*Trichosanthes cucumerina* - thuốc nhuận tràng), China - (*Trichosanthes cucumeroides* - alexiteric), Japan - (*Trichosanthes cucumeroides* - xà phòng), Elsewhere - (*Trichosanthes dioica* - thuốc lợi tiểu), French - (*Trichosanthes dioica* - thuốc nhuận tràng), German - (*Trichosanthes dioica* - thuốc bổ), Sanscrit - (*Trichosanthes dioica* - thuốc nhuận tràng), China - (*Trichosanthes kirilowii* - thuốc chống ho), Malaya (Import) - (*Trichosanthes kirilowii* - thuốc bổ), China - (*Trichosanthes multiloba* - chất làm se), Elsewhere - (*Trichosanthes nervifolia* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                          |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Cucurbitaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_a_Row0#22", smiles: "Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#24", smiles: "COc1ccc(cc1*)CC2NCCc3c2cccc3" },
+{id: "canvas_a_Row0#26", smiles: "COc1c(*)cc(cc1)CCNCCc2ccccc2" },
+{id: "canvas_a_Row0#27", smiles: "COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C" },
+{id: "canvas_a_Row0#28", smiles: "COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#29", smiles: "c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C" },
+{id: "canvas_a_Row0#30", smiles: "CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C" },
+{id: "canvas_a_Row0#31", smiles: "C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*" },
+{id: "canvas_a_Row0#32", smiles: "O=C(O)c1cc(O)c(c(c1)O)O" },
+{id: "canvas_a_Row0#33", smiles: "*=C(*)c1ccccc1" },
+{id: "canvas_a_Row0#34", smiles: "**C(=*)c1ccccc1" },
+{id: "canvas_a_Row0#35", smiles: "**c1ccccc1" },
+{id: "canvas_Row0", smiles: "CC(=O)OC(C)(C)/C=C/C(=O)[C@](C)(O)[C@H]1[C@H](O)C[C@@]2(C)[C@@H]3CC=C4[C@@H](C[C@H](O)C(=O)C4(C)C)[C@]3(C)C(=O)C[C@]12C" },
+{id: "canvas_Row1", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row2", smiles: "CC1(C)[C@@H](O)CC[C@]2(C)C3=C(CC[C@@H]12)[C@@]1(C)CC[C@@]2(C)CC[C@@](C)(C(=O)O)C[C@H]2[C@]1(C)CC3" },
+{id: "canvas_Row3", smiles: "CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC[C@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row4", smiles: "CCCCC/C=C\C/C=C\CCCCCCCC(=O)O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

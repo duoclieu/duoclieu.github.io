@@ -1,0 +1,143 @@
+---
+title: "Ougeinia dalbergioides"
+subtitle: "Loài Ougeinia dalbergioides (Họ Fabaceae)"
+description: "Loài *Ougeinia dalbergioides* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như nan, United States of America, unknown or invalid, India, Nepal. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: thuốc diệt cá'.Từ loài này đã phân lập và xác định được 4 hoạt chất thuộc  về 1 nhóm gồm isoflavonoids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Ougeinia dalbergioides", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Ougeinia dalbergioides* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như nan, United States of America, unknown or invalid, India, Nepal. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: thuốc diệt cá'.Từ loài này đã phân lập và xác định được 4 hoạt chất thuộc  về 1 nhóm gồm isoflavonoids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Ougeinia
+- **Species:** *Ougeinia oojeinensis*
+- **Scientific Name:** *Ougeinia dalbergioides Benth.*  
+- **Mô tả thực vật:** []
+- **Description (EN):** []
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Ougeinia - Species: *Ougeinia dalbergioides* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://cyberfloralouisiana.com/images/LSUCollections/Vascular/LSU/00/095/LSU00095689_L.JPG){ group="GIBF" }
+
+![](https://cdn.plantatlas.org/img/specimens/USF/285278.jpg){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3439bc21a-1118-49af-9b05-6015f514e4d6){ group="GIBF" }
+
+![](https://cdn.plantatlas.org/img/specimens/USF/127404.jpg){ group="GIBF" }
+
+![](https://cdn.plantatlas.org/img/specimens/USF/285279.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, United States of America, unknown or invalid, India, Nepal
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['NPL', 'USA', 'IND'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Ougeinia dalbergioides* đã phân lập và xác định được 4 hoạt chất thuộc  về 1 nhóm gồm isoflavonoids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Isoflavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0106538](https://lotus.naturalproducts.net/compound/lotus_id/LTS0106538)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0273188](https://lotus.naturalproducts.net/compound/lotus_id/LTS0273188)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0201737](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201737)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0012945](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012945)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | India           | Thuốc diệt cá   |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12" },
+{id: "canvas_Row1", smiles: "COc1ccc(C2COc3cc(O)cc(O)c3C2=O)c(OC)c1" },
+{id: "canvas_Row2", smiles: "O=C1c2c(O)cc(O)cc2OCC1c1ccc(O)cc1O" },
+{id: "canvas_Row3", smiles: "COc1cc2c(c(O)c1C)C(=O)C(c1ccc(O)cc1O)CO2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

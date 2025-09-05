@@ -1,0 +1,175 @@
+---
+title: Họ Plumbaginaceae
+subtitle: Họ **Plumbaginaceae** gồm Limonium, Plumbago chi và 5 loài  được sử dụng ở 20vùng lãnh thổ điều trị 14chứng và bệnh.
+description: Họ **Plumbaginaceae** gồm2 chi và 5loài đã ghi nhận sử dụng làm thuốc tại 20 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm gây nôn (3 loài), chất độc (2 loài), chất khử trùng (1 loài), chất làm se (1 loài), emmenagogue (1 loài) . 05 loài thực vật gồm **Plumbago zeylanica* (12 chứng và bệnh), *Plumbago auriculata* (2 chứng và bệnh), *Limonium vulgare* (1 chứng và bệnh), *Plumbago europaea* (1 chứng và bệnh), *Plumbago indica* (1 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Plumbago zeylanica* ( 64 hoạt chất), *Plumbago indica* ( 18 hoạt chất), *Plumbago auriculata* ( 10 hoạt chất), *Plumbago zeylanica* ( 8 hoạt chất), *Plumbago europaea* ( 5 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Plumbago zeylanica*
+author: "TS. Hoàng Lê Sơn"
+image: https://observation.org/photos/84548082.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Plumbaginaceae
+    contents: Plumbaginaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Plumbaginaceae có tổng cộng 2  chi và 5 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Plumbaginaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                                |   Count |
+|-----------|--------------|-----------------------------------------------------------------------------|---------|
+| Row1      | Plumbago     | Plumbago auriculata, Plumbago europaea, Plumbago indica, Plumbago zeylanica |       4 |
+| Row0      | Limonium     | Limonium vulgare                                                            |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Netherlands, Denmark, France, Germany, Albania, United Kingdom of Great Britain and Northern Ireland, Sweden, nan, Kenya, Bahamas, Chile, Jamaica, Singapore, Sri Lanka, Egypt, Spain, Mexico, Colombia, Hong Kong, South Africa, Japan, Australia, Martinique, Virgin Islands (U.S.), Jordan, Portugal, Senegal, India, Brazil, Costa Rica, Peru, Türkiye, Argentina, Thailand, United States of America, Philippines, China, Dominican Republic, Malaysia, New Zealand, Greece, Ecuador, Puerto Rico, Syrian Arab Republic, Israel, Bulgaria, Bosnia and Herzegovina, Palestine, State of, Montenegro, Iraq, Georgia, Serbia, Croatia, Algeria, Italy, Morocco, North Macedonia, Armenia, Cyprus, Switzerland, New Caledonia, Cuba, French Polynesia, Guadeloupe, Papua New Guinea, unknown or invalid, Cambodia, Bangladesh, Indonesia, Myanmar, Brunei Darussalam, Trinidad and Tobago, Viet Nam, Fiji, Samoa, Lao People’s Democratic Republic, Curaçao, Bonaire, Sint Eustatius and Saba, Saint Martin (French part), El Salvador, Gambia, Nepal, Antigua and Barbuda, French Guiana, Chinese Taipei, Rwanda, Mauritius, Sint Maarten (Dutch part), Northern Mariana Islands, Guam, Namibia, Zimbabwe, Nicaragua, Botswana
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Plumbaginaceae",
+  iso3_codes: ['NAM', 'GMB', 'MAF', 'BRA', 'NCL', 'HRV', 'CUW', 'IDN', 'TTO', 'BGR', 'ARM', 'EGY', 'MTQ', 'HKG', 'DEU', 'GUM', 'DNK', 'GRC', 'CHN', 'GLP', 'MEX', 'JOR', 'CRI', 'BRN', 'ITA', 'BGD', 'IND', 'SXM', 'MUS', 'ESP', 'CHL', 'LKA', 'CHE', 'FRA', 'FJI', 'DZA', 'COL', 'ISR', 'PYF', 'IRQ', 'KEN', 'SLV', 'CUB', 'WSM', 'BIH', 'MKD', 'MYS', 'JPN', 'SYR', 'TUR', 'USA', 'DOM', 'VNM', 'BWA', 'MNE', 'NPL', 'SGP', 'PRI', 'ZWE', 'NLD', 'RWA', 'PER', 'KHM', 'MAR', 'BHS', 'ATG', 'PNG', 'SWE', 'GUF', 'NZL', 'JAM', 'PRT', 'GEO', 'GBR', 'MMR', 'THA', 'SEN', 'NIC', 'CYP', 'SRB', 'ARG', 'ECU', 'MNP', 'PHL', 'ALB', 'ZAF', 'AUS'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Plumbaginaceae** có tổng cộng 2  chi và 5 loài.đã phân lập và xác định được 106 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Plumbaginaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0212929</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0040585</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0050103</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0071224</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0126254</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Plumbaginaceae** đã được một số công động tại các quốc gia như *Turkey, Africa, Elsewhere, Europe, Mediterranean, Dominican Republic, Haiti, Mexico, Paraguay, Venezuela, Ghana, India, India(Ayurvedic), Japan, Java, Malaysia, Nigeria, Sudan, Tanzania, W Africa* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *chất làm se, chất độc, gây nôn, chất khử trùng, bàng quang, người nói tiếng nói, rubefacient, thuốc lợi tiểu, thuốc phá thai, thuốc diệt nấm, tiêu hóa, emmenagogue, thuốc tẩy giun, thuốc bổ*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Plumbago zeylanica* (12 chứng và bệnh), *Plumbago auriculata* (2 chứng và bệnh), *Limonium vulgare* (1 chứng và bệnh), *Plumbago europaea* (1 chứng và bệnh), *Plumbago indica* (1 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Plumbaginaceae** có thể điều trị là gây nôn (3 loài), chất độc (2 loài), chất khử trùng (1 loài), chất làm se (1 loài), emmenagogue (1 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Plumbaginaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-----------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Limonium     | Turkey - (*Limonium vulgare* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Row1      | Plumbago     | Africa - (*Plumbago auriculata* - chất độc), Elsewhere - (*Plumbago auriculata* - gây nôn), Europe - (*Plumbago europaea* - gây nôn), Mediterranean - (*Plumbago europaea* - gây nôn), Elsewhere - (*Plumbago indica* - chất khử trùng), Dominican Republic - (*Plumbago zeylanica* - bàng quang), Elsewhere - (*Plumbago zeylanica* - gây nôn, thuốc lợi tiểu), Ghana - (*Plumbago zeylanica* - thuốc phá thai), Haiti - (*Plumbago zeylanica* - người nói tiếng nói), India - (*Plumbago zeylanica* - thuốc diệt nấm), India(Ayurvedic) - (*Plumbago zeylanica* - tiêu hóa), Japan - (*Plumbago zeylanica* - thuốc phá thai), Java - (*Plumbago zeylanica* - emmenagogue), Malaysia - (*Plumbago zeylanica* - thuốc phá thai), Mexico - (*Plumbago zeylanica* - chất độc), Nigeria - (*Plumbago zeylanica* - thuốc tẩy giun), Paraguay - (*Plumbago zeylanica* - bàng quang), Sudan - (*Plumbago zeylanica* - thuốc bổ), Tanzania - (*Plumbago zeylanica* - bàng quang), Venezuela - (*Plumbago zeylanica* - rubefacient), W Africa - (*Plumbago zeylanica* - bàng quang) |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Plumbaginaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_Row0", smiles: "CC1=CC(=O)c2c(O)cccc2C1=O" },
+{id: "canvas_Row1", smiles: "C[C@H]1CC(=O)c2c(O)cccc2[C@H]1O" },
+{id: "canvas_Row2", smiles: "CC1=CC(=O)c2c(ccc(O)c2O)C1=O" },
+{id: "canvas_Row3", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4CC(O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row4", smiles: "CC1=CC(=O)c2c(ccc(C3=C(C)C(=O)c4cccc(O)c4C3=O)c2O)C1=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

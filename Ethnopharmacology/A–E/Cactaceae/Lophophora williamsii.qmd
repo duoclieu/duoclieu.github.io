@@ -1,0 +1,170 @@
+---
+title: "Lophophora williamsii"
+subtitle: "Loài Lophophora williamsii (Họ Cactaceae)"
+description: "Loài *Lophophora williamsii* thuộc họ Cactaceae phân bố tại một số vùng trên thế giới như United States of America, nan, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc an thần', 'mexico: thuốc trợ tim, chất gây ảo giác, chất gây ảo giác, chất gây ảo giác, chất gây ảo giác, ma túy, ma túy, chất độc, thuốc an thần, thuốc bổ, chất gây ảo giác', 'mexico(huichol): chất gây ảo giác', 'us: chất gây say', 'us(blackfoot): chất gây ảo giác'.Từ loài này đã phân lập và xác định được 17 hoạt chất thuộc  về 5 nhóm gồm ?, benzene and substituted derivatives, dihydroisoquinolines, pyridines and derivatives, tetrahydroisoquinolines."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Peyote%20Cactus.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Lophophora williamsii", "Cactaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Lophophora williamsii* thuộc họ Cactaceae phân bố tại một số vùng trên thế giới như United States of America, nan, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc an thần', 'mexico: thuốc trợ tim, chất gây ảo giác, chất gây ảo giác, chất gây ảo giác, chất gây ảo giác, ma túy, ma túy, chất độc, thuốc an thần, thuốc bổ, chất gây ảo giác', 'mexico(huichol): chất gây ảo giác', 'us: chất gây say', 'us(blackfoot): chất gây ảo giác'.Từ loài này đã phân lập và xác định được 17 hoạt chất thuộc  về 5 nhóm gồm ?, benzene and substituted derivatives, dihydroisoquinolines, pyridines and derivatives, tetrahydroisoquinolines.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Caryophyllales
+- **Family:** Cactaceae
+- **Genus:** Lophophora
+- **Species:** *Lophophora williamsii*
+- **Scientific Name:** *Lophophora williamsii (Lem. ex Salm-Dyck) J.M.Coult.*  
+- **Mô tả thực vật:** [, ]
+- **Description (EN):** [species of plant, peyote, species of plant, peyote]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[Peyote, peyote, Peyote, peyote]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Cactaceae - Genus: Lophophora - Species: *Lophophora williamsii* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Peyote%20Cactus.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Lophophora%20williamsii%20Bl%C3%BCte.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344661842/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347874242/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351836374/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352024875/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355067303/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: United States of America, nan, Mexico
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Cactaceae",
+  iso3_codes: ['MEX', 'USA'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Lophophora williamsii* đã phân lập và xác định được 17 hoạt chất thuộc  về 5 nhóm gồm ?, benzene and substituted derivatives, dihydroisoquinolines, pyridines and derivatives, tetrahydroisoquinolines. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0206800](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206800)</div></div></div>
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0076396](https://lotus.naturalproducts.net/compound/lotus_id/LTS0076396)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0180749](https://lotus.naturalproducts.net/compound/lotus_id/LTS0180749)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0239088](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239088)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0007857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0007857)</div></div></div>
+<div class="group-title">Dihydroisoquinolines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0202677](https://lotus.naturalproducts.net/compound/lotus_id/LTS0202677)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0049166](https://lotus.naturalproducts.net/compound/lotus_id/LTS0049166)</div></div></div>
+<div class="group-title">Pyridines and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0128994](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128994)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0239420](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239420)</div></div></div>
+<div class="group-title">Tetrahydroisoquinolines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0183010](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183010)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0273488](https://lotus.naturalproducts.net/compound/lotus_id/LTS0273488)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0058901](https://lotus.naturalproducts.net/compound/lotus_id/LTS0058901)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0012541](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012541)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0078592](https://lotus.naturalproducts.net/compound/lotus_id/LTS0078592)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0154339](https://lotus.naturalproducts.net/compound/lotus_id/LTS0154339)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0153945](https://lotus.naturalproducts.net/compound/lotus_id/LTS0153945)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0100771](https://lotus.naturalproducts.net/compound/lotus_id/LTS0100771)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                                                                                                                              |
+|-----------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Elsewhere       | Thuốc an thần                                                                                                                                              |
+| Row1      | Mexico          | Thuốc trợ tim, Chất gây ảo giác, Chất gây ảo giác, Chất gây ảo giác, Chất gây ảo giác, Ma túy, Ma túy, Chất độc, Thuốc an thần, Thuốc bổ, Chất gây ảo giác |
+| Row2      | Mexico(Huichol) | Chất gây ảo giác                                                                                                                                           |
+| Row3      | US              | chất gây say                                                                                                                                               |
+| Row4      | US(Blackfoot)   | Chất gây ảo giác                                                                                                                                           |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc(CCN)cc(OC)c1OC" },
+{id: "canvas_Row1", smiles: "COc1cc2c(c(O)c1OC)[C@@H](C)N(C)CC2" },
+{id: "canvas_Row2", smiles: "COc1cc2c(c(O)c1OC)C(C)NCC2" },
+{id: "canvas_Row3", smiles: "COc1cc2c(c(O)c1OC)[C@H](C)NCC2" },
+{id: "canvas_Row4", smiles: "COc1cc2c(c(O)c1OC)[C@H](C)N(C)CC2" },
+{id: "canvas_Row5", smiles: "COc1cc2c(c(O)c1OC)C(C)N(C)CC2" },
+{id: "canvas_Row6", smiles: "COc1cc2c(c3c1OCO3)[C@H](C)NCC2" },
+{id: "canvas_Row7", smiles: "COC1=C(OC)C(=O)C2=CN(C)CCC2=C1" },
+{id: "canvas_Row8", smiles: "COc1cc2c(c(O)c1OC)C=NCC2" },
+{id: "canvas_Row9", smiles: "COc1cc2c(c(O)c1OC)CN(C)CC2" },
+{id: "canvas_Row10", smiles: "COc1cc2c(c3c1OCO3)C(C)NCC2" },
+{id: "canvas_Row11", smiles: "COc1ccc(OC)c(C(O)C(C)N)c1" },
+{id: "canvas_Row12", smiles: "CNCCc1cc(OC)c(OC)c(OC)c1" },
+{id: "canvas_Row13", smiles: "COc1cc2c(c(O)c1OC)C(C)=NCC2" },
+{id: "canvas_Row14", smiles: "CN(C)CCc1ccc(O)cc1" },
+{id: "canvas_Row15", smiles: "COC1=C(OC)C(=O)C2=C(C)N(C)CCC2=C1" },
+{id: "canvas_Row16", smiles: "COc1cc2c(c(O)c1OC)CNCC2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

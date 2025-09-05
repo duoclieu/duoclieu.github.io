@@ -1,0 +1,181 @@
+---
+title: "Hoya coronaria"
+subtitle: "Loài Hoya coronaria (Họ Apocynaceae)"
+description: "Loài *Hoya coronaria* thuộc họ Apocynaceae phân bố tại một số vùng trên thế giới như Thailand, nan, Philippines, Brunei Darussalam, Papua New Guinea, unknown or invalid, Bangladesh, Malaysia, India, Singapore, Indonesia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'java: giờ mở cửa', 'malaya: gây nôn'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, fatty acyls, phenylpropanoic acids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Hoya%20coronaria%20Curtis%20Botanical%20Magazine%20vol83%201857%20pl4969.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Hoya coronaria", "Apocynaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Hoya coronaria* thuộc họ Apocynaceae phân bố tại một số vùng trên thế giới như Thailand, nan, Philippines, Brunei Darussalam, Papua New Guinea, unknown or invalid, Bangladesh, Malaysia, India, Singapore, Indonesia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'java: giờ mở cửa', 'malaya: gây nôn'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, fatty acyls, phenylpropanoic acids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Gentianales
+- **Family:** Apocynaceae
+- **Genus:** Eriostemma
+- **Species:** *Eriostemma coronaria*
+- **Scientific Name:** *Hoya coronaria Blume*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Asclepiadaceae - Genus: Hoya - Species: *Hoya coronaria* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Hoya%20coronaria%20Curtis%20Botanical%20Magazine%20vol83%201857%20pl4969.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/238073096/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/65910858/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/65910935/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/249096116/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/249096100/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/249096119/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/249096130/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/249096108/original.jpeg){ group="GIBF" }
+
+![](https://d2seqvvyy3b8p2.cloudfront.net/d2157e858046ff3a6e07d0f4899ea517.jpg){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.3739062/format/large){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Thailand, nan, Philippines, Brunei Darussalam, Papua New Guinea, unknown or invalid, Bangladesh, Malaysia, India, Singapore, Indonesia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Apocynaceae",
+  iso3_codes: ['PHL', 'SGP', 'THA', 'IDN', 'PNG', 'MYS', 'BRN', 'IND', 'BGD'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Hoya coronaria* đã phân lập và xác định được 25 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, fatty acyls, phenylpropanoic acids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0145871](https://lotus.naturalproducts.net/compound/lotus_id/LTS0145871)</div></div></div>
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0128130](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128130)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0097258](https://lotus.naturalproducts.net/compound/lotus_id/LTS0097258)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0054189](https://lotus.naturalproducts.net/compound/lotus_id/LTS0054189)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0201199](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201199)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0227120](https://lotus.naturalproducts.net/compound/lotus_id/LTS0227120)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0171823](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171823)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0136609](https://lotus.naturalproducts.net/compound/lotus_id/LTS0136609)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0078418](https://lotus.naturalproducts.net/compound/lotus_id/LTS0078418)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0232845](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232845)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0256910](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256910)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0102566](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102566)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0185335](https://lotus.naturalproducts.net/compound/lotus_id/LTS0185335)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0039770](https://lotus.naturalproducts.net/compound/lotus_id/LTS0039770)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0275508](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275508)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0132789](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132789)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0024465](https://lotus.naturalproducts.net/compound/lotus_id/LTS0024465)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0013198](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013198)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0022159](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022159)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0018522](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018522)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0237766](https://lotus.naturalproducts.net/compound/lotus_id/LTS0237766)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0104505](https://lotus.naturalproducts.net/compound/lotus_id/LTS0104505)</div></div></div>
+<div class="group-title">Phenylpropanoic acids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0121890](https://lotus.naturalproducts.net/compound/lotus_id/LTS0121890)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0122325](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122325)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Java            | Giờ mở cửa      |
+| Row1      | Malaya          | gây nôn         |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=C(O)c1ccccc1" },
+{id: "canvas_Row1", smiles: "CCCCCCCCCCC/C=C/C=C/C(=O)O" },
+{id: "canvas_Row2", smiles: "O=C(O)CCc1ccccc1" },
+{id: "canvas_Row3", smiles: "CCCCCCCCCCCCCCCCCC=CC(=O)O" },
+{id: "canvas_Row4", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row5", smiles: "CCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row6", smiles: "O=C(O)/C=C/c1ccccc1" },
+{id: "canvas_Row7", smiles: "CCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row8", smiles: "CC(C(=O)O)c1ccccc1" },
+{id: "canvas_Row9", smiles: "CCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row10", smiles: "CCCC/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row11", smiles: "CCCCCCCCCCCCC/C=C/C(=O)O" },
+{id: "canvas_Row12", smiles: "O=C(O)C=Cc1ccccc1" },
+{id: "canvas_Row13", smiles: "CCCCCCCC/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row14", smiles: "CCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row15", smiles: "CCCCCCCCCCCCC=CC(=O)O" },
+{id: "canvas_Row16", smiles: "CCCCCCCC/C=C/CCCCCCCCCC(=O)O" },
+{id: "canvas_Row17", smiles: "CC/C=C\C/C=C\C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row18", smiles: "CC/C=C/C/C=C/C/C=C/CCCCCCCC(=O)O" },
+{id: "canvas_Row19", smiles: "CCCCCCCCCCCC=CC=CC(=O)O" },
+{id: "canvas_Row20", smiles: "CCCCC/C=C\C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row21", smiles: "CCCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row22", smiles: "CCCCCCCCCCCCCC=CC(=O)O" },
+{id: "canvas_Row23", smiles: "CCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row24", smiles: "CCCCCCCCCCCCCCC=CC(=O)O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

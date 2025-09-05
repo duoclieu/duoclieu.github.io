@@ -1,0 +1,168 @@
+---
+title: "Thymelaea hirsuta"
+subtitle: "Loài Thymelaea hirsuta (Họ Thymelaeaceae)"
+description: "Loài *Thymelaea hirsuta* thuộc họ Thymelaeaceae phân bố tại một số vùng trên thế giới như France, Tunisia, Israel, Spain, Jordan, Algeria, Italy, Greece, Cyprus. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'ain: thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm ?, coumarins and derivatives, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Thymelaea%20hirsuta.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Thymelaea hirsuta", "Thymelaeaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Thymelaea hirsuta* thuộc họ Thymelaeaceae phân bố tại một số vùng trên thế giới như France, Tunisia, Israel, Spain, Jordan, Algeria, Italy, Greece, Cyprus. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'ain: thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm ?, coumarins and derivatives, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malvales
+- **Family:** Thymelaeaceae
+- **Genus:** Thymelaea
+- **Species:** *Thymelaea hirsuta*
+- **Scientific Name:** *Thymelaea hirsuta (L.) Endl.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Thymelaeaceae - Genus: Thymelaea - Species: *Thymelaea hirsuta* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Thymelaea%20hirsuta.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343854543/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344125051/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344125094/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344493361/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344522215/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344522198/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344534723/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Tunisia, Israel, Spain, Jordan, Algeria, Italy, Greece, Cyprus
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Thymelaeaceae",
+  iso3_codes: ['JOR', 'FRA', 'CYP', 'ITA', 'DZA', 'ESP', 'GRC', 'TUN', 'ISR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Thymelaea hirsuta* đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm ?, coumarins and derivatives, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0177749](https://lotus.naturalproducts.net/compound/lotus_id/LTS0177749)</div></div></div>
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0157584](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157584)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0034667](https://lotus.naturalproducts.net/compound/lotus_id/LTS0034667)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0272864](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272864)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0148938](https://lotus.naturalproducts.net/compound/lotus_id/LTS0148938)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0143170](https://lotus.naturalproducts.net/compound/lotus_id/LTS0143170)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0150476](https://lotus.naturalproducts.net/compound/lotus_id/LTS0150476)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0163435](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163435)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0152936](https://lotus.naturalproducts.net/compound/lotus_id/LTS0152936)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0251710](https://lotus.naturalproducts.net/compound/lotus_id/LTS0251710)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0206524](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206524)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0266758](https://lotus.naturalproducts.net/compound/lotus_id/LTS0266758)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0248424](https://lotus.naturalproducts.net/compound/lotus_id/LTS0248424)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0182345](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182345)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0016739](https://lotus.naturalproducts.net/compound/lotus_id/LTS0016739)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0239762](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239762)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0174367](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174367)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0171878](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171878)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0095761](https://lotus.naturalproducts.net/compound/lotus_id/LTS0095761)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0107977](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107977)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0118544](https://lotus.naturalproducts.net/compound/lotus_id/LTS0118544)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh     |
+|-----------|-----------------|-------------------|
+| Row0      | ain             | Thuốc nhuận tràng |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc2cc(Oc3ccc4ccc(=O)oc4c3)c(=O)oc2cc1O" },
+{id: "canvas_Row1", smiles: "C=C(C)[C@@]12OC3(c4ccccc4)OC1C1C4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/C=C/C=C/CCC" },
+{id: "canvas_Row2", smiles: "C=C(C)[C@@]12O[C@@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/C" },
+{id: "canvas_Row3", smiles: "C=C(C)C12OC3(c4ccccc4)OC1C1C4OC4(CO)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)C=CC=CC=CCCC" },
+{id: "canvas_Row4", smiles: "C=C(C)[C@@]12O[C@@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/CC" },
+{id: "canvas_Row5", smiles: "C=C(C)[C@@]12OC3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccccc1" },
+{id: "canvas_Row6", smiles: "C=C(C)[C@@]12O[C@@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/CCCCCCCCCCCCCC" },
+{id: "canvas_Row7", smiles: "C=C(C)C12OC3(c4ccccc4)OC1C1C4OC4(CO)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)/C=C/C=C/C=C/CCC" },
+{id: "canvas_Row8", smiles: "C=C(C)C12OC3(c4ccccc4)OC1C1C4OC4(CO)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)c1ccccc1" },
+{id: "canvas_Row9", smiles: "C=C(C)[C@@]12O[C@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)c1ccccc1" },
+{id: "canvas_Row10", smiles: "C=C(C)[C@@]12O[C@@]3(CCCCCCCCC)O[C@@H]1[C@H]1[C@@H]4O[C@]4(CO)[C@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccc(O)cc1" },
+{id: "canvas_Row11", smiles: "C=C(C)[C@@]12OC3(/C=C/CCCCC)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4C1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccccc1" },
+{id: "canvas_Row12", smiles: "C=C(C)C12OC3(C=CCCCCC)OC1C1C4OC4(CO)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)C=Cc1ccccc1" },
+{id: "canvas_Row13", smiles: "C=C(C)[C@@]12O[C@@]3(/C=C/CCCCC)O[C@@H]1[C@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccccc1" },
+{id: "canvas_Row14", smiles: "C=C(C)[C@@]12O[C@@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/C=C/C=C/CCC" },
+{id: "canvas_Row15", smiles: "C=C(C)[C@@]12O[C@@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)c1ccccc1" },
+{id: "canvas_Row16", smiles: "C=C(C)[C@@]12OC3(CCCCCCCCC)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4C1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccc(O)cc1" },
+{id: "canvas_Row17", smiles: "C=C(C)[C@@]12O[C@@]3(c4ccccc4)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccccc1" },
+{id: "canvas_Row18", smiles: "C=C(C)C12OC3(c4ccccc4)OC1C1C4OC4(CO)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)C=Cc1ccccc1" },
+{id: "canvas_Row19", smiles: "C=C(C)C12OC3(c4ccccc4)OC1C1C4OC4(CO)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)C=CC" },
+{id: "canvas_Row20", smiles: "C=C(C)[C@@]12O[C@@]3(/C=C/CCCCC)O[C@@H]1[C@@H]1[C@@H]4O[C@]4(CO)[C@@H](O)[C@]4(O)C(=O)C(C)=C[C@H]4[C@@]1(O3)[C@H](C)[C@H]2OC(=O)/C=C/c1ccccc1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

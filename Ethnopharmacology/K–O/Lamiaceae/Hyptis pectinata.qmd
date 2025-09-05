@@ -1,0 +1,165 @@
+---
+title: "Hyptis pectinata"
+subtitle: "Loài Hyptis pectinata (Họ Lamiaceae)"
+description: "Loài *Hyptis pectinata* thuộc họ Lamiaceae phân bố tại một số vùng trên thế giới như Benin, Haiti, Cook Islands, Vanuatu, Kenya, Bahamas, Cuba, Jamaica, Mayotte, Tonga, Cabo Verde, Guadeloupe, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Chinese Taipei, Colombia, Réunion, Bonaire, Sint Eustatius and Saba, South Africa, Belize, Mauritius, Guatemala, Brazil, Togo, Costa Rica, United States of America, Ethiopia, Comoros, Dominican Republic, Nicaragua, Samoa, Ecuador, Puerto Rico, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'malagasy: emmenagogue, thuốc tẩy giun, thuốc bổ'.Từ loài này đã phân lập và xác định được 20 hoạt chất thuộc  về 4 nhóm gồm carboxylic acids and derivatives, fatty acyls, prenol lipids, pyrans."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20001025-8001%20Hyptis%20pectinata.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Hyptis pectinata", "Lamiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Hyptis pectinata* thuộc họ Lamiaceae phân bố tại một số vùng trên thế giới như Benin, Haiti, Cook Islands, Vanuatu, Kenya, Bahamas, Cuba, Jamaica, Mayotte, Tonga, Cabo Verde, Guadeloupe, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Chinese Taipei, Colombia, Réunion, Bonaire, Sint Eustatius and Saba, South Africa, Belize, Mauritius, Guatemala, Brazil, Togo, Costa Rica, United States of America, Ethiopia, Comoros, Dominican Republic, Nicaragua, Samoa, Ecuador, Puerto Rico, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'malagasy: emmenagogue, thuốc tẩy giun, thuốc bổ'.Từ loài này đã phân lập và xác định được 20 hoạt chất thuộc  về 4 nhóm gồm carboxylic acids and derivatives, fatty acyls, prenol lipids, pyrans.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Lamiaceae
+- **Genus:** Mesosphaerum
+- **Species:** *Mesosphaerum pectinatum*
+- **Scientific Name:** *Hyptis pectinata (L.) Poit.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Lamiaceae - Genus: Hyptis - Species: *Hyptis pectinata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20001025-8001%20Hyptis%20pectinata.jpg){ group="GIBF" }
+
+![](https://cdn.floridamuseum.ufl.edu/Herbarium/fa6bd2bf-b250-45a7-8552-87bed44c3dc2){ group="GIBF" }
+
+![](https://portal.wiktrop.org/biodiv/observations//92fbb886-1ee0-42ca-8add-eaf7b1da8dda/d4a0946ac4664f008af58c4b3513bb76.jpg){ group="GIBF" }
+
+![](https://bajaflora.org/HiResDisplay/HiResZoomDisplayRevillagigedo.aspx?H=260782){ group="GIBF" }
+
+![](https://biodiversidad.gt/imglib/guatemala/USAC_USCG/00049/USCG_49804_1718576195_lg.jpg){ group="GIBF" }
+
+![](https://portal.wiktrop.org/biodiv/observations//f00eefb4-f7e1-443f-929f-3216f0c492b0/517.JPG){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Benin, Haiti, Cook Islands, Vanuatu, Kenya, Bahamas, Cuba, Jamaica, Mayotte, Tonga, Cabo Verde, Guadeloupe, French Guiana, Venezuela (Bolivarian Republic of), Mexico, Chinese Taipei, Colombia, Réunion, Bonaire, Sint Eustatius and Saba, South Africa, Belize, Mauritius, Guatemala, Brazil, Togo, Costa Rica, United States of America, Ethiopia, Comoros, Dominican Republic, Nicaragua, Samoa, Ecuador, Puerto Rico, El Salvador
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Lamiaceae",
+  iso3_codes: ['CPV', 'MYT', 'CRI', 'ZAF', 'NIC', 'DOM', 'COK', 'COM', 'HTI', 'PRI', 'GTM', 'ECU', 'MUS', 'GUF', 'MEX', 'CUB', 'VUT', 'ETH', 'TGO', 'BEN', 'GLP', 'BHS', 'USA', 'BLZ', 'KEN', 'REU', 'WSM', 'TON', 'JAM', 'COL', 'BRA', 'SLV'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Hyptis pectinata* đã phân lập và xác định được 20 hoạt chất thuộc  về 4 nhóm gồm carboxylic acids and derivatives, fatty acyls, prenol lipids, pyrans. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0022124](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022124)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0273325](https://lotus.naturalproducts.net/compound/lotus_id/LTS0273325)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0144809](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144809)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0075899](https://lotus.naturalproducts.net/compound/lotus_id/LTS0075899)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0109350](https://lotus.naturalproducts.net/compound/lotus_id/LTS0109350)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0240057](https://lotus.naturalproducts.net/compound/lotus_id/LTS0240057)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0057781](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057781)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0269587](https://lotus.naturalproducts.net/compound/lotus_id/LTS0269587)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0081090](https://lotus.naturalproducts.net/compound/lotus_id/LTS0081090)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0041216](https://lotus.naturalproducts.net/compound/lotus_id/LTS0041216)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0171434](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171434)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0003903](https://lotus.naturalproducts.net/compound/lotus_id/LTS0003903)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0001915](https://lotus.naturalproducts.net/compound/lotus_id/LTS0001915)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0018800](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018800)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0117677](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117677)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0193328](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193328)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0144956](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144956)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0250838](https://lotus.naturalproducts.net/compound/lotus_id/LTS0250838)</div></div></div>
+<div class="group-title">Pyrans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0100507](https://lotus.naturalproducts.net/compound/lotus_id/LTS0100507)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0267354](https://lotus.naturalproducts.net/compound/lotus_id/LTS0267354)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                         |
+|-----------|-----------------|---------------------------------------|
+| Row0      | Malagasy        | Emmenagogue, Thuốc tẩy giun, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@@H]1[C@H]2C3=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]2(C(=O)O)CC[C@H]1C" },
+{id: "canvas_Row1", smiles: "CCCC[C@@H](/C=C\[C@@H]1OC(=O)C=C[C@@H]1O)OC(C)=O" },
+{id: "canvas_Row2", smiles: "CC(=O)O[C@H](/C=C\C=C1\C=CC(=O)O1)C[C@@H](OC(C)=O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row3", smiles: "CC(=O)O[C@H](/C=C/[C@@H]1OC(=O)C=C[C@@H]1O)C[C@@H](O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row4", smiles: "CCCCC(C=CC(O)C1C=CC(=O)O1)OC(C)=O" },
+{id: "canvas_Row5", smiles: "CCCC[C@@H](/C=C\[C@H](O)[C@@H]1C=CC(=O)O1)OC(C)=O" },
+{id: "canvas_Row6", smiles: "CO[C@@H]1CC(=O)O[C@@H](/C=C/[C@H](C[C@@H](OC(C)=O)[C@H](C)OC(C)=O)OC(C)=O)[C@H]1OC(C)=O" },
+{id: "canvas_Row7", smiles: "CO[C@H]1CC(=O)O[C@@H](/C=C\[C@H](C[C@@H](OC(C)=O)[C@H](C)OC(C)=O)OC(C)=O)[C@H]1OC(C)=O" },
+{id: "canvas_Row8", smiles: "CCCC[C@@H](/C=C\[C@@H]1OC(=O)C=C[C@@H]1OC(C)=O)OC(C)=O" },
+{id: "canvas_Row9", smiles: "CC(=O)OC(C=CC1OC(=O)C=CC1O)CC(O)C(C)OC(C)=O" },
+{id: "canvas_Row10", smiles: "CC(=O)O[C@H](/C=C\[C@@H]1OC(=O)C=C[C@@H]1OC(C)=O)C[C@@H](OC(C)=O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row11", smiles: "CC(=O)O[C@H](/C=C\C=C1/C=CC(=O)O1)C[C@@H](OC(C)=O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row12", smiles: "CC(=O)O[C@H](/C=C/[C@H]1CC=CC(=O)O1)C[C@@H](OC(C)=O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row13", smiles: "COC1CC(=O)OC(C=CC(CC(OC(C)=O)C(C)OC(C)=O)OC(C)=O)C1OC(C)=O" },
+{id: "canvas_Row14", smiles: "CC(=O)O[C@H](/C=C\[C@@H]1OC(=O)C=C[C@@H]1O)C[C@@H](O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row15", smiles: "CC(=O)OC(C=C/C=C1/C=CC(=O)O1)CC(OC(C)=O)C(C)OC(C)=O" },
+{id: "canvas_Row16", smiles: "CO[C@@H]1CC(=O)O[C@@H](/C=C\[C@H](C[C@@H](OC(C)=O)[C@H](C)OC(C)=O)OC(C)=O)[C@H]1OC(C)=O" },
+{id: "canvas_Row17", smiles: "CC(=O)O[C@H](/C=C/[C@@H]1OC(=O)C=C[C@@H]1O)C[C@@](O)(OC(C)=O)[C@H](C)OC(C)=O" },
+{id: "canvas_Row18", smiles: "CCCC[C@H](O)/C=C\[C@@H]1OC(=O)C=C[C@@H]1OC(C)=O" },
+{id: "canvas_Row19", smiles: "CC(=O)OC(C=CC1OC(=O)C=CC1OC(C)=O)CC(OC(C)=O)C(C)OC(C)=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

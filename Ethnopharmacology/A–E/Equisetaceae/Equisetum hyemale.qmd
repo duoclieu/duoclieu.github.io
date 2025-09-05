@@ -1,0 +1,176 @@
+---
+title: "Equisetum hyemale"
+subtitle: "Loài Equisetum hyemale (Họ Equisetaceae)"
+description: "Loài *Equisetum hyemale* thuộc họ Equisetaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Netherlands, Bulgaria, Hungary, Poland, Mexico, Chinese Taipei, Sweden, Russian Federation, Portugal, Estonia, Ukraine, United States of America, China, Italy, Lithuania, Norway, Canada, New Zealand, Denmark, Austria, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất làm se', 'turkey: chất làm se, cầm máu, thuốc lợi tiểu'.Từ loài này đã phân lập và xác định được 26 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, flavonoids, organooxygen compounds, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Equiseto%20de%20invierno%20%28Equisetum%20hyemale%29%2C%20jard%C3%ADn%20bot%C3%A1nico%20alpino-%C3%A1rtico%2C%20Troms%C3%B8%2C%20Noruega%2C%202019-09-04%2C%20DD%2081.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Equisetum hyemale", "Equisetaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Equisetum hyemale* thuộc họ Equisetaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Netherlands, Bulgaria, Hungary, Poland, Mexico, Chinese Taipei, Sweden, Russian Federation, Portugal, Estonia, Ukraine, United States of America, China, Italy, Lithuania, Norway, Canada, New Zealand, Denmark, Austria, Luxembourg. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất làm se', 'turkey: chất làm se, cầm máu, thuốc lợi tiểu'.Từ loài này đã phân lập và xác định được 26 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, flavonoids, organooxygen compounds, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Equisetales
+- **Family:** Equisetaceae
+- **Genus:** Equisetum
+- **Species:** *Equisetum hyemale*
+- **Scientific Name:** *Equisetum hyemale L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[rough horsetail, rough horsetail]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Equisetaceae - Genus: Equisetum - Species: *Equisetum hyemale* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Equiseto%20de%20invierno%20%28Equisetum%20hyemale%29%2C%20jard%C3%ADn%20bot%C3%A1nico%20alpino-%C3%A1rtico%2C%20Troms%C3%B8%2C%20Noruega%2C%202019-09-04%2C%20DD%2081.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum%20hyemale.jpg){ group="GIBF" }
+
+![](https://arter.dk/media/ab1f601b-cf9c-4ccd-8c10-b10600a44841.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343898602/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343921416/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344016076/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344255426/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344255447/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Germany, Switzerland, Netherlands, Bulgaria, Hungary, Poland, Mexico, Chinese Taipei, Sweden, Russian Federation, Portugal, Estonia, Ukraine, United States of America, China, Italy, Lithuania, Norway, Canada, New Zealand, Denmark, Austria, Luxembourg
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Equisetaceae",
+  iso3_codes: ['POL', 'HUN', 'AUT', 'DEU', 'NLD', 'NOR', 'FRA', 'CHN', 'SWE', 'CAN', 'RUS', 'MEX', 'LUX', 'NZL', 'DNK', 'PRT', 'USA', 'BGR', 'ITA', 'LTU', 'UKR', 'EST', 'CHE'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Equisetum hyemale* đã phân lập và xác định được 26 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, flavonoids, organooxygen compounds, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0056947](https://lotus.naturalproducts.net/compound/lotus_id/LTS0056947)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0084606](https://lotus.naturalproducts.net/compound/lotus_id/LTS0084606)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0225418](https://lotus.naturalproducts.net/compound/lotus_id/LTS0225418)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0157703](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157703)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0116734](https://lotus.naturalproducts.net/compound/lotus_id/LTS0116734)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0155361](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155361)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0040843](https://lotus.naturalproducts.net/compound/lotus_id/LTS0040843)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0043392](https://lotus.naturalproducts.net/compound/lotus_id/LTS0043392)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0196053](https://lotus.naturalproducts.net/compound/lotus_id/LTS0196053)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0205297](https://lotus.naturalproducts.net/compound/lotus_id/LTS0205297)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0200789](https://lotus.naturalproducts.net/compound/lotus_id/LTS0200789)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0218271](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218271)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0102265](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102265)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0033960](https://lotus.naturalproducts.net/compound/lotus_id/LTS0033960)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0192928](https://lotus.naturalproducts.net/compound/lotus_id/LTS0192928)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0141142](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141142)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0100944](https://lotus.naturalproducts.net/compound/lotus_id/LTS0100944)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0132646](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132646)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0275716](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275716)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0227522](https://lotus.naturalproducts.net/compound/lotus_id/LTS0227522)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0173313](https://lotus.naturalproducts.net/compound/lotus_id/LTS0173313)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0006899](https://lotus.naturalproducts.net/compound/lotus_id/LTS0006899)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0008322](https://lotus.naturalproducts.net/compound/lotus_id/LTS0008322)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0000701](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000701)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0224243](https://lotus.naturalproducts.net/compound/lotus_id/LTS0224243)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0108535](https://lotus.naturalproducts.net/compound/lotus_id/LTS0108535)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                        |
+|-----------|-----------------|--------------------------------------|
+| Row0      | Elsewhere       | Chất làm se                          |
+| Row1      | Turkey          | Chất làm se, cầm máu, Thuốc lợi tiểu |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=c1c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row1", smiles: "CC(/C=C/C=C(C)/C=C/C=C(\C)CC/C=C(\C)CO)=C\C=C\C=C(C)\C=C\C=C(C)\C=C\C=C(/C)CC/C=C(\C)CO" },
+{id: "canvas_Row2", smiles: "CC1=C[C@H](O)CC(C)(C)[C@H]1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)C[C@@H](O)CC1(C)C" },
+{id: "canvas_Row3", smiles: "CC1=CCCC(C)(C)[C@H]1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C" },
+{id: "canvas_Row4", smiles: "CC1=C[C@H](O)CC(C)(C)[C@H]1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C" },
+{id: "canvas_Row5", smiles: "CC(/C=C/C=C(C)/C=C/[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C)=C\C=C\C=C(C)\C=C\C=C(C)\C=C\[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C" },
+{id: "canvas_Row6", smiles: "CC(C)=CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C=C(\C)CC/C=C(\C)CO" },
+{id: "canvas_Row7", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C[C@@H](O)CC2(C)C)C(C)(C)C[C@H](O)C1" },
+{id: "canvas_Row8", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](O)CC2(C)C)C(C)(C)C[C@H](O)C1" },
+{id: "canvas_Row9", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\C)C2C=C3C(C)(C)C[C@H](O)C[C@@]3(C)O2)C(C)(C)C[C@H](O)C1" },
+{id: "canvas_Row10", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C[C@@H](O)CC2(C)C)C(C)(C)CCC1" },
+{id: "canvas_Row11", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)C(C)(C)CCC1" },
+{id: "canvas_Row12", smiles: "CC(C=C=C1C(C)(C)C[C@H](O)C[C@@]1(C)O)=CC=CC(C)=CC=CC=C(C)/C=C/C=C(/C)C=C[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C" },
+{id: "canvas_Row13", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)CCC2(C)C)C(C)(C)CCC1" },
+{id: "canvas_Row14", smiles: "CC1=CC(=O)CC(C)(C)/C1=C\C=C(C)\C=C\C=C(C)\C=C\C=C\C(C)=C\C=C\C(C)=C\C=C1\C(C)=CC(=O)CC1(C)C" },
+{id: "canvas_Row15", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\C)C2C=C3C(C)(C)CC(O)CC3(C)O2)C(C)(C)CC(O)C1" },
+{id: "canvas_Row16", smiles: "C/C(C=C=C1C(C)(C)C[C@H](O)C[C@@]1(C)O)=C\C=C\C(C)=C\C=C\C=C(C)\C=C\C=C(C)\C=C\[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C" },
+{id: "canvas_Row17", smiles: "CC1=CCCC(C)(C)C1/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C" },
+{id: "canvas_Row18", smiles: "CC(C)=CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C" },
+{id: "canvas_Row19", smiles: "O=c1c(OC2OC(CO)C(O)C(O)C2OC2OC(CO)C(O)C(O)C2O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row20", smiles: "O=C(O)[C@@](O)(CO)[C@H](O)[C@H](O)CO" },
+{id: "canvas_Row21", smiles: "O=C(O)/C=C/c1ccc(O)c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c1" },
+{id: "canvas_Row22", smiles: "COc1cc(/C=C/C(=O)O)ccc1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row23", smiles: "COc1cc(/C=C\C(=O)O)ccc1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row24", smiles: "O=C(O)C=Cc1ccc(O)c(OC2OC(CO)C(O)C(O)C2O)c1" },
+{id: "canvas_Row25", smiles: "COc1cc(C=CC(=O)O)ccc1OC1OC(CO)C(O)C(O)C1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

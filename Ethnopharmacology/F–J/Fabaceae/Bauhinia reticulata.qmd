@@ -1,0 +1,150 @@
+---
+title: "Bauhinia reticulata"
+subtitle: "Loài Bauhinia reticulata (Họ Fabaceae)"
+description: "Loài *Bauhinia reticulata* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như nan, Benin, Gambia, Tanzania, United Republic of, Kenya, Côte d’Ivoire, Cuba, Singapore, Mali, Niger, Ghana, Egypt, unknown or invalid, South Africa, Angola, Cameroon, Sudan, Nigeria, Burkina Faso, Senegal, Mozambique, Brazil, Central African Republic, Viet Nam, Zimbabwe, Ethiopia, Congo, Democratic Republic of the. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: xà phòng'.Từ loài này đã phân lập và xác định được 7 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, flavonoids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Bauhinia reticulata", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Bauhinia reticulata* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như nan, Benin, Gambia, Tanzania, United Republic of, Kenya, Côte d’Ivoire, Cuba, Singapore, Mali, Niger, Ghana, Egypt, unknown or invalid, South Africa, Angola, Cameroon, Sudan, Nigeria, Burkina Faso, Senegal, Mozambique, Brazil, Central African Republic, Viet Nam, Zimbabwe, Ethiopia, Congo, Democratic Republic of the. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: xà phòng'.Từ loài này đã phân lập và xác định được 7 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, flavonoids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Piliostigma
+- **Species:** *Piliostigma reticulatum*
+- **Scientific Name:** *Bauhinia reticulata DC.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Bauhinia - Species: *Bauhinia reticulata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://live.staticflickr.com/65535/51643505622_48ce376460_b.jpg){ group="GIBF" }
+
+![](https://live.staticflickr.com/65535/51644551698_5e2bf34b09_b.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/24305950.jpg){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/WAG.1969278/format/large){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/WAG.1702619/format/large){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/WAG.1702616/format/large){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Benin, Gambia, Tanzania, United Republic of, Kenya, Côte d’Ivoire, Cuba, Singapore, Mali, Niger, Ghana, Egypt, unknown or invalid, South Africa, Angola, Cameroon, Sudan, Nigeria, Burkina Faso, Senegal, Mozambique, Brazil, Central African Republic, Viet Nam, Zimbabwe, Ethiopia, Congo, Democratic Republic of the
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['CAF', 'NER', 'GHA', 'BEN', 'VNM', 'BFA', 'GMB', 'MLI', 'KEN', 'SGP', 'CMR', 'COG', 'ETH', 'NGA', 'MOZ', 'SEN', 'SDN', 'BRA', 'CUB', 'TZA', 'ZWE', 'EGY', 'ZAF', 'AGO'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Bauhinia reticulata* đã phân lập và xác định được 7 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, flavonoids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0040861](https://lotus.naturalproducts.net/compound/lotus_id/LTS0040861)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0079831](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079831)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0244415](https://lotus.naturalproducts.net/compound/lotus_id/LTS0244415)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0010124](https://lotus.naturalproducts.net/compound/lotus_id/LTS0010124)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0130320](https://lotus.naturalproducts.net/compound/lotus_id/LTS0130320)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0097364](https://lotus.naturalproducts.net/compound/lotus_id/LTS0097364)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0262667](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262667)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Xà phòng        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1c(-c2ccc(O)cc2)oc2c(C)c(O)c(C)c(O)c2c1=O" },
+{id: "canvas_Row1", smiles: "COc1c(-c2ccc(O)c(O)c2)oc2cc(O)c(C)c(O)c2c1=O" },
+{id: "canvas_Row2", smiles: "COc1cc(-c2oc3cc(OC)c(C)c(O)c3c(=O)c2OC)ccc1O" },
+{id: "canvas_Row3", smiles: "COc1c(C)c(O)c2c(=O)c(OC)c(-c3ccc(O)c(C)c3)oc2c1C" },
+{id: "canvas_Row4", smiles: "COc1cc(-c2oc3c(C)c(O)c(C)c(O)c3c(=O)c2OC)ccc1O" },
+{id: "canvas_Row5", smiles: "COc1cc(-c2oc3c(C)c(OC)c(C)c(O)c3c(=O)c2OC)ccc1O" },
+{id: "canvas_Row6", smiles: "COc1cc2oc(Oc3ccc(O)cc3)c(O)c(=O)c2c(O)c1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

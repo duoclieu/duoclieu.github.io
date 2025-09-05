@@ -1,0 +1,154 @@
+---
+title: "Cynanchum acutum"
+subtitle: "Loài Cynanchum acutum (Họ Apocynaceae)"
+description: "Loài *Cynanchum acutum* thuộc họ Apocynaceae phân bố tại một số vùng trên thế giới như France, Israel, Albania, Bulgaria, Spain, Mongolia, Russian Federation, Montenegro, Portugal, Romania, Uzbekistan, Azerbaijan, Türkiye, Ukraine, Georgia, Croatia, Kazakhstan, Italy, Greece, Iran (Islamic Republic of), North Macedonia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'ain: thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 2 nhóm gồm flavonoids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/C.%20acutum-3.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Cynanchum acutum", "Apocynaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Cynanchum acutum* thuộc họ Apocynaceae phân bố tại một số vùng trên thế giới như France, Israel, Albania, Bulgaria, Spain, Mongolia, Russian Federation, Montenegro, Portugal, Romania, Uzbekistan, Azerbaijan, Türkiye, Ukraine, Georgia, Croatia, Kazakhstan, Italy, Greece, Iran (Islamic Republic of), North Macedonia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'ain: thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 2 nhóm gồm flavonoids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Gentianales
+- **Family:** Apocynaceae
+- **Genus:** Cynanchum
+- **Species:** *Cynanchum acutum*
+- **Scientific Name:** *Cynanchum acutum L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Asclepiadaceae - Genus: Cynanchum - Species: *Cynanchum acutum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/C.%20acutum-3.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343904092/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343904080/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345608558/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345608549/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348102746/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348102648/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/361617825/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/361617892/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/361871308/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Israel, Albania, Bulgaria, Spain, Mongolia, Russian Federation, Montenegro, Portugal, Romania, Uzbekistan, Azerbaijan, Türkiye, Ukraine, Georgia, Croatia, Kazakhstan, Italy, Greece, Iran (Islamic Republic of), North Macedonia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Apocynaceae",
+  iso3_codes: ['PRT', 'UKR', 'ROU', 'HRV', 'UZB', 'ALB', 'TUR', 'ESP', 'GEO', 'ITA', 'MNG', 'MKD', 'MNE', 'AZE', 'GRC', 'BGR', 'ISR', 'FRA', 'KAZ', 'RUS'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Cynanchum acutum* đã phân lập và xác định được 5 hoạt chất thuộc  về 2 nhóm gồm flavonoids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0108806](https://lotus.naturalproducts.net/compound/lotus_id/LTS0108806)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0273871](https://lotus.naturalproducts.net/compound/lotus_id/LTS0273871)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0209801](https://lotus.naturalproducts.net/compound/lotus_id/LTS0209801)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0243617](https://lotus.naturalproducts.net/compound/lotus_id/LTS0243617)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0087236](https://lotus.naturalproducts.net/compound/lotus_id/LTS0087236)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh     |
+|-----------|-----------------|-------------------|
+| Row0      | ain             | Thuốc nhuận tràng |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC(O)C1(O)CC[C@]2(O)C3(O)CC=C4C[C@@H](O)CCC4(C)C3C[C@@H](OC(=O)/C=C\c3ccccc3)C12C" },
+{id: "canvas_Row1", smiles: "C[C@@H](O)[C@]1(O)CC[C@]2(O)[C@]3(O)CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3C[C@@H](OC(=O)/C=C/c3ccccc3)[C@]12C" },
+{id: "canvas_Row2", smiles: "CC(=O)[C@H]1CC[C@]2(O)[C@]3(O)CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3C[C@@H](OC(=O)/C=C(/C)C(C)C)[C@]12C" },
+{id: "canvas_Row3", smiles: "O=c1c(O[C@H]2OC(CO)[C@@H](O)C(O)[C@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row4", smiles: "O=c1c(OC2OC[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

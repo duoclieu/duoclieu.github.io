@@ -1,0 +1,157 @@
+---
+title: "Aglaia odoratissima"
+subtitle: "Loài Aglaia odoratissima (Họ Meliaceae)"
+description: "Loài *Aglaia odoratissima* thuộc họ Meliaceae phân bố tại một số vùng trên thế giới như Thailand, Philippines, Brunei Darussalam, unknown or invalid, Malaysia, India, Singapore, Indonesia, Viet Nam. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: diệt khuẩn'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 3 nhóm gồm organooxygen compounds, prenol lipids, saturated hydrocarbons."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Aglaia odoratissima", "Meliaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Aglaia odoratissima* thuộc họ Meliaceae phân bố tại một số vùng trên thế giới như Thailand, Philippines, Brunei Darussalam, unknown or invalid, Malaysia, India, Singapore, Indonesia, Viet Nam. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'india: diệt khuẩn'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 3 nhóm gồm organooxygen compounds, prenol lipids, saturated hydrocarbons.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Meliaceae
+- **Genus:** Aglaia
+- **Species:** *Aglaia odoratissima*
+- **Scientific Name:** *Aglaia odoratissima Blume*  
+- **Mô tả thực vật:** []
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** [Aglaia odoratissima]
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Meliaceae - Genus: Aglaia - Species: *Aglaia odoratissima* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://plant.depo.msu.ru/open/public/item/MW0758610/img/0.jpg?gbif){ group="GIBF" }
+
+![](https://d2seqvvyy3b8p2.cloudfront.net/6bbe98d14ddcf4922dbe9df071af8212.jpg){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.3902946/format/large){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.3908873/format/large){ group="GIBF" }
+
+![](https://iiif.rbge.org.uk/herb/iiif/E00263129/full/300){ group="GIBF" }
+
+![](/0/default.jpg){ group="GIBF" }
+
+![](https://iiif.rbge.org.uk/herb/iiif/E00263129/full/1600){ group="GIBF" }
+
+![](/0/default.jpg){ group="GIBF" }
+
+![](https://iiif.rbge.org.uk/herb/iiif/E00263129/manifest){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Thailand, Philippines, Brunei Darussalam, unknown or invalid, Malaysia, India, Singapore, Indonesia, Viet Nam
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Meliaceae",
+  iso3_codes: ['BRN', 'VNM', 'IDN', 'MYS', 'SGP', 'PHL', 'IND', 'THA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Aglaia odoratissima* đã phân lập và xác định được 6 hoạt chất thuộc  về 3 nhóm gồm organooxygen compounds, prenol lipids, saturated hydrocarbons. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0016615](https://lotus.naturalproducts.net/compound/lotus_id/LTS0016615)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0202079](https://lotus.naturalproducts.net/compound/lotus_id/LTS0202079)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0085446](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085446)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0085212](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085212)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0131870](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131870)</div></div></div>
+<div class="group-title">Saturated hydrocarbons</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0209095](https://lotus.naturalproducts.net/compound/lotus_id/LTS0209095)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | India           | diệt khuẩn      |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1C2CCC3C2C(C)(C)CCCC13C" },
+{id: "canvas_Row1", smiles: "C=C1C2CCC3[C@H]2C(C)(C)CCC[C@]13C" },
+{id: "canvas_Row2", smiles: "C=C1CC/C=C(\C)CC[C@@H]2[C@@H]1CC2(C)C" },
+{id: "canvas_Row3", smiles: "CCCCCC" },
+{id: "canvas_Row4", smiles: "C=C1CC/C=C(\C)CCC2C1CC2(C)C" },
+{id: "canvas_Row5", smiles: "CCCC(C)=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

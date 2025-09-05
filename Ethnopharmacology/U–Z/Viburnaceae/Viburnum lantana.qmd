@@ -1,0 +1,168 @@
+---
+title: "Viburnum lantana"
+subtitle: "Loài Viburnum lantana (Họ Viburnaceae)"
+description: "Loài *Viburnum lantana* thuộc họ Viburnaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Austria, Hungary, Spain, Sweden, Russian Federation, United Kingdom of Great Britain and Northern Ireland, Ukraine, United States of America, Luxembourg, Croatia, Italy, Canada, Slovakia, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'italian: chất làm se'.Từ loài này đã phân lập và xác định được 17 hoạt chất thuộc  về 3 nhóm gồm fatty acyls, flavonoids, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Viburnum%20lantana%20a1.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Viburnum lantana", "Viburnaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Viburnum lantana* thuộc họ Viburnaceae phân bố tại một số vùng trên thế giới như France, Germany, Switzerland, Czechia, Netherlands, Austria, Hungary, Spain, Sweden, Russian Federation, United Kingdom of Great Britain and Northern Ireland, Ukraine, United States of America, Luxembourg, Croatia, Italy, Canada, Slovakia, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'italian: chất làm se'.Từ loài này đã phân lập và xác định được 17 hoạt chất thuộc  về 3 nhóm gồm fatty acyls, flavonoids, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Dipsacales
+- **Family:** Viburnaceae
+- **Genus:** Viburnum
+- **Species:** *Viburnum lantana*
+- **Scientific Name:** *Viburnum lantana L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[wayfaring-tree, wayfaringtree]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Caprifoliaceae - Genus: Viburnum - Species: *Viburnum lantana* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Viburnum%20lantana%20a1.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344285512/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344550766/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344550749/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344671943/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345362190/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345362205/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345362199/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345531047/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345520253/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Germany, Switzerland, Czechia, Netherlands, Austria, Hungary, Spain, Sweden, Russian Federation, United Kingdom of Great Britain and Northern Ireland, Ukraine, United States of America, Luxembourg, Croatia, Italy, Canada, Slovakia, Belgium
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Viburnaceae",
+  iso3_codes: ['CHE', 'SWE', 'BEL', 'FRA', 'CAN', 'USA', 'NLD', 'ESP', 'UKR', 'GBR', 'DEU', 'LUX', 'CZE', 'HRV', 'SVK', 'HUN', 'ITA', 'AUT', 'RUS'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Viburnum lantana* đã phân lập và xác định được 17 hoạt chất thuộc  về 3 nhóm gồm fatty acyls, flavonoids, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0190477](https://lotus.naturalproducts.net/compound/lotus_id/LTS0190477)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0233415](https://lotus.naturalproducts.net/compound/lotus_id/LTS0233415)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0017052](https://lotus.naturalproducts.net/compound/lotus_id/LTS0017052)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0077168](https://lotus.naturalproducts.net/compound/lotus_id/LTS0077168)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0155822](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155822)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0004651](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004651)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0063796](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063796)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0124412](https://lotus.naturalproducts.net/compound/lotus_id/LTS0124412)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0141289](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141289)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0118773](https://lotus.naturalproducts.net/compound/lotus_id/LTS0118773)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0112588](https://lotus.naturalproducts.net/compound/lotus_id/LTS0112588)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0239084](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239084)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0028009](https://lotus.naturalproducts.net/compound/lotus_id/LTS0028009)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0213103](https://lotus.naturalproducts.net/compound/lotus_id/LTS0213103)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0253552](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253552)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0001979](https://lotus.naturalproducts.net/compound/lotus_id/LTS0001979)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0050358](https://lotus.naturalproducts.net/compound/lotus_id/LTS0050358)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Italian         | Chất làm se     |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row1", smiles: "CC(=O)O[C@H]1[C@H](O)[C@@H](CO)O[C@@H](OCC2=CO[C@@H](OC(=O)CC(C)C)[C@H]3[C@@H]2C[C@H](O)[C@@H]3CO)[C@@H]1O" },
+{id: "canvas_Row2", smiles: "Oc1cc(O)c2cc(O)c(-c3ccc(O)c(O)c3)[o+]c2c1" },
+{id: "canvas_Row3", smiles: "C=CC(C)(O)CCC=C(C)COC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row4", smiles: "CC(=O)O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1OCC1=CO[C@@H](OC(=O)CC(C)C)[C@H]2[C@@H]1C[C@H](O)[C@@H]2CO" },
+{id: "canvas_Row5", smiles: "CC(=O)O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1OCC1=CO[C@@H](OC(=O)CC(C)C)[C@@H]2[C@@H](CO)CC[C@H]12" },
+{id: "canvas_Row6", smiles: "CC(=O)OC1C(O)C(CO)OC(OCC2=COC(OC(=O)CC(C)C)C3C2CC(O)C3CO)C1O" },
+{id: "canvas_Row7", smiles: "O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row8", smiles: "C=C(CO)[C@H]1CC[C@H](CO)[C@H]1CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row9", smiles: "CC(=O)OC1C(OCC2=COC(OC(=O)CC(C)C)C3C(CO)CCC23)OC(CO)C(O)C1O" },
+{id: "canvas_Row10", smiles: "C=C(CO)C1CCC(CO)C1COC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row11", smiles: "CC(C)CC(=O)O[C@@H]1OC=C(CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]2CC[C@H](CO)[C@@H]12" },
+{id: "canvas_Row12", smiles: "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row13", smiles: "O=c1cc(-c2ccc(O)c(-c3c(O)cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc34)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row14", smiles: "CC(=O)OC1C(OCC2=COC(OC(=O)CC(C)C)C3C2CC(O)C3CO)OC(CO)C(O)C1O" },
+{id: "canvas_Row15", smiles: "C=C[C@](C)(O)CC/C=C(\C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row16", smiles: "CC(C)CC(=O)OC1OC=C(COC2OC(CO)C(O)C(O)C2O)C2CCC(CO)C12" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

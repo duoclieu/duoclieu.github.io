@@ -1,0 +1,161 @@
+---
+title: "Urena lobata"
+subtitle: "Loài Urena lobata (Họ Malvaceae)"
+description: "Loài *Urena lobata* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như Benin, Gambia, Saint Lucia, Kenya, Jamaica, Singapore, Sri Lanka, Ghana, French Guiana, Gabon, Chinese Taipei, Mexico, Hong Kong, South Africa, Cameroon, Australia, Madagascar, Indonesia, Mauritius, Senegal, India, Brazil, Costa Rica, Peru, Viet Nam, Guam, Thailand, United States of America, Philippines, China, Uganda, Dominican Republic, Nicaragua, Malaysia, Ecuador, Puerto Rico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dominican republic: chất làm mềm', 'elsewhere: chất làm mềm, thuốc long đờm, chất làm lạnh', 'haiti: alexiteric, chất làm lạnh', 'india: thuốc lợi tiểu', 'java: cầm máu', 'philippines: chất làm mềm', 'tahiti: emmenagogue'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, organooxygen compounds, prenol lipids, tannins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Urena%20lobata-2-bsi-yercaud-salem-India.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Urena lobata", "Malvaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Urena lobata* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như Benin, Gambia, Saint Lucia, Kenya, Jamaica, Singapore, Sri Lanka, Ghana, French Guiana, Gabon, Chinese Taipei, Mexico, Hong Kong, South Africa, Cameroon, Australia, Madagascar, Indonesia, Mauritius, Senegal, India, Brazil, Costa Rica, Peru, Viet Nam, Guam, Thailand, United States of America, Philippines, China, Uganda, Dominican Republic, Nicaragua, Malaysia, Ecuador, Puerto Rico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dominican republic: chất làm mềm', 'elsewhere: chất làm mềm, thuốc long đờm, chất làm lạnh', 'haiti: alexiteric, chất làm lạnh', 'india: thuốc lợi tiểu', 'java: cầm máu', 'philippines: chất làm mềm', 'tahiti: emmenagogue'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, organooxygen compounds, prenol lipids, tannins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malvales
+- **Family:** Malvaceae
+- **Genus:** Urena
+- **Species:** *Urena lobata*
+- **Scientific Name:** *Urena lobata L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[Common Purple Mallow, Common Purple Mallow]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Malvaceae - Genus: Urena - Species: *Urena lobata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Urena%20lobata-2-bsi-yercaud-salem-India.JPG){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Urena%20lobata%202.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343823846/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343886348/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343920573/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343920586/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344028407/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344216152/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Benin, Gambia, Saint Lucia, Kenya, Jamaica, Singapore, Sri Lanka, Ghana, French Guiana, Gabon, Chinese Taipei, Mexico, Hong Kong, South Africa, Cameroon, Australia, Madagascar, Indonesia, Mauritius, Senegal, India, Brazil, Costa Rica, Peru, Viet Nam, Guam, Thailand, United States of America, Philippines, China, Uganda, Dominican Republic, Nicaragua, Malaysia, Ecuador, Puerto Rico
+
+**Phấn bố ở Việt nam:** Đà Nẵng, Hải Phòng
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Malvaceae",
+  iso3_codes: ['USA', 'BEN', 'CHN', 'VNM', 'AUS', 'GAB', 'NIC', 'BRA', 'DOM', 'GUM', 'MUS', 'HKG', 'IDN', 'KEN', 'LCA', 'GMB', 'MDG', 'MYS', 'GUF', 'PRI', 'LKA', 'PHL', 'IND', 'CRI', 'MEX', 'SEN', 'THA', 'CMR', 'GHA', 'SGP', 'ZAF', 'ECU', 'JAM', 'PER', 'UGA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Urena lobata* đã phân lập và xác định được 6 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, organooxygen compounds, prenol lipids, tannins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0267034](https://lotus.naturalproducts.net/compound/lotus_id/LTS0267034)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0128217](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128217)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0011141](https://lotus.naturalproducts.net/compound/lotus_id/LTS0011141)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0163589](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163589)</div></div></div>
+<div class="group-title">Tannins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0178639](https://lotus.naturalproducts.net/compound/lotus_id/LTS0178639)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0018178](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018178)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ      | Chứng và bệnh                               |
+|-----------|--------------------|---------------------------------------------|
+| Row0      | Dominican Republic | Chất làm mềm                                |
+| Row1      | Elsewhere          | Chất làm mềm, Thuốc long đờm, Chất làm lạnh |
+| Row2      | Haiti              | Alexiteric, Chất làm lạnh                   |
+| Row3      | India              | Thuốc lợi tiểu                              |
+| Row4      | Java               | cầm máu                                     |
+| Row5      | Philippines        | Chất làm mềm                                |
+| Row6      | Tahiti             | Emmenagogue                                 |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O" },
+{id: "canvas_Row1", smiles: "CCCCCCCCC1=C(CCCCCCC(=O)O)C1" },
+{id: "canvas_Row2", smiles: "COc1cc(C2Oc3c(OC)cc(C(=O)O)cc3C2CO)ccc1OC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row3", smiles: "C=C[C@@](C)(O)CC/C=C(\C)C(=O)OC(=O)c1cc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2OC[C@@](O)(CO)[C@@H]2O)ccc1O" },
+{id: "canvas_Row4", smiles: "C=CC(C)(O)CCC=C(C)C(=O)OC(=O)c1cc(OC2OC(CO)C(O)C(O)C2OC2OCC(O)(CO)C2O)ccc1O" },
+{id: "canvas_Row5", smiles: "COc1cc([C@@H]2Oc3c(OC)cc(C(=O)O)cc3[C@H]2CO)ccc1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

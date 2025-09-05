@@ -1,0 +1,172 @@
+---
+title: "Lycoris squamigera"
+subtitle: "Loài Lycoris squamigera (Họ Amaryllidaceae)"
+description: "Loài *Lycoris squamigera* thuộc họ Amaryllidaceae phân bố tại một số vùng trên thế giới như nan, Korea, Republic of, United States of America, Ukraine, Canada. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: gây nôn, thuốc long đờm'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 4 nhóm gồm , amaryllidaceae alkaloids, benzazepines, quinolines and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Lycoris%20squamigera.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Lycoris squamigera", "Amaryllidaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Lycoris squamigera* thuộc họ Amaryllidaceae phân bố tại một số vùng trên thế giới như nan, Korea, Republic of, United States of America, Ukraine, Canada. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: gây nôn, thuốc long đờm'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 4 nhóm gồm , amaryllidaceae alkaloids, benzazepines, quinolines and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asparagales
+- **Family:** Amaryllidaceae
+- **Genus:** Lycoris
+- **Species:** *Lycoris squamigera*
+- **Scientific Name:** *Lycoris squamigera Maxim.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[magic lily, resurrection lily, surprise lily]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Liliaceae - Genus: Lycoris - Species: *Lycoris squamigera* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Lycoris%20squamigera.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/353189202/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355098120/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356890734/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356890799/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357016574/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358420772/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Korea, Republic of, United States of America, Ukraine, Canada
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Amaryllidaceae",
+  iso3_codes: ['USA', 'CAN', 'UKR'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Lycoris squamigera* đã phân lập và xác định được 25 hoạt chất thuộc  về 4 nhóm gồm , amaryllidaceae alkaloids, benzazepines, quinolines and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0245479](https://lotus.naturalproducts.net/compound/lotus_id/LTS0245479)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0165669](https://lotus.naturalproducts.net/compound/lotus_id/LTS0165669)</div></div></div>
+<div class="group-title">Amaryllidaceae alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0038419](https://lotus.naturalproducts.net/compound/lotus_id/LTS0038419)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0107470](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107470)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0231243](https://lotus.naturalproducts.net/compound/lotus_id/LTS0231243)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0062582](https://lotus.naturalproducts.net/compound/lotus_id/LTS0062582)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0219821](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219821)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0170145](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170145)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0107238](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107238)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0121883](https://lotus.naturalproducts.net/compound/lotus_id/LTS0121883)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0022942](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022942)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0159511](https://lotus.naturalproducts.net/compound/lotus_id/LTS0159511)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0051706](https://lotus.naturalproducts.net/compound/lotus_id/LTS0051706)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0119338](https://lotus.naturalproducts.net/compound/lotus_id/LTS0119338)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0067392](https://lotus.naturalproducts.net/compound/lotus_id/LTS0067392)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0074802](https://lotus.naturalproducts.net/compound/lotus_id/LTS0074802)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0182395](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182395)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0141178](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141178)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0097354](https://lotus.naturalproducts.net/compound/lotus_id/LTS0097354)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0060536](https://lotus.naturalproducts.net/compound/lotus_id/LTS0060536)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0028242](https://lotus.naturalproducts.net/compound/lotus_id/LTS0028242)</div></div></div>
+<div class="group-title">Benzazepines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0132315](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132315)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0132664](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132664)</div></div></div>
+<div class="group-title">Quinolines and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0202973](https://lotus.naturalproducts.net/compound/lotus_id/LTS0202973)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0165872](https://lotus.naturalproducts.net/compound/lotus_id/LTS0165872)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh           |
+|-----------|-----------------|-------------------------|
+| Row0      | Elsewhere       | gây nôn, Thuốc long đờm |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2" },
+{id: "canvas_Row1", smiles: "COc1ccc2c3c1OC1CC(O)C=CC31CCN(C)C2" },
+{id: "canvas_Row2", smiles: "COc1ccc2c3c1OC1CC(O)CCC31CCN(C)C2" },
+{id: "canvas_Row3", smiles: "OC1=NC2C(=CC(O)C(O)C2O)c2cc3c(c(O)c21)OCO3" },
+{id: "canvas_Row4", smiles: "OC1=N[C@@H]2C(=C[C@H](O)[C@@H](O)[C@H]2O)c2cc3c(c(O)c21)OCO3" },
+{id: "canvas_Row5", smiles: "CN1CCC23CCC(O)CC2Oc2c(O)ccc(c23)C1" },
+{id: "canvas_Row6", smiles: "CN1CC[C@@]23C=C[C@H](O)C[C@@H]2Oc2c(O)ccc(c23)C1" },
+{id: "canvas_Row7", smiles: "OC1=NC2C(=CC(O)C(O)C2O)c2cc3c(cc21)OCO3" },
+{id: "canvas_Row8", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4CO[C@]2(O)CN(C)[C@H]3C1)OCO5" },
+{id: "canvas_Row9", smiles: "COC1C=CC23c4cc5c(cc4COC2(O)CN(C)C3C1)OCO5" },
+{id: "canvas_Row10", smiles: "CN1CCC23C=CC(O)CC2Oc2c(O)ccc(c23)C1" },
+{id: "canvas_Row11", smiles: "OC1=N[C@@H]2C(=C[C@H](O)[C@@H](O)[C@H]2O)c2cc3c(cc21)OCO3" },
+{id: "canvas_Row12", smiles: "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCNC2" },
+{id: "canvas_Row13", smiles: "OC1C=CC2(O)C3CN(Cc4cc5c(cc43)OCO5)C2C1" },
+{id: "canvas_Row14", smiles: "O[C@@H]1C=C[C@]2(O)[C@H](C1)N1Cc3cc4c(cc3[C@@H]2C1)OCO4" },
+{id: "canvas_Row15", smiles: "COc1ccc2c3c1OC1CC(O)C=CC31CCNC2" },
+{id: "canvas_Row16", smiles: "COC1C=C2C3CN(Cc4cc5c(cc43)OCO5)C2CC1O" },
+{id: "canvas_Row17", smiles: "CN1CC[C@]23CC[C@H](O)C[C@@H]2Oc2c(O)ccc(c23)C1" },
+{id: "canvas_Row18", smiles: "CNc1ccccc1-c1cc2c(cc1CO)OCO2" },
+{id: "canvas_Row19", smiles: "COC1C=CC23c4cc5c(cc4C(OC)OC2CN(C)C3C1)OCO5" },
+{id: "canvas_Row20", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4[C@H](OC)O[C@H]2CN(C)[C@H]3C1)OCO5" },
+{id: "canvas_Row21", smiles: "CO[C@H]1C=C2[C@H]3CN(Cc4cc5c(cc43)OCO5)[C@H]2C[C@@H]1O" },
+{id: "canvas_Row22", smiles: "COc1ccc2c3c1O[C@H]1C[C@@H](O)CC[C@]31CCN(C)C2" },
+{id: "canvas_Row23", smiles: "COc1ccc(CN(C)C[C@H](O)c2ccc(O)cc2)cc1O" },
+{id: "canvas_Row24", smiles: "COc1ccc(CN(C)CC(O)c2ccc(O)cc2)cc1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

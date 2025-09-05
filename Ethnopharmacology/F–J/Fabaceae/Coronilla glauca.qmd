@@ -1,0 +1,176 @@
+---
+title: "Coronilla glauca"
+subtitle: "Loài Coronilla glauca (Họ Fabaceae)"
+description: "Loài *Coronilla glauca* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như France, nan, Spain, Montenegro, Portugal, Algeria, Malta, Croatia, unknown or invalid, Italy, Morocco, Greece, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'ain: thuốc trợ tim'.Từ loài này đã phân lập và xác định được 29 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/The%20Botanical%20Magazine%2C%20Plate%2013%20%28Volume%201%2C%201787%29.png
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Coronilla glauca", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Coronilla glauca* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như France, nan, Spain, Montenegro, Portugal, Algeria, Malta, Croatia, unknown or invalid, Italy, Morocco, Greece, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'ain: thuốc trợ tim'.Từ loài này đã phân lập và xác định được 29 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Coronilla
+- **Species:** *Coronilla glauca*
+- **Scientific Name:** *Coronilla glauca Asso ex Nyman, 1878*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Coronilla argentea L., Coronilla valentina L. subsp. glauca (L.) Batt.]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Coronilla - Species: *Coronilla glauca* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/The%20Botanical%20Magazine%2C%20Plate%2013%20%28Volume%201%2C%201787%29.png){ group="GIBF" }
+
+![](https://observation.org/photos/62766658.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/63429580.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/66411746.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/66411747.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/66411745.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/66411744.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/67865913.jpg){ group="GIBF" }
+
+![](https://observation.org/photos/68920266.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, nan, Spain, Montenegro, Portugal, Algeria, Malta, Croatia, unknown or invalid, Italy, Morocco, Greece, Belgium
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['MNE', 'MLT', 'ESP', 'GRC', 'DZA', 'FRA', 'MAR', 'BEL', 'ITA', 'PRT', 'HRV'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Coronilla glauca* đã phân lập và xác định được 29 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0121746](https://lotus.naturalproducts.net/compound/lotus_id/LTS0121746)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0157584](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157584)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0162728](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162728)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0193112](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193112)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0071158](https://lotus.naturalproducts.net/compound/lotus_id/LTS0071158)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0196187](https://lotus.naturalproducts.net/compound/lotus_id/LTS0196187)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0071482](https://lotus.naturalproducts.net/compound/lotus_id/LTS0071482)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0102008](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102008)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0048213](https://lotus.naturalproducts.net/compound/lotus_id/LTS0048213)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0137308](https://lotus.naturalproducts.net/compound/lotus_id/LTS0137308)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0179680](https://lotus.naturalproducts.net/compound/lotus_id/LTS0179680)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0140569](https://lotus.naturalproducts.net/compound/lotus_id/LTS0140569)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0146961](https://lotus.naturalproducts.net/compound/lotus_id/LTS0146961)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0096466](https://lotus.naturalproducts.net/compound/lotus_id/LTS0096466)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0220926](https://lotus.naturalproducts.net/compound/lotus_id/LTS0220926)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0192671](https://lotus.naturalproducts.net/compound/lotus_id/LTS0192671)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0248374](https://lotus.naturalproducts.net/compound/lotus_id/LTS0248374)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0066412](https://lotus.naturalproducts.net/compound/lotus_id/LTS0066412)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0239699](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239699)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0247227](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247227)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0043437](https://lotus.naturalproducts.net/compound/lotus_id/LTS0043437)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0026756](https://lotus.naturalproducts.net/compound/lotus_id/LTS0026756)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0008731](https://lotus.naturalproducts.net/compound/lotus_id/LTS0008731)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0056784](https://lotus.naturalproducts.net/compound/lotus_id/LTS0056784)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0019111](https://lotus.naturalproducts.net/compound/lotus_id/LTS0019111)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0016418](https://lotus.naturalproducts.net/compound/lotus_id/LTS0016418)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0083690](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083690)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0145581](https://lotus.naturalproducts.net/compound/lotus_id/LTS0145581)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0164262](https://lotus.naturalproducts.net/compound/lotus_id/LTS0164262)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | ain             | Thuốc trợ tim   |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=c1ccc2cc3ccoc3cc2o1" },
+{id: "canvas_Row1", smiles: "COc1cc2cc(Oc3ccc4ccc(=O)oc4c3)c(=O)oc2cc1O" },
+{id: "canvas_Row2", smiles: "O=c1ccc2ccc(O)cc2o1" },
+{id: "canvas_Row3", smiles: "COc1cc2ccc(=O)oc2cc1O" },
+{id: "canvas_Row4", smiles: "CC12CCC(OC3OC(CO)C(O)C(O)C3O)CC1CCC1C2CCC2(C)C(C3=CC(=O)OC3)CCC12O" },
+{id: "canvas_Row5", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@@]43C=O)[C@@]1(O)[C@H](O)C[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row6", smiles: "CC12CCC3C(CCC4CC(O)CCC43CO)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row7", smiles: "CC12CCC(O)CC1CCC1C2CCC2(C)C(C3=CC(=O)OC3)CCC12O" },
+{id: "canvas_Row8", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)[C@H](O)[C@H]5O)CC[C@@]43CO)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row9", smiles: "CC12CCC3C(CCC4CC(OC5OC(CO)C(O)C(O)C5O)CCC43C=O)C1(O)C(O)CC2C1=CC(=O)OC1" },
+{id: "canvas_Row10", smiles: "CC12CCC3C(CCC4(O)CC(OC5OC(C(O)CO)C(O)C5O)CCC34CO)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row11", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O)CC[C@@]43CO)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row12", smiles: "C[C@]12CC[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C3=CC(=O)OC3)CC[C@]12O" },
+{id: "canvas_Row13", smiles: "CC12CCC3C(CCC4CC(OC5OC(CO)C(OC6OC(CO)C(O)C(O)C6O)C(O)C5O)CCC43CO)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row14", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@]4(O)C[C@@H](O[C@@H]5O[C@H]([C@H](O)CO)[C@@H](O)[C@H]5O)CC[C@]34C=O)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row15", smiles: "CC12CCC3C(CCC4CC(OC5OC(CO)C(O)C(O)C5O)CCC43CO)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row16", smiles: "CC12CCC3C(CCC4CC(O)CCC43C=O)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row17", smiles: "CC12CCC3C(CCC4CC(OC5OC(CO)C(OC6OC(CO)C(O)C(O)C6O)C(O)C5O)CCC43C=O)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row18", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@@]43C=O)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row19", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@@]43CO)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row20", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O)CC[C@@]43C=O)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row21", smiles: "CC12CCC3C(CCC4(O)CC(OC5OC(C(O)CO)C(O)C5O)CCC34C=O)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row22", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@@]43C=O)[C@@]1(O)CC[C@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row23", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@]4(O)C[C@@H](O[C@@H]5O[C@H]([C@H](O)CO)[C@@H](O)[C@H]5O)CC[C@]34CO)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row24", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@]4(O)C[C@@H](O[C@@H]5O[C@H]([C@H](O)CO)[C@H](O)[C@H]5O)CC[C@]34C=O)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row25", smiles: "CC12CCC3C(CCC4CC(OC5OC(CO)C(O)C(O)C5O)CCC43C=O)C1(O)CCC2C1=CC(=O)OC1" },
+{id: "canvas_Row26", smiles: "C[C@]12CC[C@H]3[C@@H](CC[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)[C@H](O)[C@H]5O)CC[C@@]43C=O)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" },
+{id: "canvas_Row27", smiles: "C[C@]12CC[C@H](O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C3=CC(=O)OC3)CC[C@]12O" },
+{id: "canvas_Row28", smiles: "C[C@]12CCC3C(CC[C@H]4C[C@@H](O)CC[C@]34C=O)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

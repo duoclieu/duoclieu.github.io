@@ -1,0 +1,162 @@
+---
+title: "Syzygium malaccense"
+subtitle: "Loài Syzygium malaccense (Họ Myrtaceae)"
+description: "Loài *Syzygium malaccense* thuộc họ Myrtaceae phân bố tại một số vùng trên thế giới như Cayman Islands, Haiti, Vanuatu, New Caledonia, Jamaica, Singapore, French Polynesia, Guadeloupe, French Guiana, Mexico, Colombia, South Africa, Belize, Australia, Martinique, Panama, Indonesia, Madagascar, Grenada, Dominica, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, India, Brazil, Costa Rica, Peru, Thailand, United States of America, Montserrat, Philippines, Dominican Republic, Nicaragua, Fiji, Malaysia, Ecuador, Puerto Rico, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: diệt khuẩn, thuốc lợi tiểu', 'tonga: thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm flavonoids, tannins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Pommerac%20trinidad.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Syzygium malaccense", "Myrtaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Syzygium malaccense* thuộc họ Myrtaceae phân bố tại một số vùng trên thế giới như Cayman Islands, Haiti, Vanuatu, New Caledonia, Jamaica, Singapore, French Polynesia, Guadeloupe, French Guiana, Mexico, Colombia, South Africa, Belize, Australia, Martinique, Panama, Indonesia, Madagascar, Grenada, Dominica, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, India, Brazil, Costa Rica, Peru, Thailand, United States of America, Montserrat, Philippines, Dominican Republic, Nicaragua, Fiji, Malaysia, Ecuador, Puerto Rico, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: diệt khuẩn, thuốc lợi tiểu', 'tonga: thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm flavonoids, tannins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Myrtales
+- **Family:** Myrtaceae
+- **Genus:** Syzygium
+- **Species:** *Syzygium malaccense*
+- **Scientific Name:** *Syzygium malaccense (L.) Merr. & L.M.Perry*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[jambu bol, jambu merah, Malay apple, Malay rose apple, Otaheite cashew, pommerac, jambu bol, jambu merah, Malay apple, Malay rose apple, Otaheite cashew, pommerac]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Myrtaceae - Genus: Syzygium - Species: *Syzygium malaccense* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Pommerac%20trinidad.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20070321-6134%20Syzygium%20malaccense.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345032586/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345032567/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345032550/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345488227/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345489867/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347181326/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347181360/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347181268/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347181294/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/380032032/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/380032034/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Cayman Islands, Haiti, Vanuatu, New Caledonia, Jamaica, Singapore, French Polynesia, Guadeloupe, French Guiana, Mexico, Colombia, South Africa, Belize, Australia, Martinique, Panama, Indonesia, Madagascar, Grenada, Dominica, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, India, Brazil, Costa Rica, Peru, Thailand, United States of America, Montserrat, Philippines, Dominican Republic, Nicaragua, Fiji, Malaysia, Ecuador, Puerto Rico, El Salvador
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Myrtaceae",
+  iso3_codes: ['IDN', 'PYF', 'HND', 'MEX', 'GLP', 'HTI', 'AUS', 'PER', 'MYS', 'MSR', 'GUF', 'VUT', 'NIC', 'PAN', 'COL', 'IND', 'FJI', 'SLV', 'NCL', 'USA', 'BLZ', 'CYM', 'ECU', 'CRI', 'PHL', 'PRI', 'BRA', 'MDG', 'SGP', 'JAM', 'KNA', 'DMA', 'DOM', 'GRD', 'ZAF', 'THA', 'TTO', 'MTQ'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Syzygium malaccense* đã phân lập và xác định được 6 hoạt chất thuộc  về 2 nhóm gồm flavonoids, tannins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0117079](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117079)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0093095](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093095)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0029128](https://lotus.naturalproducts.net/compound/lotus_id/LTS0029128)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0189989](https://lotus.naturalproducts.net/compound/lotus_id/LTS0189989)</div></div></div>
+<div class="group-title">Tannins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0125222](https://lotus.naturalproducts.net/compound/lotus_id/LTS0125222)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0037297](https://lotus.naturalproducts.net/compound/lotus_id/LTS0037297)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh              |
+|-----------|-----------------|----------------------------|
+| Row0      | Elsewhere       | diệt khuẩn, Thuốc lợi tiểu |
+| Row1      | Tonga           | Thuốc nhuận tràng          |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@@H](O)C2" },
+{id: "canvas_Row1", smiles: "C[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row2", smiles: "COc1c(O)cc2c(=O)oc3c(O)c(O)cc4c(=O)oc1c2c34" },
+{id: "canvas_Row3", smiles: "COc1c(O)cc(-c2oc3cc(O)cc(O)c3c(=O)c2O[C@@H]2OC(C)[C@H](O)C(O)[C@@H]2O)cc1O" },
+{id: "canvas_Row4", smiles: "C[C@@H]1O[C@@H](Oc2c(-c3cc(O)c(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row5", smiles: "O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

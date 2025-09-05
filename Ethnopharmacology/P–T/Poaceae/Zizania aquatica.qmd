@@ -1,0 +1,159 @@
+---
+title: "Zizania aquatica"
+subtitle: "Loài Zizania aquatica (Họ Poaceae)"
+description: "Loài *Zizania aquatica* thuộc họ Poaceae phân bố tại một số vùng trên thế giới như Canada, United States of America, Russian Federation. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc lợi tiểu, chất làm lạnh'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 3 nhóm gồm organooxygen compounds, phenol ethers, phenols."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Zizania%20aquatica%2001.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Zizania aquatica", "Poaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Zizania aquatica* thuộc họ Poaceae phân bố tại một số vùng trên thế giới như Canada, United States of America, Russian Federation. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc lợi tiểu, chất làm lạnh'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 3 nhóm gồm organooxygen compounds, phenol ethers, phenols.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Poales
+- **Family:** Poaceae
+- **Genus:** Zizania
+- **Species:** *Zizania aquatica*
+- **Scientific Name:** *Zizania aquatica L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[annual wild rice, annual wildrice, Indian wild rice, southern wild rice, water oats]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Poaceae - Genus: Zizania - Species: *Zizania aquatica* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Zizania%20aquatica%2001.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355384914/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355384759/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/383558967/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/383558885/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/388386098/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/391284521/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/396447320/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/396447329/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/396447324/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/396447318/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Canada, United States of America, Russian Federation
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Poaceae",
+  iso3_codes: ['RUS', 'CAN', 'USA'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Zizania aquatica* đã phân lập và xác định được 6 hoạt chất thuộc  về 3 nhóm gồm organooxygen compounds, phenol ethers, phenols. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0210346](https://lotus.naturalproducts.net/compound/lotus_id/LTS0210346)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0234844](https://lotus.naturalproducts.net/compound/lotus_id/LTS0234844)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0176045](https://lotus.naturalproducts.net/compound/lotus_id/LTS0176045)</div></div></div>
+<div class="group-title">Phenol ethers</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0013639](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013639)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0136163](https://lotus.naturalproducts.net/compound/lotus_id/LTS0136163)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0201406](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201406)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                 |
+|-----------|-----------------|-------------------------------|
+| Row0      | China           | Thuốc lợi tiểu, Chất làm lạnh |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc(C=O)ccc1O" },
+{id: "canvas_Row1", smiles: "O=P(O)(O)OC1C(OP(=O)(O)O)C(OP(=O)(O)O)C(OP(=O)(O)O)C(OP(=O)(O)O)C1OP(=O)(O)O" },
+{id: "canvas_Row2", smiles: "COc1cc(C=O)cc(OC)c1O" },
+{id: "canvas_Row3", smiles: "O=P(O)(O)O[C@H]1[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1OP(=O)(O)O" },
+{id: "canvas_Row4", smiles: "O=Cc1cccc(O)c1" },
+{id: "canvas_Row5", smiles: "COc1ccccc1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

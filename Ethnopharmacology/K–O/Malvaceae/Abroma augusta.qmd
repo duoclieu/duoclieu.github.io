@@ -1,0 +1,143 @@
+---
+title: "Abroma augusta"
+subtitle: "Loài Abroma augusta (Họ Malvaceae)"
+description: "Loài *Abroma augusta* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Philippines, Chinese Taipei, China, Papua New Guinea, India, Palau. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: emmenagogue, thuốc bổ'.Từ loài này đã phân lập và xác định được 4 hoạt chất thuộc  về 2 nhóm gồm prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Abroma augusta", "Malvaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Abroma augusta* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Philippines, Chinese Taipei, China, Papua New Guinea, India, Palau. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: emmenagogue, thuốc bổ'.Từ loài này đã phân lập và xác định được 4 hoạt chất thuộc  về 2 nhóm gồm prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malvales
+- **Family:** Malvaceae
+- **Genus:** Abroma
+- **Species:** *Abroma augustum*
+- **Scientific Name:** *Abroma augusta (L.) Willd.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Sterculiaceae - Genus: Abroma - Species: *Abroma augusta* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://cdn.floridamuseum.ufl.edu/Herbarium/0d5586a2-e68e-4d66-a221-41729a8c38ea){ group="GIBF" }
+
+![](https://specify-attachments.science.ku.dk/static/NHMD_Botany/originals/C10019332.tif){ group="GIBF" }
+
+![](https://specify-attachments.science.ku.dk/static/NHMD_Botany/originals/C10019332_a.tif){ group="GIBF" }
+
+![](https://cdn.floridamuseum.ufl.edu/Herbarium/4b0b62f7-e2f6-4499-ad3e-6c1227b5f201){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, United States of America, Philippines, Chinese Taipei, China, Papua New Guinea, India, Palau
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Malvaceae",
+  iso3_codes: ['CHN', 'PHL', 'USA', 'IND', 'PLW', 'PNG'],
+  color: [1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Abroma augusta* đã phân lập và xác định được 4 hoạt chất thuộc  về 2 nhóm gồm prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0256952](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256952)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0072744](https://lotus.naturalproducts.net/compound/lotus_id/LTS0072744)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0066479](https://lotus.naturalproducts.net/compound/lotus_id/LTS0066479)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0088971](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088971)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh         |
+|-----------|-----------------|-----------------------|
+| Row0      | Elsewhere       | Emmenagogue, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row1", smiles: "C=C(C)[C@@H]1CC[C@]2(C)CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]12" },
+{id: "canvas_Row2", smiles: "CC(=O)O[C@H]1CC[C@@]2(C)[C@@H](CC[C@@]3(C)C4=CC[C@@]5(C)CCC(C)(C)C[C@H]5[C@]4(C)CC[C@@H]32)C1(C)C" },
+{id: "canvas_Row3", smiles: "CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@H](O)[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2C1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,167 @@
+---
+title: "Scopolia carniolica"
+subtitle: "Loài Scopolia carniolica (Họ Solanaceae)"
+description: "Loài *Scopolia carniolica* thuộc họ Solanaceae phân bố tại một số vùng trên thế giới như Germany, Czechia, Netherlands, Finland, Austria, Hungary, Poland, Sweden, Russian Federation, Romania, Ukraine, Georgia, Latvia, Croatia, Italy, Slovenia, Norway, Lithuania, Denmark, Slovakia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dutch: thuốc lợi tiểu', 'english: thuốc an thần, giãn đồng tử', 'eurasia: thôi miên, ma túy, thuốc an thần', 'french: chất độc', 'german: ma túy'.Từ loài này đã phân lập và xác định được 12 hoạt chất thuộc  về 3 nhóm gồm , hydroxy acids and derivatives, tropane alkaloids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Scopolia%20carniolica1.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Scopolia carniolica", "Solanaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Scopolia carniolica* thuộc họ Solanaceae phân bố tại một số vùng trên thế giới như Germany, Czechia, Netherlands, Finland, Austria, Hungary, Poland, Sweden, Russian Federation, Romania, Ukraine, Georgia, Latvia, Croatia, Italy, Slovenia, Norway, Lithuania, Denmark, Slovakia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dutch: thuốc lợi tiểu', 'english: thuốc an thần, giãn đồng tử', 'eurasia: thôi miên, ma túy, thuốc an thần', 'french: chất độc', 'german: ma túy'.Từ loài này đã phân lập và xác định được 12 hoạt chất thuộc  về 3 nhóm gồm , hydroxy acids and derivatives, tropane alkaloids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Solanales
+- **Family:** Solanaceae
+- **Genus:** Scopolia
+- **Species:** *Scopolia carniolica*
+- **Scientific Name:** *Scopolia carniolica Jacq.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Solanaceae - Genus: Scopolia - Species: *Scopolia carniolica* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Scopolia%20carniolica1.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358249787/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358249868/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358249754/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358573698/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358573661/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359117769/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359355245/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359355264/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359747411/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Germany, Czechia, Netherlands, Finland, Austria, Hungary, Poland, Sweden, Russian Federation, Romania, Ukraine, Georgia, Latvia, Croatia, Italy, Slovenia, Norway, Lithuania, Denmark, Slovakia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Solanaceae",
+  iso3_codes: ['ROU', 'DNK', 'HUN', 'AUT', 'SVK', 'UKR', 'RUS', 'FIN', 'LTU', 'GEO', 'DEU', 'HRV', 'CZE', 'SWE', 'POL', 'LVA', 'NLD', 'ITA', 'NOR', 'SVN'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Scopolia carniolica* đã phân lập và xác định được 12 hoạt chất thuộc  về 3 nhóm gồm , hydroxy acids and derivatives, tropane alkaloids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0083137](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083137)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0040983](https://lotus.naturalproducts.net/compound/lotus_id/LTS0040983)</div></div></div>
+<div class="group-title">Hydroxy acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0213778](https://lotus.naturalproducts.net/compound/lotus_id/LTS0213778)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0172796](https://lotus.naturalproducts.net/compound/lotus_id/LTS0172796)</div></div></div>
+<div class="group-title">Tropane alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0163635](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163635)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0167995](https://lotus.naturalproducts.net/compound/lotus_id/LTS0167995)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0267395](https://lotus.naturalproducts.net/compound/lotus_id/LTS0267395)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0042154](https://lotus.naturalproducts.net/compound/lotus_id/LTS0042154)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0052859](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052859)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0185864](https://lotus.naturalproducts.net/compound/lotus_id/LTS0185864)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0063401](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063401)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0039980](https://lotus.naturalproducts.net/compound/lotus_id/LTS0039980)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                    |
+|-----------|-----------------|----------------------------------|
+| Row0      | Dutch           | Thuốc lợi tiểu                   |
+| Row1      | English         | Thuốc an thần, giãn đồng tử      |
+| Row2      | Eurasia         | Thôi miên, Ma túy, Thuốc an thần |
+| Row3      | French          | Chất độc                         |
+| Row4      | German          | Ma túy                           |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CN1CCCC1CC(=O)CC1CCCN1C" },
+{id: "canvas_Row1", smiles: "CN1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12" },
+{id: "canvas_Row2", smiles: "CN1[C@H]2CC[C@@H]1CC(OC(=O)[C@H](CO)c1ccccc1)C2" },
+{id: "canvas_Row3", smiles: "CN1[C@H]2CC[C@@H]1C[C@H](O)C2" },
+{id: "canvas_Row4", smiles: "C/C=C(\C)C(=O)O[C@@H]1C[C@@H]2CC[C@H](C1)N2C" },
+{id: "canvas_Row5", smiles: "CN1[C@H]2CC[C@@H]1C[C@@H](O)C2" },
+{id: "canvas_Row6", smiles: "CN1[C@H]2C[C@H](OC(=O)[C@H](CO)c3ccccc3)C[C@@H]1[C@H]1O[C@@H]21" },
+{id: "canvas_Row7", smiles: "CN1C2CCC1CC(O)C2" },
+{id: "canvas_Row8", smiles: "CN1[C@H]2CC[C@@H]1C[C@H](OC(=O)C(CO)c1ccccc1)C2" },
+{id: "canvas_Row9", smiles: "CN1C2CCC1CC(OC(=O)C(CO)c1ccccc1)C2" },
+{id: "canvas_Row10", smiles: "CN1[C@H]2CC[C@@H]1C[C@H](OC(=O)[C@H](CO)c1ccccc1)C2" },
+{id: "canvas_Row11", smiles: "CN1CCC[C@H]1CC(=O)C[C@H]1CCCN1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

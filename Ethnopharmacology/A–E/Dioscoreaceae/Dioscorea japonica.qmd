@@ -1,0 +1,199 @@
+---
+title: "Dioscorea japonica"
+subtitle: "Loài Dioscorea japonica (Họ Dioscoreaceae)"
+description: "Loài *Dioscorea japonica* thuộc họ Dioscoreaceae phân bố tại một số vùng trên thế giới như Russian Federation, Chinese Taipei, China, Japan, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất làm lạnh, thuốc bổ', 'japan*: thuốc chống tiêu chảy, thuốc chống ho, thuốc bổ'.Từ loài này đã phân lập và xác định được 29 hoạt chất thuộc  về 9 nhóm gồm azoles, azolidines, diarylheptanoids, fatty acyls, organooxygen compounds, phenols, prenol lipids, steroids and steroid derivatives, stilbenes."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Dioscorea%20Japonica%20%28Yamaimo%29%203.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Dioscorea japonica", "Dioscoreaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Dioscorea japonica* thuộc họ Dioscoreaceae phân bố tại một số vùng trên thế giới như Russian Federation, Chinese Taipei, China, Japan, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: chất làm lạnh, thuốc bổ', 'japan*: thuốc chống tiêu chảy, thuốc chống ho, thuốc bổ'.Từ loài này đã phân lập và xác định được 29 hoạt chất thuộc  về 9 nhóm gồm azoles, azolidines, diarylheptanoids, fatty acyls, organooxygen compounds, phenols, prenol lipids, steroids and steroid derivatives, stilbenes.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Dioscoreales
+- **Family:** Dioscoreaceae
+- **Genus:** Dioscorea
+- **Species:** *Dioscorea japonica*
+- **Scientific Name:** *Dioscorea japonica Thunb.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Japanese Mountain Yam, Japanese Potato, kotobuki, satsuma imo, yamaimo]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Dioscoreaceae - Genus: Dioscorea - Species: *Dioscorea japonica* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Dioscorea%20Japonica%20%28Yamaimo%29%203.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345305000/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345305008/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/350129945/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/350129914/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354365970/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354365963/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354365955/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358128947/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358128944/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358128958/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359926391/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/359926375/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Russian Federation, Chinese Taipei, China, Japan, Korea, Republic of
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Dioscoreaceae",
+  iso3_codes: ['RUS', 'CHN', 'JPN'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Dioscorea japonica* đã phân lập và xác định được 29 hoạt chất thuộc  về 9 nhóm gồm azoles, azolidines, diarylheptanoids, fatty acyls, organooxygen compounds, phenols, prenol lipids, steroids and steroid derivatives, stilbenes. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Azoles</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0106609](https://lotus.naturalproducts.net/compound/lotus_id/LTS0106609)</div></div></div>
+<div class="group-title">Azolidines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0174328](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174328)</div></div></div>
+<div class="group-title">Diarylheptanoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0233727](https://lotus.naturalproducts.net/compound/lotus_id/LTS0233727)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0028864](https://lotus.naturalproducts.net/compound/lotus_id/LTS0028864)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0108199](https://lotus.naturalproducts.net/compound/lotus_id/LTS0108199)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0261750](https://lotus.naturalproducts.net/compound/lotus_id/LTS0261750)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0006981](https://lotus.naturalproducts.net/compound/lotus_id/LTS0006981)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0014950](https://lotus.naturalproducts.net/compound/lotus_id/LTS0014950)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0021621](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021621)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0140631](https://lotus.naturalproducts.net/compound/lotus_id/LTS0140631)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0203280](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203280)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0266647](https://lotus.naturalproducts.net/compound/lotus_id/LTS0266647)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0183737](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183737)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0200774](https://lotus.naturalproducts.net/compound/lotus_id/LTS0200774)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0052786](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052786)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0268716](https://lotus.naturalproducts.net/compound/lotus_id/LTS0268716)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0021517](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021517)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0065266](https://lotus.naturalproducts.net/compound/lotus_id/LTS0065266)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0044633](https://lotus.naturalproducts.net/compound/lotus_id/LTS0044633)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0204616](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204616)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0071224](https://lotus.naturalproducts.net/compound/lotus_id/LTS0071224)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0001515](https://lotus.naturalproducts.net/compound/lotus_id/LTS0001515)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0168132](https://lotus.naturalproducts.net/compound/lotus_id/LTS0168132)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0265413](https://lotus.naturalproducts.net/compound/lotus_id/LTS0265413)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0006987](https://lotus.naturalproducts.net/compound/lotus_id/LTS0006987)</div></div></div>
+<div class="group-title">Stilbenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0256887](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256887)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0192586](https://lotus.naturalproducts.net/compound/lotus_id/LTS0192586)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0031258](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031258)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                   |
+|-----------|-----------------|-------------------------------------------------|
+| Row0      | China           | Chất làm lạnh, Thuốc bổ                         |
+| Row1      | Japan*          | Thuốc chống tiêu chảy, Thuốc chống ho, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O[C@@H]3O[C@@H](C)[C@H](O)[C@@H](O)[C@H]3O)[C@H](O[C@H]3CC[C@@]4(C)C(=CC[C@H]5[C@@H]6C[C@@H]7O[C@]8(CC[C@@H](C)CO8)[C@@H](C)[C@@H]7[C@@]6(C)CC[C@@H]54)C3)O[C@@H]2CO)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row1", smiles: "CC1CCC2(OC1)OC1CC3C4CC=C5CC(OC6OC(CO)C(OC7OC(C)C(O)C(O)C7O)C(O)C6OC6OC(C)C(O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row2", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row3", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4CC(O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row4", smiles: "C[C@@H]1O[C@H](O[C@H]2[C@@H](O[C@H]3CC[C@@]4(C)C(=CC[C@H]5[C@H]4CC[C@@]4(C)[C@H]6[C@@H](C[C@H]54)O[C@@]4(CC[C@@H](C)CO4)[C@@H]6C)C3)O[C@@H](CO)[C@H](O[C@H]3O[C@H](C)[C@H](O)[C@H](O)[C@@H]3O)[C@H]2O)[C@H](O)[C@H](O)[C@@H]1O" },
+{id: "canvas_Row5", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row6", smiles: "Oc1cc(O)cc(CCc2ccccc2)c1" },
+{id: "canvas_Row7", smiles: "COc1cc(O)cc(CCc2ccccc2O)c1" },
+{id: "canvas_Row8", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row9", smiles: "N=C(O)NC1N=C(O)N=C1O" },
+{id: "canvas_Row10", smiles: "COc1cc(CCC(O)CC(O)CCc2ccc(O)c(OC)c2)ccc1O" },
+{id: "canvas_Row11", smiles: "CC(=O)CCc1ccc(O)cc1" },
+{id: "canvas_Row12", smiles: "CC1=CC(=O)CC(C)(C)C1(O)/C=C/C(C)=C/C(=O)O" },
+{id: "canvas_Row13", smiles: "CCCCOC1(CO)OC(CO)C(O)C1O" },
+{id: "canvas_Row14", smiles: "COc1cc(O)cc(CCc2ccccc2OC)c1" },
+{id: "canvas_Row15", smiles: "C=C1CCC[C@]2(C)CC[C@@H](C(C)(C)O)C[C@@H]12" },
+{id: "canvas_Row16", smiles: "C=C1CCCC2(C)CCC(C(C)(C)O)CC12" },
+{id: "canvas_Row17", smiles: "CC1=CC(=O)CC(C)(C)C1(O)C=CC(C)O" },
+{id: "canvas_Row18", smiles: "CO[C@]1(CC[C@@H](C)CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7OC[C@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C" },
+{id: "canvas_Row19", smiles: "CCCCO[C@]1(CO)O[C@H](CO)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row20", smiles: "N=C(O)N[C@H]1N=C(O)N=C1O" },
+{id: "canvas_Row21", smiles: "CC1=CC(=O)CC(C)(C)[C@@]1(O)/C=C/C(C)=C\C(=O)O" },
+{id: "canvas_Row22", smiles: "CC1=CC(=O)CC(C)(C)[C@@]1(O)/C=C/[C@@H](C)O" },
+{id: "canvas_Row23", smiles: "COc1cc(CC[C@H](O)C[C@H](O)CCc2ccc(O)c(OC)c2)ccc1O" },
+{id: "canvas_Row24", smiles: "COCC(=O)c1ccc(O)cc1" },
+{id: "canvas_Row25", smiles: "COc1ccc(C(C)=O)c(O)c1" },
+{id: "canvas_Row26", smiles: "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@@H]3OC[C@H](O)[C@H](O)[C@H]3O)[C@@H](CO)O[C@H]2O[C@H]2CC[C@@]3(C)C(=CC[C@H]4[C@@H]5C[C@@H]6O[C@](O)(CC[C@@H](C)CO[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@@H](C)[C@@H]6[C@@]5(C)CC[C@@H]43)C2)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row27", smiles: "CC(=CC(=O)O)/C=C/[C@@]1(O)C(C)=CC(=O)CC1(C)C" },
+{id: "canvas_Row28", smiles: "CC(C=CC1(O)C(C)=CC(=O)CC1(C)C)=CC(=O)O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

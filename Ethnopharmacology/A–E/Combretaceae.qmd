@@ -1,0 +1,181 @@
+---
+title: Họ Combretaceae
+subtitle: Họ **Combretaceae** gồm Conocarpus, Laguncularia, Terminalia, Getonia chi và 10 loài  được sử dụng ở 16vùng lãnh thổ điều trị 11chứng và bệnh.
+description: Họ **Combretaceae** gồm4 chi và 10loài đã ghi nhận sử dụng làm thuốc tại 16 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất làm se (5 loài), thuốc bổ (4 loài), thuốc trợ tim (4 loài), thuốc nhuận tràng (2 loài), thuốc nhỏ mắt (2 loài) . 05 loài thực vật gồm **Terminalia chebula* (5 chứng và bệnh), *Terminalia catappa* (4 chứng và bệnh), *Terminalia bellirica* (3 chứng và bệnh), *Laguncularia racemosa* (2 chứng và bệnh), *Terminalia arjuna* (2 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Terminalia chebula* ( 144 hoạt chất), *Terminalia catappa* ( 85 hoạt chất), *Laguncularia racemosa* ( 43 hoạt chất), *Terminalia arjuna* ( 33 hoạt chất), *Getonia floribunda* ( 20 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Terminalia chebula*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/343906371/original.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Combretaceae
+    contents: Combretaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Combretaceae có tổng cộng 4  chi và 10 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Combretaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                                                                                                      |   Count |
+|-----------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Row3      | Terminalia   | Terminalia arjuna, Terminalia bellirica, Terminalia catappa, Terminalia chebula, Terminalia citrina, Terminalia macroptera, Terminalia myriocarpa |       7 |
+| Row0      | Conocarpus   | Conocarpus erectus                                                                                                                                |       1 |
+| Row1      | Getonia      | Getonia floribunda                                                                                                                                |       1 |
+| Row2      | Laguncularia | Laguncularia racemosa                                                                                                                             |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Gambia, Haiti, Cayman Islands, Curaçao, Turks and Caicos Islands, Bahamas, Cuba, Antigua and Barbuda, Guadeloupe, French Guiana, Mexico, Bonaire, Sint Eustatius and Saba, Belize, Martinique, Aruba, Virgin Islands (U.S.), Sint Maarten (Dutch part), Honduras, Saint Kitts and Nevis, India, Brazil, Costa Rica, United States of America, Dominican Republic, Nicaragua, Ecuador, Puerto Rico, Guyana, Saint Vincent and the Grenadines, Saint Lucia, Colombia, Trinidad and Tobago, Nigeria, Sierra Leone, Thailand, Sri Lanka, nan, Benin, Tanzania, United Republic of, Micronesia (Federated States of), Jamaica, French Polynesia, Singapore, Virgin Islands (British), Chinese Taipei, Hong Kong, Réunion, Barbados, Australia, Panama, Indonesia, Grenada, Yemen, Sao Tome and Principe, Senegal, Palau, Northern Mariana Islands, Philippines, Montserrat, China, Fiji, Maldives, Myanmar, Pakistan, Cambodia, Bangladesh, Bhutan, Nepal, Lao People’s Democratic Republic, Belgium, unknown or invalid, Malaysia, Viet Nam, Chad, Côte d’Ivoire, Ethiopia, Uganda, Togo, Guinea, Mali
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Combretaceae",
+  iso3_codes: ['TTO', 'MDV', 'ATG', 'SEN', 'HND', 'NPL', 'GMB', 'PHL', 'GUY', 'GRD', 'VCT', 'JAM', 'NIC', 'MNP', 'GIN', 'SLE', 'BGD', 'SXM', 'COL', 'FJI', 'BTN', 'IND', 'CYM', 'PYF', 'PRI', 'AUS', 'CUB', 'BEN', 'UGA', 'ECU', 'GLP', 'REU', 'PLW', 'GUF', 'SGP', 'TCA', 'LKA', 'ABW', 'CUW', 'TGO', 'KHM', 'PAN', 'LCA', 'TCD', 'MMR', 'KNA', 'BRB', 'MLI', 'CRI', 'DOM', 'HTI', 'MEX', 'IDN', 'THA', 'MTQ', 'USA', 'BHS', 'CHN', 'TZA', 'BRA', 'BEL', 'STP', 'MSR', 'NGA', 'ETH', 'MYS', 'VNM', 'HKG', 'YEM', 'BLZ', 'PAK'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Combretaceae** có tổng cộng 4  chi và 10 loài.đã phân lập và xác định được 393 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Combretaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0222857</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0037297</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0235435</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0061889</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0063501</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Combretaceae** đã được một số công động tại các quốc gia như *Dominican Republic, Elsewhere, Haiti, Mexico, Venezuela, India, Java, Philippines, Samoa, China, India(Santal), Iran, Nepal, Turkey, Sudan, Cambodia* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc bổ, chất làm se, thuốc lợi tiểu, thuốc trợ tim, ma túy, có mùi hôi, thuốc nhuận tràng, thuốc nhỏ mắt, nước hoa, thuốc diệt cá, làm dịu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Terminalia chebula* (5 chứng và bệnh), *Terminalia catappa* (4 chứng và bệnh), *Terminalia bellirica* (3 chứng và bệnh), *Laguncularia racemosa* (2 chứng và bệnh), *Terminalia arjuna* (2 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Combretaceae** có thể điều trị là chất làm se (5 loài), thuốc bổ (4 loài), thuốc trợ tim (4 loài), thuốc nhuận tràng (2 loài), thuốc nhỏ mắt (2 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Combretaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Conocarpus   | Dominican Republic - (*Conocarpus erectus* - thuốc bổ), Elsewhere - (*Conocarpus erectus* - chất làm se), Haiti - (*Conocarpus erectus* - thuốc bổ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Row1      | Getonia      | Cambodia - (*Getonia floribunda* - thuốc bổ), Elsewhere - (*Getonia floribunda* - thuốc diệt cá)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Row2      | Laguncularia | Dominican Republic - (*Laguncularia racemosa* - thuốc bổ), Elsewhere - (*Laguncularia racemosa* - chất làm se), Haiti - (*Laguncularia racemosa* - chất làm se), Mexico - (*Laguncularia racemosa* - chất làm se), Venezuela - (*Laguncularia racemosa* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Row3      | Terminalia   | Elsewhere - (*Terminalia arjuna* - thuốc lợi tiểu), India - (*Terminalia arjuna* - thuốc trợ tim), Elsewhere - (*Terminalia bellirica* - chất làm se), India - (*Terminalia bellirica* - làm dịu), Java - (*Terminalia bellirica* - ma túy), Elsewhere - (*Terminalia catappa* - chất làm se), Haiti - (*Terminalia catappa* - chất làm se), India - (*Terminalia catappa* - chất làm se), Java - (*Terminalia catappa* - có mùi hôi), Mexico - (*Terminalia catappa* - chất làm se), Philippines - (*Terminalia catappa* - thuốc nhuận tràng), Samoa - (*Terminalia catappa* - thuốc nhỏ mắt), China - (*Terminalia chebula* - chất làm se), India - (*Terminalia chebula* - thuốc nhỏ mắt), India(Santal) - (*Terminalia chebula* - thuốc nhuận tràng), Iran - (*Terminalia chebula* - thuốc bổ), Nepal - (*Terminalia chebula* - thuốc trợ tim), Turkey - (*Terminalia chebula* - chất làm se), Elsewhere - (*Terminalia citrina* - thuốc trợ tim), Sudan - (*Terminalia macroptera* - nước hoa), Elsewhere - (*Terminalia myriocarpa* - thuốc trợ tim) |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Combretaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_Row0", smiles: "O=C(O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row1", smiles: "O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23" },
+{id: "canvas_Row2", smiles: "O=C1O[C@@H]2[C@@H](OC(=O)c3cc(O)c(O)c(O)c3-c3c1cc(O)c(O)c3O)C(O)O[C@@H]1COC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c4oc(=O)c5c(c(O)c(O)c6oc(=O)c3c4c65)-c3c(cc(O)c(O)c3O)C(=O)O[C@@H]21" },
+{id: "canvas_Row3", smiles: "O=C1OC[C@H]2OC(O)C(O)C(O)C2OC(=O)c2cc(O)c(O)c(O)c2-c2c(O)c(O)c3oc(=O)c4c(c(O)c(O)c5oc(=O)c2c3c54)-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row4", smiles: "CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@H](O)[C@@](C)(CO)[C@@H]5CC[C@]43C)[C@@H]2[C@@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

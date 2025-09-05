@@ -1,0 +1,174 @@
+---
+title: "Rubia akane"
+subtitle: "Loài Rubia akane (Họ Rubiaceae)"
+description: "Loài *Rubia akane* thuộc họ Rubiaceae phân bố tại một số vùng trên thế giới như Chinese Taipei, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: emmenagogue, thuốc hạ sốt'.Từ loài này đã phân lập và xác định được 19 hoạt chất thuộc  về 6 nhóm gồm anthracenes, aryltetralin lignans, carboxylic acids and derivatives, naphthopyrans, prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Rubia%20akane%20var.%20erecta%20%E7%9B%B4%E7%AB%8B%E7%B4%85%E8%97%A4%E8%8D%89%20%28mingiweng%29.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Rubia akane", "Rubiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Rubia akane* thuộc họ Rubiaceae phân bố tại một số vùng trên thế giới như Chinese Taipei, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: emmenagogue, thuốc hạ sốt'.Từ loài này đã phân lập và xác định được 19 hoạt chất thuộc  về 6 nhóm gồm anthracenes, aryltetralin lignans, carboxylic acids and derivatives, naphthopyrans, prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Gentianales
+- **Family:** Rubiaceae
+- **Genus:** Rubia
+- **Species:** *Rubia argyi*
+- **Scientific Name:** *Rubia akane Nakai*  
+- **Mô tả thực vật:** []
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rubiaceae - Genus: Rubia - Species: *Rubia akane* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Rubia%20akane%20var.%20erecta%20%E7%9B%B4%E7%AB%8B%E7%B4%85%E8%97%A4%E8%8D%89%20%28mingiweng%29.jpg){ group="GIBF" }
+
+![](https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2019/01/file-2002696-mlaeui1b.jpg){ group="GIBF" }
+
+![](https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2019/01/file-2002696-iuokkvap.jpg){ group="GIBF" }
+
+![](https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2019/01/file-2002696-vgsl754f.jpg){ group="GIBF" }
+
+![](https://plant.tbn.org.tw/sites/dpplant/files/occurrence/photo/2019/01/file-2002229-dvqqfacc.jpg){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.2953784/format/large){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.2953786/format/large){ group="GIBF" }
+
+![](https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000005088614/manifest){ group="GIBF" }
+
+![](https://oxalis.br.fgov.be/images/BR0/000/005/088/614/BR0000005088614.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Chinese Taipei, Korea, Republic of
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rubiaceae",
+  iso3_codes: [],
+  color: []
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Rubia akane* đã phân lập và xác định được 19 hoạt chất thuộc  về 6 nhóm gồm anthracenes, aryltetralin lignans, carboxylic acids and derivatives, naphthopyrans, prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Anthracenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0075197](https://lotus.naturalproducts.net/compound/lotus_id/LTS0075197)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0078250](https://lotus.naturalproducts.net/compound/lotus_id/LTS0078250)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0085424](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085424)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0070919](https://lotus.naturalproducts.net/compound/lotus_id/LTS0070919)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0150278](https://lotus.naturalproducts.net/compound/lotus_id/LTS0150278)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0247713](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247713)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0193219](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193219)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0206898](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206898)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0012871](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012871)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0054716](https://lotus.naturalproducts.net/compound/lotus_id/LTS0054716)</div></div></div>
+<div class="group-title">Aryltetralin lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0164886](https://lotus.naturalproducts.net/compound/lotus_id/LTS0164886)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0056002](https://lotus.naturalproducts.net/compound/lotus_id/LTS0056002)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0008421](https://lotus.naturalproducts.net/compound/lotus_id/LTS0008421)</div></div></div>
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0090709](https://lotus.naturalproducts.net/compound/lotus_id/LTS0090709)</div></div></div>
+<div class="group-title">Naphthopyrans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0173558](https://lotus.naturalproducts.net/compound/lotus_id/LTS0173558)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0060158](https://lotus.naturalproducts.net/compound/lotus_id/LTS0060158)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0093596](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093596)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0201798](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201798)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0158828](https://lotus.naturalproducts.net/compound/lotus_id/LTS0158828)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh             |
+|-----------|-----------------|---------------------------|
+| Row0      | Elsewhere       | Emmenagogue, thuốc hạ sốt |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC(=O)OC1CC[C@]2(C)[C@@H]3CC(=O)[C@]4(O)[C@H]5CC(C)(C)CC[C@]5(C)CC[C@@]4(C)[C@]3(C)CC[C@H]2C1(C)C" },
+{id: "canvas_Row1", smiles: "O=C(O)c1c(O)c(O)c2c(c1O)C(=O)c1ccccc1C2=O" },
+{id: "canvas_Row2", smiles: "O=C1c2ccccc2C(=O)c2c1ccc(O)c2O" },
+{id: "canvas_Row3", smiles: "O=C1c2ccccc2C(=O)c2c(O)cc(O)cc21" },
+{id: "canvas_Row4", smiles: "CC(=O)OC1CC[C@@]2(C)[C@@H](CC[C@]3(C)[C@@H]2CC(=O)[C@]2(O)[C@@H]4CC(C)(C)CC[C@]4(C)CC(O)[C@]23C)C1(C)C" },
+{id: "canvas_Row5", smiles: "O=C1c2ccccc2C(=O)c2c1cc(O[C@@H]1O[C@H](CO[C@@H]3OC[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]1O)c(CO)c2O" },
+{id: "canvas_Row6", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row7", smiles: "O=C1c2ccccc2C(=O)c2c1cc(O)c(C(=O)O)c2O" },
+{id: "canvas_Row8", smiles: "CCOC(=O)c1ccc2c(c1O)C(=O)c1ccccc1C2=O" },
+{id: "canvas_Row9", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(OC5OC(CO)C(O)C(O)C5O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row10", smiles: "COc1ccc(C[C@H]2C(O)=N[C@@H](C)C(=O)N(C)[C@H]3Cc4ccc(cc4)Oc4cc(ccc4O)C[C@@H](C(O)=N[C@H](C)C(O)=N[C@@H](C)C(=O)N2C)N(C)C3=O)cc1" },
+{id: "canvas_Row11", smiles: "COC(=O)c1c2c(c3ccccc3c1O)OC(C)(C)C=C2" },
+{id: "canvas_Row12", smiles: "Cc1c(O)cc2c(c1O)C(=O)c1ccc(O)cc1C2=O" },
+{id: "canvas_Row13", smiles: "COc1cc([C@H]2c3cc(O)c(OC)cc3C[C@@H](CO)[C@@H]2CO)ccc1O" },
+{id: "canvas_Row14", smiles: "CC(=O)OC[C@H]1O[C@@H](Oc2cc3c(c(O)c2C)C(=O)c2ccc(O)cc2C3=O)[C@H](O[C@@H]2O[C@@H](C)[C@H](O)[C@@H](O)[C@H]2O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row15", smiles: "CC[C@@H]1[C@@H](c2ccc(O)c(OC)c2)c2cc(O)c(OC)cc2C[C@H]1CC" },
+{id: "canvas_Row16", smiles: "Cc1ccc2c(c1O)C(=O)c1ccccc1C2=O" },
+{id: "canvas_Row17", smiles: "COc1cc(C2c3cc(O)c(OC)cc3CC(CO)C2CO)ccc1O" },
+{id: "canvas_Row18", smiles: "CC(=O)OCC1OC(Oc2cc3c(c(O)c2C)C(=O)c2ccc(O)cc2C3=O)C(OC2OC(C)C(O)C(O)C2O)C(O)C1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

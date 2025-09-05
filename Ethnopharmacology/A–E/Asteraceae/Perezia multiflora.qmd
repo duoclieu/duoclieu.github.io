@@ -1,0 +1,173 @@
+---
+title: "Perezia multiflora"
+subtitle: "Loài Perezia multiflora (Họ Asteraceae)"
+description: "Loài *Perezia multiflora* thuộc họ Asteraceae phân bố tại một số vùng trên thế giới như Peru, Bolivia (Plurinational State of), United States of America, Ecuador, Brazil, Argentina, Uruguay. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'south america: có mùi hôi'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 1 nhóm gồm prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Escorzonera%2C%20Perezia%20multiflora.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Perezia multiflora", "Asteraceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Perezia multiflora* thuộc họ Asteraceae phân bố tại một số vùng trên thế giới như Peru, Bolivia (Plurinational State of), United States of America, Ecuador, Brazil, Argentina, Uruguay. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'south america: có mùi hôi'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 1 nhóm gồm prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asterales
+- **Family:** Asteraceae
+- **Genus:** Perezia
+- **Species:** *Perezia multiflora*
+- **Scientific Name:** *Perezia multiflora (Bonpl.) Less.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Asteraceae - Genus: Perezia - Species: *Perezia multiflora* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Escorzonera%2C%20Perezia%20multiflora.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345306438/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345306439/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345306441/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346251989/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346251955/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348280059/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349368991/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349368990/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Peru, Bolivia (Plurinational State of), United States of America, Ecuador, Brazil, Argentina, Uruguay
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Asteraceae",
+  iso3_codes: ['URY', 'BRA', 'PER', 'ECU', 'ARG', 'USA'],
+  color: [1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Perezia multiflora* đã phân lập và xác định được 28 hoạt chất thuộc  về 1 nhóm gồm prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0199115](https://lotus.naturalproducts.net/compound/lotus_id/LTS0199115)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0133032](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133032)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0135807](https://lotus.naturalproducts.net/compound/lotus_id/LTS0135807)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0090025](https://lotus.naturalproducts.net/compound/lotus_id/LTS0090025)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0083928](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083928)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0186819](https://lotus.naturalproducts.net/compound/lotus_id/LTS0186819)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0144032](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144032)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0127397](https://lotus.naturalproducts.net/compound/lotus_id/LTS0127397)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0193107](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193107)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0170788](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170788)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0188961](https://lotus.naturalproducts.net/compound/lotus_id/LTS0188961)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0261477](https://lotus.naturalproducts.net/compound/lotus_id/LTS0261477)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0261454](https://lotus.naturalproducts.net/compound/lotus_id/LTS0261454)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0263547](https://lotus.naturalproducts.net/compound/lotus_id/LTS0263547)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0088130](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088130)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0019045](https://lotus.naturalproducts.net/compound/lotus_id/LTS0019045)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0239438](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239438)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0030438](https://lotus.naturalproducts.net/compound/lotus_id/LTS0030438)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0175898](https://lotus.naturalproducts.net/compound/lotus_id/LTS0175898)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0121908](https://lotus.naturalproducts.net/compound/lotus_id/LTS0121908)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0052409](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052409)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0014041](https://lotus.naturalproducts.net/compound/lotus_id/LTS0014041)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0118522](https://lotus.naturalproducts.net/compound/lotus_id/LTS0118522)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0007827](https://lotus.naturalproducts.net/compound/lotus_id/LTS0007827)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0070106](https://lotus.naturalproducts.net/compound/lotus_id/LTS0070106)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0228989](https://lotus.naturalproducts.net/compound/lotus_id/LTS0228989)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0243198](https://lotus.naturalproducts.net/compound/lotus_id/LTS0243198)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0254646](https://lotus.naturalproducts.net/compound/lotus_id/LTS0254646)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | South America   | có mùi hôi      |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C(COC(=O)C(C)CC)C1CCC2(C)CCC=C(C)C2C1" },
+{id: "canvas_Row1", smiles: "C=C(COC(=O)CC(C)C)[C@H]1C/C=C(\C)CC/C=C(\C)CC1" },
+{id: "canvas_Row2", smiles: "C=C(COC(=O)C(C)C)C1CCC2(C)CCC=C(C)C2C1" },
+{id: "canvas_Row3", smiles: "C/C=C(/C)C(=O)O[C@H]1C=C2[C@@H](OC)O[C@H](O)[C@@H]3CC[C@@H]4C(C)(C)[C@@H]1C[C@]234" },
+{id: "canvas_Row4", smiles: "C=C(COC(=O)C(C)CC)C1CCC2(C)CCCC(=C)C2C1" },
+{id: "canvas_Row5", smiles: "C=C(COC(=O)CC(C)C)[C@@H]1CC[C@@]2(C)CCC=C(C)[C@@H]2C1" },
+{id: "canvas_Row6", smiles: "C=C(COC(=O)[C@H](C)CC)[C@H]1C/C=C(\C)CC/C=C(\C)CC1" },
+{id: "canvas_Row7", smiles: "C=C(COC(=O)[C@H](C)CC)[C@@H]1CC[C@@]2(C)CCC=C(C)[C@@H]2C1" },
+{id: "canvas_Row8", smiles: "C=C(COC(=O)[C@H](C)CC)[C@@H]1CC[C@@]2(C)CCCC(=C)[C@@H]2C1" },
+{id: "canvas_Row9", smiles: "C=C(COC(=O)C(C)CC)C1CC=C(C)CCC=C(C)CC1" },
+{id: "canvas_Row10", smiles: "C=C(COC(=O)/C(C)=C\C)[C@H]1C/C=C(\C)CC/C=C(\C)CC1" },
+{id: "canvas_Row11", smiles: "C/C=C(/C)C(=O)O[C@@H]1[C@H]2C[C@]34C(=CO[C@@H](OC(C)=O)[C@@H]3CC[C@@H]4C2(C)C)[C@H]1OC(C)=O" },
+{id: "canvas_Row12", smiles: "C=C(COC(=O)CC(C)C)C1CC=C(C)CCC=C(C)CC1" },
+{id: "canvas_Row13", smiles: "C=C(COC(=O)CC(C)C)C1CCC2(C)CCCC(=C)C2C1" },
+{id: "canvas_Row14", smiles: "C=C(COC(=O)C(C)C)[C@@H]1CC[C@@]2(C)CCC=C(C)[C@@H]2C1" },
+{id: "canvas_Row15", smiles: "CC=C(C)C(=O)OC1C(OC(C)=O)C2=COC(OC(C)=O)C3CCC4C(C)(C)C1CC234" },
+{id: "canvas_Row16", smiles: "C=C(COC(=O)CC(C)C)C1CCC2(C)CCC=C(C)C2C1" },
+{id: "canvas_Row17", smiles: "C=C(COC(=O)C(C)=CC)C1CCC2(C)CCC=C(C)C2C1" },
+{id: "canvas_Row18", smiles: "CC=C(C)C(=O)OC1C=C2C(OC)OC(O)C3CCC4C(C)(C)C1CC234" },
+{id: "canvas_Row19", smiles: "CC=C(C)C(=O)OC1C=C2C(OC)OC(OC(C)=O)C3CCC4C(C)(C)C1CC234" },
+{id: "canvas_Row20", smiles: "C=C(COC(=O)/C(C)=C\C)[C@@H]1CC[C@@]2(C)CCCC(=C)[C@@H]2C1" },
+{id: "canvas_Row21", smiles: "C/C=C(/C)C(=O)O[C@H]1C=C2[C@H](OC)O[C@@H](OC)[C@@H]3CC[C@@H]4C(C)(C)[C@@H]1C[C@]234" },
+{id: "canvas_Row22", smiles: "CC=C(C)C(=O)OC1C=C2C(OC)OC(OC)C3CCC4C(C)(C)C1CC234" },
+{id: "canvas_Row23", smiles: "C=C(COC(=O)C(C)=CC)C1CCC2(C)CCCC(=C)C2C1" },
+{id: "canvas_Row24", smiles: "C=C(COC(=O)C(C)=CC)C1CC=C(C)CCC=C(C)CC1" },
+{id: "canvas_Row25", smiles: "C/C=C(/C)C(=O)O[C@H]1C=C2[C@@H](OC)O[C@H](OC(C)=O)[C@@H]3CC[C@@H]4C(C)(C)[C@@H]1C[C@]234" },
+{id: "canvas_Row26", smiles: "C=C(COC(=O)CC(C)C)[C@@H]1CC[C@@]2(C)CCCC(=C)[C@@H]2C1" },
+{id: "canvas_Row27", smiles: "C=C(COC(=O)/C(C)=C\C)[C@@H]1CC[C@@]2(C)CCC=C(C)[C@@H]2C1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

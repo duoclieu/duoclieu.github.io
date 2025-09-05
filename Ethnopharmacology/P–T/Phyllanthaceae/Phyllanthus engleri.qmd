@@ -1,0 +1,145 @@
+---
+title: "Phyllanthus engleri"
+subtitle: "Loài Phyllanthus engleri (Họ Phyllanthaceae)"
+description: "Loài *Phyllanthus engleri* thuộc họ Phyllanthaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Tanzania, United Republic of, Zambia, Mozambique, South Africa, Kenya, Côte d’Ivoire, Congo, Democratic Republic of the, Zimbabwe. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'tanzania: chất độc, chất gây say'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 1 nhóm gồm prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Phyllanthus engleri", "Phyllanthaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Phyllanthus engleri* thuộc họ Phyllanthaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Tanzania, United Republic of, Zambia, Mozambique, South Africa, Kenya, Côte d’Ivoire, Congo, Democratic Republic of the, Zimbabwe. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'tanzania: chất độc, chất gây say'.Từ loài này đã phân lập và xác định được 6 hoạt chất thuộc  về 1 nhóm gồm prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malpighiales
+- **Family:** Phyllanthaceae
+- **Genus:** Phyllanthus
+- **Species:** *Phyllanthus engleri*
+- **Scientific Name:** *Phyllanthus engleri Pax*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Euphorbiaceae - Genus: Phyllanthus - Species: *Phyllanthus engleri* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://cch2.org/imglib/cch2/RSA_VascularPlants/RSA0089/RSA0089365_lg.jpg){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/WAG.1354852/format/large){ group="GIBF" }
+
+![](http://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102476000/F9030D75-7C57-43D6-9479-3DF201EC8BF4.jpg){ group="GIBF" }
+
+![](http://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102476000/40CDE79E-8042-4EBE-A22E-737F4E784C81.jpg){ group="GIBF" }
+
+![](https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT0495000/BRIT495908.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, United States of America, Tanzania, United Republic of, Zambia, Mozambique, South Africa, Kenya, Côte d’Ivoire, Congo, Democratic Republic of the, Zimbabwe
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Phyllanthaceae",
+  iso3_codes: ['ZMB', 'ZWE', 'KEN', 'ZAF', 'USA', 'TZA', 'COG', 'MOZ'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Phyllanthus engleri* đã phân lập và xác định được 6 hoạt chất thuộc  về 1 nhóm gồm prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0045436](https://lotus.naturalproducts.net/compound/lotus_id/LTS0045436)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0147263](https://lotus.naturalproducts.net/compound/lotus_id/LTS0147263)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0235120](https://lotus.naturalproducts.net/compound/lotus_id/LTS0235120)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0259071](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259071)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0275155](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275155)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0053094](https://lotus.naturalproducts.net/compound/lotus_id/LTS0053094)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh          |
+|-----------|-----------------|------------------------|
+| Row0      | Tanzania        | Chất độc, chất gây say |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC1CCC2C1C(OC(=O)C=Cc1ccccc1)C1(C(C)C)CC(OC(=O)CO)C2(C)O1" },
+{id: "canvas_Row1", smiles: "CC(C)[C@]12C[C@H](OC(=O)CO)[C@](C)(O1)[C@H]1CC[C@H](C)[C@@H]1[C@H]2OC(=O)/C=C/c1ccccc1" },
+{id: "canvas_Row2", smiles: "C[C@H]1[C@H](C)CC[C@]2(C)CC[C@]34C[C@]3(CC[C@@H]3[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]34C)[C@H]12" },
+{id: "canvas_Row3", smiles: "CC1CCC2C1C(OC(=O)C=Cc1ccccc1)C1(C(C)C)CC(O)C2(C)O1" },
+{id: "canvas_Row4", smiles: "CC(C)[C@]12C[C@H](O)[C@](C)(O1)[C@H]1CC[C@H](C)[C@@H]1[C@H]2OC(=O)/C=C/c1ccccc1" },
+{id: "canvas_Row5", smiles: "CC1CCC2(C)CCC34CC3(CCC3C5(C)CCC(O)C(C)(C)C5CCC34C)C2C1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

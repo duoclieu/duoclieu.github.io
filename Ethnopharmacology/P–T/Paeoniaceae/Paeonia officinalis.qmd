@@ -1,0 +1,148 @@
+---
+title: "Paeonia officinalis"
+subtitle: "Loài Paeonia officinalis (Họ Paeoniaceae)"
+description: "Loài *Paeonia officinalis* thuộc họ Paeoniaceae phân bố tại một số vùng trên thế giới như Germany, France, nan, Switzerland, Finland, Hungary, Spain, Sweden, Russian Federation, United Kingdom of Great Britain and Northern Ireland, Serbia, United States of America, Croatia, Italy, Slovenia, Norway, Canada, New Zealand, Denmark, Austria, Ireland, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: gây nôn, chất độc', 'turkey: gây nôn, chất gây say, thuốc bổ, emmenagogue'.Từ loài này đã phân lập và xác định được 2 hoạt chất thuộc  về 2 nhóm gồm dihydrofurans, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/PAEONIA%20OFFICINALIS%20-%20MONTSEC%20-%20IB-200%20%28Pe%C3%B2nia%20de%20muntanya%29.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Paeonia officinalis", "Paeoniaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Paeonia officinalis* thuộc họ Paeoniaceae phân bố tại một số vùng trên thế giới như Germany, France, nan, Switzerland, Finland, Hungary, Spain, Sweden, Russian Federation, United Kingdom of Great Britain and Northern Ireland, Serbia, United States of America, Croatia, Italy, Slovenia, Norway, Canada, New Zealand, Denmark, Austria, Ireland, Belgium. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: gây nôn, chất độc', 'turkey: gây nôn, chất gây say, thuốc bổ, emmenagogue'.Từ loài này đã phân lập và xác định được 2 hoạt chất thuộc  về 2 nhóm gồm dihydrofurans, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Saxifragales
+- **Family:** Paeoniaceae
+- **Genus:** Paeonia
+- **Species:** *Paeonia officinalis*
+- **Scientific Name:** *Paeonia officinalis L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[common peony, garden peony, common peony, garden peony]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Paeoniaceae - Genus: Paeonia - Species: *Paeonia officinalis* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/PAEONIA%20OFFICINALIS%20-%20MONTSEC%20-%20IB-200%20%28Pe%C3%B2nia%20de%20muntanya%29.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Paeonia%20officinalis%201.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/360282331/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/361838354/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/361838355/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/369981085/original.png){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362338183/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362344075/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Germany, France, nan, Switzerland, Finland, Hungary, Spain, Sweden, Russian Federation, United Kingdom of Great Britain and Northern Ireland, Serbia, United States of America, Croatia, Italy, Slovenia, Norway, Canada, New Zealand, Denmark, Austria, Ireland, Belgium
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Paeoniaceae",
+  iso3_codes: ['HRV', 'CAN', 'ESP', 'GBR', 'USA', 'SVN', 'RUS', 'SWE', 'AUT', 'NZL', 'FIN', 'SRB', 'ITA', 'DEU', 'DNK', 'NOR', 'IRL', 'CHE', 'HUN', 'FRA', 'BEL'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Paeonia officinalis* đã phân lập và xác định được 2 hoạt chất thuộc  về 2 nhóm gồm dihydrofurans, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Dihydrofurans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0133358](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133358)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0025083](https://lotus.naturalproducts.net/compound/lotus_id/LTS0025083)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                |
+|-----------|-----------------|----------------------------------------------|
+| Row0      | Elsewhere       | gây nôn, Chất độc                            |
+| Row1      | Turkey          | gây nôn, chất gây say, Thuốc bổ, Emmenagogue |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1C=CC(=O)O1" },
+{id: "canvas_Row1", smiles: "CC12CC3(O)OC(O1)C1(COC(=O)c4ccccc4)C3CC21OC1OC(CO)C(O)C(O)C1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,164 @@
+---
+title: Họ Turneraceae
+subtitle: Họ **Turneraceae** gồm Turnera chi và 2 loài  được sử dụng ở 8vùng lãnh thổ điều trị 6chứng và bệnh.
+description: Họ **Turneraceae** gồm1 chi và 2loài đã ghi nhận sử dụng làm thuốc tại 8 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm thuốc long đờm (2 loài), emmenagogue (1 loài), lo lắng (1 loài), thuốc bổ (1 loài), thuốc kích thích tình dục (1 loài) . 05 loài thực vật gồm **Turnera ulmifolia* (4 chứng và bệnh), *Turnera diffusa* (3 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Turnera diffusa* ( 64 hoạt chất), *Turnera ulmifolia* ( 24 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Turnera diffusa*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/344189985/original.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Turneraceae
+    contents: Turneraceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Turneraceae có tổng cộng 1  chi và 2 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Turneraceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                       |   Count |
+|-----------|--------------|------------------------------------|---------|
+| Row0      | Turnera      | Turnera diffusa, Turnera ulmifolia |       2 |
+
+:::
+
+Phân bố họ trên thế giới: Virgin Islands (U.S.), United States of America, Mexico, Bahamas, Dominican Republic, Guatemala, Belize, Brazil, Cuba, Puerto Rico, El Salvador, Benin, Cayman Islands, Saint Lucia, Turks and Caicos Islands, New Caledonia, Marshall Islands, Jamaica, Chile, French Polynesia, Singapore, Seychelles, Ghana, Spain, Guadeloupe, French Guiana, Virgin Islands (British), Chinese Taipei, Colombia, Hong Kong, Bangladesh, Barbados, Liberia, Japan, Aruba, Panama, Indonesia, Mauritius, Dominica, Honduras, Portugal, Saint Kitts and Nevis, India, Palau, Costa Rica, Northern Mariana Islands, Viet Nam, Guam, Thailand, Philippines, Nicaragua, Malaysia, Ecuador, Maldives
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Turneraceae",
+  iso3_codes: ['LCA', 'MUS', 'BRA', 'MYS', 'BLZ', 'DMA', 'GUF', 'BHS', 'TCA', 'JAM', 'NCL', 'ESP', 'BGD', 'COL', 'ECU', 'GLP', 'SLV', 'MNP', 'CUB', 'ABW', 'GHA', 'NIC', 'PHL', 'SGP', 'THA', 'USA', 'PYF', 'CRI', 'LBR', 'SYC', 'HKG', 'MHL', 'KNA', 'CYM', 'VNM', 'PLW', 'PRI', 'BRB', 'JPN', 'BEN', 'MEX', 'GTM', 'IDN', 'PRT', 'DOM', 'PAN', 'IND', 'GUM', 'MDV', 'CHL', 'HND'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Turneraceae** có tổng cộng 1  chi và 2 loài.đã phân lập và xác định được 88 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Turneraceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0083255</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0150559</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0013198</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0014367</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0020151</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Turneraceae** đã được một số công động tại các quốc gia như *Elsewhere, French, Haiti, Mexico, US, anish, Bahamas, Venezuela* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc kích thích tình dục, thuốc long đờm, lo lắng, emmenagogue, dạ dày, thuốc bổ*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Turnera ulmifolia* (4 chứng và bệnh), *Turnera diffusa* (3 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Turneraceae** có thể điều trị là thuốc long đờm (2 loài), emmenagogue (1 loài), lo lắng (1 loài), thuốc bổ (1 loài), thuốc kích thích tình dục (1 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Turneraceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Turnera      | Elsewhere - (*Turnera diffusa* - thuốc kích thích tình dục), French - (*Turnera diffusa* - thuốc kích thích tình dục), Haiti - (*Turnera diffusa* - thuốc kích thích tình dục), Mexico - (*Turnera diffusa* - thuốc kích thích tình dục), US - (*Turnera diffusa* - thuốc long đờm), anish - (*Turnera diffusa* - lo lắng), Bahamas - (*Turnera ulmifolia* - emmenagogue), Haiti - (*Turnera ulmifolia* - dạ dày), Mexico - (*Turnera ulmifolia* - thuốc bổ), Venezuela - (*Turnera ulmifolia* - thuốc long đờm) |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Turneraceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_Row0", smiles: "N#C[C@]1(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C[C@H](O)C1" },
+{id: "canvas_Row1", smiles: "N#CC1(OC2OC(CO)C(O)C(O)C2O)C=CC(O)C1" },
+{id: "canvas_Row2", smiles: "CCCCC/C=C\C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row3", smiles: "OCC1OC(OC2(CO)OC(CO)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row4", smiles: "COc1ccc(-c2cc(=O)c3c(O)cc(O)cc3o2)cc1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

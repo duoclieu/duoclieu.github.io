@@ -1,0 +1,164 @@
+---
+title: "Myroxylon balsamum"
+subtitle: "Loài Myroxylon balsamum (Họ Fabaceae)"
+description: "Loài *Myroxylon balsamum* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như El Salvador, Peru, Belgium, Brazil, Ecuador, Panama, Mexico, Costa Rica, Bolivia (Plurinational State of), Colombia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'danish: chất khử trùng', 'dominican republic: thuốc long đờm, dạ dày', 'dutch: thuốc long đờm', 'elsewhere: diệt khuẩn, thuốc long đờm, dạ dày, chất khử mùi, chất khử trùng, thuốc long đờm, chất kích thích', 'french: thuốc bổ', 'german: thuốc xông khói', 'portuguese: chất kích thích', 'south america: chất khử trùng, thuốc long đờm, nước hoa', 'anish: dễ bị tổn thương'.Từ loài này đã phân lập và xác định được 11 hoạt chất thuộc  về 3 nhóm gồm 2-arylbenzofuran flavonoids, isoflavonoids, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Myroxylon%20balsamum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-140.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Myroxylon balsamum", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Myroxylon balsamum* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như El Salvador, Peru, Belgium, Brazil, Ecuador, Panama, Mexico, Costa Rica, Bolivia (Plurinational State of), Colombia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'danish: chất khử trùng', 'dominican republic: thuốc long đờm, dạ dày', 'dutch: thuốc long đờm', 'elsewhere: diệt khuẩn, thuốc long đờm, dạ dày, chất khử mùi, chất khử trùng, thuốc long đờm, chất kích thích', 'french: thuốc bổ', 'german: thuốc xông khói', 'portuguese: chất kích thích', 'south america: chất khử trùng, thuốc long đờm, nước hoa', 'anish: dễ bị tổn thương'.Từ loài này đã phân lập và xác định được 11 hoạt chất thuộc  về 3 nhóm gồm 2-arylbenzofuran flavonoids, isoflavonoids, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Myroxylon
+- **Species:** *Myroxylon balsamum*
+- **Scientific Name:** *Myroxylon balsamum (L.) Harms*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Flacourtiaceae - Genus: Myroxylon - Species: *Myroxylon balsamum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Myroxylon%20balsamum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-140.jpg){ group="GIBF" }
+
+![](http://jbrj-public-img.s3-sa-east-1.amazonaws.com/JPG/rb/1/55/12/68/01551268.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/182955731/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/125873467/original.jpeg){ group="GIBF" }
+
+![](https://herbarium.bgbm.org/data/iiif/B101248307/manifest.json){ group="GIBF" }
+
+![](https://image.bgbm.org/images/internal/HerbarThumbs/B101248307_1700){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/163823296/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: El Salvador, Peru, Belgium, Brazil, Ecuador, Panama, Mexico, Costa Rica, Bolivia (Plurinational State of), Colombia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['PAN', 'PER', 'COL', 'CRI', 'MEX', 'BEL', 'ECU', 'BRA', 'SLV'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Myroxylon balsamum* đã phân lập và xác định được 11 hoạt chất thuộc  về 3 nhóm gồm 2-arylbenzofuran flavonoids, isoflavonoids, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">2-arylbenzofuran flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0078013](https://lotus.naturalproducts.net/compound/lotus_id/LTS0078013)</div></div></div>
+<div class="group-title">Isoflavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0082756](https://lotus.naturalproducts.net/compound/lotus_id/LTS0082756)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0196974](https://lotus.naturalproducts.net/compound/lotus_id/LTS0196974)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0106037](https://lotus.naturalproducts.net/compound/lotus_id/LTS0106037)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0261149](https://lotus.naturalproducts.net/compound/lotus_id/LTS0261149)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0236849](https://lotus.naturalproducts.net/compound/lotus_id/LTS0236849)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0063169](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063169)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0137327](https://lotus.naturalproducts.net/compound/lotus_id/LTS0137327)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0145331](https://lotus.naturalproducts.net/compound/lotus_id/LTS0145331)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0160636](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160636)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0002793](https://lotus.naturalproducts.net/compound/lotus_id/LTS0002793)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ      | Chứng và bệnh                                                                                     |
+|-----------|--------------------|---------------------------------------------------------------------------------------------------|
+| Row0      | Danish             | Chất khử trùng                                                                                    |
+| Row1      | Dominican Republic | Thuốc long đờm, dạ dày                                                                            |
+| Row2      | Dutch              | Thuốc long đờm                                                                                    |
+| Row3      | Elsewhere          | diệt khuẩn, Thuốc long đờm, dạ dày, Chất khử mùi, Chất khử trùng, Thuốc long đờm, Chất kích thích |
+| Row4      | French             | Thuốc bổ                                                                                          |
+| Row5      | German             | thuốc xông khói                                                                                   |
+| Row6      | Portuguese         | Chất kích thích                                                                                   |
+| Row7      | South America      | Chất khử trùng, Thuốc long đờm, Nước hoa                                                          |
+| Row8      | anish              | dễ bị tổn thương                                                                                  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc2cc(-c3ccc(O)cc3O)oc2cc1OC" },
+{id: "canvas_Row1", smiles: "COc1ccc(-c2coc3cc(O)ccc3c2=O)cc1" },
+{id: "canvas_Row2", smiles: "COc1ccc(-c2coc3c(OC)c(O)ccc3c2=O)cc1O" },
+{id: "canvas_Row3", smiles: "COc1ccc(-c2coc3cc(O)ccc3c2=O)cc1O" },
+{id: "canvas_Row4", smiles: "COc1ccc2c(c1)O[C@H]1c3ccc(O)cc3OC[C@@H]21" },
+{id: "canvas_Row5", smiles: "C=C1CC[C@H]2[C@@H]([C@H]3C(C)CC[C@@H]13)C2(C)C" },
+{id: "canvas_Row6", smiles: "COc1ccc2c(=O)c(-c3ccc(OC)c(OC)c3)coc2c1" },
+{id: "canvas_Row7", smiles: "C=C1CC[C@H]2[C@@H]([C@H]3C(C)CC[C@H]13)C2(C)C" },
+{id: "canvas_Row8", smiles: "COc1ccc([C@H]2COc3cc(O)ccc3C2=O)cc1" },
+{id: "canvas_Row9", smiles: "CC1=C2CC[C@@H](C)[C@H]2[C@H]2[C@@H](CC1)C2(C)C" },
+{id: "canvas_Row10", smiles: "COc1ccc([C@@H]2COc3cc(O)ccc3C2=O)cc1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

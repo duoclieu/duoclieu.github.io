@@ -1,0 +1,185 @@
+---
+title: "Malvaviscus arboreus"
+subtitle: "Loài Malvaviscus arboreus (Họ Malvaceae)"
+description: "Loài *Malvaviscus arboreus* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như New Zealand, South Africa, Mexico, Costa Rica, United States of America, Belize. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: chất làm mềm', 'salvador: mỹ phẩm', 'venezuela: chất làm mềm'.Từ loài này đã phân lập và xác định được 38 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, flavonoids, prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20080716-9482%20Malvaviscus%20arboreus.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Malvaviscus arboreus", "Malvaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Malvaviscus arboreus* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như New Zealand, South Africa, Mexico, Costa Rica, United States of America, Belize. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: chất làm mềm', 'salvador: mỹ phẩm', 'venezuela: chất làm mềm'.Từ loài này đã phân lập và xác định được 38 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, flavonoids, prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malvales
+- **Family:** Malvaceae
+- **Genus:** Malvaviscus
+- **Species:** *Malvaviscus arboreus*
+- **Scientific Name:** *Malvaviscus arboreus Cav.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Turk's turban, ladies teardrop, Scotchman's purse, Turkcap, wax mallow]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Malvaceae - Genus: Malvaviscus - Species: *Malvaviscus arboreus* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20080716-9482%20Malvaviscus%20arboreus.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343928573/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344012055/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344127630/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344179491/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344216179/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: New Zealand, South Africa, Mexico, Costa Rica, United States of America, Belize
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Malvaceae",
+  iso3_codes: ['USA', 'ZAF', 'CRI', 'NZL', 'MEX', 'BLZ'],
+  color: [1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Malvaviscus arboreus* đã phân lập và xác định được 38 hoạt chất thuộc  về 4 nhóm gồm fatty acyls, flavonoids, prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0183108](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183108)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0135713](https://lotus.naturalproducts.net/compound/lotus_id/LTS0135713)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0211459](https://lotus.naturalproducts.net/compound/lotus_id/LTS0211459)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0227120](https://lotus.naturalproducts.net/compound/lotus_id/LTS0227120)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0072720](https://lotus.naturalproducts.net/compound/lotus_id/LTS0072720)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0171823](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171823)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0139639](https://lotus.naturalproducts.net/compound/lotus_id/LTS0139639)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0144978](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144978)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0136609](https://lotus.naturalproducts.net/compound/lotus_id/LTS0136609)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0199367](https://lotus.naturalproducts.net/compound/lotus_id/LTS0199367)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0233970](https://lotus.naturalproducts.net/compound/lotus_id/LTS0233970)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0091020](https://lotus.naturalproducts.net/compound/lotus_id/LTS0091020)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0142033](https://lotus.naturalproducts.net/compound/lotus_id/LTS0142033)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0181487](https://lotus.naturalproducts.net/compound/lotus_id/LTS0181487)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0107726](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107726)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0264514](https://lotus.naturalproducts.net/compound/lotus_id/LTS0264514)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0102566](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102566)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0238968](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238968)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0212995](https://lotus.naturalproducts.net/compound/lotus_id/LTS0212995)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0083649](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083649)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0240902](https://lotus.naturalproducts.net/compound/lotus_id/LTS0240902)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0247118](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247118)</div></div> <div class="molecule-box"> <canvas id="canvas_Row31" width="150" height="150"></canvas> <div class="mol-name">[LTS0247191](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247191)</div></div> <div class="molecule-box"> <canvas id="canvas_Row32" width="150" height="150"></canvas> <div class="mol-name">[LTS0275508](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275508)</div></div> <div class="molecule-box"> <canvas id="canvas_Row34" width="150" height="150"></canvas> <div class="mol-name">[LTS0132789](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132789)</div></div> <div class="molecule-box"> <canvas id="canvas_Row35" width="150" height="150"></canvas> <div class="mol-name">[LTS0002775](https://lotus.naturalproducts.net/compound/lotus_id/LTS0002775)</div></div> <div class="molecule-box"> <canvas id="canvas_Row36" width="150" height="150"></canvas> <div class="mol-name">[LTS0237766](https://lotus.naturalproducts.net/compound/lotus_id/LTS0237766)</div></div> <div class="molecule-box"> <canvas id="canvas_Row37" width="150" height="150"></canvas> <div class="mol-name">[LTS0031413](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031413)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0176844](https://lotus.naturalproducts.net/compound/lotus_id/LTS0176844)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0036473](https://lotus.naturalproducts.net/compound/lotus_id/LTS0036473)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0137911](https://lotus.naturalproducts.net/compound/lotus_id/LTS0137911)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0144870](https://lotus.naturalproducts.net/compound/lotus_id/LTS0144870)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0073780](https://lotus.naturalproducts.net/compound/lotus_id/LTS0073780)</div></div> <div class="molecule-box"> <canvas id="canvas_Row33" width="150" height="150"></canvas> <div class="mol-name">[LTS0272884](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272884)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0163589](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163589)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0071224](https://lotus.naturalproducts.net/compound/lotus_id/LTS0071224)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0204616](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204616)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Mexico          | Chất làm mềm    |
+| Row1      | Salvador        | mỹ phẩm         |
+| Row2      | Venezuela       | Chất làm mềm    |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O" },
+{id: "canvas_Row1", smiles: "COc1cc(-c2[o+]c3cc(O)cc(O)c3cc2O)cc(OC)c1O" },
+{id: "canvas_Row2", smiles: "COc1cc(-c2[o+]c3cc(O)cc(O)c3cc2O)cc(OC)c1[O-]" },
+{id: "canvas_Row3", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4CC(O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row4", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row5", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row6", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row7", smiles: "CCC(C)CCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row8", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row9", smiles: "CCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row10", smiles: "COC(=O)CCC/C=C\CC/C=C\CCCCCCC(C)C" },
+{id: "canvas_Row11", smiles: "OC[C@H]1O[C@@H](Oc2cc3c(O)cc(O)cc3[o+]c2-c2ccc(O)cc2)[C@H](O)[C@@H](O)[C@H]1O" },
+{id: "canvas_Row12", smiles: "CCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row13", smiles: "CCCCCCCCC/C=C\CC/C=C\CCCC(=O)OC" },
+{id: "canvas_Row14", smiles: "CCCCCCCCCCCCCCC(C)C(=O)O" },
+{id: "canvas_Row15", smiles: "CCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row16", smiles: "CCCCCCCCCCCCCCCCCCCCCC=C(O)C(=O)O" },
+{id: "canvas_Row17", smiles: "COc1cc(-c2[o+]c3cc(O)cc(O)c3cc2O[C@@H]2OC(CO)[C@@H](O)C(O)C2O)cc(OC)c1O" },
+{id: "canvas_Row18", smiles: "CC[C@H](C)CCCCC/C=C\CC/C=C\CCCC(=O)OC" },
+{id: "canvas_Row19", smiles: "CCCCCCCCCCCCCCCCCCCCCCCC=C(O)C(=O)O" },
+{id: "canvas_Row20", smiles: "COC(=O)CCCC=CCCC=CCCCCCCC(C)C" },
+{id: "canvas_Row21", smiles: "CCCCCCCCCCCCCCCCCCCCC(O)C(=O)O" },
+{id: "canvas_Row22", smiles: "CCCCCCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row23", smiles: "CCCCCCCCCC=CCCC=CCCCC(=O)OC" },
+{id: "canvas_Row24", smiles: "CCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row25", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCC(O)C(=O)O" },
+{id: "canvas_Row26", smiles: "CCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row27", smiles: "O=c1cc2oc(-c3cc(O)c(O)c(O)c3)c(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc-2c(O)c1" },
+{id: "canvas_Row28", smiles: "CCCCCCCCCCCCCCCCCCCCCCCC(O)C(=O)O" },
+{id: "canvas_Row29", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row30", smiles: "CCCCCCCCCCCCCCCCC(C)C(=O)O" },
+{id: "canvas_Row31", smiles: "CCCCCCCCCCCCCCCCCCCCCCC(O)C(=O)O" },
+{id: "canvas_Row32", smiles: "CC/C=C\C/C=C\C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row33", smiles: "COc1cc(-c2[o+]c3cc(O)cc(O)c3cc2OC2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc(OC)c1[O-]" },
+{id: "canvas_Row34", smiles: "CC/C=C/C/C=C/C/C=C/CCCCCCCC(=O)O" },
+{id: "canvas_Row35", smiles: "CC(C)CCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row36", smiles: "CCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row37", smiles: "CCC(C)CCCCCC=CCCC=CCCCC(=O)OC" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

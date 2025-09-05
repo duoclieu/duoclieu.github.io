@@ -1,0 +1,168 @@
+---
+title: "Sutherlandia frutescens"
+subtitle: "Loài Sutherlandia frutescens (Họ Fabaceae)"
+description: "Loài *Sutherlandia frutescens* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như nan, Namibia, United States of America, Bolivia (Plurinational State of), Spain, Lesotho, Mexico, Portugal, Poland, unknown or invalid, South Africa, United Kingdom of Great Britain and Northern Ireland, Netherlands, Argentina, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'lesotho: thuốc hạ sốt', 'south africa: thuốc bổ'.Từ loài này đã phân lập và xác định được 14 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, fatty acyls, prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Sutherlandia%20frutescens%2001.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Sutherlandia frutescens", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Sutherlandia frutescens* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như nan, Namibia, United States of America, Bolivia (Plurinational State of), Spain, Lesotho, Mexico, Portugal, Poland, unknown or invalid, South Africa, United Kingdom of Great Britain and Northern Ireland, Netherlands, Argentina, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'lesotho: thuốc hạ sốt', 'south africa: thuốc bổ'.Từ loài này đã phân lập và xác định được 14 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, fatty acyls, prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Lessertia
+- **Species:** *Lessertia frutescens*
+- **Scientific Name:** *Sutherlandia frutescens (L.) R.Br.*  
+- **Mô tả thực vật:** [, , , , ]
+- **Description (EN):** [species of plant, species of plant, species of plant, species of plant, species of plant]
+ - **Tên tiếng Việt:** [, , , , ]
+ - **Tên tiếng Anh: **[, , , , ]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Sutherlandia - Species: *Sutherlandia frutescens* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Sutherlandia%20frutescens%2001.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Maria%20Truter00.JPG){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Lessertia%20diffusa-PICT2444.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Lessertia%20frutescens.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Sutherlandia%20frutescens%2002.jpg){ group="GIBF" }
+
+![](http://mam.ansp.org/image/DOV/Fullsize/0021/DOV0021560.jpg){ group="GIBF" }
+
+![](http://www.westafricanplants.senckenberg.de/images/pictures/sutherlandia_frutescens__ms_9491_4079_a48728.jpg){ group="GIBF" }
+
+![](http://www.westafricanplants.senckenberg.de/images/pictures/sutherlandia_frutescens__ms_9538_4079_e8dd75.jpg){ group="GIBF" }
+
+![](http://www.westafricanplants.senckenberg.de/images/pictures/sutherlandia_frutescens__ms_9539_4079_a26a30.jpg){ group="GIBF" }
+
+![](http://www.westafricanplants.senckenberg.de/images/pictures/sutherlandia_frutescens_ms_9490_4079_7baaa3.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Namibia, United States of America, Bolivia (Plurinational State of), Spain, Lesotho, Mexico, Portugal, Poland, unknown or invalid, South Africa, United Kingdom of Great Britain and Northern Ireland, Netherlands, Argentina, Austria
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['ARG', 'NAM', 'ZAF', 'AUT', 'NLD', 'GBR', 'ESP', 'USA', 'MEX', 'LSO', 'POL', 'PRT'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Sutherlandia frutescens* đã phân lập và xác định được 14 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, fatty acyls, prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0224398](https://lotus.naturalproducts.net/compound/lotus_id/LTS0224398)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0034038](https://lotus.naturalproducts.net/compound/lotus_id/LTS0034038)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0179072](https://lotus.naturalproducts.net/compound/lotus_id/LTS0179072)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0050188](https://lotus.naturalproducts.net/compound/lotus_id/LTS0050188)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0163228](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163228)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0063777](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063777)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0049492](https://lotus.naturalproducts.net/compound/lotus_id/LTS0049492)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0268736](https://lotus.naturalproducts.net/compound/lotus_id/LTS0268736)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0042091](https://lotus.naturalproducts.net/compound/lotus_id/LTS0042091)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0210600](https://lotus.naturalproducts.net/compound/lotus_id/LTS0210600)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0265284](https://lotus.naturalproducts.net/compound/lotus_id/LTS0265284)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0248660](https://lotus.naturalproducts.net/compound/lotus_id/LTS0248660)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0253718](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253718)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Lesotho         | thuốc hạ sốt    |
+| Row1      | South Africa    | Thuốc bổ        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row1", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row2", smiles: "C[C@H](CC[C@H](O)C(C)(C)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H]1CC[C@@]2(C)[C@@H]3[C@@H](O)C[C@H]4C(C)(C)C=CC(=O)[C@@]45C[C@@]35CC[C@]12C" },
+{id: "canvas_Row3", smiles: "C[C@H](CC[C@H](O)C(C)(C)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H]1CC[C@@]2(C)[C@@H]3[C@@H](O)C[C@H]4C(C)(C)[C@H](O)CC(=O)[C@@]45C[C@@]35CC[C@]12C" },
+{id: "canvas_Row4", smiles: "CC[C@@H](CCC(C)C1CCC2C3CC=C4C[C@@H](O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row5", smiles: "COC(=O)c1ccc(O)cc1" },
+{id: "canvas_Row6", smiles: "C[C@H](CC[C@H](O)C(C)(C)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H]1CC[C@@]2(C)[C@@H]3CC[C@H]4C(C)(C)[C@H](O)CC(=O)[C@@]45C[C@@]35C(=O)C[C@]12C" },
+{id: "canvas_Row7", smiles: "CC(CCC(O)C(C)(C)OC1OC(CO)C(O)C(O)C1O)C1CCC2(C)C3C(O)CC4C(C)(C)C=CC(=O)C45CC35CCC12C" },
+{id: "canvas_Row8", smiles: "C[C@H](CC[C@H](O)C(C)(C)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H]1CC[C@@]2(C)[C@H]3C(=CC[C@]12C)C[C@]12O[C@H]3C[C@H]1C(C)(C)[C@H](O)C[C@@H]2O" },
+{id: "canvas_Row9", smiles: "CC(CCC(O)C(C)(C)OC1OC(CO)C(O)C(O)C1O)C1CCC2(C)C3CCC4C(C)(C)C(O)CC(=O)C45CC35C(=O)CC12C" },
+{id: "canvas_Row10", smiles: "CC(CCC(O)C(C)(C)OC1OC(CO)C(O)C(O)C1O)C1CCC2(C)C3C(=CCC12C)CC12OC3CC1C(C)(C)C(O)CC2O" },
+{id: "canvas_Row11", smiles: "CCCOC(=O)c1ccc(O)cc1" },
+{id: "canvas_Row12", smiles: "CC[C@@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row13", smiles: "CC(CCC(O)C(C)(C)OC1OC(CO)C(O)C(O)C1O)C1CCC2(C)C3C(O)CC4C(C)(C)C(O)CC(=O)C45CC35CCC12C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

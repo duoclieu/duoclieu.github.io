@@ -1,0 +1,156 @@
+---
+title: "Exostema caribaeum"
+subtitle: "Loài Exostema caribaeum (Họ Rubiaceae)"
+description: "Loài *Exostema caribaeum* thuộc họ Rubiaceae phân bố tại một số vùng trên thế giới như nan, Cayman Islands, Haiti, Cuba, Jamaica, Guadeloupe, Mexico, Saint Martin (French part), Saint Barthélemy, Virgin Islands (U.S.), Dominica, Sint Maarten (Dutch part), Honduras, Costa Rica, United States of America, Dominican Republic, Nicaragua, Puerto Rico, Anguilla, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'bahamas: giờ mở cửa', 'mexico: gây nôn'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, neoflavonoids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Plantarum%20indigenarum%20et%20exoticarum%20icones%20ad%20vivum%20coloratae%2C%20oder%2C%20Sammlung%20nach%20der%20Natur%20gemalter%20Abbildungen%20inn-%20und%20ausl%C3%A4ndlischer%20Pflanzen%2C%20f%C3%BCr%20Liebhaber%20und%20Beflissene%20der%20Botanik%20%2814043178270%29.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Exostema caribaeum", "Rubiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Exostema caribaeum* thuộc họ Rubiaceae phân bố tại một số vùng trên thế giới như nan, Cayman Islands, Haiti, Cuba, Jamaica, Guadeloupe, Mexico, Saint Martin (French part), Saint Barthélemy, Virgin Islands (U.S.), Dominica, Sint Maarten (Dutch part), Honduras, Costa Rica, United States of America, Dominican Republic, Nicaragua, Puerto Rico, Anguilla, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'bahamas: giờ mở cửa', 'mexico: gây nôn'.Từ loài này đã phân lập và xác định được 8 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, neoflavonoids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Gentianales
+- **Family:** Rubiaceae
+- **Genus:** Exostema
+- **Species:** *Exostema caribaeum*
+- **Scientific Name:** *Exostema caribaeum (Jacq.) Schult.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rubiaceae - Genus: Exostema - Species: *Exostema caribaeum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Plantarum%20indigenarum%20et%20exoticarum%20icones%20ad%20vivum%20coloratae%2C%20oder%2C%20Sammlung%20nach%20der%20Natur%20gemalter%20Abbildungen%20inn-%20und%20ausl%C3%A4ndlischer%20Pflanzen%2C%20f%C3%BCr%20Liebhaber%20und%20Beflissene%20der%20Botanik%20%2814043178270%29.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/400076772/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/400076924/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351687786/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/351687814/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352468756/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352468769/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362336607/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/362464549/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Cayman Islands, Haiti, Cuba, Jamaica, Guadeloupe, Mexico, Saint Martin (French part), Saint Barthélemy, Virgin Islands (U.S.), Dominica, Sint Maarten (Dutch part), Honduras, Costa Rica, United States of America, Dominican Republic, Nicaragua, Puerto Rico, Anguilla, El Salvador
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rubiaceae",
+  iso3_codes: ['DOM', 'NIC', 'HND', 'GLP', 'MEX', 'CUB', 'CRI', 'BLM', 'HTI', 'DMA', 'JAM', 'PRI', 'MAF', 'CYM', 'AIA', 'SXM', 'SLV', 'USA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Exostema caribaeum* đã phân lập và xác định được 8 hoạt chất thuộc  về 2 nhóm gồm coumarins and derivatives, neoflavonoids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0064136](https://lotus.naturalproducts.net/compound/lotus_id/LTS0064136)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0089896](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089896)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0218277](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218277)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0114729](https://lotus.naturalproducts.net/compound/lotus_id/LTS0114729)</div></div></div>
+<div class="group-title">Neoflavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0140424](https://lotus.naturalproducts.net/compound/lotus_id/LTS0140424)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0079318](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079318)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0225142](https://lotus.naturalproducts.net/compound/lotus_id/LTS0225142)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0238531](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238531)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Bahamas         | Giờ mở cửa      |
+| Row1      | Mexico          | gây nôn         |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc(O[C@@H]2O[C@H](CO[C@@H]3OC[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)c2c(-c3ccc(O)c(O)c3)cc(=O)oc2c1" },
+{id: "canvas_Row1", smiles: "COc1cc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c2c(-c3ccc(O)c(O)c3)cc(=O)oc2c1" },
+{id: "canvas_Row2", smiles: "COc1cc(O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)c2c(-c3ccc(O)c(O)c3)cc(=O)oc2c1" },
+{id: "canvas_Row3", smiles: "O=c1cc(-c2ccc(O)c(O)c2)c2c(O[C@@H]3O[C@H](CO[C@@H]4OC[C@@H](O)[C@H](O)[C@H]4O)[C@@H](O)[C@H](O)[C@H]3O)cc(O)cc2o1" },
+{id: "canvas_Row4", smiles: "COc1cc(OO[C@H]2OC[C@H](CO)[C@H](O)[C@H]2O)c2c(-c3ccc(O)c(O)c3)cc(=O)oc2c1" },
+{id: "canvas_Row5", smiles: "COc1cc(O)c2c(-c3ccc(O)c(O)c3)cc(=O)oc2c1" },
+{id: "canvas_Row6", smiles: "O=c1cc(-c2ccc(O)c(O)c2)c2c(OO[C@@H]3OC[C@@H](O)[C@H](O)[C@H]3O)cc(O)cc2o1" },
+{id: "canvas_Row7", smiles: "COc1cc(OO[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)c2c(-c3ccc(O)c(O)c3)cc(=O)oc2c1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

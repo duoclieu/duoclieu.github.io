@@ -1,0 +1,206 @@
+---
+title: Họ Myrtaceae
+subtitle: Họ **Myrtaceae** gồm Backhousia, Eucalyptus, Melaleuca, Myrtus, Pimenta, Psidium, Rhodomyrtus, Syzygium chi và 19 loài  được sử dụng ở 27vùng lãnh thổ điều trị 20chứng và bệnh.
+description: Họ **Myrtaceae** gồm8 chi và 19loài đã ghi nhận sử dụng làm thuốc tại 27 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất khử trùng (8 loài), chất làm se (6 loài), chất kích thích (2 loài), diệt khuẩn (2 loài), thuốc nhuận tràng (2 loài) . 05 loài thực vật gồm **Psidium guajava* (7 chứng và bệnh), *Pimenta racemosa* (4 chứng và bệnh), *Myrtus communis* (3 chứng và bệnh), *Pimenta dioica* (3 chứng và bệnh), *Eucalyptus globulus* (2 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Eucalyptus globulus* ( 282 hoạt chất), *Psidium guajava* ( 266 hoạt chất), *Myrtus communis* ( 188 hoạt chất), *Syzygium aromaticum* ( 171 hoạt chất), *Eucalyptus camaldulensis* ( 153 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Eucalyptus globulus*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/345633973/original.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Myrtaceae
+    contents: Myrtaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Myrtaceae có tổng cộng 8  chi và 19 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Myrtaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                                                                       |   Count |
+|-----------|--------------|--------------------------------------------------------------------------------------------------------------------|---------|
+| Row7      | Syzygium     | Syzygium aqueum, Syzygium aromaticum, Syzygium corynocarpum, Syzygium cumini, Syzygium jambos, Syzygium malaccense |       6 |
+| Row1      | Eucalyptus   | Eucalyptus camaldulensis, Eucalyptus globulus, Eucalyptus incrassata                                               |       3 |
+| Row2      | Melaleuca    | Melaleuca alternifolia, Melaleuca linariifolia, Melaleuca viridiflora                                              |       3 |
+| Row4      | Pimenta      | Pimenta dioica, Pimenta racemosa                                                                                   |       2 |
+| Row6      | Rhodomyrtus  | Rhodomyrtus macrocarpa, Rhodomyrtus tomentosa                                                                      |       2 |
+| Row0      | Backhousia   | Backhousia citriodora                                                                                              |       1 |
+| Row3      | Myrtus       | Myrtus communis                                                                                                    |       1 |
+| Row5      | Psidium      | Psidium guajava                                                                                                    |       1 |
+
+:::
+
+Phân bố họ trên thế giới: nan, unknown or invalid, New Zealand, Australia, Brazil, Zimbabwe, France, Benin, Thailand, Spain, United States of America, Mexico, Nigeria, Algeria, Malta, Portugal, South Africa, Greece, India, Chile, Türkiye, Bolivia (Plurinational State of), Peru, Pakistan, Colombia, Ecuador, Kenya, Jordan, Chinese Taipei, China, Philippines, Netherlands, Cyprus, Croatia, Albania, Italy, Morocco, Cayman Islands, Cuba, Jamaica, Mayotte, Seychelles, French Guiana, Réunion, Belize, Guatemala, Costa Rica, Bermuda, Nicaragua, Norway, Canada, El Salvador, Belgium, Cook Islands, French Polynesia, Guadeloupe, Venezuela (Bolivarian Republic of), Bonaire, Sint Eustatius and Saba, Barbados, Martinique, Panama, Grenada, Madagascar, Virgin Islands (U.S.), Dominica, Trinidad and Tobago, Honduras, Saint Kitts and Nevis, Montserrat, Dominican Republic, Puerto Rico, Guyana, Haiti, Bahamas, Singapore, Antigua and Barbuda, Argentina, Ethiopia, Uganda, Papua New Guinea, Indonesia, Brunei Darussalam, Hong Kong, Cambodia, Malaysia, Macao, Sri Lanka, Viet Nam, Switzerland, Micronesia (Federated States of), Solomon Islands, Guam, Tanzania, United Republic of, Mauritius, Georgia, Comoros, Niue, American Samoa, Fiji, Wallis and Futuna, Samoa, Tonga, Japan, Vanuatu, New Caledonia
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Myrtaceae",
+  iso3_codes: ['TZA', 'MAC', 'COM', 'AUS', 'BRB', 'VUT', 'HND', 'TTO', 'ZWE', 'MTQ', 'MSR', 'CHL', 'FRA', 'SYC', 'CYM', 'VNM', 'CHN', 'PNG', 'FJI', 'PAK', 'PHL', 'ARG', 'ALB', 'GLP', 'JPN', 'MLT', 'ECU', 'CUB', 'PYF', 'USA', 'THA', 'IND', 'GTM', 'ATG', 'ITA', 'GRD', 'IDN', 'NIU', 'HRV', 'DOM', 'NCL', 'UGA', 'JAM', 'MUS', 'SLB', 'GUF', 'KNA', 'COL', 'MYS', 'CHE', 'MYT', 'PER', 'GUM', 'HKG', 'PRT', 'PAN', 'GUY', 'BHS', 'ESP', 'MDG', 'BMU', 'GEO', 'BEL', 'NGA', 'NIC', 'SGP', 'REU', 'BRA', 'DZA', 'HTI', 'LKA', 'TON', 'PRI', 'NLD', 'MEX', 'ZAF', 'NZL', 'DMA', 'COK', 'NOR', 'KHM', 'JOR', 'KEN', 'TUR', 'BRN', 'CYP', 'WLF', 'SLV', 'BEN', 'MAR', 'BLZ', 'ETH', 'WSM', 'CAN', 'ASM', 'GRC', 'CRI'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Myrtaceae** có tổng cộng 8  chi và 19 loài.đã phân lập và xác định được 1623 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Myrtaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0037297</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0085212</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0115731</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0104525</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0117550</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#22" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#24" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1*)CC2NCCc3c2cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#26" width="150" height="150"></canvas> <div class="mol-name">COc1c(*)cc(cc1)CCNCCc2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#27" width="150" height="150"></canvas> <div class="mol-name">COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#28" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#29" width="150" height="150"></canvas> <div class="mol-name">c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#30" width="150" height="150"></canvas> <div class="mol-name">CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#31" width="150" height="150"></canvas> <div class="mol-name">C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#32" width="150" height="150"></canvas> <div class="mol-name">O=C(O)c1cc(O)c(c(c1)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#33" width="150" height="150"></canvas> <div class="mol-name">*=C(*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#34" width="150" height="150"></canvas> <div class="mol-name">**C(=*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#35" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#36" width="150" height="150"></canvas> <div class="mol-name">*=Cc1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#37" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#38" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Myrtaceae** đã được một số công động tại các quốc gia như *Elsewhere, India, Iraq, China, Turkey, Australia, New Caledonia, Europe, Kurdistan, ain, Latin America, Mexico, English, Haiti, Trinidad, Ghana, Johore, Malaya, Philippines, Samoa, Sanscrit, Tahiti, Venezuela, Tonga, French, German, Dominican Republic* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *xà phòng, chất làm se, chất khử trùng, dạ dày, chất kích thích, chất chống oxy hóa, thuốc tống hơi, nước hoa, tiêu hóa, thuốc long đờm, thuốc nhuận tràng, thuốc tẩy giun, emmenagogue, thuốc giải độc, diệt khuẩn, chất độc, thuốc giảm đau, thuốc bổ, thuốc lợi tiểu, ma túy*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Psidium guajava* (7 chứng và bệnh), *Pimenta racemosa* (4 chứng và bệnh), *Myrtus communis* (3 chứng và bệnh), *Pimenta dioica* (3 chứng và bệnh), *Eucalyptus globulus* (2 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Myrtaceae** có thể điều trị là chất khử trùng (8 loài), chất làm se (6 loài), chất kích thích (2 loài), diệt khuẩn (2 loài), thuốc nhuận tràng (2 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Myrtaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Backhousia   | Elsewhere - (*Backhousia citriodora* - xà phòng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Row1      | Eucalyptus   | India - (*Eucalyptus camaldulensis* - chất làm se), Iraq - (*Eucalyptus camaldulensis* - chất làm se), China - (*Eucalyptus globulus* - chất khử trùng), Elsewhere - (*Eucalyptus globulus* - chất khử trùng), Turkey - (*Eucalyptus globulus* - chất làm se), Iraq - (*Eucalyptus incrassata* - chất khử trùng), Turkey - (*Eucalyptus incrassata* - chất khử trùng)                                                                                                                                                                                                                                                          |
+| Row2      | Melaleuca    | Australia - (*Melaleuca alternifolia* - chất khử trùng), Australia - (*Melaleuca linariifolia* - chất khử trùng), New Caledonia - (*Melaleuca viridiflora* - chất khử trùng)                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Row3      | Myrtus       | Elsewhere - (*Myrtus communis* - chất khử trùng), Europe - (*Myrtus communis* - dạ dày), Iraq - (*Myrtus communis* - chất kích thích), Kurdistan - (*Myrtus communis* - chất khử trùng), Turkey - (*Myrtus communis* - chất khử trùng), ain - (*Myrtus communis* - chất khử trùng)                                                                                                                                                                                                                                                                                                                                             |
+| Row4      | Pimenta      | Elsewhere - (*Pimenta dioica* - chất chống oxy hóa), Latin America - (*Pimenta dioica* - thuốc tống hơi), Mexico - (*Pimenta dioica* - chất kích thích), Turkey - (*Pimenta dioica* - thuốc tống hơi), Elsewhere - (*Pimenta racemosa* - thuốc tống hơi), English - (*Pimenta racemosa* - nước hoa), Haiti - (*Pimenta racemosa* - tiêu hóa), Trinidad - (*Pimenta racemosa* - thuốc long đờm)                                                                                                                                                                                                                                 |
+| Row5      | Psidium      | Elsewhere - (*Psidium guajava* - chất làm se), English - (*Psidium guajava* - chất làm se), Ghana - (*Psidium guajava* - thuốc nhuận tràng), Haiti - (*Psidium guajava* - chất khử trùng), Johore - (*Psidium guajava* - thuốc tẩy giun), Malaya - (*Psidium guajava* - emmenagogue), Mexico - (*Psidium guajava* - thuốc tẩy giun), Philippines - (*Psidium guajava* - chất làm se), Samoa - (*Psidium guajava* - thuốc giải độc), Sanscrit - (*Psidium guajava* - thuốc nhuận tràng), Tahiti - (*Psidium guajava* - chất làm se), Trinidad - (*Psidium guajava* - diệt khuẩn), Venezuela - (*Psidium guajava* - chất làm se) |
+| Row6      | Rhodomyrtus  | Australia - (*Rhodomyrtus macrocarpa* - chất độc), China - (*Rhodomyrtus tomentosa* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row7      | Syzygium     | Elsewhere - (*Syzygium aqueum* - chất làm se), China - (*Syzygium aromaticum* - chất khử trùng), Elsewhere - (*Syzygium aromaticum* - thuốc giảm đau), Haiti - (*Syzygium aromaticum* - thuốc giảm đau), Turkey - (*Syzygium aromaticum* - chất khử trùng), Tonga - (*Syzygium corynocarpum* - thuốc bổ), French - (*Syzygium cumini* - chất làm se), German - (*Syzygium cumini* - thuốc lợi tiểu), Dominican Republic - (*Syzygium jambos* - ma túy), Elsewhere - (*Syzygium malaccense* - diệt khuẩn), Tonga - (*Syzygium malaccense* - thuốc nhuận tràng)                                                                  |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Myrtaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_a_Row0#22", smiles: "Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#24", smiles: "COc1ccc(cc1*)CC2NCCc3c2cccc3" },
+{id: "canvas_a_Row0#26", smiles: "COc1c(*)cc(cc1)CCNCCc2ccccc2" },
+{id: "canvas_a_Row0#27", smiles: "COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C" },
+{id: "canvas_a_Row0#28", smiles: "COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#29", smiles: "c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C" },
+{id: "canvas_a_Row0#30", smiles: "CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C" },
+{id: "canvas_a_Row0#31", smiles: "C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*" },
+{id: "canvas_a_Row0#32", smiles: "O=C(O)c1cc(O)c(c(c1)O)O" },
+{id: "canvas_a_Row0#33", smiles: "*=C(*)c1ccccc1" },
+{id: "canvas_a_Row0#34", smiles: "**C(=*)c1ccccc1" },
+{id: "canvas_a_Row0#35", smiles: "**c1ccccc1" },
+{id: "canvas_a_Row0#36", smiles: "*=Cc1ccccc1" },
+{id: "canvas_a_Row0#37", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#38", smiles: "*=*c1ccccc1" },
+{id: "canvas_Row0", smiles: "O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23" },
+{id: "canvas_Row1", smiles: "C=C1CC/C=C(\C)CC[C@@H]2[C@@H]1CC2(C)C" },
+{id: "canvas_Row2", smiles: "C=CC(=C)CCC=C(C)C" },
+{id: "canvas_Row3", smiles: "CC1=CCC(=C(C)C)CC1" },
+{id: "canvas_Row4", smiles: "C=C1CCC2CC1C2(C)C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

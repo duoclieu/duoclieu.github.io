@@ -1,0 +1,164 @@
+---
+title: "Metopium brownei"
+subtitle: "Loài Metopium brownei (Họ Anacardiaceae)"
+description: "Loài *Metopium brownei* thuộc họ Anacardiaceae phân bố tại một số vùng trên thế giới như Guatemala, Mexico, Curaçao, Belize, Bonaire, Sint Eustatius and Saba, Honduras, Cuba, Colombia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dominican republic: chất độc', 'guatemala: chất độc', 'mexico: gây dị ứng, thuốc an thần, có mùi hôi, chất độc'.Từ loài này đã phân lập và xác định được 3 hoạt chất thuộc  về 1 nhóm gồm phenols."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Flore%20m%C3%A9dicale%20des%20Antilles%2C%20ou%2C%20Trait%C3%A9%20des%20plantes%20usuelles%20%28Pl.%2079%29%20%288201961557%29.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Metopium brownei", "Anacardiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Metopium brownei* thuộc họ Anacardiaceae phân bố tại một số vùng trên thế giới như Guatemala, Mexico, Curaçao, Belize, Bonaire, Sint Eustatius and Saba, Honduras, Cuba, Colombia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'dominican republic: chất độc', 'guatemala: chất độc', 'mexico: gây dị ứng, thuốc an thần, có mùi hôi, chất độc'.Từ loài này đã phân lập và xác định được 3 hoạt chất thuộc  về 1 nhóm gồm phenols.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Anacardiaceae
+- **Genus:** Metopium
+- **Species:** *Metopium brownei*
+- **Scientific Name:** *Metopium brownei (Jacq.) Urb.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Anacardiaceae - Genus: Metopium - Species: *Metopium brownei* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Flore%20m%C3%A9dicale%20des%20Antilles%2C%20ou%2C%20Trait%C3%A9%20des%20plantes%20usuelles%20%28Pl.%2079%29%20%288201961557%29.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348224320/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/348224319/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354405981/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354405963/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374796531/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374796740/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374796677/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374796459/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374796361/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374796608/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/377345579/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/378672526/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/378673043/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/378673126/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/378672325/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Guatemala, Mexico, Curaçao, Belize, Bonaire, Sint Eustatius and Saba, Honduras, Cuba, Colombia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Anacardiaceae",
+  iso3_codes: ['BLZ', 'COL', 'MEX', 'GTM', 'CUB', 'CUW', 'HND'],
+  color: [1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Metopium brownei* đã phân lập và xác định được 3 hoạt chất thuộc  về 1 nhóm gồm phenols. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0264607](https://lotus.naturalproducts.net/compound/lotus_id/LTS0264607)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0251717](https://lotus.naturalproducts.net/compound/lotus_id/LTS0251717)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0004609](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004609)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ      | Chứng và bệnh                                   |
+|-----------|--------------------|-------------------------------------------------|
+| Row0      | Dominican Republic | Chất độc                                        |
+| Row1      | Guatemala          | Chất độc                                        |
+| Row2      | Mexico             | Gây dị ứng, Thuốc an thần, có mùi hôi, Chất độc |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCCCC=CCCCCCCCCCc1cccc(O)c1O" },
+{id: "canvas_Row1", smiles: "CCCCCCCCCCCCCCCc1cccc(O)c1O" },
+{id: "canvas_Row2", smiles: "CCCC/C=C\CCCCCCCCCc1cccc(O)c1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

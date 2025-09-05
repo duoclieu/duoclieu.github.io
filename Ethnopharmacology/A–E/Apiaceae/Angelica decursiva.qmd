@@ -1,0 +1,184 @@
+---
+title: "Angelica decursiva"
+subtitle: "Loài Angelica decursiva (Họ Apiaceae)"
+description: "Loài *Angelica decursiva* thuộc họ Apiaceae phân bố tại một số vùng trên thế giới như China, Korea, Republic of, Japan, Russian Federation. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc tống hơi, thuốc long đờm, dạ dày, thuốc bổ', 'japan*: thuốc chống ho, thuốc hạ sốt, thuốc long đờm'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 3 nhóm gồm cinnamic acids and derivatives, coumarins and derivatives, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Angelica%20decursiva%204.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Angelica decursiva", "Apiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Angelica decursiva* thuộc họ Apiaceae phân bố tại một số vùng trên thế giới như China, Korea, Republic of, Japan, Russian Federation. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc tống hơi, thuốc long đờm, dạ dày, thuốc bổ', 'japan*: thuốc chống ho, thuốc hạ sốt, thuốc long đờm'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 3 nhóm gồm cinnamic acids and derivatives, coumarins and derivatives, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Apiales
+- **Family:** Apiaceae
+- **Genus:** Halosciastrum
+- **Species:** *Halosciastrum melanotilingia*
+- **Scientific Name:** *Angelica decursiva (Miq.) Franch. & Sav.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Apiaceae - Genus: Angelica - Species: *Angelica decursiva* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Angelica%20decursiva%204.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365589832/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365589924/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365589876/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365589802/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/365589961/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368383926/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368383876/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/368383896/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/379574275/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/380079736/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/380376803/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: China, Korea, Republic of, Japan, Russian Federation
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Apiaceae",
+  iso3_codes: ['JPN', 'CHN', 'RUS'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Angelica decursiva* đã phân lập và xác định được 28 hoạt chất thuộc  về 3 nhóm gồm cinnamic acids and derivatives, coumarins and derivatives, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0255860](https://lotus.naturalproducts.net/compound/lotus_id/LTS0255860)</div></div></div>
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0257448](https://lotus.naturalproducts.net/compound/lotus_id/LTS0257448)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0113114](https://lotus.naturalproducts.net/compound/lotus_id/LTS0113114)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0162728](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162728)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0239274](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239274)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0122295](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122295)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0251242](https://lotus.naturalproducts.net/compound/lotus_id/LTS0251242)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0029816](https://lotus.naturalproducts.net/compound/lotus_id/LTS0029816)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0034561](https://lotus.naturalproducts.net/compound/lotus_id/LTS0034561)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0017773](https://lotus.naturalproducts.net/compound/lotus_id/LTS0017773)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0073597](https://lotus.naturalproducts.net/compound/lotus_id/LTS0073597)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0232818](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232818)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0178978](https://lotus.naturalproducts.net/compound/lotus_id/LTS0178978)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0022585](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022585)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0157244](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157244)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0120216](https://lotus.naturalproducts.net/compound/lotus_id/LTS0120216)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0108724](https://lotus.naturalproducts.net/compound/lotus_id/LTS0108724)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0176729](https://lotus.naturalproducts.net/compound/lotus_id/LTS0176729)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0156774](https://lotus.naturalproducts.net/compound/lotus_id/LTS0156774)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0170312](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170312)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0159206](https://lotus.naturalproducts.net/compound/lotus_id/LTS0159206)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0004524](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004524)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0056543](https://lotus.naturalproducts.net/compound/lotus_id/LTS0056543)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0124452](https://lotus.naturalproducts.net/compound/lotus_id/LTS0124452)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0254232](https://lotus.naturalproducts.net/compound/lotus_id/LTS0254232)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0022574](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022574)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0132870](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132870)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0125425](https://lotus.naturalproducts.net/compound/lotus_id/LTS0125425)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                    |
+|-----------|-----------------|--------------------------------------------------|
+| Row0      | China           | thuốc tống hơi, Thuốc long đờm, dạ dày, Thuốc bổ |
+| Row1      | Japan*          | Thuốc chống ho, thuốc hạ sốt, Thuốc long đờm     |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC(C)=CCOc1c2ccoc2cc2oc(=O)ccc12" },
+{id: "canvas_Row1", smiles: "CC(C)=CCOc1c2occc2cc2ccc(=O)oc12" },
+{id: "canvas_Row2", smiles: "O=c1ccc2ccc(O)cc2o1" },
+{id: "canvas_Row3", smiles: "CC(C)(OC1OC(CO)C(O)C(O)C1O)C1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row4", smiles: "CC(C)(O)[C@@H]1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row5", smiles: "CC(C)(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H]1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row6", smiles: "CC(C)(O)C1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row7", smiles: "CC(C)(O)[C@H]1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row8", smiles: "CC(C)=CC(=O)O[C@H]1Cc2cc3ccc(=O)oc3cc2OC1(C)C" },
+{id: "canvas_Row9", smiles: "CC1(C)Oc2cc3oc(=O)ccc3cc2C[C@@H]1O" },
+{id: "canvas_Row10", smiles: "CC(C)=CC(=O)O[C@@H]1Cc2cc3ccc(=O)oc3cc2OC1(C)C" },
+{id: "canvas_Row11", smiles: "CC(C)=CC(=O)OC1Cc2cc3ccc(=O)oc3cc2OC1(C)C" },
+{id: "canvas_Row12", smiles: "CC1(C)Oc2cc3oc(=O)ccc3cc2CC1O" },
+{id: "canvas_Row13", smiles: "CC(C)=CCC/C(C)=C/Cc1cc2ccc(=O)oc2cc1O" },
+{id: "canvas_Row14", smiles: "CC(C)=CC(=O)O[C@H]1[C@H](OC(=O)C=C(C)C)c2cc3ccc(=O)oc3cc2OC1(C)C" },
+{id: "canvas_Row15", smiles: "C/C=C(/C)C(=O)O[C@@H]1c2cc3ccc(=O)oc3cc2OC(C)(C)[C@@H]1O" },
+{id: "canvas_Row16", smiles: "C/C=C(\C)C(=O)[C@H]1c2cc3ccc(=O)oc3cc2OC(C)(C)[C@@H]1C(=O)CC(C)C" },
+{id: "canvas_Row17", smiles: "CC=C(C)C(=O)C1c2cc3ccc(=O)oc3cc2OC(C)(C)C1C(=O)CC(C)C" },
+{id: "canvas_Row18", smiles: "CC(C)(OC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O)C1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row19", smiles: "C/C=C(\C)C(=O)[C@@H]1[C@@H](C(=O)CC(C)C)c2cc3ccc(=O)oc3cc2OC1(C)C" },
+{id: "canvas_Row20", smiles: "CC=C(C)C(=O)C1C(C(=O)CC(C)C)c2cc3ccc(=O)oc3cc2OC1(C)C" },
+{id: "canvas_Row21", smiles: "COc1cc(/C=C/C(=O)OC[C@@H](O)c2ccc(O)cc2)ccc1O" },
+{id: "canvas_Row22", smiles: "C/C=C(/C)C(=O)O[C@@H]1c2cc3ccc(=O)oc3cc2OC(C)(C)[C@H]1OC(=O)C=C(C)C" },
+{id: "canvas_Row23", smiles: "CC(C)(O[C@@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)[C@H]1Cc2cc3ccc(=O)oc3cc2O1" },
+{id: "canvas_Row24", smiles: "CC(C)(O)C1COc2cc3oc(=O)ccc3cc21" },
+{id: "canvas_Row25", smiles: "CC1(C)Oc2cc3oc(=O)ccc3cc2[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row26", smiles: "CC(C)=CC(=O)O[C@@H]1c2cc3ccc(=O)oc3cc2OC(C)(C)[C@@H]1O" },
+{id: "canvas_Row27", smiles: "CC(C)(O)[C@@H]1COc2cc3oc(=O)ccc3cc21" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

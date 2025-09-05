@@ -1,0 +1,170 @@
+---
+title: Họ Asphodelaceae
+subtitle: Họ **Liliaceae** gồm Bulbine, Hemerocallis chi và 2 loài  được sử dụng ở 4vùng lãnh thổ điều trị 2chứng và bệnh.
+description: Họ **Liliaceae** gồm2 chi và 2loài đã ghi nhận sử dụng làm thuốc tại 4 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm thuốc lợi tiểu (1 loài), thuốc nhuận tràng (1 loài) . 05 loài thực vật gồm **Bulbine narcissifolia* (1 chứng và bệnh), *Hemerocallis fulva* (1 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Hemerocallis fulva* ( 106 hoạt chất), *Bulbine narcissifolia* ( 13 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Hemerocallis fulva*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/345809903/original.jpeg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Asphodelaceae
+    contents: Asphodelaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Liliaceae có tổng cộng 2  chi và 2 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Liliaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF          |   Count |
+|-----------|--------------|-----------------------|---------|
+| Row0      | Bulbine      | Bulbine narcissifolia |       1 |
+| Row1      | Hemerocallis | Hemerocallis fulva    |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Lesotho, South Africa, France, Germany, Switzerland, Czechia, Netherlands, Hungary, Poland, Mexico, Chinese Taipei, Colombia, Sweden, Hong Kong, Japan, Belarus, Russian Federation, India, Brazil, Ukraine, Slovakia, United States of America, China, Kazakhstan, Italy, New Zealand, Canada, Austria, Belgium
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Asphodelaceae",
+  iso3_codes: ['BRA', 'NZL', 'CHE', 'AUT', 'NLD', 'IND', 'DEU', 'POL', 'ZAF', 'SVK', 'FRA', 'SWE', 'UKR', 'CZE', 'BEL', 'LSO', 'KAZ', 'ITA', 'CAN', 'JPN', 'RUS', 'COL', 'BLR', 'CHN', 'HUN', 'HKG', 'USA', 'MEX'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Liliaceae** có tổng cộng 2  chi và 2 loài.đã phân lập và xác định được 119 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Liliaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0160968</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0006643</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0009730</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0010754</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0010950</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Liliaceae** đã được một số công động tại các quốc gia như *Africa(Griqua), Lesotho, China, Elsewhere* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc nhuận tràng, thuốc lợi tiểu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Bulbine narcissifolia* (1 chứng và bệnh), *Hemerocallis fulva* (1 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Liliaceae** có thể điều trị là thuốc lợi tiểu (1 loài), thuốc nhuận tràng (1 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Liliaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                              |
+|-----------|--------------|-------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Bulbine      | Africa(Griqua) - (*Bulbine narcissifolia* - thuốc nhuận tràng), Lesotho - (*Bulbine narcissifolia* - thuốc nhuận tràng) |
+| Row1      | Hemerocallis | China - (*Hemerocallis fulva* - thuốc lợi tiểu), Elsewhere - (*Hemerocallis fulva* - thuốc lợi tiểu)                    |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Asphodelaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_Row0", smiles: "Cc1cc(O)c2c(c1)C(=O)c1cccc(O)c1C2=O" },
+{id: "canvas_Row1", smiles: "CC1=CCO[C@@H]1N=C(O)CC[C@@H](N)C(=O)O" },
+{id: "canvas_Row2", smiles: "C[C@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC[C@@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8O[C@H](CO)[C@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7OC[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)C[C@@H](O)[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C" },
+{id: "canvas_Row3", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row4", smiles: "COc1cc(C[C@H]2CO[C@H](c3ccc(O)c(OC)c3)[C@H]2CO)ccc1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

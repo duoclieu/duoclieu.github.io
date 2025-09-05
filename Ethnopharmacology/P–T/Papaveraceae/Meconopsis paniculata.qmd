@@ -1,0 +1,156 @@
+---
+title: "Meconopsis paniculata"
+subtitle: "Loài Meconopsis paniculata (Họ Papaveraceae)"
+description: "Loài *Meconopsis paniculata* thuộc họ Papaveraceae phân bố tại một số vùng trên thế giới như nan, India, Nepal, unknown or invalid, China, Bhutan, United Kingdom of Great Britain and Northern Ireland, Canada. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: ma túy'.Từ loài này đã phân lập và xác định được 3 hoạt chất thuộc  về 2 nhóm gồm indoles and derivatives, protopine alkaloids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Meconopsis paniculata", "Papaveraceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Meconopsis paniculata* thuộc họ Papaveraceae phân bố tại một số vùng trên thế giới như nan, India, Nepal, unknown or invalid, China, Bhutan, United Kingdom of Great Britain and Northern Ireland, Canada. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: ma túy'.Từ loài này đã phân lập và xác định được 3 hoạt chất thuộc  về 2 nhóm gồm indoles and derivatives, protopine alkaloids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ranunculales
+- **Family:** Papaveraceae
+- **Genus:** Meconopsis
+- **Species:** *Meconopsis paniculata*
+- **Scientific Name:** *Meconopsis paniculata (D.Don) Prain*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Papaveraceae - Genus: Meconopsis - Species: *Meconopsis paniculata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/438671118/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371624323/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/371624362/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/378062694/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/427786089/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/427786286/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/427786033/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/401527764/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/401527823/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/401527787/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/401527736/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, India, Nepal, unknown or invalid, China, Bhutan, United Kingdom of Great Britain and Northern Ireland, Canada
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Papaveraceae",
+  iso3_codes: ['CAN', 'BTN', 'CHN', 'IND', 'NPL', 'GBR'],
+  color: [1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Meconopsis paniculata* đã phân lập và xác định được 3 hoạt chất thuộc  về 2 nhóm gồm indoles and derivatives, protopine alkaloids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Indoles and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0229718](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229718)</div></div></div>
+<div class="group-title">Protopine alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0080245](https://lotus.naturalproducts.net/compound/lotus_id/LTS0080245)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0256990](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256990)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Ma túy          |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CN1CCc2cc3c(cc2C(=O)Cc2ccc4c(c2C1)OCO4)OCO3" },
+{id: "canvas_Row1", smiles: "COc1cc2c(cc1OC)C(=O)Cc1ccc3c(c1CN(C)CC2)OCO3" },
+{id: "canvas_Row2", smiles: "COc1ccc2[nH]c3c(c2c1)CCN(C)C3" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

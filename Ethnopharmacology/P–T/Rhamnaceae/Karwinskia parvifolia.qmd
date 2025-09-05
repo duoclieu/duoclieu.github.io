@@ -1,0 +1,174 @@
+---
+title: "Karwinskia parvifolia"
+subtitle: "Loài Karwinskia parvifolia (Họ Rhamnaceae)"
+description: "Loài *Karwinskia parvifolia* thuộc họ Rhamnaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: thuốc bổ'.Từ loài này đã phân lập và xác định được 17 hoạt chất thuộc  về 4 nhóm gồm anthracenes, arylnaphthalene lignans, naphthalenes, naphthopyrans."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Karwinskia parvifolia", "Rhamnaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Karwinskia parvifolia* thuộc họ Rhamnaceae phân bố tại một số vùng trên thế giới như nan, United States of America, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico: thuốc bổ'.Từ loài này đã phân lập và xác định được 17 hoạt chất thuộc  về 4 nhóm gồm anthracenes, arylnaphthalene lignans, naphthalenes, naphthopyrans.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Rosales
+- **Family:** Rhamnaceae
+- **Genus:** Karwinskia
+- **Species:** *Karwinskia parvifolia*
+- **Scientific Name:** *Karwinskia parvifolia Rose*  
+- **Mô tả thực vật:** []
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rhamnaceae - Genus: Karwinskia - Species: *Karwinskia parvifolia* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/449400909/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/241890834/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/241890799/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/241890818/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/169527425/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/18179269/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/18179256/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/18179272/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/18179270/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/18145914/original.jpeg){ group="GIBF" }
+
+![](https://bajaflora.org/HiResDisplay/HiResZoomDisplay.aspx?H=203873){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, United States of America, Mexico
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rhamnaceae",
+  iso3_codes: ['USA', 'MEX'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Karwinskia parvifolia* đã phân lập và xác định được 17 hoạt chất thuộc  về 4 nhóm gồm anthracenes, arylnaphthalene lignans, naphthalenes, naphthopyrans. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Anthracenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0128708](https://lotus.naturalproducts.net/compound/lotus_id/LTS0128708)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0209822](https://lotus.naturalproducts.net/compound/lotus_id/LTS0209822)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0219974](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219974)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0249382](https://lotus.naturalproducts.net/compound/lotus_id/LTS0249382)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0053185](https://lotus.naturalproducts.net/compound/lotus_id/LTS0053185)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0031121](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031121)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0250167](https://lotus.naturalproducts.net/compound/lotus_id/LTS0250167)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0046857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046857)</div></div></div>
+<div class="group-title">Arylnaphthalene lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0193958](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193958)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0122169](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122169)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0275042](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275042)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0026814](https://lotus.naturalproducts.net/compound/lotus_id/LTS0026814)</div></div></div>
+<div class="group-title">Naphthalenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0122089](https://lotus.naturalproducts.net/compound/lotus_id/LTS0122089)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0131231](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131231)</div></div></div>
+<div class="group-title">Naphthopyrans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0093139](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093139)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0215521](https://lotus.naturalproducts.net/compound/lotus_id/LTS0215521)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0257298](https://lotus.naturalproducts.net/compound/lotus_id/LTS0257298)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Mexico          | Thuốc bổ        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc(OC)c2c(O)c3c(c(-c4ccc5cc6c(c(O)c5c4O)C(=O)CC(C)(O)C6)c2c1)CC(C)OC3C" },
+{id: "canvas_Row1", smiles: "COc1cc(OC)c2c(O)c(C(C)=O)c(C)cc2c1" },
+{id: "canvas_Row2", smiles: "COc1cccc2ccc(C(C)=O)c(O)c12" },
+{id: "canvas_Row3", smiles: "COc1cc(OC)c2c(c1)C(OC)(c1ccc3c(c1O)C(=O)c1c(O)cc(C)cc1C3=O)C1=C(C2=O)[C@@H](C)O[C@@H](C)C1" },
+{id: "canvas_Row4", smiles: "C[C@@]1(O)CC(=O)c2c(cc3ccc(-c4c5c(c(O)c6c(O)cccc46)C(=O)C[C@@](C)(O)C5)c(O)c3c2O)C1" },
+{id: "canvas_Row5", smiles: "C[C@]1(O)CC(=O)c2c(cc3ccc(-c4ccc5cc6c(c(O)c5c4O)C(=O)C[C@](C)(O)C6)c(O)c3c2O)C1" },
+{id: "canvas_Row6", smiles: "COc1cccc2c1C(=O)C1=C(C[C@H](C)O[C@@H]1C)C2(OC)c1ccc2c(c1O)C(=O)c1c(O)cc(C)cc1C2" },
+{id: "canvas_Row7", smiles: "COc1cc(OC)c2c(c1)C(OC)(c1ccc3cc4c(c(O)c3c1O)C(=O)CCC4)C1=C(C2=O)[C@@H](C)O[C@@H](C)C1" },
+{id: "canvas_Row8", smiles: "COc1cc(C)cc2c1C(=O)c1c(O)cccc1C2=O" },
+{id: "canvas_Row9", smiles: "Cc1cc(O)c2c(c1)C(c1ccc3cc4c(c(O)c3c1O)C(=O)CC(C)(O)C4)c1cccc(O)c1C2=O" },
+{id: "canvas_Row10", smiles: "COc1cccc2c1C(=O)C1=C(C[C@H](C)O[C@@H]1C)C2(OC)c1ccc2c(c1O)C(=O)c1c(O)cc(C)cc1C2=O" },
+{id: "canvas_Row11", smiles: "CC1(O)CC(=O)c2c(cc3ccc(-c4c5c(c(O)c6c(O)cccc46)C(=O)CC(C)(O)C5)c(O)c3c2O)C1" },
+{id: "canvas_Row12", smiles: "C[C@]1(O)CC(=O)c2c(cc3ccc(-c4c5c(c(O)c6c(O)cccc46)C(=O)C[C@](C)(O)C5)c(O)c3c2O)C1" },
+{id: "canvas_Row13", smiles: "Cc1cc(O)c2c(c1)Cc1ccc(C3c4cccc(O)c4C(=O)c4c(O)cc(C)cc43)c(O)c1C2=O" },
+{id: "canvas_Row14", smiles: "COc1cccc2c1C(=O)C1=C(C[C@H](C)O[C@@H]1C)C2(OC)c1ccc2cc3c(c(O)c2c1O)C(=O)C[C@@](C)(O)C3" },
+{id: "canvas_Row15", smiles: "CC1(O)CC(=O)c2c(cc3ccc(-c4ccc5cc6c(c(O)c5c4O)C(=O)CC(C)(O)C6)c(O)c3c2O)C1" },
+{id: "canvas_Row16", smiles: "Cc1cc(O)c2c(c1)[C@H](c1ccc3cc4c(c(O)c3c1O)C(=O)C[C@](C)(O)C4)c1cccc(O)c1C2=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

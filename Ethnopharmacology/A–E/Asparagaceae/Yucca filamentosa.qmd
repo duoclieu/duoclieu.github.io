@@ -1,0 +1,151 @@
+---
+title: "Yucca filamentosa"
+subtitle: "Loài Yucca filamentosa (Họ Asparagaceae)"
+description: "Loài *Yucca filamentosa* thuộc họ Asparagaceae phân bố tại một số vùng trên thế giới như Germany, nan, Slovakia, United States of America, Sweden, South Africa, Italy, United Kingdom of Great Britain and Northern Ireland, Canada, Netherlands, Hungary, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'egypt: xà phòng', 'us: xà phòng'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 1 nhóm gồm steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Yucca-filamentosa.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Yucca filamentosa", "Asparagaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Yucca filamentosa* thuộc họ Asparagaceae phân bố tại một số vùng trên thế giới như Germany, nan, Slovakia, United States of America, Sweden, South Africa, Italy, United Kingdom of Great Britain and Northern Ireland, Canada, Netherlands, Hungary, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'egypt: xà phòng', 'us: xà phòng'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 1 nhóm gồm steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asparagales
+- **Family:** Asparagaceae
+- **Genus:** Yucca
+- **Species:** *Yucca filamentosa*
+- **Scientific Name:** *Yucca filamentosa L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[Adam's needle, needle palm, beargrass, common yucca, curly-leaved yucca, filament yucca, silkgrass, spoonleaf yucca, yucca, Adam's needle, needle palm, beargrass, common yucca, curly-leaved yucca, filament yucca, silkgrass, spoonleaf yucca, yucca]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Agavaceae - Genus: Yucca - Species: *Yucca filamentosa* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Yucca-filamentosa.JPG){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Yucca%20filamentosa1.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343943436/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343996079/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344174451/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344183545/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344183517/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344093098/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344163073/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Germany, nan, Slovakia, United States of America, Sweden, South Africa, Italy, United Kingdom of Great Britain and Northern Ireland, Canada, Netherlands, Hungary, Austria
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Asparagaceae",
+  iso3_codes: ['SWE', 'SVK', 'DEU', 'NLD', 'ZAF', 'CAN', 'USA', 'AUT', 'ITA', 'GBR', 'HUN'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Yucca filamentosa* đã phân lập và xác định được 5 hoạt chất thuộc  về 1 nhóm gồm steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0185322](https://lotus.naturalproducts.net/compound/lotus_id/LTS0185322)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0182239](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182239)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0221801](https://lotus.naturalproducts.net/compound/lotus_id/LTS0221801)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0243631](https://lotus.naturalproducts.net/compound/lotus_id/LTS0243631)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0096974](https://lotus.naturalproducts.net/compound/lotus_id/LTS0096974)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Egypt           | Xà phòng        |
+| Row1      | US              | Xà phòng        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COC1(CCC(C)COC2OC(CO)C(O)C(O)C2O)OC2CC3C4CCC5CC(OC6OC(CO)C(OC7OC(COC8OC(CO)C(O)C(O)C8O)C(O)C(O)C7OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C2C1C" },
+{id: "canvas_Row1", smiles: "CO[C@@]1(CC[C@H](C)CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)O[C@H]2C[C@@H]3[C@@H]4CC[C@@H]5C[C@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@H](CO[C@H]8O[C@@H](CO)[C@@H](O)[C@@H](O)[C@@H]8O)[C@@H](O)[C@H](O)[C@H]7O[C@@H]7O[C@@H](CO)[C@@H](O)[C@@H](O)[C@@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C" },
+{id: "canvas_Row2", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(OC7OC(COC8OC(CO)C(O)C(O)C8O)C(O)C(O)C7OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" },
+{id: "canvas_Row3", smiles: "C[C@H]1CC[C@@]2(OC1)O[C@@H]1C[C@H]3[C@H]4CC[C@@H]5C[C@@H](O[C@H]6O[C@@H](CO)[C@H](O[C@H]7O[C@@H](CO[C@H]8O[C@@H](CO)[C@@H](O)[C@@H](O)[C@@H]8O)[C@H](O)[C@@H](O)[C@@H]7O[C@@H]7O[C@@H](CO)[C@@H](O)[C@@H](O)[C@@H]7O)[C@@H](O)[C@@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@H]1[C@H]2C" },
+{id: "canvas_Row4", smiles: "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(OC7OC(COC8OC(CO)C(O)C(O)C8O)C(O)C(OC8OC(CO)C(O)C(O)C8O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

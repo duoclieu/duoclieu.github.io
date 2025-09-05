@@ -1,0 +1,36 @@
+---
+title: "Cơ sở dữ liệu Dược liệu"
+author: "TS. Hoàng Lê Sơn"
+listing:
+  id: Pharmacognosy
+  contents: /*.qmd
+  sort: "subtitle"
+  type: table
+  fields: [image, title, subtitle, description]
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+
+::: {.callout-note title = "Dược liệu là gì?"}
+    
+- Dược liệu là nguyên liệu làm thuốc có nguồn gốc tự nhiên từ thực vật, động vật, khoáng vật và đạt tiêu chuẩn làm thuốc.
+
+::: {.text-end}
+Mục 5, điều 2, Luật dược 2016 
+:::
+
+    
+- Dược liệu (bao gồm cả vị thuốc cổ truyền) là nguyên liệu làm thuốc có nguồn gốc từ thực vật, động vật, khoáng vật, nấm và đạt tiêu chuẩn làm thuốc.
+    
+::: {.text-end}
+Mục 5, điều 2, Luật số: 44/2024/QH15, Luật sửa đổi, bổ sung một số điều của luật dược 
+:::
+:::
+
+:::{#Pharmacognosy}
+:::
+
+

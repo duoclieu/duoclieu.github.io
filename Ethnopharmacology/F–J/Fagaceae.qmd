@@ -1,0 +1,181 @@
+---
+title: Họ Fagaceae
+subtitle: Họ **Fagaceae** gồm Castanea, Fagus, Lithocarpus, Quercus chi và 14 loài  được sử dụng ở 11vùng lãnh thổ điều trị 10chứng và bệnh.
+description: Họ **Fagaceae** gồm4 chi và 14loài đã ghi nhận sử dụng làm thuốc tại 11 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất làm se (10 loài), chất độc (2 loài), cầm máu (2 loài), thuốc an thần (2 loài), thuốc cầm máu (2 loài) . 05 loài thực vật gồm **Quercus alba* (4 chứng và bệnh), *Castanea sativa* (3 chứng và bệnh), *Fagus sylvatica* (3 chứng và bệnh), *Castanea dentata* (2 chứng và bệnh), *Quercus infectoria* (2 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Quercus robur* ( 112 hoạt chất), *Castanea sativa* ( 87 hoạt chất), *Quercus ilex* ( 73 hoạt chất), *Quercus dentata* ( 40 hoạt chất), *Quercus acutissima* ( 35 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Quercus robur*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/343935185/original.jpeg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Fagaceae
+    contents: Fagaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Fagaceae có tổng cộng 4  chi và 14 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Fagaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                                                                                        |   Count |
+|-----------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Row3      | Quercus      | Quercus acutissima, Quercus alba, Quercus dentata, Quercus ilex, Quercus incana, Quercus infectoria, Quercus robur, Quercus serrata |       8 |
+| Row0      | Castanea     | Castanea dentata, Castanea mollissima, Castanea sativa                                                                              |       3 |
+| Row1      | Fagus        | Fagus grandifolia, Fagus sylvatica                                                                                                  |       2 |
+| Row2      | Lithocarpus  | Lithocarpus pachyphyllus                                                                                                            |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Canada, United States of America, nan, China, Chinese Taipei, Hong Kong, New Zealand, France, Germany, Switzerland, Chile, Netherlands, Spain, Sweden, South Africa, Russian Federation, Portugal, United Kingdom of Great Britain and Northern Ireland, Brazil, Slovakia, Italy, Slovenia, Greece, Denmark, Austria, Ireland, Belgium, Czechia, Hungary, Poland, Romania, Ukraine, Lithuania, India, Nepal, unknown or invalid, Bhutan, Myanmar, Viet Nam, Thailand, Japan, Korea, Republic of, Latvia, Korea (Democratic People’s Republic of), Monaco, Montenegro, Croatia, Malta, Syrian Arab Republic, Israel, Lebanon, Palestine, State of, Iraq, Türkiye, Cyprus, Finland, Australia, Belarus, Argentina
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fagaceae",
+  iso3_codes: ['PRT', 'POL', 'DEU', 'IRL', 'ROU', 'AUS', 'NZL', 'IRQ', 'GBR', 'MNE', 'ESP', 'AUT', 'DNK', 'FRA', 'NPL', 'GRC', 'IND', 'MMR', 'SVK', 'ARG', 'LTU', 'RUS', 'CHL', 'MCO', 'SYR', 'BEL', 'ZAF', 'LVA', 'CZE', 'CAN', 'JPN', 'CHN', 'THA', 'HKG', 'FIN', 'CHE', 'UKR', 'ISR', 'VNM', 'TUR', 'BLR', 'MLT', 'BTN', 'LBN', 'CYP', 'USA', 'SVN', 'NLD', 'SWE', 'HRV', 'ITA', 'HUN', 'BRA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Fagaceae** có tổng cộng 4  chi và 14 loài.đã phân lập và xác định được 470 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Fagaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0222857</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0090912</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0117079</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0131190</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0037297</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Fagaceae** đã được một số công động tại các quốc gia như *Elsewhere, US, China, Turkey, ain, Europe, French, German, anish, Iraq, Kurdistan* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *chất làm se, thuốc an thần, cầm máu, mỹ phẩm, chất độc, thuốc hạ sốt, chất khử trùng, thuốc cầm máu, thuốc bổ, thuốc lợi tiểu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Quercus alba* (4 chứng và bệnh), *Castanea sativa* (3 chứng và bệnh), *Fagus sylvatica* (3 chứng và bệnh), *Castanea dentata* (2 chứng và bệnh), *Quercus infectoria* (2 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Fagaceae** có thể điều trị là chất làm se (10 loài), chất độc (2 loài), cầm máu (2 loài), thuốc an thần (2 loài), thuốc cầm máu (2 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Fagaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Castanea     | Elsewhere - (*Castanea dentata* - chất làm se), US - (*Castanea dentata* - thuốc an thần), China - (*Castanea mollissima* - cầm máu), China - (*Castanea sativa* - mỹ phẩm), Elsewhere - (*Castanea sativa* - chất làm se), Turkey - (*Castanea sativa* - thuốc an thần), ain - (*Castanea sativa* - chất làm se)                                                                                                                                                                                                                                                                                                                              |
+| Row1      | Fagus        | US - (*Fagus grandifolia* - chất độc), Elsewhere - (*Fagus sylvatica* - thuốc hạ sốt), Europe - (*Fagus sylvatica* - chất độc), Turkey - (*Fagus sylvatica* - chất khử trùng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row2      | Lithocarpus  | Elsewhere - (*Lithocarpus pachyphyllus* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Row3      | Quercus      | Elsewhere - (*Quercus acutissima* - chất làm se), French - (*Quercus alba* - thuốc cầm máu), German - (*Quercus alba* - cầm máu), US - (*Quercus alba* - chất làm se), anish - (*Quercus alba* - thuốc bổ), Elsewhere - (*Quercus dentata* - chất làm se), Turkey - (*Quercus ilex* - thuốc lợi tiểu), Elsewhere - (*Quercus incana* - chất làm se), Elsewhere - (*Quercus infectoria* - chất làm se), Iraq - (*Quercus infectoria* - chất làm se), Kurdistan - (*Quercus infectoria* - chất làm se), Turkey - (*Quercus infectoria* - thuốc cầm máu), Turkey - (*Quercus robur* - chất làm se), Elsewhere - (*Quercus serrata* - chất làm se) |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Fagaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_Row0", smiles: "O=C(O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row1", smiles: "Oc1cc(O)c2c(c1)OC(c1ccc(O)c(O)c1)C(O)C2" },
+{id: "canvas_Row2", smiles: "Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@@H](O)C2" },
+{id: "canvas_Row3", smiles: "O=C1OC[C@H]2OC(=O)c3cc(O)c(O)c(O)c3-c3c(O)c(O)c(O)c4c3C(=O)O[C@H]([C@H]3OC(=O)c5c-4c(O)c(O)c(O)c5[C@H]3O)[C@@H]2OC(=O)c2cc(O)c(O)c(O)c2-c2c1cc(O)c(O)c2O" },
+{id: "canvas_Row4", smiles: "O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

@@ -1,0 +1,177 @@
+---
+title: Họ Equisetaceae
+subtitle: Họ **Equisetaceae** gồm Equisetum chi và 7 loài  được sử dụng ở 12vùng lãnh thổ điều trị 8chứng và bệnh.
+description: Họ **Equisetaceae** gồm1 chi và 7loài đã ghi nhận sử dụng làm thuốc tại 12 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm thuốc lợi tiểu (4 loài), chất làm se (3 loài), chất độc (2 loài), cầm máu (1 loài), thuốc cầm máu (1 loài) . 05 loài thực vật gồm **Equisetum arvense* (5 chứng và bệnh), *Equisetum bogotense* (4 chứng và bệnh), *Equisetum giganteum* (1 chứng và bệnh), *Equisetum hyemale* (1 chứng và bệnh), *Equisetum palustre* (1 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Equisetum arvense* ( 123 hoạt chất), *Equisetum ramosissimum* ( 49 hoạt chất), *Equisetum palustre* ( 30 hoạt chất), *Equisetum telmateia* ( 30 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Equisetum arvense*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/344234446/original.jpeg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Equisetaceae
+    contents: Equisetaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Equisetaceae có tổng cộng 1  chi và 7 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Equisetaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                                                                                                    |   Count |
+|-----------|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Row0      | Equisetum    | Equisetum arvense, Equisetum bogotense, Equisetum giganteum, Equisetum hyemale, Equisetum palustre, Equisetum ramosissimum, Equisetum telmateia |       7 |
+
+:::
+
+Phân bố họ trên thế giới: Germany, France, Switzerland, Czechia, Korea, Republic of, Netherlands, Finland, Hungary, Spain, Poland, Chinese Taipei, Japan, Russian Federation, Portugal, United Kingdom of Great Britain and Northern Ireland, Ukraine, Slovakia, United States of America, Italy, Slovenia, New Zealand, Canada, Denmark, Austria, Ireland, Belgium, Bolivia (Plurinational State of), Colombia, Argentina, Ecuador, Chile, Costa Rica, Peru, Venezuela (Bolivarian Republic of), Dominican Republic, Brazil, Uruguay, Bulgaria, Mexico, Sweden, Estonia, China, Lithuania, Norway, Luxembourg, Montenegro, Syrian Arab Republic, Albania, Hong Kong, South Africa, Indonesia, Iraq, Azerbaijan, Türkiye, Georgia, Thailand, Croatia, Morocco, Greece, Iran (Islamic Republic of), nan, Serbia
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Equisetaceae",
+  iso3_codes: ['SWE', 'RUS', 'SYR', 'GBR', 'USA', 'UKR', 'CHL', 'ARG', 'HRV', 'FRA', 'SRB', 'GRC', 'AZE', 'CRI', 'POL', 'IRQ', 'CAN', 'NLD', 'AUT', 'COL', 'MAR', 'THA', 'NZL', 'HUN', 'HKG', 'MEX', 'LUX', 'DNK', 'SVK', 'IDN', 'ALB', 'MNE', 'ESP', 'URY', 'CZE', 'TUR', 'ZAF', 'CHE', 'ECU', 'CHN', 'BRA', 'ITA', 'BEL', 'EST', 'NOR', 'JPN', 'GEO', 'LTU', 'DEU', 'PRT', 'FIN', 'DOM', 'PER', 'IRL', 'SVN', 'BGR'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Equisetaceae** có tổng cộng 1  chi và 7 loài.đã phân lập và xác định được 393 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Equisetaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0084606</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0092117</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0000701</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0006899</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0008322</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Equisetaceae** đã được một số công động tại các quốc gia như *China, Elsewhere, Germany*, Panama, Turkey, US, US(Flathead), ain, Colombia, Peru, Dominican Republic, Egypt* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc tống hơi, thuốc lợi tiểu, chất khử trùng, chất độc, chất làm se, thuốc cầm máu, thuốc nhỏ mắt, cầm máu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Equisetum arvense* (5 chứng và bệnh), *Equisetum bogotense* (4 chứng và bệnh), *Equisetum giganteum* (1 chứng và bệnh), *Equisetum hyemale* (1 chứng và bệnh), *Equisetum palustre* (1 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Equisetaceae** có thể điều trị là thuốc lợi tiểu (4 loài), chất làm se (3 loài), chất độc (2 loài), cầm máu (1 loài), thuốc cầm máu (1 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Equisetaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Equisetum    | China - (*Equisetum arvense* - thuốc tống hơi), Elsewhere - (*Equisetum arvense* - thuốc lợi tiểu, cầm máu), Germany* - (*Equisetum arvense* - thuốc lợi tiểu), Panama - (*Equisetum arvense* - chất khử trùng), Turkey - (*Equisetum arvense* - chất khử trùng), US - (*Equisetum arvense* - chất độc), US(Flathead) - (*Equisetum arvense* - thuốc lợi tiểu), ain - (*Equisetum arvense* - thuốc lợi tiểu), Colombia - (*Equisetum bogotense* - chất làm se), Elsewhere - (*Equisetum bogotense* - thuốc cầm máu), Panama - (*Equisetum bogotense* - thuốc nhỏ mắt), Peru - (*Equisetum bogotense* - thuốc lợi tiểu), Dominican Republic - (*Equisetum giganteum* - chất làm se), Elsewhere - (*Equisetum hyemale* - chất làm se), Turkey - (*Equisetum hyemale* - chất làm se), US - (*Equisetum palustre* - chất độc), Egypt - (*Equisetum ramosissimum* - thuốc lợi tiểu), ain - (*Equisetum telmateia* - thuốc lợi tiểu) |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Equisetaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_Row0", smiles: "O=c1c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row1", smiles: "O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1CC(C(=O)O)=C[C@@H](O)[C@H]1O" },
+{id: "canvas_Row2", smiles: "C/C(C=C=C1C(C)(C)C[C@H](O)C[C@@]1(C)O)=C\C=C\C(C)=C\C=C\C=C(C)\C=C\C=C(C)\C=C\[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C" },
+{id: "canvas_Row3", smiles: "CC1=CC(=O)CC(C)(C)/C1=C\C=C(C)\C=C\C=C(C)\C=C\C=C\C(C)=C\C=C\C(C)=C\C=C1\C(C)=CC(=O)CC1(C)C" },
+{id: "canvas_Row4", smiles: "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\C)C2C=C3C(C)(C)CC(O)CC3(C)O2)C(C)(C)CC(O)C1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

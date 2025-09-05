@@ -1,0 +1,216 @@
+---
+title: "Plantago ovata"
+subtitle: "Loài Plantago ovata (Họ Plantaginaceae)"
+description: "Loài *Plantago ovata* thuộc họ Plantaginaceae phân bố tại một số vùng trên thế giới như Israel, United States of America, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: làm dịu, chất làm mềm, thuốc cầm máu, thuốc nhuận tràng', 'iraq: thuốc nhuận tràng, thuốc đắp'.Từ loài này đã phân lập và xác định được 60 hoạt chất thuộc  về 6 nhóm gồm ?, cinnamic acids and derivatives, fatty acyls, organooxygen compounds, prenol lipids, saturated hydrocarbons."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Plantago%20ovata%20form.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Plantago ovata", "Plantaginaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Plantago ovata* thuộc họ Plantaginaceae phân bố tại một số vùng trên thế giới như Israel, United States of America, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: làm dịu, chất làm mềm, thuốc cầm máu, thuốc nhuận tràng', 'iraq: thuốc nhuận tràng, thuốc đắp'.Từ loài này đã phân lập và xác định được 60 hoạt chất thuộc  về 6 nhóm gồm ?, cinnamic acids and derivatives, fatty acyls, organooxygen compounds, prenol lipids, saturated hydrocarbons.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Plantaginaceae
+- **Genus:** Plantago
+- **Species:** *Plantago ovata*
+- **Scientific Name:** *Plantago ovata Forssk.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[blond plantain, blond psyllium, Desert indianwheat, ispagol]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Plantaginaceae - Genus: Plantago - Species: *Plantago ovata* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Plantago%20ovata%20form.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343971236/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344542311/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344542327/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344542345/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344660913/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344660889/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344686675/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344706819/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Israel, United States of America, Mexico
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Plantaginaceae",
+  iso3_codes: ['MEX', 'USA', 'ISR'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Plantago ovata* đã phân lập và xác định được 60 hoạt chất thuộc  về 6 nhóm gồm ?, cinnamic acids and derivatives, fatty acyls, organooxygen compounds, prenol lipids, saturated hydrocarbons. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0141606](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141606)</div></div></div>
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0063526](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063526)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0168159](https://lotus.naturalproducts.net/compound/lotus_id/LTS0168159)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0178188](https://lotus.naturalproducts.net/compound/lotus_id/LTS0178188)</div></div> <div class="molecule-box"> <canvas id="canvas_Row41" width="150" height="150"></canvas> <div class="mol-name">[LTS0123421](https://lotus.naturalproducts.net/compound/lotus_id/LTS0123421)</div></div> <div class="molecule-box"> <canvas id="canvas_Row57" width="150" height="150"></canvas> <div class="mol-name">[LTS0032137](https://lotus.naturalproducts.net/compound/lotus_id/LTS0032137)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0256910](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256910)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0102566](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102566)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0275508](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275508)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0013198](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013198)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0237766](https://lotus.naturalproducts.net/compound/lotus_id/LTS0237766)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0067117](https://lotus.naturalproducts.net/compound/lotus_id/LTS0067117)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0111659](https://lotus.naturalproducts.net/compound/lotus_id/LTS0111659)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0149126](https://lotus.naturalproducts.net/compound/lotus_id/LTS0149126)</div></div> <div class="molecule-box"> <canvas id="canvas_Row52" width="150" height="150"></canvas> <div class="mol-name">[LTS0001024](https://lotus.naturalproducts.net/compound/lotus_id/LTS0001024)</div></div> <div class="molecule-box"> <canvas id="canvas_Row53" width="150" height="150"></canvas> <div class="mol-name">[LTS0132789](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132789)</div></div> <div class="molecule-box"> <canvas id="canvas_Row54" width="150" height="150"></canvas> <div class="mol-name">[LTS0022980](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022980)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0137228](https://lotus.naturalproducts.net/compound/lotus_id/LTS0137228)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0079454](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079454)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0081880](https://lotus.naturalproducts.net/compound/lotus_id/LTS0081880)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0072898](https://lotus.naturalproducts.net/compound/lotus_id/LTS0072898)</div></div> <div class="molecule-box"> <canvas id="canvas_Row31" width="150" height="150"></canvas> <div class="mol-name">[LTS0148885](https://lotus.naturalproducts.net/compound/lotus_id/LTS0148885)</div></div> <div class="molecule-box"> <canvas id="canvas_Row34" width="150" height="150"></canvas> <div class="mol-name">[LTS0161967](https://lotus.naturalproducts.net/compound/lotus_id/LTS0161967)</div></div> <div class="molecule-box"> <canvas id="canvas_Row35" width="150" height="150"></canvas> <div class="mol-name">[LTS0114481](https://lotus.naturalproducts.net/compound/lotus_id/LTS0114481)</div></div> <div class="molecule-box"> <canvas id="canvas_Row37" width="150" height="150"></canvas> <div class="mol-name">[LTS0161312](https://lotus.naturalproducts.net/compound/lotus_id/LTS0161312)</div></div> <div class="molecule-box"> <canvas id="canvas_Row40" width="150" height="150"></canvas> <div class="mol-name">[LTS0186128](https://lotus.naturalproducts.net/compound/lotus_id/LTS0186128)</div></div> <div class="molecule-box"> <canvas id="canvas_Row45" width="150" height="150"></canvas> <div class="mol-name">[LTS0209700](https://lotus.naturalproducts.net/compound/lotus_id/LTS0209700)</div></div> <div class="molecule-box"> <canvas id="canvas_Row56" width="150" height="150"></canvas> <div class="mol-name">[LTS0027889](https://lotus.naturalproducts.net/compound/lotus_id/LTS0027889)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0057185](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057185)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0183892](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183892)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0021262](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021262)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0260312](https://lotus.naturalproducts.net/compound/lotus_id/LTS0260312)</div></div> <div class="molecule-box"> <canvas id="canvas_Row55" width="150" height="150"></canvas> <div class="mol-name">[LTS0010822](https://lotus.naturalproducts.net/compound/lotus_id/LTS0010822)</div></div> <div class="molecule-box"> <canvas id="canvas_Row58" width="150" height="150"></canvas> <div class="mol-name">[LTS0263696](https://lotus.naturalproducts.net/compound/lotus_id/LTS0263696)</div></div></div>
+<div class="group-title">Saturated hydrocarbons</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0079361](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079361)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0062747](https://lotus.naturalproducts.net/compound/lotus_id/LTS0062747)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0203319](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203319)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0103438](https://lotus.naturalproducts.net/compound/lotus_id/LTS0103438)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0080764](https://lotus.naturalproducts.net/compound/lotus_id/LTS0080764)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0101459](https://lotus.naturalproducts.net/compound/lotus_id/LTS0101459)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0090497](https://lotus.naturalproducts.net/compound/lotus_id/LTS0090497)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0111721](https://lotus.naturalproducts.net/compound/lotus_id/LTS0111721)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0141472](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141472)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0150428](https://lotus.naturalproducts.net/compound/lotus_id/LTS0150428)</div></div> <div class="molecule-box"> <canvas id="canvas_Row32" width="150" height="150"></canvas> <div class="mol-name">[LTS0146812](https://lotus.naturalproducts.net/compound/lotus_id/LTS0146812)</div></div> <div class="molecule-box"> <canvas id="canvas_Row33" width="150" height="150"></canvas> <div class="mol-name">[LTS0146180](https://lotus.naturalproducts.net/compound/lotus_id/LTS0146180)</div></div> <div class="molecule-box"> <canvas id="canvas_Row36" width="150" height="150"></canvas> <div class="mol-name">[LTS0089836](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089836)</div></div> <div class="molecule-box"> <canvas id="canvas_Row38" width="150" height="150"></canvas> <div class="mol-name">[LTS0134950](https://lotus.naturalproducts.net/compound/lotus_id/LTS0134950)</div></div> <div class="molecule-box"> <canvas id="canvas_Row39" width="150" height="150"></canvas> <div class="mol-name">[LTS0183412](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183412)</div></div> <div class="molecule-box"> <canvas id="canvas_Row42" width="150" height="150"></canvas> <div class="mol-name">[LTS0250709](https://lotus.naturalproducts.net/compound/lotus_id/LTS0250709)</div></div> <div class="molecule-box"> <canvas id="canvas_Row43" width="150" height="150"></canvas> <div class="mol-name">[LTS0046415](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046415)</div></div> <div class="molecule-box"> <canvas id="canvas_Row44" width="150" height="150"></canvas> <div class="mol-name">[LTS0038303](https://lotus.naturalproducts.net/compound/lotus_id/LTS0038303)</div></div> <div class="molecule-box"> <canvas id="canvas_Row46" width="150" height="150"></canvas> <div class="mol-name">[LTS0210348](https://lotus.naturalproducts.net/compound/lotus_id/LTS0210348)</div></div> <div class="molecule-box"> <canvas id="canvas_Row47" width="150" height="150"></canvas> <div class="mol-name">[LTS0253922](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253922)</div></div> <div class="molecule-box"> <canvas id="canvas_Row48" width="150" height="150"></canvas> <div class="mol-name">[LTS0258101](https://lotus.naturalproducts.net/compound/lotus_id/LTS0258101)</div></div> <div class="molecule-box"> <canvas id="canvas_Row49" width="150" height="150"></canvas> <div class="mol-name">[LTS0241885](https://lotus.naturalproducts.net/compound/lotus_id/LTS0241885)</div></div> <div class="molecule-box"> <canvas id="canvas_Row50" width="150" height="150"></canvas> <div class="mol-name">[LTS0039017](https://lotus.naturalproducts.net/compound/lotus_id/LTS0039017)</div></div> <div class="molecule-box"> <canvas id="canvas_Row51" width="150" height="150"></canvas> <div class="mol-name">[LTS0268882](https://lotus.naturalproducts.net/compound/lotus_id/LTS0268882)</div></div> <div class="molecule-box"> <canvas id="canvas_Row59" width="150" height="150"></canvas> <div class="mol-name">[LTS0125422](https://lotus.naturalproducts.net/compound/lotus_id/LTS0125422)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                           |
+|-----------|-----------------|---------------------------------------------------------|
+| Row0      | Elsewhere       | Làm dịu, Chất làm mềm, Thuốc cầm máu, Thuốc nhuận tràng |
+| Row1      | Iraq            | Thuốc nhuận tràng, Thuốc đắp                            |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row1", smiles: "CC1O[C@@H](O[C@@H]2C(O)[C@H](OCCc3ccc(O)c(O)c3)OC(CO)[C@H]2OC(=O)/C=C/c2ccc(O)c(O)c2)[C@@H](O)C(O)[C@H]1O" },
+{id: "canvas_Row2", smiles: "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](OCCc3ccc(O)c(O)c3)O[C@H](CO)[C@H]2OC(=O)/C=C/c2ccc(O)c(O)c2)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row3", smiles: "CCCCCCCC/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row4", smiles: "CCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row5", smiles: "CC/C=C\C/C=C\C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row6", smiles: "CCCCC/C=C\C/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row7", smiles: "CCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row8", smiles: "OCC1=C[C@H](O)[C@H]2C=CO[C@@H](O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)C12" },
+{id: "canvas_Row9", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row10", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row11", smiles: "OCC1O[C@H](OC2OC=C[C@@H]3C(O)C4O[C@]4(CO)[C@H]23)C(O)C(O)C1O" },
+{id: "canvas_Row12", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row13", smiles: "CCCCC/C=C\CC[C@H](O)CCCCCCCC(=O)O" },
+{id: "canvas_Row14", smiles: "C=C1[C@@H](O)C[C@@H]2C(C(=O)O)=CO[C@@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H]12" },
+{id: "canvas_Row15", smiles: "CCCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row16", smiles: "COC(=O)C1=CO[C@@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C2=C(CO)CC[C@H]12" },
+{id: "canvas_Row17", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row18", smiles: "CC(=O)OCC1=CC2OC(=O)C3=COC(OC4OC(CO)C(O)C(O)C4O)C1C32" },
+{id: "canvas_Row19", smiles: "OCC1=CC(O)C2C=COC(OC3OC(CO)C(O)C(O)C3O)C12" },
+{id: "canvas_Row20", smiles: "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](OCCc3ccc(O)c(O)c3)O[C@H](CO)[C@H]2OC(=O)/C=C/c2ccc(O)c(O)c2)[C@H](O)[C@@H](O)[C@H]1O" },
+{id: "canvas_Row21", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row22", smiles: "C[C@@H]1[C@@H](O)C[C@@H]2C(C(=O)O)=CO[C@@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H]21" },
+{id: "canvas_Row23", smiles: "CCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row24", smiles: "CCCCCCCCCCCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row25", smiles: "CCCCC/C=C\CCC(=O)CCCCCCCC(=O)O" },
+{id: "canvas_Row26", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row27", smiles: "C[C@@H]1[C@@H](O)C[C@@H]2C(C(=O)O)=CO[C@@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H]21" },
+{id: "canvas_Row28", smiles: "C=C1C(O)CC2C(C(=O)O)=COC(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)C12" },
+{id: "canvas_Row29", smiles: "CCCCCC=CCCC(=O)CCCCCCCC(=O)O" },
+{id: "canvas_Row30", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row31", smiles: "COC(=O)C1=CO[C@@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C2=C(CO)CC[C@@H]12" },
+{id: "canvas_Row32", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row33", smiles: "CCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row34", smiles: "OC[C@H]1O[C@@H](O[C@@H]2OC=C[C@@H]3[C@H](O)[C@@H]4O[C@]4(CO)[C@@H]23)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row35", smiles: "OC[C@H]1O[C@@H](O[C@@H]2OC=C[C@H]3[C@H](O)[C@@H]4O[C@]4(CO)[C@@H]23)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row36", smiles: "CCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row37", smiles: "C=C1[C@@H](O)C[C@@H]2C(C(=O)O)=CO[C@@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@@H](O)[C@@H]3O)[C@H]12" },
+{id: "canvas_Row38", smiles: "CCCCCCCCCCCCCCCC" },
+{id: "canvas_Row39", smiles: "CCCCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row40", smiles: "CC(=O)OCC1=C[C@@H]2OC(=O)C3=CO[C@@H](O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@H]1[C@@H]32" },
+{id: "canvas_Row41", smiles: "O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1[C@H](CO)O[C@@H](OCCc2ccc(O)c(O)c2)[C@H](O)[C@H]1O[C@@H]1O[C@@H](CO)[C@@H](O)[C@H](O)[C@@H]1O" },
+{id: "canvas_Row42", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row43", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row44", smiles: "CCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row45", smiles: "COC(=O)C1=CO[C@@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C2=C(CO)CCC12" },
+{id: "canvas_Row46", smiles: "CCCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row47", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row48", smiles: "CCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row49", smiles: "CCCCCCCCCCCCCC(C)C" },
+{id: "canvas_Row50", smiles: "CCCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row51", smiles: "CCCCCCCCCCCCCCCCCCCC" },
+{id: "canvas_Row52", smiles: "CCCCC/C=C\CC[C@@H](O)CCCCCCCC(=O)O" },
+{id: "canvas_Row53", smiles: "CC/C=C/C/C=C/C/C=C/CCCCCCCC(=O)O" },
+{id: "canvas_Row54", smiles: "CCCCCC=CCCC(O)CCCCCCCC(=O)O" },
+{id: "canvas_Row55", smiles: "OCC1=C[C@@H](O)[C@@H]2C=CO[C@@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H]12" },
+{id: "canvas_Row56", smiles: "CC(=O)OCC1=C[C@H]2OC(=O)C3=CO[C@@H](O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]4O)[C@H]1[C@@H]32" },
+{id: "canvas_Row57", smiles: "O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1[C@@H](CO)O[C@@H](OCCc2ccc(O)c(O)c2)[C@H](O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row58", smiles: "OCC1=C[C@H](O)[C@H]2C=CO[C@@H](O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)[C@H]12" },
+{id: "canvas_Row59", smiles: "CCCCCCCCCCCCCCCCCCCCCCCCCCCCC(C)C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

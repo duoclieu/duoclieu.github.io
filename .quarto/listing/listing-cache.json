@@ -1,0 +1,2398 @@
+{
+  "listingMap": {
+    "blog\\index.qmd": [
+      "posts/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Acanthaceae.qmd": [
+      "Acanthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Acoraceae.qmd": [
+      "Acoraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Actinidiaceae.qmd": [
+      "Actinidiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Agavaceae.qmd": [
+      "Agavaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Aizoaceae.qmd": [
+      "Aizoaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Alangiaceae.qmd": [
+      "Alangiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Alismataceae.qmd": [
+      "Alismataceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Aloaceae.qmd": [
+      "Aloaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Amaranthaceae.qmd": [
+      "Amaranthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Anacardiaceae.qmd": [
+      "Anacardiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Annonaceae.qmd": [
+      "Annonaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Apiaceae.qmd": [
+      "Apiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Apocynaceae.qmd": [
+      "Apocynaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Aquifoliaceae.qmd": [
+      "Aquifoliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Araceae.qmd": [
+      "Araceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Araliaceae.qmd": [
+      "Araliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Arecaceae.qmd": [
+      "Arecaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Aristolochiaceae.qmd": [
+      "Aristolochiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Asclepiadaceae.qmd": [
+      "Asclepiadaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Asteraceae.qmd": [
+      "Asteraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Balanophoraceae.qmd": [
+      "Balanophoraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Balsaminaceae.qmd": [
+      "Balsaminaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Basellaceae.qmd": [
+      "Basellaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Berberidaceae.qmd": [
+      "Berberidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Betulaceae.qmd": [
+      "Betulaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Bignoniaceae.qmd": [
+      "Bignoniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Bixaceae.qmd": [
+      "Bixaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Blechnaceae.qmd": [
+      "Blechnaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Boraginaceae.qmd": [
+      "Boraginaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Brassicaceae.qmd": [
+      "Brassicaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Bromeliaceae.qmd": [
+      "Bromeliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Burseraceae.qmd": [
+      "Burseraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Buxaceae.qmd": [
+      "Buxaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cactaceae.qmd": [
+      "Cactaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Campanulaceae.qmd": [
+      "Campanulaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Canellaceae.qmd": [
+      "Canellaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cannabaceae.qmd": [
+      "Cannabaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cannaceae.qmd": [
+      "Cannaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Capparaceae.qmd": [
+      "Capparaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Caprifoliaceae.qmd": [
+      "Caprifoliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Caricaceae.qmd": [
+      "Caricaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Caryocaraceae.qmd": [
+      "Caryocaraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Caryophyllaceae.qmd": [
+      "Caryophyllaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Casuarinaceae.qmd": [
+      "Casuarinaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Celastraceae.qmd": [
+      "Celastraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Chenopodiaceae.qmd": [
+      "Chenopodiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Chloranthaceae.qmd": [
+      "Chloranthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Chrysobalanaceae.qmd": [
+      "Chrysobalanaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Clusiaceae.qmd": [
+      "Clusiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Combretaceae.qmd": [
+      "Combretaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Convolvulaceae.qmd": [
+      "Convolvulaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Coriariaceae.qmd": [
+      "Coriariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cornaceae.qmd": [
+      "Cornaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Crassulaceae.qmd": [
+      "Crassulaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cucurbitaceae.qmd": [
+      "Cucurbitaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cupressaceae.qmd": [
+      "Cupressaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cuscutaceae.qmd": [
+      "Cuscutaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cycadaceae.qmd": [
+      "Cycadaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cyperaceae.qmd": [
+      "Cyperaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Daphniphyllaceae.qmd": [
+      "Daphniphyllaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Datiscaceae.qmd": [
+      "Datiscaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Dennstaedtiaceae.qmd": [
+      "Dennstaedtiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Dioscoreaceae.qmd": [
+      "Dioscoreaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Dipterocarpaceae.qmd": [
+      "Dipterocarpaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Droseraceae.qmd": [
+      "Droseraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Dryopteridaceae.qmd": [
+      "Dryopteridaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Elaeagnaceae.qmd": [
+      "Elaeagnaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Ephedraceae.qmd": [
+      "Ephedraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Equisetaceae.qmd": [
+      "Equisetaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Ericaceae.qmd": [
+      "Ericaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Erythroxylaceae.qmd": [
+      "Erythroxylaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Eucommiaceae.qmd": [
+      "Eucommiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Euphorbiaceae.qmd": [
+      "Euphorbiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Flacourtiaceae.qmd": [
+      "Flacourtiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Hamamelidaceae.qmd": [
+      "Hamamelidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Lemnaceae.qmd": [
+      "Lemnaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Liliaceae.qmd": [
+      "Liliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Taccaceae.qmd": [
+      "Taccaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Taxodiaceae.qmd": [
+      "Taxodiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Valerianaceae.qmd": [
+      "Valerianaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Verbenaceae.qmd": [
+      "Verbenaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E.qmd": [
+      "/A–E/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Boraginaceae.qmd": [
+      "Boraginaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Clusiaceae.qmd": [
+      "Clusiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Fabaceae.qmd": [
+      "Fabaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Fagaceae.qmd": [
+      "Fagaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Gentianaceae.qmd": [
+      "Gentianaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Geraniaceae.qmd": [
+      "Geraniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Ginkgoaceae.qmd": [
+      "Ginkgoaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Gleicheniaceae.qmd": [
+      "Gleicheniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Grossulariaceae.qmd": [
+      "Grossulariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Hamamelidaceae.qmd": [
+      "Hamamelidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Hernandiaceae.qmd": [
+      "Hernandiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Hydrangeaceae.qmd": [
+      "Hydrangeaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Hydrocharitaceae.qmd": [
+      "Hydrocharitaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Iridaceae.qmd": [
+      "Iridaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Juglandaceae.qmd": [
+      "Juglandaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Juncaceae.qmd": [
+      "Juncaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Liliaceae.qmd": [
+      "Liliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Loganiaceae.qmd": [
+      "Loganiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J.qmd": [
+      "/F–J/*.qmd"
+    ],
+    "Ethnopharmacology\\index.qmd": [
+      "./*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Bombacaceae.qmd": [
+      "Bombacaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Hydrophyllaceae.qmd": [
+      "Hydrophyllaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lamiaceae.qmd": [
+      "Lamiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lardizabalaceae.qmd": [
+      "Lardizabalaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lauraceae.qmd": [
+      "Lauraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lecythidaceae.qmd": [
+      "Lecythidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Liliaceae.qmd": [
+      "Liliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Linaceae.qmd": [
+      "Linaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Loganiaceae.qmd": [
+      "Loganiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lycopodiaceae.qmd": [
+      "Lycopodiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lythraceae.qmd": [
+      "Lythraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Magnoliaceae.qmd": [
+      "Magnoliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Malpighiaceae.qmd": [
+      "Malpighiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Malvaceae.qmd": [
+      "Malvaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Melastomataceae.qmd": [
+      "Melastomataceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Meliaceae.qmd": [
+      "Meliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Meniermaceae.qmd": [
+      "Meniermaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Molluginaceae.qmd": [
+      "Molluginaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Monimiaceae.qmd": [
+      "Monimiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Moraceae.qmd": [
+      "Moraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Moringaceae.qmd": [
+      "Moringaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Musaceae.qmd": [
+      "Musaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Myricaceae.qmd": [
+      "Myricaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Myristicaceae.qmd": [
+      "Myristicaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Myrtaceae.qmd": [
+      "Myrtaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Nyctaginaceae.qmd": [
+      "Nyctaginaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Olacaceae.qmd": [
+      "Olacaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Oleaceae.qmd": [
+      "Oleaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Onagraceae.qmd": [
+      "Onagraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Ophioglossaceae.qmd": [
+      "Ophioglossaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Orchidaceae.qmd": [
+      "Orchidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Osmundaceae.qmd": [
+      "Osmundaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Oxalidaceae.qmd": [
+      "Oxalidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Punicaceae.qmd": [
+      "Punicaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Rubiaceae.qmd": [
+      "Rubiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Sargentodoxaceae.qmd": [
+      "Sargentodoxaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Scrophulariaceae.qmd": [
+      "Scrophulariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Sterculiaceae.qmd": [
+      "Sterculiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Tiliaceae.qmd": [
+      "Tiliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Trapaceae.qmd": [
+      "Trapaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O.qmd": [
+      "/K–O/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Aceraceae.qmd": [
+      "Aceraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Euphorbiaceae.qmd": [
+      "Euphorbiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Flacourtiaceae.qmd": [
+      "Flacourtiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Globulariaceae.qmd": [
+      "Globulariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Hippocastanaceae.qmd": [
+      "Hippocastanaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Illiciaceae.qmd": [
+      "Illiciaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Loganiaceae.qmd": [
+      "Loganiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Myrsinaceae.qmd": [
+      "Myrsinaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Paeoniaceae.qmd": [
+      "Paeoniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Pandanaceae.qmd": [
+      "Pandanaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Papaveraceae.qmd": [
+      "Papaveraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Passifloraceae.qmd": [
+      "Passifloraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Pedaliaceae.qmd": [
+      "Pedaliaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Phytolaccaceae.qmd": [
+      "Phytolaccaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Picramniaceae.qmd": [
+      "Picramniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Pinaceae.qmd": [
+      "Pinaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Piperaceae.qmd": [
+      "Piperaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Plantaginaceae.qmd": [
+      "Plantaginaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Platanaceae.qmd": [
+      "Platanaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Plumbaginaceae.qmd": [
+      "Plumbaginaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Poaceae.qmd": [
+      "Poaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Polygalaceae.qmd": [
+      "Polygalaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Polygonaceae.qmd": [
+      "Polygonaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Polypodiaceae.qmd": [
+      "Polypodiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Portulacaceae.qmd": [
+      "Portulacaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Posidoniaceae.qmd": [
+      "Posidoniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Potamogetonaceae.qmd": [
+      "Potamogetonaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Primulaceae.qmd": [
+      "Primulaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Pteridaceae.qmd": [
+      "Pteridaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Ranunculaceae.qmd": [
+      "Ranunculaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Resedaceae.qmd": [
+      "Resedaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Rhamnaceae.qmd": [
+      "Rhamnaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Rhizophoraceae.qmd": [
+      "Rhizophoraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Rosaceae.qmd": [
+      "Rosaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Rubiaceae.qmd": [
+      "Rubiaceae/*.qmd"
+    ],
+    "Builds_of_website\\Ethnopharmacology\\A–E\\Acanthaceae.qmd": [
+      "Acanthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Achariaceae.qmd": [
+      "Achariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Altingiaceae.qmd": [
+      "Altingiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Amaryllidaceae.qmd": [
+      "Amaryllidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Asparagaceae.qmd": [
+      "Asparagaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Asphodelaceae.qmd": [
+      "Asphodelaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Calophyllaceae.qmd": [
+      "Calophyllaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cibotiaceae.qmd": [
+      "Cibotiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cistaceae.qmd": [
+      "Cistaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cleomaceae.qmd": [
+      "Cleomaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Colchicaceae.qmd": [
+      "Colchicaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Commelinaceae.qmd": [
+      "Commelinaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Connaraceae.qmd": [
+      "Connaraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cordiaceae.qmd": [
+      "Cordiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cynomoriaceae.qmd": [
+      "Cynomoriaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cystopteridaceae.qmd": [
+      "Cystopteridaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Cytinaceae.qmd": [
+      "Cytinaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Dichapetalaceae.qmd": [
+      "Dichapetalaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Dilleniaceae.qmd": [
+      "Dilleniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\A–E\\Ehretiaceae.qmd": [
+      "Ehretiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Frankeniaceae.qmd": [
+      "Frankeniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Gelsemiaceae.qmd": [
+      "Gelsemiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Gesneriaceae.qmd": [
+      "Gesneriaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Gisekiaceae.qmd": [
+      "Gisekiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Heliotropiaceae.qmd": [
+      "Heliotropiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Hypericaceae.qmd": [
+      "Hypericaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Hypoxidaceae.qmd": [
+      "Hypoxidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\F–J\\Iteaceae.qmd": [
+      "Iteaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Krameriaceae.qmd": [
+      "Krameriaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lentibulariaceae.qmd": [
+      "Lentibulariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Lygodiaceae.qmd": [
+      "Lygodiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Marattiaceae.qmd": [
+      "Marattiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Melanthiaceae.qmd": [
+      "Melanthiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Melianthaceae.qmd": [
+      "Melianthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Menispermaceae.qmd": [
+      "Menispermaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Menyanthaceae.qmd": [
+      "Menyanthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Microteaceae.qmd": [
+      "Microteaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Namaceae.qmd": [
+      "Namaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Nartheciaceae.qmd": [
+      "Nartheciaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Nymphaeaceae.qmd": [
+      "Nymphaeaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\K–O\\Orobanchaceae.qmd": [
+      "Orobanchaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Parnassiaceae.qmd": [
+      "Parnassiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Paulowniaceae.qmd": [
+      "Paulowniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Pentaphylacaceae.qmd": [
+      "Pentaphylacaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Phrymaceae.qmd": [
+      "Phrymaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Phyllanthaceae.qmd": [
+      "Phyllanthaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Podocarpaceae.qmd": [
+      "Podocarpaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Pontederiaceae.qmd": [
+      "Pontederiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Psilotaceae.qmd": [
+      "Psilotaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Quillajaceae.qmd": [
+      "Quillajaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Rehmanniaceae.qmd": [
+      "Rehmanniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Ruppiaceae.qmd": [
+      "Ruppiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Rutaceae.qmd": [
+      "Rutaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Salicaceae.qmd": [
+      "Salicaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Salvadoraceae.qmd": [
+      "Salvadoraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Santalaceae.qmd": [
+      "Santalaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Sapindaceae.qmd": [
+      "Sapindaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Sapotaceae.qmd": [
+      "Sapotaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Sarraceniaceae.qmd": [
+      "Sarraceniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Saururaceae.qmd": [
+      "Saururaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Saxifragaceae.qmd": [
+      "Saxifragaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Schisandraceae.qmd": [
+      "Schisandraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Scrophulariaceae.qmd": [
+      "Scrophulariaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Selaginellaceae.qmd": [
+      "Selaginellaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Simaroubaceae.qmd": [
+      "Simaroubaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Simmondsiaceae.qmd": [
+      "Simmondsiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Siparunaceae.qmd": [
+      "Siparunaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Smilacaceae.qmd": [
+      "Smilacaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Solanaceae.qmd": [
+      "Solanaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Stemonaceae.qmd": [
+      "Stemonaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Styracaceae.qmd": [
+      "Styracaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Surianaceae.qmd": [
+      "Surianaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Symplocaceae.qmd": [
+      "Symplocaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Talinaceae.qmd": [
+      "Talinaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Tamaricaceae.qmd": [
+      "Tamaricaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Taxaceae.qmd": [
+      "Taxaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Tetradiclidaceae.qmd": [
+      "Tetradiclidaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Theaceae.qmd": [
+      "Theaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Thymelaeaceae.qmd": [
+      "Thymelaeaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Tropaeolaceae.qmd": [
+      "Tropaeolaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Turneraceae.qmd": [
+      "Turneraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T\\Typhaceae.qmd": [
+      "Typhaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\P–T.qmd": [
+      "/P–T/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Ulmaceae.qmd": [
+      "Ulmaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Urticaceae.qmd": [
+      "Urticaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Verbenaceae.qmd": [
+      "Verbenaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Viburnaceae.qmd": [
+      "Viburnaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Violaceae.qmd": [
+      "Violaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Viscaceae.qmd": [
+      "Viscaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Vitaceae.qmd": [
+      "Vitaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Winteraceae.qmd": [
+      "Winteraceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Ximeniaceae.qmd": [
+      "Ximeniaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Zamiaceae.qmd": [
+      "Zamiaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Zingiberaceae.qmd": [
+      "Zingiberaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z\\Zygophyllaceae.qmd": [
+      "Zygophyllaceae/*.qmd"
+    ],
+    "Ethnopharmacology\\U–Z.qmd": [
+      "/U–Z/*.qmd"
+    ],
+    "Pharmacognosy\\Acorus Gramineus Soland.qmd": [
+      "Acorus Gramineus Soland/Soi_Bot/*.*",
+      "Acorus Gramineus Soland/Vi_Phau/*.*",
+      "Acorus Gramineus Soland/DDHK/*.*",
+      "Acorus Gramineus Soland/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Aetheroleum Menthae Arvensis.qmd": [
+      "Aetheroleum Menthae Arvensis/Soi_Bot/*.*",
+      "Aetheroleum Menthae Arvensis/Vi_Phau/*.*",
+      "Aetheroleum Menthae Arvensis/DDHK/*.*",
+      "Aetheroleum Menthae Arvensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Arillus Longan.qmd": [
+      "Arillus Longan/Soi_Bot/*.*",
+      "Arillus Longan/Vi_Phau/*.*",
+      "Arillus Longan/DDHK/*.*",
+      "Arillus Longan/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Arillus Momordicae Cochinchinensis.qmd": [
+      "Arillus Momordicae Cochinchinensis/Soi_Bot/*.*",
+      "Arillus Momordicae Cochinchinensis/Vi_Phau/*.*",
+      "Arillus Momordicae Cochinchinensis/DDHK/*.*",
+      "Arillus Momordicae Cochinchinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Benzoinum.qmd": [
+      "Benzoinum/Soi_Bot/*.*",
+      "Benzoinum/Vi_Phau/*.*",
+      "Benzoinum/DDHK/*.*",
+      "Benzoinum/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Bulbus Allii.qmd": [
+      "Bulbus Allii/Soi_Bot/*.*",
+      "Bulbus Allii/Vi_Phau/*.*",
+      "Bulbus Allii/DDHK/*.*",
+      "Bulbus Allii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Bulbus Lilii.qmd": [
+      "Bulbus Lilii/Soi_Bot/*.*",
+      "Bulbus Lilii/Vi_Phau/*.*",
+      "Bulbus Lilii/DDHK/*.*",
+      "Bulbus Lilii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Bulbus Pritillariae.qmd": [
+      "Bulbus Pritillariae/Soi_Bot/*.*",
+      "Bulbus Pritillariae/Vi_Phau/*.*",
+      "Bulbus Pritillariae/DDHK/*.*",
+      "Bulbus Pritillariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Calyx Kaki.qmd": [
+      "Calyx Kaki/Soi_Bot/*.*",
+      "Calyx Kaki/Vi_Phau/*.*",
+      "Calyx Kaki/DDHK/*.*",
+      "Calyx Kaki/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulis Cum Folium Lonicerae.qmd": [
+      "Caulis Cum Folium Lonicerae/Soi_Bot/*.*",
+      "Caulis Cum Folium Lonicerae/Vi_Phau/*.*",
+      "Caulis Cum Folium Lonicerae/DDHK/*.*",
+      "Caulis Cum Folium Lonicerae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulis Et Folium Gymnemae Sylvestris.qmd": [
+      "Caulis Et Folium Gymnemae Sylvestris/Soi_Bot/*.*",
+      "Caulis Et Folium Gymnemae Sylvestris/Vi_Phau/*.*",
+      "Caulis Et Folium Gymnemae Sylvestris/DDHK/*.*",
+      "Caulis Et Folium Gymnemae Sylvestris/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulis Et Radix Fibraureae.qmd": [
+      "Caulis Et Radix Fibraureae/Soi_Bot/*.*",
+      "Caulis Et Radix Fibraureae/Vi_Phau/*.*",
+      "Caulis Et Radix Fibraureae/DDHK/*.*",
+      "Caulis Et Radix Fibraureae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulis Perillae Frutescensis.qmd": [
+      "Caulis Perillae Frutescensis/Soi_Bot/*.*",
+      "Caulis Perillae Frutescensis/Vi_Phau/*.*",
+      "Caulis Perillae Frutescensis/DDHK/*.*",
+      "Caulis Perillae Frutescensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulis Spatholobi Suberecti.qmd": [
+      "Caulis Spatholobi Suberecti/Soi_Bot/*.*",
+      "Caulis Spatholobi Suberecti/Vi_Phau/*.*",
+      "Caulis Spatholobi Suberecti/DDHK/*.*",
+      "Caulis Spatholobi Suberecti/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulis Tinosporae Sinensis.qmd": [
+      "Caulis Tinosporae Sinensis/Soi_Bot/*.*",
+      "Caulis Tinosporae Sinensis/Vi_Phau/*.*",
+      "Caulis Tinosporae Sinensis/DDHK/*.*",
+      "Caulis Tinosporae Sinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Caulls Coscinii Fenestrati.qmd": [
+      "Caulls Coscinii Fenestrati/Soi_Bot/*.*",
+      "Caulls Coscinii Fenestrati/Vi_Phau/*.*",
+      "Caulls Coscinii Fenestrati/DDHK/*.*",
+      "Caulls Coscinii Fenestrati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Concretio Silicae Bambosae.qmd": [
+      "Concretio Silicae Bambosae/Soi_Bot/*.*",
+      "Concretio Silicae Bambosae/Vi_Phau/*.*",
+      "Concretio Silicae Bambosae/DDHK/*.*",
+      "Concretio Silicae Bambosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Acanthopanacis Gracilistyli.qmd": [
+      "Cortex Acanthopanacis Gracilistyli/Soi_Bot/*.*",
+      "Cortex Acanthopanacis Gracilistyli/Vi_Phau/*.*",
+      "Cortex Acanthopanacis Gracilistyli/DDHK/*.*",
+      "Cortex Acanthopanacis Gracilistyli/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Acanthopanacis Trifoliati.qmd": [
+      "Cortex Acanthopanacis Trifoliati/Soi_Bot/*.*",
+      "Cortex Acanthopanacis Trifoliati/Vi_Phau/*.*",
+      "Cortex Acanthopanacis Trifoliati/DDHK/*.*",
+      "Cortex Acanthopanacis Trifoliati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Cinnamomi.qmd": [
+      "Cortex Cinnamomi/Soi_Bot/*.*",
+      "Cortex Cinnamomi/Vi_Phau/*.*",
+      "Cortex Cinnamomi/DDHK/*.*",
+      "Cortex Cinnamomi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Eucommiae.qmd": [
+      "Cortex Eucommiae/Soi_Bot/*.*",
+      "Cortex Eucommiae/Vi_Phau/*.*",
+      "Cortex Eucommiae/DDHK/*.*",
+      "Cortex Eucommiae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Magnoliae Officinalis.qmd": [
+      "Cortex Magnoliae Officinalis/Soi_Bot/*.*",
+      "Cortex Magnoliae Officinalis/Vi_Phau/*.*",
+      "Cortex Magnoliae Officinalis/DDHK/*.*",
+      "Cortex Magnoliae Officinalis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Mori Albae Radicis.qmd": [
+      "Cortex Mori Albae Radicis/Soi_Bot/*.*",
+      "Cortex Mori Albae Radicis/Vi_Phau/*.*",
+      "Cortex Mori Albae Radicis/DDHK/*.*",
+      "Cortex Mori Albae Radicis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Periplocae.qmd": [
+      "Cortex Periplocae/Soi_Bot/*.*",
+      "Cortex Periplocae/Vi_Phau/*.*",
+      "Cortex Periplocae/DDHK/*.*",
+      "Cortex Periplocae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Phellodendri.qmd": [
+      "Cortex Phellodendri/Soi_Bot/*.*",
+      "Cortex Phellodendri/Vi_Phau/*.*",
+      "Cortex Phellodendri/DDHK/*.*",
+      "Cortex Phellodendri/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Radicis Lycii.qmd": [
+      "Cortex Radicis Lycii/Soi_Bot/*.*",
+      "Cortex Radicis Lycii/Vi_Phau/*.*",
+      "Cortex Radicis Lycii/DDHK/*.*",
+      "Cortex Radicis Lycii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Schefflerae Heptaphyllae.qmd": [
+      "Cortex Schefflerae Heptaphyllae/Soi_Bot/*.*",
+      "Cortex Schefflerae Heptaphyllae/Vi_Phau/*.*",
+      "Cortex Schefflerae Heptaphyllae/DDHK/*.*",
+      "Cortex Schefflerae Heptaphyllae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Strychni Wallichianae.qmd": [
+      "Cortex Strychni Wallichianae/Soi_Bot/*.*",
+      "Cortex Strychni Wallichianae/Vi_Phau/*.*",
+      "Cortex Strychni Wallichianae/DDHK/*.*",
+      "Cortex Strychni Wallichianae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cortex Terminaliaen Nigrovenulosae.qmd": [
+      "Cortex Terminaliaen Nigrovenulosae/Soi_Bot/*.*",
+      "Cortex Terminaliaen Nigrovenulosae/Vi_Phau/*.*",
+      "Cortex Terminaliaen Nigrovenulosae/DDHK/*.*",
+      "Cortex Terminaliaen Nigrovenulosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Cotex Oroxyli.qmd": [
+      "Cotex Oroxyli/Soi_Bot/*.*",
+      "Cotex Oroxyli/Vi_Phau/*.*",
+      "Cotex Oroxyli/DDHK/*.*",
+      "Cotex Oroxyli/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Embryo Nelumbinis nuciferae.qmd": [
+      "Embryo Nelumbinis Nuciferae/Soi_Bot/*.*",
+      "Embryo Nelumbinis Nuciferae/Vi_Phau/*.*",
+      "Embryo Nelumbinis Nuciferae/DDHK/*.*",
+      "Embryo Nelumbinis Nuciferae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Endothelium Corneum Gigeriae Galli.qmd": [
+      "Endothelium Corneum Gigeriae Galli/Soi_Bot/*.*",
+      "Endothelium Corneum Gigeriae Galli/Vi_Phau/*.*",
+      "Endothelium Corneum Gigeriae Galli/DDHK/*.*",
+      "Endothelium Corneum Gigeriae Galli/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Carthami Tinctorii.qmd": [
+      "Flos Carthami Tinctorii/Soi_Bot/*.*",
+      "Flos Carthami Tinctorii/Vi_Phau/*.*",
+      "Flos Carthami Tinctorii/DDHK/*.*",
+      "Flos Carthami Tinctorii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Chrysanthemi Indici.qmd": [
+      "Flos Chrysanthemi Indici/Soi_Bot/*.*",
+      "Flos Chrysanthemi Indici/Vi_Phau/*.*",
+      "Flos Chrysanthemi Indici/DDHK/*.*",
+      "Flos Chrysanthemi Indici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Cleistocalysis Operculati.qmd": [
+      "Flos Cleistocalysis Operculati/Soi_Bot/*.*",
+      "Flos Cleistocalysis Operculati/Vi_Phau/*.*",
+      "Flos Cleistocalysis Operculati/DDHK/*.*",
+      "Flos Cleistocalysis Operculati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Daturae metelis.qmd": [
+      "Flos Daturae metelis/Soi_Bot/*.*",
+      "Flos Daturae metelis/Vi_Phau/*.*",
+      "Flos Daturae metelis/DDHK/*.*",
+      "Flos Daturae metelis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Eriocauli.qmd": [
+      "Flos Eriocauli/Soi_Bot/*.*",
+      "Flos Eriocauli/Vi_Phau/*.*",
+      "Flos Eriocauli/DDHK/*.*",
+      "Flos Eriocauli/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Lonicerae.qmd": [
+      "Flos Lonicerae/Soi_Bot/*.*",
+      "Flos Lonicerae/Vi_Phau/*.*",
+      "Flos Lonicerae/DDHK/*.*",
+      "Flos Lonicerae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Plumeriae Rubrae.qmd": [
+      "Flos Plumeriae Rubrae/Soi_Bot/*.*",
+      "Flos Plumeriae Rubrae/Vi_Phau/*.*",
+      "Flos Plumeriae Rubrae/DDHK/*.*",
+      "Flos Plumeriae Rubrae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Sambuci Javanicae.qmd": [
+      "Flos Sambuci Javanicae/Soi_Bot/*.*",
+      "Flos Sambuci Javanicae/Vi_Phau/*.*",
+      "Flos Sambuci Javanicae/DDHK/*.*",
+      "Flos Sambuci Javanicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Styphnolobii Japonici Imaturi.qmd": [
+      "Flos Styphnolobii Japonici Imaturi/Soi_Bot/*.*",
+      "Flos Styphnolobii Japonici Imaturi/Vi_Phau/*.*",
+      "Flos Styphnolobii Japonici Imaturi/DDHK/*.*",
+      "Flos Styphnolobii Japonici Imaturi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Flos Tussilaginis.qmd": [
+      "Flos Tussilaginis/Soi_Bot/*.*",
+      "Flos Tussilaginis/Vi_Phau/*.*",
+      "Flos Tussilaginis/DDHK/*.*",
+      "Flos Tussilaginis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Ampelopsis.qmd": [
+      "Folium Ampelopsis/Soi_Bot/*.*",
+      "Folium Ampelopsis/Vi_Phau/*.*",
+      "Folium Ampelopsis/DDHK/*.*",
+      "Folium Ampelopsis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Artemisiae Annuae.qmd": [
+      "Folium Artemisiae Annuae/Soi_Bot/*.*",
+      "Folium Artemisiae Annuae/Vi_Phau/*.*",
+      "Folium Artemisiae Annuae/DDHK/*.*",
+      "Folium Artemisiae Annuae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Calotropis.qmd": [
+      "Folium Calotropis/Soi_Bot/*.*",
+      "Folium Calotropis/Vi_Phau/*.*",
+      "Folium Calotropis/DDHK/*.*",
+      "Folium Calotropis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Catharanthi Rosei.qmd": [
+      "Folium Catharanthi Rosei/Soi_Bot/*.*",
+      "Folium Catharanthi Rosei/Vi_Phau/*.*",
+      "Folium Catharanthi Rosei/DDHK/*.*",
+      "Folium Catharanthi Rosei/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Cleistocalysis Operculati.qmd": [
+      "Folium Cleistocalysis Operculati/Soi_Bot/*.*",
+      "Folium Cleistocalysis Operculati/Vi_Phau/*.*",
+      "Folium Cleistocalysis Operculati/DDHK/*.*",
+      "Folium Cleistocalysis Operculati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Clerodendri Chinense.qmd": [
+      "Folium Clerodendri Chinense/Soi_Bot/*.*",
+      "Folium Clerodendri Chinense/Vi_Phau/*.*",
+      "Folium Clerodendri Chinense/DDHK/*.*",
+      "Folium Clerodendri Chinense/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Cratoxyli Pruniflori.qmd": [
+      "Folium Cratoxyli Pruniflori/Soi_Bot/*.*",
+      "Folium Cratoxyli Pruniflori/Vi_Phau/*.*",
+      "Folium Cratoxyli Pruniflori/DDHK/*.*",
+      "Folium Cratoxyli Pruniflori/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Crini Asiatici.qmd": [
+      "Folium Crini Asiatici/Soi_Bot/*.*",
+      "Folium Crini Asiatici/Vi_Phau/*.*",
+      "Folium Crini Asiatici/DDHK/*.*",
+      "Folium Crini Asiatici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Crini Latifolii.qmd": [
+      "Folium Crini Latifolii/Soi_Bot/*.*",
+      "Folium Crini Latifolii/Vi_Phau/*.*",
+      "Folium Crini Latifolii/DDHK/*.*",
+      "Folium Crini Latifolii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Cynarae Scolymi.qmd": [
+      "Folium Cynarae Scolymi/Soi_Bot/*.*",
+      "Folium Cynarae Scolymi/Vi_Phau/*.*",
+      "Folium Cynarae Scolymi/DDHK/*.*",
+      "Folium Cynarae Scolymi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Daturae Metelis.qmd": [
+      "Folium Daturae Metelis/Soi_Bot/*.*",
+      "Folium Daturae Metelis/Vi_Phau/*.*",
+      "Folium Daturae Metelis/DDHK/*.*",
+      "Folium Daturae Metelis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Erythrinae Variegatae.qmd": [
+      "Folium Erythrinae Variegatae/Soi_Bot/*.*",
+      "Folium Erythrinae Variegatae/Vi_Phau/*.*",
+      "Folium Erythrinae Variegatae/DDHK/*.*",
+      "Folium Erythrinae Variegatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Et Ramulus Crotonis Tonkinensis.qmd": [
+      "Folium Et Ramulus Crotonis Tonkinensis/Soi_Bot/*.*",
+      "Folium Et Ramulus Crotonis Tonkinensis/Vi_Phau/*.*",
+      "Folium Et Ramulus Crotonis Tonkinensis/DDHK/*.*",
+      "Folium Et Ramulus Crotonis Tonkinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Excoecariae.qmd": [
+      "Folium Excoecariae/Soi_Bot/*.*",
+      "Folium Excoecariae/Vi_Phau/*.*",
+      "Folium Excoecariae/DDHK/*.*",
+      "Folium Excoecariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Ilexi Kaushii.qmd": [
+      "Folium Ilexi Kaushii/Soi_Bot/*.*",
+      "Folium Ilexi Kaushii/Vi_Phau/*.*",
+      "Folium Ilexi Kaushii/DDHK/*.*",
+      "Folium Ilexi Kaushii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Jasmini Subtriplinervis.qmd": [
+      "Folium Jasmini Subtriplinervis/Soi_Bot/*.*",
+      "Folium Jasmini Subtriplinervis/Vi_Phau/*.*",
+      "Folium Jasmini Subtriplinervis/DDHK/*.*",
+      "Folium Jasmini Subtriplinervis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Lawsoniae.qmd": [
+      "Folium Lawsoniae/Soi_Bot/*.*",
+      "Folium Lawsoniae/Vi_Phau/*.*",
+      "Folium Lawsoniae/DDHK/*.*",
+      "Folium Lawsoniae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Mori Albae.qmd": [
+      "Folium Mori Albae/Soi_Bot/*.*",
+      "Folium Mori Albae/Vi_Phau/*.*",
+      "Folium Mori Albae/DDHK/*.*",
+      "Folium Mori Albae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Nelumbinis Nuciferae.qmd": [
+      "Folium Nelumbinis Nuciferae/Soi_Bot/*.*",
+      "Folium Nelumbinis Nuciferae/Vi_Phau/*.*",
+      "Folium Nelumbinis Nuciferae/DDHK/*.*",
+      "Folium Nelumbinis Nuciferae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Perillae Frutescensis.qmd": [
+      "Folium Perillae Frutescensis/Soi_Bot/*.*",
+      "Folium Perillae Frutescensis/Vi_Phau/*.*",
+      "Folium Perillae Frutescensis/DDHK/*.*",
+      "Folium Perillae Frutescensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Plantaginis.qmd": [
+      "Folium Plantaginis/Soi_Bot/*.*",
+      "Folium Plantaginis/Vi_Phau/*.*",
+      "Folium Plantaginis/DDHK/*.*",
+      "Folium Plantaginis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Plectranthi Amboinici.qmd": [
+      "Folium Plectranthi Amboinici/Soi_Bot/*.*",
+      "Folium Plectranthi Amboinici/Vi_Phau/*.*",
+      "Folium Plectranthi Amboinici/DDHK/*.*",
+      "Folium Plectranthi Amboinici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Premnae Corymbosae.qmd": [
+      "Folium Premnae Corymbosae/Soi_Bot/*.*",
+      "Folium Premnae Corymbosae/Vi_Phau/*.*",
+      "Folium Premnae Corymbosae/DDHK/*.*",
+      "Folium Premnae Corymbosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Sambuci Javanicae.qmd": [
+      "Folium Sambuci Javanicae/Soi_Bot/*.*",
+      "Folium Sambuci Javanicae/Vi_Phau/*.*",
+      "Folium Sambuci Javanicae/DDHK/*.*",
+      "Folium Sambuci Javanicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Solani Erianthi.qmd": [
+      "Folium Solani Erianthi/Soi_Bot/*.*",
+      "Folium Solani Erianthi/Vi_Phau/*.*",
+      "Folium Solani Erianthi/DDHK/*.*",
+      "Folium Solani Erianthi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Folium Steviae Rebaudiana.qmd": [
+      "Folium Steviae Rebaudiana/Soi_Bot/*.*",
+      "Folium Steviae Rebaudiana/Vi_Phau/*.*",
+      "Folium Steviae Rebaudiana/DDHK/*.*",
+      "Folium Steviae Rebaudiana/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Alpiniae Oxyphyllae.qmd": [
+      "Fructus Alpiniae Oxyphyllae/Soi_Bot/*.*",
+      "Fructus Alpiniae Oxyphyllae/Vi_Phau/*.*",
+      "Fructus Alpiniae Oxyphyllae/DDHK/*.*",
+      "Fructus Alpiniae Oxyphyllae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Amomi.qmd": [
+      "Fructus Amomi/Soi_Bot/*.*",
+      "Fructus Amomi/Vi_Phau/*.*",
+      "Fructus Amomi/DDHK/*.*",
+      "Fructus Amomi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Amomum Tsao-ko.qmd": [
+      "Fructus Amomum Tsao-ko/Soi_Bot/*.*",
+      "Fructus Amomum Tsao-ko/Vi_Phau/*.*",
+      "Fructus Amomum Tsao-ko/DDHK/*.*",
+      "Fructus Amomum Tsao-ko/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Apii Graveolens.qmd": [
+      "Fructus Apii Graveolens/Soi_Bot/*.*",
+      "Fructus Apii Graveolens/Vi_Phau/*.*",
+      "Fructus Apii Graveolens/DDHK/*.*",
+      "Fructus Apii Graveolens/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Arcti Lappae.qmd": [
+      "Fructus Arcti Lappae/Soi_Bot/*.*",
+      "Fructus Arcti Lappae/Vi_Phau/*.*",
+      "Fructus Arcti Lappae/DDHK/*.*",
+      "Fructus Arcti Lappae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Aurantii Immaturus.qmd": [
+      "Fructus Aurantii Immaturus/Soi_Bot/*.*",
+      "Fructus Aurantii Immaturus/Vi_Phau/*.*",
+      "Fructus Aurantii Immaturus/DDHK/*.*",
+      "Fructus Aurantii Immaturus/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Aurantii.qmd": [
+      "Fructus Aurantii/Soi_Bot/*.*",
+      "Fructus Aurantii/Vi_Phau/*.*",
+      "Fructus Aurantii/DDHK/*.*",
+      "Fructus Aurantii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Bruceae Javanicae.qmd": [
+      "Fructus Bruceae Javanicae/Soi_Bot/*.*",
+      "Fructus Bruceae Javanicae/Vi_Phau/*.*",
+      "Fructus Bruceae Javanicae/DDHK/*.*",
+      "Fructus Bruceae Javanicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Chaenomelis.qmd": [
+      "Fructus Chaenomelis/Soi_Bot/*.*",
+      "Fructus Chaenomelis/Vi_Phau/*.*",
+      "Fructus Chaenomelis/DDHK/*.*",
+      "Fructus Chaenomelis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Cnidii.qmd": [
+      "Fructus Cnidii/Soi_Bot/*.*",
+      "Fructus Cnidii/Vi_Phau/*.*",
+      "Fructus Cnidii/DDHK/*.*",
+      "Fructus Cnidii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Corni Officinalis.qmd": [
+      "Fructus Corni Officinalis/Soi_Bot/*.*",
+      "Fructus Corni Officinalis/Vi_Phau/*.*",
+      "Fructus Corni Officinalis/DDHK/*.*",
+      "Fructus Corni Officinalis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Forsythiae Suspensae.qmd": [
+      "Fructus Forsythiae Suspensae/Soi_Bot/*.*",
+      "Fructus Forsythiae Suspensae/Vi_Phau/*.*",
+      "Fructus Forsythiae Suspensae/DDHK/*.*",
+      "Fructus Forsythiae Suspensae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Gardeniae.qmd": [
+      "Fructus Gardeniae/Soi_Bot/*.*",
+      "Fructus Gardeniae/Vi_Phau/*.*",
+      "Fructus Gardeniae/DDHK/*.*",
+      "Fructus Gardeniae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Gleditsiae Australis.qmd": [
+      "Fructus Gleditsiae Australis/Soi_Bot/*.*",
+      "Fructus Gleditsiae Australis/Vi_Phau/*.*",
+      "Fructus Gleditsiae Australis/DDHK/*.*",
+      "Fructus Gleditsiae Australis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Lycii.qmd": [
+      "Fructus Lycii/Soi_Bot/*.*",
+      "Fructus Lycii/Vi_Phau/*.*",
+      "Fructus Lycii/DDHK/*.*",
+      "Fructus Lycii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Mori Albae.qmd": [
+      "Fructus Mori Albae/Soi_Bot/*.*",
+      "Fructus Mori Albae/Vi_Phau/*.*",
+      "Fructus Mori Albae/DDHK/*.*",
+      "Fructus Mori Albae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Morindae Citrifoliae.qmd": [
+      "Fructus Morindae Citrifoliae/Soi_Bot/*.*",
+      "Fructus Morindae Citrifoliae/Vi_Phau/*.*",
+      "Fructus Morindae Citrifoliae/DDHK/*.*",
+      "Fructus Morindae Citrifoliae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Perillae Frutescensis.qmd": [
+      "Fructus Perillae Frutescensis/Soi_Bot/*.*",
+      "Fructus Perillae Frutescensis/Vi_Phau/*.*",
+      "Fructus Perillae Frutescensis/DDHK/*.*",
+      "Fructus Perillae Frutescensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Piperis Nigri.qmd": [
+      "Fructus Piperis Nigri/Soi_Bot/*.*",
+      "Fructus Piperis Nigri/Vi_Phau/*.*",
+      "Fructus Piperis Nigri/DDHK/*.*",
+      "Fructus Piperis Nigri/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Psoraleae Corylifoliae.qmd": [
+      "Fructus Psoraleae Corylifoliae/Soi_Bot/*.*",
+      "Fructus Psoraleae Corylifoliae/Vi_Phau/*.*",
+      "Fructus Psoraleae Corylifoliae/DDHK/*.*",
+      "Fructus Psoraleae Corylifoliae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Rosae Laevigatae.qmd": [
+      "Fructus Rosae Laevigatae/Soi_Bot/*.*",
+      "Fructus Rosae Laevigatae/Vi_Phau/*.*",
+      "Fructus Rosae Laevigatae/DDHK/*.*",
+      "Fructus Rosae Laevigatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Rubi.qmd": [
+      "Fructus Rubi/Soi_Bot/*.*",
+      "Fructus Rubi/Vi_Phau/*.*",
+      "Fructus Rubi/DDHK/*.*",
+      "Fructus Rubi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Schisandrae Chinemis.qmd": [
+      "Fructus Schisandrae Chinemis/Soi_Bot/*.*",
+      "Fructus Schisandrae Chinemis/Vi_Phau/*.*",
+      "Fructus Schisandrae Chinemis/DDHK/*.*",
+      "Fructus Schisandrae Chinemis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Silybi.qmd": [
+      "Fructus Silybi/Soi_Bot/*.*",
+      "Fructus Silybi/Vi_Phau/*.*",
+      "Fructus Silybi/DDHK/*.*",
+      "Fructus Silybi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Terminaliae Chebulae.qmd": [
+      "Fructus Terminaliae Chebulae/Soi_Bot/*.*",
+      "Fructus Terminaliae Chebulae/Vi_Phau/*.*",
+      "Fructus Terminaliae Chebulae/DDHK/*.*",
+      "Fructus Terminaliae Chebulae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Tribuli Terrestris.qmd": [
+      "Fructus Tribuli Terrestris/Soi_Bot/*.*",
+      "Fructus Tribuli Terrestris/Vi_Phau/*.*",
+      "Fructus Tribuli Terrestris/DDHK/*.*",
+      "Fructus Tribuli Terrestris/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Trichosanthis.qmd": [
+      "Fructus Trichosanthis/Soi_Bot/*.*",
+      "Fructus Trichosanthis/Vi_Phau/*.*",
+      "Fructus Trichosanthis/DDHK/*.*",
+      "Fructus Trichosanthis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Viticis Trifoliae.qmd": [
+      "Fructus Viticis Trifoliae/Soi_Bot/*.*",
+      "Fructus Viticis Trifoliae/Vi_Phau/*.*",
+      "Fructus Viticis Trifoliae/DDHK/*.*",
+      "Fructus Viticis Trifoliae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Xanthii Strumarii.qmd": [
+      "Fructus Xanthii Strumarii/Soi_Bot/*.*",
+      "Fructus Xanthii Strumarii/Vi_Phau/*.*",
+      "Fructus Xanthii Strumarii/DDHK/*.*",
+      "Fructus Xanthii Strumarii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Zanthoxyli.qmd": [
+      "Fructus Zanthoxyli/Soi_Bot/*.*",
+      "Fructus Zanthoxyli/Vi_Phau/*.*",
+      "Fructus Zanthoxyli/DDHK/*.*",
+      "Fructus Zanthoxyli/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Fructus Ziziphi Jujubae.qmd": [
+      "Fructus Ziziphi Jujubae/Soi_Bot/*.*",
+      "Fructus Ziziphi Jujubae/Vi_Phau/*.*",
+      "Fructus Ziziphi Jujubae/DDHK/*.*",
+      "Fructus Ziziphi Jujubae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Ganoderma Lucidum.qmd": [
+      "Ganoderma Lucidum/Soi_Bot/*.*",
+      "Ganoderma Lucidum/Vi_Phau/*.*",
+      "Ganoderma Lucidum/DDHK/*.*",
+      "Ganoderma Lucidum/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Hebra Sarcandrae Glabrae.qmd": [
+      "Hebra Sarcandrae Glabrae/Soi_Bot/*.*",
+      "Hebra Sarcandrae Glabrae/Vi_Phau/*.*",
+      "Hebra Sarcandrae Glabrae/DDHK/*.*",
+      "Hebra Sarcandrae Glabrae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Hedyotis Capitellata Wall, Ex G. Don.qmd": [
+      "Hedyotis Capitellata Wall, Ex G. Don/Soi_Bot/*.*",
+      "Hedyotis Capitellata Wall, Ex G. Don/Vi_Phau/*.*",
+      "Hedyotis Capitellata Wall, Ex G. Don/DDHK/*.*",
+      "Hedyotis Capitellata Wall, Ex G. Don/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Abutili Indici.qmd": [
+      "Herba Abutili Indici/Soi_Bot/*.*",
+      "Herba Abutili Indici/Vi_Phau/*.*",
+      "Herba Abutili Indici/DDHK/*.*",
+      "Herba Abutili Indici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Adenosmatis Bracteosi.qmd": [
+      "Herba Adenosmatis Bracteosi/Soi_Bot/*.*",
+      "Herba Adenosmatis Bracteosi/Vi_Phau/*.*",
+      "Herba Adenosmatis Bracteosi/DDHK/*.*",
+      "Herba Adenosmatis Bracteosi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Adenosmatis Caerulei.qmd": [
+      "Herba Adenosmatis Caerulei/Soi_Bot/*.*",
+      "Herba Adenosmatis Caerulei/Vi_Phau/*.*",
+      "Herba Adenosmatis Caerulei/DDHK/*.*",
+      "Herba Adenosmatis Caerulei/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Adenosmatis Indiani.qmd": [
+      "Herba Adenosmatis Indiani/Soi_Bot/*.*",
+      "Herba Adenosmatis Indiani/Vi_Phau/*.*",
+      "Herba Adenosmatis Indiani/DDHK/*.*",
+      "Herba Adenosmatis Indiani/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Agerati Conyzoides.qmd": [
+      "Herba Agerati Conyzoides/Soi_Bot/*.*",
+      "Herba Agerati Conyzoides/Vi_Phau/*.*",
+      "Herba Agerati Conyzoides/DDHK/*.*",
+      "Herba Agerati Conyzoides/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Agrimoniae.qmd": [
+      "Herba Agrimoniae/Soi_Bot/*.*",
+      "Herba Agrimoniae/Vi_Phau/*.*",
+      "Herba Agrimoniae/DDHK/*.*",
+      "Herba Agrimoniae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Andrographii.qmd": [
+      "Herba Andrographii/Soi_Bot/*.*",
+      "Herba Andrographii/Vi_Phau/*.*",
+      "Herba Andrographii/DDHK/*.*",
+      "Herba Andrographii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Apii Graveolens.qmd": [
+      "Herba Apii Graveolens/Soi_Bot/*.*",
+      "Herba Apii Graveolens/Vi_Phau/*.*",
+      "Herba Apii Graveolens/DDHK/*.*",
+      "Herba Apii Graveolens/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Artemisiae Vulgaris.qmd": [
+      "Herba Artemisiae Vulgaris/Soi_Bot/*.*",
+      "Herba Artemisiae Vulgaris/Vi_Phau/*.*",
+      "Herba Artemisiae Vulgaris/DDHK/*.*",
+      "Herba Artemisiae Vulgaris/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Bidensis Pilosae.qmd": [
+      "Herba Bidensis Pilosae/Soi_Bot/*.*",
+      "Herba Bidensis Pilosae/Vi_Phau/*.*",
+      "Herba Bidensis Pilosae/DDHK/*.*",
+      "Herba Bidensis Pilosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Centellae Asiaticae.qmd": [
+      "Herba Centellae Asiaticae/Soi_Bot/*.*",
+      "Herba Centellae Asiaticae/Vi_Phau/*.*",
+      "Herba Centellae Asiaticae/DDHK/*.*",
+      "Herba Centellae Asiaticae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Centipedae Minimae.qmd": [
+      "Herba Centipedae Minimae/Soi_Bot/*.*",
+      "Herba Centipedae Minimae/Vi_Phau/*.*",
+      "Herba Centipedae Minimae/DDHK/*.*",
+      "Herba Centipedae Minimae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Cistanches.qmd": [
+      "Herba Cistanches/Soi_Bot/*.*",
+      "Herba Cistanches/Vi_Phau/*.*",
+      "Herba Cistanches/DDHK/*.*",
+      "Herba Cistanches/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Desmodii Styracifolii.qmd": [
+      "Herba Desmodii Styracifolii/Soi_Bot/*.*",
+      "Herba Desmodii Styracifolii/Vi_Phau/*.*",
+      "Herba Desmodii Styracifolii/DDHK/*.*",
+      "Herba Desmodii Styracifolii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Ecliptae.qmd": [
+      "Herba Ecliptae/Soi_Bot/*.*",
+      "Herba Ecliptae/Vi_Phau/*.*",
+      "Herba Ecliptae/DDHK/*.*",
+      "Herba Ecliptae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Eleusinis Indicae.qmd": [
+      "Herba Eleusinis Indicae/Soi_Bot/*.*",
+      "Herba Eleusinis Indicae/Vi_Phau/*.*",
+      "Herba Eleusinis Indicae/DDHK/*.*",
+      "Herba Eleusinis Indicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Elsholtziae Ciliatae.qmd": [
+      "Herba Elsholtziae Ciliatae/Soi_Bot/*.*",
+      "Herba Elsholtziae Ciliatae/Vi_Phau/*.*",
+      "Herba Elsholtziae Ciliatae/DDHK/*.*",
+      "Herba Elsholtziae Ciliatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Ephedrae.qmd": [
+      "Herba Ephedrae/Soi_Bot/*.*",
+      "Herba Ephedrae/Vi_Phau/*.*",
+      "Herba Ephedrae/DDHK/*.*",
+      "Herba Ephedrae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Epimedii.qmd": [
+      "Herba Epimedii/Soi_Bot/*.*",
+      "Herba Epimedii/Vi_Phau/*.*",
+      "Herba Epimedii/DDHK/*.*",
+      "Herba Epimedii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Equiseti Debilis.qmd": [
+      "Herba Equiseti Debilis/Soi_Bot/*.*",
+      "Herba Equiseti Debilis/Vi_Phau/*.*",
+      "Herba Equiseti Debilis/DDHK/*.*",
+      "Herba Equiseti Debilis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Et Radix Scopariae.qmd": [
+      "Herba Et Radix Scopariae/Soi_Bot/*.*",
+      "Herba Et Radix Scopariae/Vi_Phau/*.*",
+      "Herba Et Radix Scopariae/DDHK/*.*",
+      "Herba Et Radix Scopariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Glini Oppositifolii.qmd": [
+      "Herba Glini Oppositifolii/Soi_Bot/*.*",
+      "Herba Glini Oppositifolii/Vi_Phau/*.*",
+      "Herba Glini Oppositifolii/DDHK/*.*",
+      "Herba Glini Oppositifolii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Gynostemmae.qmd": [
+      "Herba Gynostemmae/Soi_Bot/*.*",
+      "Herba Gynostemmae/Vi_Phau/*.*",
+      "Herba Gynostemmae/DDHK/*.*",
+      "Herba Gynostemmae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Hedyotis Diffusae.qmd": [
+      "Herba Hedyotis Diffusae/Soi_Bot/*.*",
+      "Herba Hedyotis Diffusae/Vi_Phau/*.*",
+      "Herba Hedyotis Diffusae/DDHK/*.*",
+      "Herba Hedyotis Diffusae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Houttuyniae Cordatae.qmd": [
+      "Herba Houttuyniae Cordatae/Soi_Bot/*.*",
+      "Herba Houttuyniae Cordatae/Vi_Phau/*.*",
+      "Herba Houttuyniae Cordatae/DDHK/*.*",
+      "Herba Houttuyniae Cordatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Lactucae Indicae.qmd": [
+      "Herba Lactucae Indicae/Soi_Bot/*.*",
+      "Herba Lactucae Indicae/Vi_Phau/*.*",
+      "Herba Lactucae Indicae/DDHK/*.*",
+      "Herba Lactucae Indicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Leonuri Japonici.qmd": [
+      "Herba Leonuri Japonici/Soi_Bot/*.*",
+      "Herba Leonuri Japonici/Vi_Phau/*.*",
+      "Herba Leonuri Japonici/DDHK/*.*",
+      "Herba Leonuri Japonici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Lobeliae Chinensis.qmd": [
+      "Herba Lobeliae Chinensis/Soi_Bot/*.*",
+      "Herba Lobeliae Chinensis/Vi_Phau/*.*",
+      "Herba Lobeliae Chinensis/DDHK/*.*",
+      "Herba Lobeliae Chinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Lophatheri.qmd": [
+      "Herba Lophatheri/Soi_Bot/*.*",
+      "Herba Lophatheri/Vi_Phau/*.*",
+      "Herba Lophatheri/DDHK/*.*",
+      "Herba Lophatheri/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Menthae.qmd": [
+      "Herba Menthae/Soi_Bot/*.*",
+      "Herba Menthae/Vi_Phau/*.*",
+      "Herba Menthae/DDHK/*.*",
+      "Herba Menthae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Ocimi Gratissimi.qmd": [
+      "Herba Ocimi Gratissimi/Soi_Bot/*.*",
+      "Herba Ocimi Gratissimi/Vi_Phau/*.*",
+      "Herba Ocimi Gratissimi/DDHK/*.*",
+      "Herba Ocimi Gratissimi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Ocimi Tenuiflori.qmd": [
+      "Herba Ocimi Tenuiflori/Soi_Bot/*.*",
+      "Herba Ocimi Tenuiflori/Vi_Phau/*.*",
+      "Herba Ocimi Tenuiflori/DDHK/*.*",
+      "Herba Ocimi Tenuiflori/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Passiflorae Foetidae.qmd": [
+      "Herba Passiflorae Foetidae/Soi_Bot/*.*",
+      "Herba Passiflorae Foetidae/Vi_Phau/*.*",
+      "Herba Passiflorae Foetidae/DDHK/*.*",
+      "Herba Passiflorae Foetidae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Phyllanthi Amari.qmd": [
+      "Herba Phyllanthi Amari/Soi_Bot/*.*",
+      "Herba Phyllanthi Amari/Vi_Phau/*.*",
+      "Herba Phyllanthi Amari/DDHK/*.*",
+      "Herba Phyllanthi Amari/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Phyllanthi Urinariae.qmd": [
+      "Herba Phyllanthi Urinariae/Soi_Bot/*.*",
+      "Herba Phyllanthi Urinariae/Vi_Phau/*.*",
+      "Herba Phyllanthi Urinariae/DDHK/*.*",
+      "Herba Phyllanthi Urinariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Piperis Lolot.qmd": [
+      "Herba Piperis Lolot/Soi_Bot/*.*",
+      "Herba Piperis Lolot/Vi_Phau/*.*",
+      "Herba Piperis Lolot/DDHK/*.*",
+      "Herba Piperis Lolot/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Pogostemonis.qmd": [
+      "Herba Pogostemonis/Soi_Bot/*.*",
+      "Herba Pogostemonis/Vi_Phau/*.*",
+      "Herba Pogostemonis/DDHK/*.*",
+      "Herba Pogostemonis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Scutellariae Barbatae.qmd": [
+      "Herba Scutellariae Barbatae/Soi_Bot/*.*",
+      "Herba Scutellariae Barbatae/Vi_Phau/*.*",
+      "Herba Scutellariae Barbatae/DDHK/*.*",
+      "Herba Scutellariae Barbatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Siegesbeckiae.qmd": [
+      "Herba Siegesbeckiae/Soi_Bot/*.*",
+      "Herba Siegesbeckiae/Vi_Phau/*.*",
+      "Herba Siegesbeckiae/DDHK/*.*",
+      "Herba Siegesbeckiae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Herba Solani Procumbensis.qmd": [
+      "Herba Solani Procumbensis/Soi_Bot/*.*",
+      "Herba Solani Procumbensis/Vi_Phau/*.*",
+      "Herba Solani Procumbensis/DDHK/*.*",
+      "Herba Solani Procumbensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\index.qmd": [
+      "/*.qmd"
+    ],
+    "Pharmacognosy\\Lignum Dracaenae.qmd": [
+      "Lignum Dracaenae/Soi_Bot/*.*",
+      "Lignum Dracaenae/Vi_Phau/*.*",
+      "Lignum Dracaenae/DDHK/*.*",
+      "Lignum Dracaenae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Lignum Sappan.qmd": [
+      "Lignum Sappan/Soi_Bot/*.*",
+      "Lignum Sappan/Vi_Phau/*.*",
+      "Lignum Sappan/DDHK/*.*",
+      "Lignum Sappan/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Medulla Junci Effusi.qmd": [
+      "Medulla Junci Effusi/Soi_Bot/*.*",
+      "Medulla Junci Effusi/Vi_Phau/*.*",
+      "Medulla Junci Effusi/DDHK/*.*",
+      "Medulla Junci Effusi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Medulla Tetrapanacis.qmd": [
+      "Medulla Tetrapanacis/Soi_Bot/*.*",
+      "Medulla Tetrapanacis/Vi_Phau/*.*",
+      "Medulla Tetrapanacis/DDHK/*.*",
+      "Medulla Tetrapanacis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Pericarpium Arecae Catechi.qmd": [
+      "Pericarpium Arecae Catechi/Soi_Bot/*.*",
+      "Pericarpium Arecae Catechi/Vi_Phau/*.*",
+      "Pericarpium Arecae Catechi/DDHK/*.*",
+      "Pericarpium Arecae Catechi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Pericarpium Citri Diliciosae.qmd": [
+      "Pericarpium Citri Diliciosae/Soi_Bot/*.*",
+      "Pericarpium Citri Diliciosae/Vi_Phau/*.*",
+      "Pericarpium Citri Diliciosae/DDHK/*.*",
+      "Pericarpium Citri Diliciosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Pericarpium Citri Reticulatae Perettne.qmd": [
+      "Pericarpium Citri Reticulatae Perettne/Soi_Bot/*.*",
+      "Pericarpium Citri Reticulatae Perettne/Vi_Phau/*.*",
+      "Pericarpium Citri Reticulatae Perettne/DDHK/*.*",
+      "Pericarpium Citri Reticulatae Perettne/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Pericarpium Garciniae Mangostanae.qmd": [
+      "Pericarpium Garciniae Mangostanae/Soi_Bot/*.*",
+      "Pericarpium Garciniae Mangostanae/Vi_Phau/*.*",
+      "Pericarpium Garciniae Mangostanae/DDHK/*.*",
+      "Pericarpium Garciniae Mangostanae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Pructus Momordicae Charantiae.qmd": [
+      "Pructus Momordicae Charantiae/Soi_Bot/*.*",
+      "Pructus Momordicae Charantiae/Vi_Phau/*.*",
+      "Pructus Momordicae Charantiae/DDHK/*.*",
+      "Pructus Momordicae Charantiae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Psidium Guajava L..qmd": [
+      "Psidium Guajava L./Soi_Bot/*.*",
+      "Psidium Guajava L./Vi_Phau/*.*",
+      "Psidium Guajava L./DDHK/*.*",
+      "Psidium Guajava L./Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Achyranthis Asperae.qmd": [
+      "Radix Achyranthis Asperae/Soi_Bot/*.*",
+      "Radix Achyranthis Asperae/Vi_Phau/*.*",
+      "Radix Achyranthis Asperae/DDHK/*.*",
+      "Radix Achyranthis Asperae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Aconiti Lateralis.qmd": [
+      "Radix Aconiti Lateralis/Soi_Bot/*.*",
+      "Radix Aconiti Lateralis/Vi_Phau/*.*",
+      "Radix Aconiti Lateralis/DDHK/*.*",
+      "Radix Aconiti Lateralis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Aconiti.qmd": [
+      "Radix Aconiti/Soi_Bot/*.*",
+      "Radix Aconiti/Vi_Phau/*.*",
+      "Radix Aconiti/DDHK/*.*",
+      "Radix Aconiti/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Angelicae Acutilobae.qmd": [
+      "Radix Angelicae Acutilobae/Soi_Bot/*.*",
+      "Radix Angelicae Acutilobae/Vi_Phau/*.*",
+      "Radix Angelicae Acutilobae/DDHK/*.*",
+      "Radix Angelicae Acutilobae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Angelicae Dahuricae.qmd": [
+      "Radix Angelicae Dahuricae/Soi_Bot/*.*",
+      "Radix Angelicae Dahuricae/Vi_Phau/*.*",
+      "Radix Angelicae Dahuricae/DDHK/*.*",
+      "Radix Angelicae Dahuricae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Angelicae Pubescentis.qmd": [
+      "Radix Angelicae Pubescentis/Soi_Bot/*.*",
+      "Radix Angelicae Pubescentis/Vi_Phau/*.*",
+      "Radix Angelicae Pubescentis/DDHK/*.*",
+      "Radix Angelicae Pubescentis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Angelicae Sinensis.qmd": [
+      "Radix Angelicae Sinensis/Soi_Bot/*.*",
+      "Radix Angelicae Sinensis/Vi_Phau/*.*",
+      "Radix Angelicae Sinensis/DDHK/*.*",
+      "Radix Angelicae Sinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Asparagi Cochinchinensis.qmd": [
+      "Radix Asparagi Cochinchinensis/Soi_Bot/*.*",
+      "Radix Asparagi Cochinchinensis/Vi_Phau/*.*",
+      "Radix Asparagi Cochinchinensis/DDHK/*.*",
+      "Radix Asparagi Cochinchinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Astragali Membranacei.qmd": [
+      "Radix Astragali Membranacei/Soi_Bot/*.*",
+      "Radix Astragali Membranacei/Vi_Phau/*.*",
+      "Radix Astragali Membranacei/DDHK/*.*",
+      "Radix Astragali Membranacei/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Boehmeriae Niveae.qmd": [
+      "Radix Boehmeriae Niveae/Soi_Bot/*.*",
+      "Radix Boehmeriae Niveae/Vi_Phau/*.*",
+      "Radix Boehmeriae Niveae/DDHK/*.*",
+      "Radix Boehmeriae Niveae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Bupleuri Chinensis.qmd": [
+      "Radix Bupleuri Chinensis/Soi_Bot/*.*",
+      "Radix Bupleuri Chinensis/Vi_Phau/*.*",
+      "Radix Bupleuri Chinensis/DDHK/*.*",
+      "Radix Bupleuri Chinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Catharanthi Rosei.qmd": [
+      "Radix Catharanthi Rosei/Soi_Bot/*.*",
+      "Radix Catharanthi Rosei/Vi_Phau/*.*",
+      "Radix Catharanthi Rosei/DDHK/*.*",
+      "Radix Catharanthi Rosei/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Clerodendri Japonici.qmd": [
+      "Radix Clerodendri Japonici/Soi_Bot/*.*",
+      "Radix Clerodendri Japonici/Vi_Phau/*.*",
+      "Radix Clerodendri Japonici/DDHK/*.*",
+      "Radix Clerodendri Japonici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Codonopsis Javanicae Praeparata.qmd": [
+      "Radix Codonopsis Javanicae Praeparata/Soi_Bot/*.*",
+      "Radix Codonopsis Javanicae Praeparata/Vi_Phau/*.*",
+      "Radix Codonopsis Javanicae Praeparata/DDHK/*.*",
+      "Radix Codonopsis Javanicae Praeparata/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Codonopsis Javanicae.qmd": [
+      "Radix Codonopsis Javanicae/Soi_Bot/*.*",
+      "Radix Codonopsis Javanicae/Vi_Phau/*.*",
+      "Radix Codonopsis Javanicae/DDHK/*.*",
+      "Radix Codonopsis Javanicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Codonopsis.qmd": [
+      "Radix Codonopsis/Soi_Bot/*.*",
+      "Radix Codonopsis/Vi_Phau/*.*",
+      "Radix Codonopsis/DDHK/*.*",
+      "Radix Codonopsis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Dipsaci.qmd": [
+      "Radix Dipsaci/Soi_Bot/*.*",
+      "Radix Dipsaci/Vi_Phau/*.*",
+      "Radix Dipsaci/DDHK/*.*",
+      "Radix Dipsaci/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Et Rhizoma Asteris Tatarici.qmd": [
+      "Radix Et Rhizoma Asteris Tatarici/Soi_Bot/*.*",
+      "Radix Et Rhizoma Asteris Tatarici/Vi_Phau/*.*",
+      "Radix Et Rhizoma Asteris Tatarici/DDHK/*.*",
+      "Radix Et Rhizoma Asteris Tatarici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Et Rhizoma Clematidis.qmd": [
+      "Radix Et Rhizoma Clematidis/Soi_Bot/*.*",
+      "Radix Et Rhizoma Clematidis/Vi_Phau/*.*",
+      "Radix Et Rhizoma Clematidis/DDHK/*.*",
+      "Radix Et Rhizoma Clematidis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Et Rhizoma Gentianae.qmd": [
+      "Radix Et Rhizoma Gentianae/Soi_Bot/*.*",
+      "Radix Et Rhizoma Gentianae/Vi_Phau/*.*",
+      "Radix Et Rhizoma Gentianae/DDHK/*.*",
+      "Radix Et Rhizoma Gentianae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Et Rhizoma Glycyrrhizae.qmd": [
+      "Radix Et Rhizoma Glycyrrhizae/Soi_Bot/*.*",
+      "Radix Et Rhizoma Glycyrrhizae/Vi_Phau/*.*",
+      "Radix Et Rhizoma Glycyrrhizae/DDHK/*.*",
+      "Radix Et Rhizoma Glycyrrhizae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Et Rhizoma Salviae Mitiorrhizae.qmd": [
+      "Radix Et Rhizoma Salviae Mitiorrhizae/Soi_Bot/*.*",
+      "Radix Et Rhizoma Salviae Mitiorrhizae/Vi_Phau/*.*",
+      "Radix Et Rhizoma Salviae Mitiorrhizae/DDHK/*.*",
+      "Radix Et Rhizoma Salviae Mitiorrhizae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Eurycomae Longifoliae.qmd": [
+      "Radix Eurycomae Longifoliae/Soi_Bot/*.*",
+      "Radix Eurycomae Longifoliae/Vi_Phau/*.*",
+      "Radix Eurycomae Longifoliae/DDHK/*.*",
+      "Radix Eurycomae Longifoliae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Fallopiae Multiflorae.qmd": [
+      "Radix Fallopiae Multiflorae/Soi_Bot/*.*",
+      "Radix Fallopiae Multiflorae/Vi_Phau/*.*",
+      "Radix Fallopiae Multiflorae/DDHK/*.*",
+      "Radix Fallopiae Multiflorae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Linderae.qmd": [
+      "Radix Linderae/Soi_Bot/*.*",
+      "Radix Linderae/Vi_Phau/*.*",
+      "Radix Linderae/DDHK/*.*",
+      "Radix Linderae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Millettiae Speciosae.qmd": [
+      "Radix Millettiae Speciosae/Soi_Bot/*.*",
+      "Radix Millettiae Speciosae/Vi_Phau/*.*",
+      "Radix Millettiae Speciosae/DDHK/*.*",
+      "Radix Millettiae Speciosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Morindae Citrifoliae.qmd": [
+      "Radix Morindae Citrifoliae/Soi_Bot/*.*",
+      "Radix Morindae Citrifoliae/Vi_Phau/*.*",
+      "Radix Morindae Citrifoliae/DDHK/*.*",
+      "Radix Morindae Citrifoliae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Morindae Officinalisn.qmd": [
+      "Radix Morindae Officinalisn/Soi_Bot/*.*",
+      "Radix Morindae Officinalisn/Vi_Phau/*.*",
+      "Radix Morindae Officinalisn/DDHK/*.*",
+      "Radix Morindae Officinalisn/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Nymphaeae Stellatae.qmd": [
+      "Radix Nymphaeae Stellatae/Soi_Bot/*.*",
+      "Radix Nymphaeae Stellatae/Vi_Phau/*.*",
+      "Radix Nymphaeae Stellatae/DDHK/*.*",
+      "Radix Nymphaeae Stellatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Ophiopogonis Japonici.qmd": [
+      "Radix Ophiopogonis Japonici/Soi_Bot/*.*",
+      "Radix Ophiopogonis Japonici/Vi_Phau/*.*",
+      "Radix Ophiopogonis Japonici/DDHK/*.*",
+      "Radix Ophiopogonis Japonici/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Paeaniae.qmd": [
+      "Radix Paeaniae/Soi_Bot/*.*",
+      "Radix Paeaniae/Vi_Phau/*.*",
+      "Radix Paeaniae/DDHK/*.*",
+      "Radix Paeaniae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Paeoniae Lactiflorae.qmd": [
+      "Radix Paeoniae Lactiflorae/Soi_Bot/*.*",
+      "Radix Paeoniae Lactiflorae/Vi_Phau/*.*",
+      "Radix Paeoniae Lactiflorae/DDHK/*.*",
+      "Radix Paeoniae Lactiflorae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Panasis Notoginseng.qmd": [
+      "Radix Panasis Notoginseng/Soi_Bot/*.*",
+      "Radix Panasis Notoginseng/Vi_Phau/*.*",
+      "Radix Panasis Notoginseng/DDHK/*.*",
+      "Radix Panasis Notoginseng/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Peucedani.qmd": [
+      "Radix Peucedani/Soi_Bot/*.*",
+      "Radix Peucedani/Vi_Phau/*.*",
+      "Radix Peucedani/DDHK/*.*",
+      "Radix Peucedani/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Platycodi Grandiflori.qmd": [
+      "Radix Platycodi Grandiflori/Soi_Bot/*.*",
+      "Radix Platycodi Grandiflori/Vi_Phau/*.*",
+      "Radix Platycodi Grandiflori/DDHK/*.*",
+      "Radix Platycodi Grandiflori/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Polygalae.qmd": [
+      "Radix Polygalae/Soi_Bot/*.*",
+      "Radix Polygalae/Vi_Phau/*.*",
+      "Radix Polygalae/DDHK/*.*",
+      "Radix Polygalae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Polygoni Cuspidati.qmd": [
+      "Radix Polygoni Cuspidati/Soi_Bot/*.*",
+      "Radix Polygoni Cuspidati/Vi_Phau/*.*",
+      "Radix Polygoni Cuspidati/DDHK/*.*",
+      "Radix Polygoni Cuspidati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Rehmanniae Glutinosae Praeparata.qmd": [
+      "Radix Rehmanniae Glutinosae Praeparata/Soi_Bot/*.*",
+      "Radix Rehmanniae Glutinosae Praeparata/Vi_Phau/*.*",
+      "Radix Rehmanniae Glutinosae Praeparata/DDHK/*.*",
+      "Radix Rehmanniae Glutinosae Praeparata/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Rehmanniae Glutinosae.qmd": [
+      "Radix Rehmanniae Glutinosae/Soi_Bot/*.*",
+      "Radix Rehmanniae Glutinosae/Vi_Phau/*.*",
+      "Radix Rehmanniae Glutinosae/DDHK/*.*",
+      "Radix Rehmanniae Glutinosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Sanguisorbae.qmd": [
+      "Radix Sanguisorbae/Soi_Bot/*.*",
+      "Radix Sanguisorbae/Vi_Phau/*.*",
+      "Radix Sanguisorbae/DDHK/*.*",
+      "Radix Sanguisorbae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Saposhnikoviae Divaricatae.qmd": [
+      "Radix Saposhnikoviae Divaricatae/Soi_Bot/*.*",
+      "Radix Saposhnikoviae Divaricatae/Vi_Phau/*.*",
+      "Radix Saposhnikoviae Divaricatae/DDHK/*.*",
+      "Radix Saposhnikoviae Divaricatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Saussureae Lappae.qmd": [
+      "Radix Saussureae Lappae/Soi_Bot/*.*",
+      "Radix Saussureae Lappae/Vi_Phau/*.*",
+      "Radix Saussureae Lappae/DDHK/*.*",
+      "Radix Saussureae Lappae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Scrophulariae.qmd": [
+      "Radix Scrophulariae/Soi_Bot/*.*",
+      "Radix Scrophulariae/Vi_Phau/*.*",
+      "Radix Scrophulariae/DDHK/*.*",
+      "Radix Scrophulariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Scutellariae.qmd": [
+      "Radix Scutellariae/Soi_Bot/*.*",
+      "Radix Scutellariae/Vi_Phau/*.*",
+      "Radix Scutellariae/DDHK/*.*",
+      "Radix Scutellariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Stemonae Tuberosae.qmd": [
+      "Radix Stemonae Tuberosae/Soi_Bot/*.*",
+      "Radix Stemonae Tuberosae/Vi_Phau/*.*",
+      "Radix Stemonae Tuberosae/DDHK/*.*",
+      "Radix Stemonae Tuberosae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Stephaniae Tetrandrae.qmd": [
+      "Radix Stephaniae Tetrandrae/Soi_Bot/*.*",
+      "Radix Stephaniae Tetrandrae/Vi_Phau/*.*",
+      "Radix Stephaniae Tetrandrae/DDHK/*.*",
+      "Radix Stephaniae Tetrandrae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Radix Streptocauli.qmd": [
+      "Radix Streptocauli/Soi_Bot/*.*",
+      "Radix Streptocauli/Vi_Phau/*.*",
+      "Radix Streptocauli/DDHK/*.*",
+      "Radix Streptocauli/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Ramulus Cinnamomi.qmd": [
+      "Ramulus Cinnamomi/Soi_Bot/*.*",
+      "Ramulus Cinnamomi/Vi_Phau/*.*",
+      "Ramulus Cinnamomi/DDHK/*.*",
+      "Ramulus Cinnamomi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Ramulus Cumfolio Melaleucae.qmd": [
+      "Ramulus Cumfolio Melaleucae/Soi_Bot/*.*",
+      "Ramulus Cumfolio Melaleucae/Vi_Phau/*.*",
+      "Ramulus Cumfolio Melaleucae/DDHK/*.*",
+      "Ramulus Cumfolio Melaleucae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Ramulus Mori Albae.qmd": [
+      "Ramulus Mori Albae/Soi_Bot/*.*",
+      "Ramulus Mori Albae/Vi_Phau/*.*",
+      "Ramulus Mori Albae/DDHK/*.*",
+      "Ramulus Mori Albae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Resina Aloe.qmd": [
+      "Resina Aloe/Soi_Bot/*.*",
+      "Resina Aloe/Vi_Phau/*.*",
+      "Resina Aloe/DDHK/*.*",
+      "Resina Aloe/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Acori.qmd": [
+      "Rhizoma Acori/Soi_Bot/*.*",
+      "Rhizoma Acori/Vi_Phau/*.*",
+      "Rhizoma Acori/DDHK/*.*",
+      "Rhizoma Acori/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Alismatis.qmd": [
+      "Rhizoma Alismatis/Soi_Bot/*.*",
+      "Rhizoma Alismatis/Vi_Phau/*.*",
+      "Rhizoma Alismatis/DDHK/*.*",
+      "Rhizoma Alismatis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Alpiniae Officinari.qmd": [
+      "Rhizoma Alpiniae Officinari/Soi_Bot/*.*",
+      "Rhizoma Alpiniae Officinari/Vi_Phau/*.*",
+      "Rhizoma Alpiniae Officinari/DDHK/*.*",
+      "Rhizoma Alpiniae Officinari/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Anemarrhenae.qmd": [
+      "Rhizoma Anemarrhenae/Soi_Bot/*.*",
+      "Rhizoma Anemarrhenae/Vi_Phau/*.*",
+      "Rhizoma Anemarrhenae/DDHK/*.*",
+      "Rhizoma Anemarrhenae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Atractylodis.qmd": [
+      "Rhizoma Atractylodis/Soi_Bot/*.*",
+      "Rhizoma Atractylodis/Vi_Phau/*.*",
+      "Rhizoma Atractylodis/DDHK/*.*",
+      "Rhizoma Atractylodis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Atractylodis  Macrocephalae.qmd": [
+      "Rhizoma Atractylodis  Macrocephalae/Soi_Bot/*.*",
+      "Rhizoma Atractylodis  Macrocephalae/Vi_Phau/*.*",
+      "Rhizoma Atractylodis  Macrocephalae/DDHK/*.*",
+      "Rhizoma Atractylodis  Macrocephalae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Belamcandae Chinensis.qmd": [
+      "Rhizoma Belamcandae Chinensis/Soi_Bot/*.*",
+      "Rhizoma Belamcandae Chinensis/Vi_Phau/*.*",
+      "Rhizoma Belamcandae Chinensis/DDHK/*.*",
+      "Rhizoma Belamcandae Chinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Bletillae striatae.qmd": [
+      "Rhizoma Bletillae striatae/Soi_Bot/*.*",
+      "Rhizoma Bletillae striatae/Vi_Phau/*.*",
+      "Rhizoma Bletillae striatae/DDHK/*.*",
+      "Rhizoma Bletillae striatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Cibotii Culi.qmd": [
+      "Rhizoma Cibotii Culi/Soi_Bot/*.*",
+      "Rhizoma Cibotii Culi/Vi_Phau/*.*",
+      "Rhizoma Cibotii Culi/DDHK/*.*",
+      "Rhizoma Cibotii Culi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Cimicifugae.qmd": [
+      "Rhizoma Cimicifugae/Soi_Bot/*.*",
+      "Rhizoma Cimicifugae/Vi_Phau/*.*",
+      "Rhizoma Cimicifugae/DDHK/*.*",
+      "Rhizoma Cimicifugae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Coptidis.qmd": [
+      "Rhizoma Coptidis/Soi_Bot/*.*",
+      "Rhizoma Coptidis/Vi_Phau/*.*",
+      "Rhizoma Coptidis/DDHK/*.*",
+      "Rhizoma Coptidis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Curculiginis.qmd": [
+      "Rhizoma Curculiginis/Soi_Bot/*.*",
+      "Rhizoma Curculiginis/Vi_Phau/*.*",
+      "Rhizoma Curculiginis/DDHK/*.*",
+      "Rhizoma Curculiginis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Curcumae Longae.qmd": [
+      "Rhizoma Curcumae Longae/Soi_Bot/*.*",
+      "Rhizoma Curcumae Longae/Vi_Phau/*.*",
+      "Rhizoma Curcumae Longae/DDHK/*.*",
+      "Rhizoma Curcumae Longae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Curcumae Zedoariae.qmd": [
+      "Rhizoma Curcumae Zedoariae/Soi_Bot/*.*",
+      "Rhizoma Curcumae Zedoariae/Vi_Phau/*.*",
+      "Rhizoma Curcumae Zedoariae/DDHK/*.*",
+      "Rhizoma Curcumae Zedoariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Cyperi.qmd": [
+      "Rhizoma Cyperi/Soi_Bot/*.*",
+      "Rhizoma Cyperi/Vi_Phau/*.*",
+      "Rhizoma Cyperi/DDHK/*.*",
+      "Rhizoma Cyperi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Dioscoreae Collettii.qmd": [
+      "Rhizoma Dioscoreae Collettii/Soi_Bot/*.*",
+      "Rhizoma Dioscoreae Collettii/Vi_Phau/*.*",
+      "Rhizoma Dioscoreae Collettii/DDHK/*.*",
+      "Rhizoma Dioscoreae Collettii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Dioscoreae.qmd": [
+      "Rhizoma Dioscoreae/Soi_Bot/*.*",
+      "Rhizoma Dioscoreae/Vi_Phau/*.*",
+      "Rhizoma Dioscoreae/DDHK/*.*",
+      "Rhizoma Dioscoreae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Drynariae.qmd": [
+      "Rhizoma Drynariae/Soi_Bot/*.*",
+      "Rhizoma Drynariae/Vi_Phau/*.*",
+      "Rhizoma Drynariae/DDHK/*.*",
+      "Rhizoma Drynariae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Et Radix Ginseng.qmd": [
+      "Rhizoma Et Radix Ginseng/Soi_Bot/*.*",
+      "Rhizoma Et Radix Ginseng/Vi_Phau/*.*",
+      "Rhizoma Et Radix Ginseng/DDHK/*.*",
+      "Rhizoma Et Radix Ginseng/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Gastrodiae Elatae.qmd": [
+      "Rhizoma Gastrodiae Elatae/Soi_Bot/*.*",
+      "Rhizoma Gastrodiae Elatae/Vi_Phau/*.*",
+      "Rhizoma Gastrodiae Elatae/DDHK/*.*",
+      "Rhizoma Gastrodiae Elatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Imperatae Cylindricae.qmd": [
+      "Rhizoma Imperatae Cylindricae/Soi_Bot/*.*",
+      "Rhizoma Imperatae Cylindricae/Vi_Phau/*.*",
+      "Rhizoma Imperatae Cylindricae/DDHK/*.*",
+      "Rhizoma Imperatae Cylindricae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Kaempferia Galanga.qmd": [
+      "Rhizoma Kaempferia Galanga/Soi_Bot/*.*",
+      "Rhizoma Kaempferia Galanga/Vi_Phau/*.*",
+      "Rhizoma Kaempferia Galanga/DDHK/*.*",
+      "Rhizoma Kaempferia Galanga/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Ligustici Wallichii.qmd": [
+      "Rhizoma Ligustici Wallichii/Soi_Bot/*.*",
+      "Rhizoma Ligustici Wallichii/Vi_Phau/*.*",
+      "Rhizoma Ligustici Wallichii/DDHK/*.*",
+      "Rhizoma Ligustici Wallichii/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Pinelliae.qmd": [
+      "Rhizoma Pinelliae/Soi_Bot/*.*",
+      "Rhizoma Pinelliae/Vi_Phau/*.*",
+      "Rhizoma Pinelliae/DDHK/*.*",
+      "Rhizoma Pinelliae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Polygonati Odorati.qmd": [
+      "Rhizoma Polygonati Odorati/Soi_Bot/*.*",
+      "Rhizoma Polygonati Odorati/Vi_Phau/*.*",
+      "Rhizoma Polygonati Odorati/DDHK/*.*",
+      "Rhizoma Polygonati Odorati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Polygonati.qmd": [
+      "Rhizoma Polygonati/Soi_Bot/*.*",
+      "Rhizoma Polygonati/Vi_Phau/*.*",
+      "Rhizoma Polygonati/DDHK/*.*",
+      "Rhizoma Polygonati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Rhei.qmd": [
+      "Rhizoma Rhei/Soi_Bot/*.*",
+      "Rhizoma Rhei/Vi_Phau/*.*",
+      "Rhizoma Rhei/DDHK/*.*",
+      "Rhizoma Rhei/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Smilacis Glabrae.qmd": [
+      "Rhizoma Smilacis Glabrae/Soi_Bot/*.*",
+      "Rhizoma Smilacis Glabrae/Vi_Phau/*.*",
+      "Rhizoma Smilacis Glabrae/DDHK/*.*",
+      "Rhizoma Smilacis Glabrae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Thalictri Foliolosi.qmd": [
+      "Rhizoma Thalictri Foliolosi/Soi_Bot/*.*",
+      "Rhizoma Thalictri Foliolosi/Vi_Phau/*.*",
+      "Rhizoma Thalictri Foliolosi/DDHK/*.*",
+      "Rhizoma Thalictri Foliolosi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Typhonii Trilobati.qmd": [
+      "Rhizoma Typhonii Trilobati/Soi_Bot/*.*",
+      "Rhizoma Typhonii Trilobati/Vi_Phau/*.*",
+      "Rhizoma Typhonii Trilobati/DDHK/*.*",
+      "Rhizoma Typhonii Trilobati/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Rhizoma Zingiberis.qmd": [
+      "Rhizoma Zingiberis/Soi_Bot/*.*",
+      "Rhizoma Zingiberis/Vi_Phau/*.*",
+      "Rhizoma Zingiberis/DDHK/*.*",
+      "Rhizoma Zingiberis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Arecae Catechi.qmd": [
+      "Semen Arecae Catechi/Soi_Bot/*.*",
+      "Semen Arecae Catechi/Vi_Phau/*.*",
+      "Semen Arecae Catechi/DDHK/*.*",
+      "Semen Arecae Catechi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Armeniacae Amarum.qmd": [
+      "Semen Armeniacae Amarum/Soi_Bot/*.*",
+      "Semen Armeniacae Amarum/Vi_Phau/*.*",
+      "Semen Armeniacae Amarum/DDHK/*.*",
+      "Semen Armeniacae Amarum/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Cuscutae Sinensis.qmd": [
+      "Semen Cuscutae Sinensis/Soi_Bot/*.*",
+      "Semen Cuscutae Sinensis/Vi_Phau/*.*",
+      "Semen Cuscutae Sinensis/DDHK/*.*",
+      "Semen Cuscutae Sinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Euryales.qmd": [
+      "Semen Euryales/Soi_Bot/*.*",
+      "Semen Euryales/Vi_Phau/*.*",
+      "Semen Euryales/DDHK/*.*",
+      "Semen Euryales/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Lablab.qmd": [
+      "Semen Lablab/Soi_Bot/*.*",
+      "Semen Lablab/Vi_Phau/*.*",
+      "Semen Lablab/DDHK/*.*",
+      "Semen Lablab/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Momordicae Cochinchinensis.qmd": [
+      "Semen Momordicae Cochinchinensis/Soi_Bot/*.*",
+      "Semen Momordicae Cochinchinensis/Vi_Phau/*.*",
+      "Semen Momordicae Cochinchinensis/DDHK/*.*",
+      "Semen Momordicae Cochinchinensis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Myristicae.qmd": [
+      "Semen Myristicae/Soi_Bot/*.*",
+      "Semen Myristicae/Vi_Phau/*.*",
+      "Semen Myristicae/DDHK/*.*",
+      "Semen Myristicae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Nelumbinis Nuciferae.qmd": [
+      "Semen Nelumbinis Nuciferae/Soi_Bot/*.*",
+      "Semen Nelumbinis Nuciferae/Vi_Phau/*.*",
+      "Semen Nelumbinis Nuciferae/DDHK/*.*",
+      "Semen Nelumbinis Nuciferae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Pharbitidis.qmd": [
+      "Semen Pharbitidis/Soi_Bot/*.*",
+      "Semen Pharbitidis/Vi_Phau/*.*",
+      "Semen Pharbitidis/DDHK/*.*",
+      "Semen Pharbitidis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Plantaginis.qmd": [
+      "Semen Plantaginis/Soi_Bot/*.*",
+      "Semen Plantaginis/Vi_Phau/*.*",
+      "Semen Plantaginis/DDHK/*.*",
+      "Semen Plantaginis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Platycladi Orientalis.qmd": [
+      "Semen Platycladi Orientalis/Soi_Bot/*.*",
+      "Semen Platycladi Orientalis/Vi_Phau/*.*",
+      "Semen Platycladi Orientalis/DDHK/*.*",
+      "Semen Platycladi Orientalis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Pruni.qmd": [
+      "Semen Pruni/Soi_Bot/*.*",
+      "Semen Pruni/Vi_Phau/*.*",
+      "Semen Pruni/DDHK/*.*",
+      "Semen Pruni/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Quisqualis.qmd": [
+      "Semen Quisqualis/Soi_Bot/*.*",
+      "Semen Quisqualis/Vi_Phau/*.*",
+      "Semen Quisqualis/DDHK/*.*",
+      "Semen Quisqualis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Raphani Sativi.qmd": [
+      "Semen Raphani Sativi/Soi_Bot/*.*",
+      "Semen Raphani Sativi/Vi_Phau/*.*",
+      "Semen Raphani Sativi/DDHK/*.*",
+      "Semen Raphani Sativi/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Sennae Torae.qmd": [
+      "Semen Sennae Torae/Soi_Bot/*.*",
+      "Semen Sennae Torae/Vi_Phau/*.*",
+      "Semen Sennae Torae/DDHK/*.*",
+      "Semen Sennae Torae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Sinapis Albae.qmd": [
+      "Semen Sinapis Albae/Soi_Bot/*.*",
+      "Semen Sinapis Albae/Vi_Phau/*.*",
+      "Semen Sinapis Albae/DDHK/*.*",
+      "Semen Sinapis Albae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Strychni.qmd": [
+      "Semen Strychni/Soi_Bot/*.*",
+      "Semen Strychni/Vi_Phau/*.*",
+      "Semen Strychni/DDHK/*.*",
+      "Semen Strychni/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Vignae Cytindricae.qmd": [
+      "Semen Vignae Cytindricae/Soi_Bot/*.*",
+      "Semen Vignae Cytindricae/Vi_Phau/*.*",
+      "Semen Vignae Cytindricae/DDHK/*.*",
+      "Semen Vignae Cytindricae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Vignae Radiatae.qmd": [
+      "Semen Vignae Radiatae/Soi_Bot/*.*",
+      "Semen Vignae Radiatae/Vi_Phau/*.*",
+      "Semen Vignae Radiatae/DDHK/*.*",
+      "Semen Vignae Radiatae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Semen Ziziphi Mauritianae.qmd": [
+      "Semen Ziziphi Mauritianae/Soi_Bot/*.*",
+      "Semen Ziziphi Mauritianae/Vi_Phau/*.*",
+      "Semen Ziziphi Mauritianae/DDHK/*.*",
+      "Semen Ziziphi Mauritianae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Sesami Nigrum Semen.qmd": [
+      "Sesami Nigrum Semen/Soi_Bot/*.*",
+      "Sesami Nigrum Semen/Vi_Phau/*.*",
+      "Sesami Nigrum Semen/DDHK/*.*",
+      "Sesami Nigrum Semen/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Spica Prunellae.qmd": [
+      "Spica Prunellae/Soi_Bot/*.*",
+      "Spica Prunellae/Vi_Phau/*.*",
+      "Spica Prunellae/DDHK/*.*",
+      "Spica Prunellae/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Spina Gleditsiae Australis.qmd": [
+      "Spina Gleditsiae Australis/Soi_Bot/*.*",
+      "Spina Gleditsiae Australis/Vi_Phau/*.*",
+      "Spina Gleditsiae Australis/DDHK/*.*",
+      "Spina Gleditsiae Australis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Styli Et Stigmata Maydis.qmd": [
+      "Styli Et Stigmata Maydis/Soi_Bot/*.*",
+      "Styli Et Stigmata Maydis/Vi_Phau/*.*",
+      "Styli Et Stigmata Maydis/DDHK/*.*",
+      "Styli Et Stigmata Maydis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Tuber Corydalis.qmd": [
+      "Tuber Corydalis/Soi_Bot/*.*",
+      "Tuber Corydalis/Vi_Phau/*.*",
+      "Tuber Corydalis/DDHK/*.*",
+      "Tuber Corydalis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Tuber Dioscoreae Persimilis.qmd": [
+      "Tuber Dioscoreae Persimilis/Soi_Bot/*.*",
+      "Tuber Dioscoreae Persimilis/Vi_Phau/*.*",
+      "Tuber Dioscoreae Persimilis/DDHK/*.*",
+      "Tuber Dioscoreae Persimilis/Vi_Thuoc/*.*"
+    ],
+    "Pharmacognosy\\Tuber Stephaniae.qmd": [
+      "Tuber Stephaniae/Soi_Bot/*.*",
+      "Tuber Stephaniae/Vi_Phau/*.*",
+      "Tuber Stephaniae/DDHK/*.*",
+      "Tuber Stephaniae/Vi_Thuoc/*.*"
+    ]
+  }
+}

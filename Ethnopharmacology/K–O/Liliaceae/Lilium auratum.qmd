@@ -1,0 +1,177 @@
+---
+title: "Lilium auratum"
+subtitle: "Loài Lilium auratum (Họ Liliaceae)"
+description: "Loài *Lilium auratum* thuộc họ Liliaceae phân bố tại một số vùng trên thế giới như nan, Japan, Germany. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc bổ'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 5 nhóm gồm cinnamic acids and derivatives, flavonoids, furanoid lignans, glycerolipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Lilium%20auratum1.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Lilium auratum", "Liliaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Lilium auratum* thuộc họ Liliaceae phân bố tại một số vùng trên thế giới như nan, Japan, Germany. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc bổ'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 5 nhóm gồm cinnamic acids and derivatives, flavonoids, furanoid lignans, glycerolipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Liliales
+- **Family:** Liliaceae
+- **Genus:** Lilium
+- **Species:** *Lilium auratum*
+- **Scientific Name:** *Lilium auratum Lindl.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[gold band lily, gold rayed lily, golden rayed lily of Japan, mountain lily]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Liliaceae - Genus: Lilium - Species: *Lilium auratum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Lilium%20auratum1.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/383405417/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/385098271/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/386190525/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/387632279/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/401077434/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/401077448/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Japan, Germany
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Liliaceae",
+  iso3_codes: ['DEU', 'JPN'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Lilium auratum* đã phân lập và xác định được 28 hoạt chất thuộc  về 5 nhóm gồm cinnamic acids and derivatives, flavonoids, furanoid lignans, glycerolipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0224209](https://lotus.naturalproducts.net/compound/lotus_id/LTS0224209)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0246547](https://lotus.naturalproducts.net/compound/lotus_id/LTS0246547)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0028160](https://lotus.naturalproducts.net/compound/lotus_id/LTS0028160)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0026709](https://lotus.naturalproducts.net/compound/lotus_id/LTS0026709)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0035886](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035886)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0177843](https://lotus.naturalproducts.net/compound/lotus_id/LTS0177843)</div></div></div>
+<div class="group-title">Furanoid lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0243237](https://lotus.naturalproducts.net/compound/lotus_id/LTS0243237)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0264269](https://lotus.naturalproducts.net/compound/lotus_id/LTS0264269)</div></div></div>
+<div class="group-title">Glycerolipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0069086](https://lotus.naturalproducts.net/compound/lotus_id/LTS0069086)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0158666](https://lotus.naturalproducts.net/compound/lotus_id/LTS0158666)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0226742](https://lotus.naturalproducts.net/compound/lotus_id/LTS0226742)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0239769](https://lotus.naturalproducts.net/compound/lotus_id/LTS0239769)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0219965](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219965)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0081705](https://lotus.naturalproducts.net/compound/lotus_id/LTS0081705)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0173517](https://lotus.naturalproducts.net/compound/lotus_id/LTS0173517)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0040321](https://lotus.naturalproducts.net/compound/lotus_id/LTS0040321)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0198073](https://lotus.naturalproducts.net/compound/lotus_id/LTS0198073)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0157307](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157307)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0170826](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170826)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0257262](https://lotus.naturalproducts.net/compound/lotus_id/LTS0257262)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0172923](https://lotus.naturalproducts.net/compound/lotus_id/LTS0172923)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0259019](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259019)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0023154](https://lotus.naturalproducts.net/compound/lotus_id/LTS0023154)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0223722](https://lotus.naturalproducts.net/compound/lotus_id/LTS0223722)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0039507](https://lotus.naturalproducts.net/compound/lotus_id/LTS0039507)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0155813](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155813)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0257099](https://lotus.naturalproducts.net/compound/lotus_id/LTS0257099)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0019283](https://lotus.naturalproducts.net/compound/lotus_id/LTS0019283)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Thuốc bổ        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "O=C(C=Cc1ccc(O)cc1)OC(CO)COC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row1", smiles: "CC(C)CCC(O)C(C)(O)C1CCC2(O)C3CC(=O)C4CC(OC5OC(CO)C(O)C(O)C5O)CCC4(C)C3CCC12C" },
+{id: "canvas_Row2", smiles: "CC(=O)OCC(COC1OC(CO)C(O)C(O)C1O)OC(=O)C=Cc1ccc(O)cc1" },
+{id: "canvas_Row3", smiles: "CC(C)CC[C@@H](O)[C@](C)(O)[C@H]1CC[C@@]2(O)[C@@H]3CC(=O)[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@]12C" },
+{id: "canvas_Row4", smiles: "O=C(/C=C/c1ccc(O)cc1)O[C@H](CO)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row5", smiles: "CC(C)CC[C@@H](O)[C@](C)(O)[C@H]1CC[C@@]2(O)[C@@H]3CC(=O)[C@H]4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@]12C" },
+{id: "canvas_Row6", smiles: "CC(=O)OC[C@H](CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)OC(=O)/C=C/c1ccc(O)cc1" },
+{id: "canvas_Row7", smiles: "COc1cc(/C=C/C(=O)OC[C@H](O)CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc1O" },
+{id: "canvas_Row8", smiles: "COc1cc(C=CC(=O)OCC2OC(OC3(CO)OC(COC(C)=O)C(O)C3OC(=O)C=Cc3ccc(O)c(OC)c3)C(O)C(O)C2O)ccc1O" },
+{id: "canvas_Row9", smiles: "CC(=O)OCC(COC(=O)/C=C/c1ccc(O)cc1)OC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row10", smiles: "COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2OC2OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C2O)ccc1O" },
+{id: "canvas_Row11", smiles: "COc1cc(/C=C/C(=O)OC[C@H](CO)O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc1O" },
+{id: "canvas_Row12", smiles: "O=C(/C=C/c1ccc(O)cc1)OC[C@H](O)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row13", smiles: "O=C(C=Cc1ccc(O)cc1)OCC(O)COC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row14", smiles: "COc1cc(C=CC(=O)OCC(O)COC2OC(CO)C(O)C(O)C2O)ccc1O" },
+{id: "canvas_Row15", smiles: "O=C(/C=C/c1ccc(O)cc1)OC[C@@H](O)COC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row16", smiles: "COc1c(O)cc([C@H]2OC[C@@H]3[C@@H](c4cc(O)c(OC)c(O)c4)OC[C@H]23)cc1O" },
+{id: "canvas_Row17", smiles: "CC(=O)OC[C@@H](COC(=O)/C=C/c1ccc(O)cc1)OC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row18", smiles: "O=C(/C=C/c1ccc(O)cc1)OC[C@@H](O)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row19", smiles: "COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2O[C@@H]2O[C@H](CO[C@@H]3O[C@@H](C)[C@H](O)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)ccc1O" },
+{id: "canvas_Row20", smiles: "COc1c(O)cc(C2OCC3C(c4cc(O)c(OC)c(O)c4)OCC23)cc1O" },
+{id: "canvas_Row21", smiles: "COc1cc(C=CC(=O)OCC2OC(OC3(CO)OC(CO)C(O)C3OC(=O)C=Cc3ccc(O)c(OC)c3)C(O)C(O)C2O)ccc1O" },
+{id: "canvas_Row22", smiles: "O=C(C=Cc1ccc(O)cc1)OCC(CO)OC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row23", smiles: "COc1cc(/C=C/C(=O)OC[C@H]2O[C@H](O[C@]3(CO)O[C@H](COC(C)=O)[C@@H](O)[C@@H]3OC(=O)/C=C/c3ccc(O)c(OC)c3)[C@H](O)[C@@H](O)[C@@H]2O)ccc1O" },
+{id: "canvas_Row24", smiles: "COc1cc(C=CC(=O)OCC(CO)OC2OC(CO)C(O)C(O)C2O)ccc1O" },
+{id: "canvas_Row25", smiles: "COc1cc(/C=C/C(=O)OC[C@H]2O[C@H](O[C@]3(CO)O[C@H](CO)[C@@H](O)[C@@H]3OC(=O)/C=C/c3ccc(O)c(OC)c3)[C@H](O)[C@@H](O)[C@@H]2O)ccc1O" },
+{id: "canvas_Row26", smiles: "COc1cc(/C=C/C(=O)OC[C@@H](O)CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc1O" },
+{id: "canvas_Row27", smiles: "O=C(/C=C/c1ccc(O)cc1)OC[C@H](CO)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

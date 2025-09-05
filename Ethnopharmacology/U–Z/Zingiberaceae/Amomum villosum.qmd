@@ -1,0 +1,194 @@
+---
+title: "Amomum villosum"
+subtitle: "Loài Amomum villosum (Họ Zingiberaceae)"
+description: "Loài *Amomum villosum* thuộc họ Zingiberaceae phân bố tại một số vùng trên thế giới như nan, Myanmar, United States of America, China, India, Korea, Republic of, Lao People’s Democratic Republic, Viet Nam. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: dạ dày, thuốc bổ'.Từ loài này đã phân lập và xác định được 31 hoạt chất thuộc  về 6 nhóm gồm ?, diarylheptanoids, organooxygen compounds, prenol lipids, purine nucleosides, tannins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Amomum%20villosum%20-%20Hong%20Kong%20Botanical%20Garden%20-%20IMG%209580.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Amomum villosum", "Zingiberaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Amomum villosum* thuộc họ Zingiberaceae phân bố tại một số vùng trên thế giới như nan, Myanmar, United States of America, China, India, Korea, Republic of, Lao People’s Democratic Republic, Viet Nam. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: dạ dày, thuốc bổ'.Từ loài này đã phân lập và xác định được 31 hoạt chất thuộc  về 6 nhóm gồm ?, diarylheptanoids, organooxygen compounds, prenol lipids, purine nucleosides, tannins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Zingiberales
+- **Family:** Zingiberaceae
+- **Genus:** Wurfbainia
+- **Species:** *Wurfbainia villosa*
+- **Scientific Name:** *Amomum villosum Lour.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** [Amomum villosum]
+ - **Tên tiếng Anh: **[Wurfbainia villosa]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Zingiberaceae - Genus: Amomum - Species: *Amomum villosum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Amomum%20villosum%20-%20Hong%20Kong%20Botanical%20Garden%20-%20IMG%209580.JPG){ group="GIBF" }
+
+![](http://mediaphoto.mnhn.fr/media/1446826633141dajkJCyxgmSl0wuj){ group="GIBF" }
+
+![](http://mediaphoto.mnhn.fr/media/1446826633823BxLPUt1ukn6WeaFF){ group="GIBF" }
+
+![](http://mediaphoto.mnhn.fr/media/1446826634605KOvAif8YSVsGUj8h){ group="GIBF" }
+
+![](http://mediaphoto.mnhn.fr/media/1446826635242seSsMTUIrBEMwIMO){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3559d7d3f-2fc1-4479-a063-26dcf3f65fab){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3bed229c3-8964-481f-86d1-a3dc81133519){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3556702b9-d88c-4ac2-8e7a-61aa73c4cd5d){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m39f267e0e-1bfe-4531-96c8-826479b6669a){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3fd3e0f43-fab5-4de1-a2de-99e4ac1eb34f){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m37fa2d82c-2994-4743-89d0-a3afa63368a2){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3bd6f3565-4de1-4938-9a83-74600b3f209c){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m34861b872-1889-4e9f-9df5-9f1cb5159ce1){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Myanmar, United States of America, China, India, Korea, Republic of, Lao People’s Democratic Republic, Viet Nam
+
+**Phấn bố ở Việt nam:** Lam Dong
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Zingiberaceae",
+  iso3_codes: ['VNM', 'CHN', 'USA', 'IND', 'MMR'],
+  color: [1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Amomum villosum* đã phân lập và xác định được 31 hoạt chất thuộc  về 6 nhóm gồm ?, diarylheptanoids, organooxygen compounds, prenol lipids, purine nucleosides, tannins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0063618](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063618)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0080220](https://lotus.naturalproducts.net/compound/lotus_id/LTS0080220)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0159775](https://lotus.naturalproducts.net/compound/lotus_id/LTS0159775)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0187496](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187496)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0274702](https://lotus.naturalproducts.net/compound/lotus_id/LTS0274702)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0194795](https://lotus.naturalproducts.net/compound/lotus_id/LTS0194795)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0148098](https://lotus.naturalproducts.net/compound/lotus_id/LTS0148098)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0254766](https://lotus.naturalproducts.net/compound/lotus_id/LTS0254766)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0171963](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171963)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0109304](https://lotus.naturalproducts.net/compound/lotus_id/LTS0109304)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0177803](https://lotus.naturalproducts.net/compound/lotus_id/LTS0177803)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0232935](https://lotus.naturalproducts.net/compound/lotus_id/LTS0232935)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0233540](https://lotus.naturalproducts.net/compound/lotus_id/LTS0233540)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0183857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183857)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0058927](https://lotus.naturalproducts.net/compound/lotus_id/LTS0058927)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0264625](https://lotus.naturalproducts.net/compound/lotus_id/LTS0264625)</div></div></div>
+<div class="group-title">Diarylheptanoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0206466](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206466)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0162873](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162873)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0210495](https://lotus.naturalproducts.net/compound/lotus_id/LTS0210495)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0184698](https://lotus.naturalproducts.net/compound/lotus_id/LTS0184698)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0007372](https://lotus.naturalproducts.net/compound/lotus_id/LTS0007372)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0098798](https://lotus.naturalproducts.net/compound/lotus_id/LTS0098798)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0219389](https://lotus.naturalproducts.net/compound/lotus_id/LTS0219389)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0170999](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170999)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0045599](https://lotus.naturalproducts.net/compound/lotus_id/LTS0045599)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0007016](https://lotus.naturalproducts.net/compound/lotus_id/LTS0007016)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0031222](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031222)</div></div></div>
+<div class="group-title">Purine nucleosides</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0052576](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052576)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0014061](https://lotus.naturalproducts.net/compound/lotus_id/LTS0014061)</div></div></div>
+<div class="group-title">Tannins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0100270](https://lotus.naturalproducts.net/compound/lotus_id/LTS0100270)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0258367](https://lotus.naturalproducts.net/compound/lotus_id/LTS0258367)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh    |
+|-----------|-----------------|------------------|
+| Row0      | China           | dạ dày, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1CC[C@@H]2C(C)(C)CCC[C@@]2(C)[C@@H]1/C=C/C(C)=O" },
+{id: "canvas_Row1", smiles: "OCC(O)CCCCC(O)CO" },
+{id: "canvas_Row2", smiles: "C=CC(C)(O)CCC=C(C)C(O)CC=C(C)C" },
+{id: "canvas_Row3", smiles: "CC(C)(O)[C@@H]1CC[C@@]2(C)CCC[C@@](C)(O)[C@]2(O)[C@H]1O" },
+{id: "canvas_Row4", smiles: "OC[C@@H](O)CCCC[C@H](O)CO" },
+{id: "canvas_Row5", smiles: "CC1(C)C2CC(O)C1(C)C(OC1OC(CO)C(O)C(O)C1O)C2" },
+{id: "canvas_Row6", smiles: "CC1(C)[C@H]2CC(=O)[C@]1(C)[C@@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C2" },
+{id: "canvas_Row7", smiles: "CC1(C)[C@H]2CC(=O)[C@]1(C)C[C@@H]2O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row8", smiles: "CC1(C)[C@H]2C[C@@H](O)[C@]1(C)[C@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C2" },
+{id: "canvas_Row9", smiles: "CC1(C)[C@@H]2C[C@H](O)[C@@]1(C)[C@@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C2" },
+{id: "canvas_Row10", smiles: "CC1(C)C2CC(=O)C1(C)C(OC1OC(CO)C(O)C(O)C1O)C2" },
+{id: "canvas_Row11", smiles: "COc1cc(C(=O)OC2OC(CO)C(O)C(O)C2O)ccc1O" },
+{id: "canvas_Row12", smiles: "OCC1OC(OCc2ccccc2)C(O)C(O)C1O" },
+{id: "canvas_Row13", smiles: "O=C(CCc1ccccc1)C[C@@H](O)CCc1ccccc1" },
+{id: "canvas_Row14", smiles: "CC1(C)[C@@H]2CC(=O)[C@@]1(C)[C@@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C2" },
+{id: "canvas_Row15", smiles: "CC1(C)[C@H]2C[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@]1(C)C[C@H]2O" },
+{id: "canvas_Row16", smiles: "CC12CCC(CC1O)C2(C)COC1OC(CO)C(O)C(O)C1O" },
+{id: "canvas_Row17", smiles: "C=C1CC[C@@H]2C(C)(C)CCC[C@@]2(C)[C@@H]1C=CC(C)=O" },
+{id: "canvas_Row18", smiles: "O=C(CCc1ccccc1)CC(O)CCc1ccccc1" },
+{id: "canvas_Row19", smiles: "C=C[C@@](C)(O)CC/C=C(\C)[C@@H](O)CC=C(C)C" },
+{id: "canvas_Row20", smiles: "OC[C@H]1O[C@@H](OCc2ccccc2)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row21", smiles: "C[C@]12CC[C@H](C[C@@H]1O)[C@@]2(C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row22", smiles: "Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O" },
+{id: "canvas_Row23", smiles: "COc1cc(C(=O)O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)ccc1O" },
+{id: "canvas_Row24", smiles: "CC1(C)[C@H]2CC(=O)[C@]1(C)[C@H](O)C2" },
+{id: "canvas_Row25", smiles: "CC1(C)[C@@H]2CC(=O)[C@@]1(C)C[C@@H]2O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row26", smiles: "OC[C@H]1O[C@@H](OCc2ccccc2)[C@H](O)C(O)[C@H]1O" },
+{id: "canvas_Row27", smiles: "CC1(C)C2CC(=O)C1(C)C(O)C2" },
+{id: "canvas_Row28", smiles: "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O" },
+{id: "canvas_Row29", smiles: "CC1(C)C2CC(OC3OC(CO)C(O)C(O)C3O)C1(C)CC2O" },
+{id: "canvas_Row30", smiles: "CCOc1cccc(C(=O)O)c1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

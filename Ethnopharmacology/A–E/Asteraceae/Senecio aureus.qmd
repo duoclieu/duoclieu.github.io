@@ -1,0 +1,165 @@
+---
+title: "Senecio aureus"
+subtitle: "Loài Senecio aureus (Họ Asteraceae)"
+description: "Loài *Senecio aureus* thuộc họ Asteraceae phân bố tại một số vùng trên thế giới như nan, Canada, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất làm se, emmenagogue, thuốc bổ, dễ bị tổn thương, thuốc lợi tiểu', 'us: thuốc lợi tiểu, emmenagogue, tử cung, chất kích thích'.Từ loài này đã phân lập và xác định được 15 hoạt chất thuộc  về 5 nhóm gồm ?, azaspirodecane derivatives, carboxylic acids and derivatives, macrolides and analogues, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Senecio aureus", "Asteraceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Senecio aureus* thuộc họ Asteraceae phân bố tại một số vùng trên thế giới như nan, Canada, United States of America. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất làm se, emmenagogue, thuốc bổ, dễ bị tổn thương, thuốc lợi tiểu', 'us: thuốc lợi tiểu, emmenagogue, tử cung, chất kích thích'.Từ loài này đã phân lập và xác định được 15 hoạt chất thuộc  về 5 nhóm gồm ?, azaspirodecane derivatives, carboxylic acids and derivatives, macrolides and analogues, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asterales
+- **Family:** Asteraceae
+- **Genus:** Senecio
+- **Species:** *Senecio aureus*
+- **Scientific Name:** *Senecio aureus Georgi*  
+- **Mô tả thực vật:** []
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Asteraceae - Genus: Senecio - Species: *Senecio aureus* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://digitallibrary.vassar.edu/sites/default/files/2022-08/92004-Service%20File.jpg){ group="GIBF" }
+
+![](http://ipt.nature.ca/multimedia/422/538/CAN10189765_b_2024-06-04.jpg){ group="GIBF" }
+
+![](http://ipt.nature.ca/multimedia/422/537/CAN10189765_a_2024-06-04.jpg){ group="GIBF" }
+
+![](http://ipt.nature.ca/multimedia/422/539/CAN10189766_2024-06-04.jpg){ group="GIBF" }
+
+![](http://was.tacc.utexas.edu/fileget?coll=TEX-LL&type=O&filename=sp65725969325897775580.att.jpg){ group="GIBF" }
+
+![](https://cdn.plantatlas.org/img/specimens/USF/15211.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Canada, United States of America
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Asteraceae",
+  iso3_codes: ['USA', 'CAN'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Senecio aureus* đã phân lập và xác định được 15 hoạt chất thuộc  về 5 nhóm gồm ?, azaspirodecane derivatives, carboxylic acids and derivatives, macrolides and analogues, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0004881](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004881)</div></div></div>
+<div class="group-title">Azaspirodecane derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0131516](https://lotus.naturalproducts.net/compound/lotus_id/LTS0131516)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0227684](https://lotus.naturalproducts.net/compound/lotus_id/LTS0227684)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0000713](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000713)</div></div></div>
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0220685](https://lotus.naturalproducts.net/compound/lotus_id/LTS0220685)</div></div></div>
+<div class="group-title">Macrolides and analogues</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0172395](https://lotus.naturalproducts.net/compound/lotus_id/LTS0172395)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0157762](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157762)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0090131](https://lotus.naturalproducts.net/compound/lotus_id/LTS0090131)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0272696](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272696)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0173245](https://lotus.naturalproducts.net/compound/lotus_id/LTS0173245)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0272456](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272456)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0031555](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031555)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0057497](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057497)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0231970](https://lotus.naturalproducts.net/compound/lotus_id/LTS0231970)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0021188](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021188)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                                        |
+|-----------|-----------------|----------------------------------------------------------------------|
+| Row0      | Turkey          | Chất làm se, Emmenagogue, Thuốc bổ, dễ bị tổn thương, Thuốc lợi tiểu |
+| Row1      | US              | Thuốc lợi tiểu, Emmenagogue, tử cung, Chất kích thích                |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC(=O)O[C@@]1(C)C(=O)OC/C2=C/CN(C)CC[C@@H](OC(=O)C3(C[C@H]1C)O[C@H]3C)C2=O" },
+{id: "canvas_Row1", smiles: "CC(=O)O[C@@]1(C)C(=O)OC/C2=C/CN(C)CCC(OC(=O)[C@@](O)([C@H](C)O)C[C@H]1C)C2=O" },
+{id: "canvas_Row2", smiles: "C[C@@H]1O[C@@]12C[C@@H](C)[C@@](C)(O)C(=O)OC/C1=C/CN(C)CC[C@@H](OC2=O)C1=O" },
+{id: "canvas_Row3", smiles: "CC1=C2CC3(C)C(C)CCCC3CC2OC1=O" },
+{id: "canvas_Row4", smiles: "CC(C)=C1C[C@@]2(C)C(=CC1=O)CCC[C@@H]2C" },
+{id: "canvas_Row5", smiles: "C/C=C1/C[C@@H](C)[C@@](C)(O)C(=O)OCC2=CCN3CC[C@@H](OC1=O)[C@@H]23" },
+{id: "canvas_Row6", smiles: "Cc1coc2c1C[C@]1(C)[C@@H](C)CCC[C@H]1C2=O" },
+{id: "canvas_Row7", smiles: "Cc1coc2c1CC1(C)C(C)CCCC1C2=O" },
+{id: "canvas_Row8", smiles: "CC=C1CC(C)C(C)(O)C(=O)OCC2=CCN3CCC(OC1=O)C23" },
+{id: "canvas_Row9", smiles: "CC(C)=C1CC2(C)C(=CC1=O)CCCC2C" },
+{id: "canvas_Row10", smiles: "CCO[C@@]12C[C@@H]3CCC[C@H](C)[C@@]3(C)CC1=C(C)C(=O)O2" },
+{id: "canvas_Row11", smiles: "CC(=O)O[C@@]1(C)C(=O)OC/C2=C/CN(C)CC[C@@H](OC(=O)[C@@]3(C[C@H]1C)O[C@H]3C)C2=O" },
+{id: "canvas_Row12", smiles: "C/C=C1\CC(C)C(C)(O)C(=O)OCC2=CCN3CCC(OC1=O)C23" },
+{id: "canvas_Row13", smiles: "CC1=C2C[C@@]3(C)C(=CCC[C@@H]3C)C=C2OC1=O" },
+{id: "canvas_Row14", smiles: "CC1=C2C[C@]3(C)[C@@H](C)CCC[C@H]3C[C@H]2OC1=O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

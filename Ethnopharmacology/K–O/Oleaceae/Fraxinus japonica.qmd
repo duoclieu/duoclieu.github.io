@@ -1,0 +1,171 @@
+---
+title: "Fraxinus japonica"
+subtitle: "Loài Fraxinus japonica (Họ Oleaceae)"
+description: "Loài *Fraxinus japonica* thuộc họ Oleaceae phân bố tại một số vùng trên thế giới như China, nan, United States of America, Japan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chống viêm, chất làm se'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 6 nhóm gồm aryltetralin lignans, coumarins and derivatives, furanoid lignans, organooxygen compounds, phenols, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus%20japonica3.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Fraxinus japonica", "Oleaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Fraxinus japonica* thuộc họ Oleaceae phân bố tại một số vùng trên thế giới như China, nan, United States of America, Japan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chống viêm, chất làm se'.Từ loài này đã phân lập và xác định được 28 hoạt chất thuộc  về 6 nhóm gồm aryltetralin lignans, coumarins and derivatives, furanoid lignans, organooxygen compounds, phenols, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Oleaceae
+- **Genus:** Fraxinus
+- **Species:** *Fraxinus japonica*
+- **Scientific Name:** *Fraxinus japonica Bürger ex Wenz., 1883*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Japanese Ash]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Oleaceae - Genus: Fraxinus - Species: *Fraxinus japonica* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus%20japonica3.jpg){ group="GIBF" }
+
+![](https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000030888616/manifest){ group="GIBF" }
+
+![](https://oxalis.br.fgov.be/images/BR0/000/030/888/616/BR0000030888616.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: China, nan, United States of America, Japan
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Oleaceae",
+  iso3_codes: ['USA', 'CHN', 'JPN'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Fraxinus japonica* đã phân lập và xác định được 28 hoạt chất thuộc  về 6 nhóm gồm aryltetralin lignans, coumarins and derivatives, furanoid lignans, organooxygen compounds, phenols, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Aryltetralin lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0112294](https://lotus.naturalproducts.net/compound/lotus_id/LTS0112294)</div></div></div>
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0083622](https://lotus.naturalproducts.net/compound/lotus_id/LTS0083622)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0190314](https://lotus.naturalproducts.net/compound/lotus_id/LTS0190314)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0089878](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089878)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0228636](https://lotus.naturalproducts.net/compound/lotus_id/LTS0228636)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0067593](https://lotus.naturalproducts.net/compound/lotus_id/LTS0067593)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0193112](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193112)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0096087](https://lotus.naturalproducts.net/compound/lotus_id/LTS0096087)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0182118](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182118)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0034958](https://lotus.naturalproducts.net/compound/lotus_id/LTS0034958)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0201261](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201261)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0222931](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222931)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0111948](https://lotus.naturalproducts.net/compound/lotus_id/LTS0111948)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0193344](https://lotus.naturalproducts.net/compound/lotus_id/LTS0193344)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0073081](https://lotus.naturalproducts.net/compound/lotus_id/LTS0073081)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0262036](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262036)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0030020](https://lotus.naturalproducts.net/compound/lotus_id/LTS0030020)</div></div></div>
+<div class="group-title">Furanoid lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0057431](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057431)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0057021](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057021)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0089639](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089639)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0230969](https://lotus.naturalproducts.net/compound/lotus_id/LTS0230969)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0178537](https://lotus.naturalproducts.net/compound/lotus_id/LTS0178537)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0011247](https://lotus.naturalproducts.net/compound/lotus_id/LTS0011247)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0097421](https://lotus.naturalproducts.net/compound/lotus_id/LTS0097421)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0132195](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132195)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0181753](https://lotus.naturalproducts.net/compound/lotus_id/LTS0181753)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0271393](https://lotus.naturalproducts.net/compound/lotus_id/LTS0271393)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0031754](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031754)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh           |
+|-----------|-----------------|-------------------------|
+| Row0      | Elsewhere       | Chống viêm, Chất làm se |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc2ccc(=O)oc2c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@@H](O)[C@H]2O)c1O" },
+{id: "canvas_Row1", smiles: "COc1cc2ccc(=O)oc2c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c1O" },
+{id: "canvas_Row2", smiles: "COc1cc2ccc(=O)oc2c(O)c1O" },
+{id: "canvas_Row3", smiles: "OCCc1ccc(O)cc1" },
+{id: "canvas_Row4", smiles: "O=c1ccc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c(O)cc2o1" },
+{id: "canvas_Row5", smiles: "O=c1ccc2cc(O)c(O)cc2o1" },
+{id: "canvas_Row6", smiles: "COc1cc2ccc(=O)oc2cc1O" },
+{id: "canvas_Row7", smiles: "COc1cc2oc(=O)ccc2c(OC)c1O" },
+{id: "canvas_Row8", smiles: "COc1cc([C@H]2OC[C@@H]3[C@@H](c4ccc(O)c(OC)c4)OC[C@H]23)ccc1O" },
+{id: "canvas_Row9", smiles: "COc1cc(C2OCC3(O)C(c4ccc(O)c(OC)c4)OCC23)ccc1O" },
+{id: "canvas_Row10", smiles: "COc1cc([C@H]2OC[C@]3(O)[C@@H](c4cc(OC)c(O)c(OC)c4)OC[C@H]23)ccc1O" },
+{id: "canvas_Row11", smiles: "COc1cc2ccc(=O)oc2c(O)c1OC" },
+{id: "canvas_Row12", smiles: "COc1cc2oc(=O)ccc2c(OC)c1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row13", smiles: "O=c1ccc2cc(OC3OC(CO)C(O)C(O)C3O)c(O)cc2o1" },
+{id: "canvas_Row14", smiles: "COc1cc([C@H]2c3cc(O)c(OC)cc3C[C@@](O)(CO)[C@@H]2CO)ccc1O" },
+{id: "canvas_Row15", smiles: "COc1cc(CC2(O)COC(c3ccc(O)c(OC)c3)C2CO)ccc1O" },
+{id: "canvas_Row16", smiles: "COc1cc(C[C@@]2(O)CO[C@H](c3ccc(O)c(OC)c3)[C@H]2CO)ccc1O" },
+{id: "canvas_Row17", smiles: "COc1cc(C2OCC3C(c4ccc(O)c(OC)c4)OCC23)ccc1O" },
+{id: "canvas_Row18", smiles: "O=c1ccc2cc(O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c(O)cc2o1" },
+{id: "canvas_Row19", smiles: "COc1cc2ccc(=O)oc2c(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c1O" },
+{id: "canvas_Row20", smiles: "COc1cc(CCO)ccc1O" },
+{id: "canvas_Row21", smiles: "O=c1ccc2cc(OC[C@H]3O[C@@H](O)[C@H](O)[C@H](O)[C@@H]3O)c(O)cc2o1" },
+{id: "canvas_Row22", smiles: "COC1=CC(=O)C=C(OC)C1=O" },
+{id: "canvas_Row23", smiles: "CC=C1C(OC2OC(COC(C)=O)C(OC(C)=O)C(OC(C)=O)C2OC(C)=O)OC=C(C(=O)OC)C1CC(=O)OCCc1ccc(OC(C)=O)c(OC(C)=O)c1" },
+{id: "canvas_Row24", smiles: "COc1cc2ccc(=O)oc2c(OC)c1O" },
+{id: "canvas_Row25", smiles: "C/C=C1\[C@H](CC(=O)OCCc2ccc(OC(C)=O)c(OC(C)=O)c2)C(C(=O)OC)=CO[C@@H]1O[C@@H]1O[C@H](COC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@H]1OC(C)=O" },
+{id: "canvas_Row26", smiles: "COc1cc2ccc(=O)oc2c(OC2OC(CO)C(O)C(O)C2O)c1O" },
+{id: "canvas_Row27", smiles: "O=c1ccc2cc(OCC3OC(O)C(O)C(O)C3O)c(O)cc2o1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

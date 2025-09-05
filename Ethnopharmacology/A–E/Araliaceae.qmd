@@ -1,0 +1,197 @@
+---
+title: Họ Araliaceae
+subtitle: Họ **Araliaceae** gồm Aralia, Dendropanax, Fatsia, Hedera, Panax, Polyscias, Schefflera chi và 13 loài  được sử dụng ở 18vùng lãnh thổ điều trị 24chứng và bệnh.
+description: Họ **Araliaceae** gồm7 chi và 13loài đã ghi nhận sử dụng làm thuốc tại 18 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất kích thích (3 loài), chất khử trùng (2 loài), dạ dày (2 loài), thuốc kích thích tình dục (2 loài), thuốc lợi tiểu (2 loài) . 05 loài thực vật gồm **Aralia racemosa* (5 chứng và bệnh), *Hedera helix* (5 chứng và bệnh), *Panax ginseng* (4 chứng và bệnh), *Panax quinquefolius* (4 chứng và bệnh), *Aralia nudicaulis* (3 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Panax ginseng* ( 574 hoạt chất), *Hedera helix* ( 127 hoạt chất), *Panax quinquefolius* ( 93 hoạt chất), *Panax pseudoginseng* ( 73 hoạt chất), *Fatsia japonica* ( 71 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Panax ginseng*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/383804371/original.jpeg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Araliaceae
+    contents: Araliaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Araliaceae có tổng cộng 7  chi và 13 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Araliaceae"}
+
+| <RowID>   | genus_GIBF   | species_GIBF                                                         |   Count |
+|-----------|--------------|----------------------------------------------------------------------|---------|
+| Row0      | Aralia       | Aralia chinensis, Aralia cordata, Aralia nudicaulis, Aralia racemosa |       4 |
+| Row4      | Panax        | Panax ginseng, Panax pseudoginseng, Panax quinquefolius              |       3 |
+| Row5      | Polyscias    | Polyscias fruticosa, Polyscias scutellaria                           |       2 |
+| Row1      | Dendropanax  | Dendropanax arboreus                                                 |       1 |
+| Row2      | Fatsia       | Fatsia japonica                                                      |       1 |
+| Row3      | Hedera       | Hedera helix                                                         |       1 |
+| Row6      | Schefflera   | Schefflera arboricola                                                |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Germany, nan, Korea, Republic of, Netherlands, Mayotte, Poland, Colombia, Hong Kong, Sweden, unknown or invalid, Lao People’s Democratic Republic, Madagascar, Estonia, United Kingdom of Great Britain and Northern Ireland, Viet Nam, Thailand, United States of America, Philippines, China, Slovenia, Malaysia, Norway, Canada, Austria, Belgium, Latvia, Russian Federation, Chinese Taipei, Japan, Mexico, Haiti, Dominican Republic, Nicaragua, Guatemala, Belize, Ecuador, Puerto Rico, Jamaica, El Salvador, Switzerland, Portugal, Italy, New Zealand, Ireland, Guernsey, Georgia, France, Czechia, Albania, Chile, Hungary, Spain, Isle of Man, Montenegro, Ukraine, Croatia, Lithuania, Greece, Denmark, Luxembourg, Benin, Nigeria, India, Korea (Democratic People’s Republic of), Nepal, Bhutan, Cook Islands, Vanuatu, New Caledonia, Micronesia (Federated States of), Marshall Islands, Bahamas, Solomon Islands, Côte d’Ivoire, Tonga, French Polynesia, Seychelles, Ghana, Guadeloupe, Papua New Guinea, Réunion, Bangladesh, Kiribati, Australia, Tuvalu, Panama, Indonesia, Myanmar, Niue, Palau, Brazil, Togo, Costa Rica, Peru, Christmas Island, Samoa, Maldives, Tokelau, Singapore, Sri Lanka, Nauru, French Guiana, Barbados, Wallis and Futuna, Guam, Fiji, Finland, Venezuela (Bolivarian Republic of), Argentina, Cyprus
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Araliaceae",
+  iso3_codes: ['CXR', 'PRI', 'GEO', 'MYS', 'TUV', 'HRV', 'PNG', 'THA', 'TKL', 'TON', 'EST', 'TGO', 'SVN', 'GBR', 'MDV', 'WLF', 'SLB', 'ARG', 'JAM', 'MMR', 'IRL', 'JPN', 'BGD', 'IND', 'CHE', 'ESP', 'VNM', 'UKR', 'MNE', 'NLD', 'GTM', 'HKG', 'FJI', 'BHS', 'CAN', 'PER', 'PYF', 'FRA', 'GLP', 'GRC', 'NIU', 'PHL', 'COK', 'ITA', 'COL', 'GHA', 'MDG', 'FIN', 'KIR', 'RUS', 'BRB', 'LUX', 'REU', 'CYP', 'AUS', 'SYC', 'SLV', 'CHN', 'DOM', 'HTI', 'SGP', 'DNK', 'LKA', 'DEU', 'GUM', 'PLW', 'VUT', 'HUN', 'LTU', 'PAN', 'MHL', 'IMN', 'GGY', 'NOR', 'BRA', 'NIC', 'PRT', 'NCL', 'IDN', 'AUT', 'NRU', 'NGA', 'ALB', 'BLZ', 'CRI', 'BTN', 'WSM', 'NPL', 'CHL', 'NZL', 'POL', 'BEN', 'ECU', 'MEX', 'GUF', 'CZE', 'USA', 'MYT', 'BEL', 'SWE', 'LVA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Araliaceae** có tổng cộng 7  chi và 13 loài.đã phân lập và xác định được 1135 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Araliaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0184823</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0237637</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0029311</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0071224</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0204616</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#22" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#24" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1*)CC2NCCc3c2cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#26" width="150" height="150"></canvas> <div class="mol-name">COc1c(*)cc(cc1)CCNCCc2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#27" width="150" height="150"></canvas> <div class="mol-name">COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#28" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#29" width="150" height="150"></canvas> <div class="mol-name">c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#30" width="150" height="150"></canvas> <div class="mol-name">CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#31" width="150" height="150"></canvas> <div class="mol-name">C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Araliaceae** đã được một số công động tại các quốc gia như *China, Japan, Korea, Turkey, US(Amerindian), US(Blackfoot), Elsewhere, Mexico, US(Appalachia), Dominican Republic, Haiti, India, Iraq, US, ain, Japan*, Russia, USSR* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *thuốc tống hơi, chất kích thích, dạ dày, thuốc bổ, ma túy, chất làm lạnh, thuốc thanh lọc, thuốc nhuận tràng, đổ mồ hôi, thuốc lợi tiểu, thuốc đắp, chất khử trùng, có mùi hôi, thuốc long đờm, chất độc, emmenagogue, thuốc giãn mạch, thuốc kích thích tình dục, thuốc trợ tim, estrogen, giờ mở cửa, thuốc tránh thai, chất làm se, cầm máu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Aralia racemosa* (5 chứng và bệnh), *Hedera helix* (5 chứng và bệnh), *Panax ginseng* (4 chứng và bệnh), *Panax quinquefolius* (4 chứng và bệnh), *Aralia nudicaulis* (3 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Araliaceae** có thể điều trị là chất kích thích (3 loài), chất khử trùng (2 loài), dạ dày (2 loài), thuốc kích thích tình dục (2 loài), thuốc lợi tiểu (2 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Araliaceae"}
+| <RowID>   | genus_GIBF   | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Aralia       | China - (*Aralia chinensis* - thuốc tống hơi), China - (*Aralia cordata* - chất kích thích), Japan - (*Aralia cordata* - dạ dày), Korea - (*Aralia cordata* - thuốc bổ), Turkey - (*Aralia nudicaulis* - ma túy), US(Amerindian) - (*Aralia nudicaulis* - chất làm lạnh), US(Blackfoot) - (*Aralia nudicaulis* - thuốc thanh lọc), Elsewhere - (*Aralia racemosa* - thuốc nhuận tràng), Mexico - (*Aralia racemosa* - đổ mồ hôi), Turkey - (*Aralia racemosa* - thuốc lợi tiểu), US(Amerindian) - (*Aralia racemosa* - thuốc đắp), US(Appalachia) - (*Aralia racemosa* - chất khử trùng) |
+| Row1      | Dendropanax  | Dominican Republic - (*Dendropanax arboreus* - có mùi hôi), Haiti - (*Dendropanax arboreus* - đổ mồ hôi)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Row2      | Fatsia       | Japan - (*Fatsia japonica* - thuốc long đờm)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row3      | Hedera       | Elsewhere - (*Hedera helix* - chất độc), India - (*Hedera helix* - thuốc thanh lọc), Iraq - (*Hedera helix* - emmenagogue), Turkey - (*Hedera helix* - chất khử trùng), US - (*Hedera helix* - chất độc), ain - (*Hedera helix* - thuốc giãn mạch)                                                                                                                                                                                                                                                                                                                                       |
+| Row4      | Panax        | China - (*Panax ginseng* - thuốc kích thích tình dục), Elsewhere - (*Panax ginseng* - thuốc trợ tim), Japan* - (*Panax ginseng* - dạ dày), Russia - (*Panax ginseng* - thuốc trợ tim), US - (*Panax ginseng* - chất kích thích), China - (*Panax pseudoginseng* - estrogen), Elsewhere - (*Panax pseudoginseng* - thuốc tống hơi), China - (*Panax quinquefolius* - giờ mở cửa), US(Amerindian) - (*Panax quinquefolius* - thuốc tránh thai), US(Appalachia) - (*Panax quinquefolius* - thuốc kích thích tình dục), USSR - (*Panax quinquefolius* - chất kích thích)                     |
+| Row5      | Polyscias    | Elsewhere - (*Polyscias fruticosa* - chất làm se), Elsewhere - (*Polyscias scutellaria* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Row6      | Schefflera   | China - (*Schefflera arboricola* - cầm máu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Araliaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_a_Row0#22", smiles: "Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#24", smiles: "COc1ccc(cc1*)CC2NCCc3c2cccc3" },
+{id: "canvas_a_Row0#26", smiles: "COc1c(*)cc(cc1)CCNCCc2ccccc2" },
+{id: "canvas_a_Row0#27", smiles: "COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C" },
+{id: "canvas_a_Row0#28", smiles: "COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#29", smiles: "c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C" },
+{id: "canvas_a_Row0#30", smiles: "CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C" },
+{id: "canvas_a_Row0#31", smiles: "C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*" },
+{id: "canvas_Row0", smiles: "C=C[C@@H](O)C#CC#CC/C=C\CCCCCCC" },
+{id: "canvas_Row1", smiles: "C=C[C@@H](O)C#CC#CC/C=C/CCCCCCC" },
+{id: "canvas_Row2", smiles: "CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row3", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4CC(O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row4", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

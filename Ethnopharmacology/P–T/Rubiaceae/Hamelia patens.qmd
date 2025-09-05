@@ -1,0 +1,159 @@
+---
+title: "Hamelia patens"
+subtitle: "Loài Hamelia patens (Họ Rubiaceae)"
+description: "Loài *Hamelia patens* thuộc họ Rubiaceae phân bố tại một số vùng trên thế giới như nan, Cayman Islands, Bahamas, Cuba, Jamaica, Sri Lanka, Mexico, Colombia, South Africa, Belize, Panama, Trinidad and Tobago, Honduras, Guatemala, India, Brazil, Costa Rica, Peru, Argentina, Northern Mariana Islands, Thailand, United States of America, Philippines, Dominican Republic, Nicaragua, Samoa, Ecuador, Puerto Rico, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất độc', 'panama(choco): thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 9 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, flavonoids, indolizidines."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20031108-3166%20Hamelia%20patens.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Hamelia patens", "Rubiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Hamelia patens* thuộc họ Rubiaceae phân bố tại một số vùng trên thế giới như nan, Cayman Islands, Bahamas, Cuba, Jamaica, Sri Lanka, Mexico, Colombia, South Africa, Belize, Panama, Trinidad and Tobago, Honduras, Guatemala, India, Brazil, Costa Rica, Peru, Argentina, Northern Mariana Islands, Thailand, United States of America, Philippines, Dominican Republic, Nicaragua, Samoa, Ecuador, Puerto Rico, El Salvador. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất độc', 'panama(choco): thuốc nhuận tràng'.Từ loài này đã phân lập và xác định được 9 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, flavonoids, indolizidines.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Gentianales
+- **Family:** Rubiaceae
+- **Genus:** Hamelia
+- **Species:** *Hamelia patens*
+- **Scientific Name:** *Hamelia patens Jacq.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rubiaceae - Genus: Hamelia - Species: *Hamelia patens* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20031108-3166%20Hamelia%20patens.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344111556/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344643812/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344163819/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344498289/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344498398/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344498339/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344631646/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Cayman Islands, Bahamas, Cuba, Jamaica, Sri Lanka, Mexico, Colombia, South Africa, Belize, Panama, Trinidad and Tobago, Honduras, Guatemala, India, Brazil, Costa Rica, Peru, Argentina, Northern Mariana Islands, Thailand, United States of America, Philippines, Dominican Republic, Nicaragua, Samoa, Ecuador, Puerto Rico, El Salvador
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rubiaceae",
+  iso3_codes: ['SLV', 'THA', 'CRI', 'DOM', 'USA', 'ZAF', 'PRI', 'ECU', 'TTO', 'BRA', 'BLZ', 'PHL', 'MNP', 'BHS', 'PAN', 'ARG', 'NIC', 'JAM', 'HND', 'PER', 'GTM', 'COL', 'MEX', 'WSM', 'LKA', 'CUB', 'IND', 'CYM'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Hamelia patens* đã phân lập và xác định được 9 hoạt chất thuộc  về 4 nhóm gồm benzene and substituted derivatives, cinnamic acids and derivatives, flavonoids, indolizidines. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0276367](https://lotus.naturalproducts.net/compound/lotus_id/LTS0276367)</div></div></div>
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0207820](https://lotus.naturalproducts.net/compound/lotus_id/LTS0207820)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0235366](https://lotus.naturalproducts.net/compound/lotus_id/LTS0235366)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0208215](https://lotus.naturalproducts.net/compound/lotus_id/LTS0208215)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0259265](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259265)</div></div></div>
+<div class="group-title">Indolizidines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0167829](https://lotus.naturalproducts.net/compound/lotus_id/LTS0167829)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0205129](https://lotus.naturalproducts.net/compound/lotus_id/LTS0205129)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0238041](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238041)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0275998](https://lotus.naturalproducts.net/compound/lotus_id/LTS0275998)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh     |
+|-----------|-----------------|-------------------|
+| Row0      | Elsewhere       | Chất độc          |
+| Row1      | Panama(Choco)   | Thuốc nhuận tràng |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COC(=O)C1=CO[C@@H](C)[C@@H]2CN3CC[C@@]4(C(O)=Nc5ccc(O)cc54)[C@@H]3C[C@H]12" },
+{id: "canvas_Row1", smiles: "COC(=O)C1=CO[C@@H](C)[C@@H]2CN3CC[C@@]4(C(O)=Nc5ccccc54)[C@H]3C[C@H]12" },
+{id: "canvas_Row2", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc(O)c4c(c3)O[C@H](c3cc(O)ccc3O)CC4=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row3", smiles: "CN[C@@H](C)[C@H](O)c1ccccc1" },
+{id: "canvas_Row4", smiles: "CC1OC(OCC2OC(Oc3cc(O)c4c(c3)OC(c3cc(O)ccc3O)CC4=O)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row5", smiles: "O=C(/C=C/c1ccc(O)c(O)c1)O[C@H](Cc1ccc(O)c(O)c1)C(=O)O" },
+{id: "canvas_Row6", smiles: "COC(=O)C1=CO[C@@H](C)[C@@H]2CN3CC[C@]4(C(O)=Nc5ccccc54)[C@@H]3C[C@H]12" },
+{id: "canvas_Row7", smiles: "COC(=O)C1=CO[C@@H](C)[C@@H]2CN3CC[C@@]4(C(O)=Nc5ccccc54)[C@@H]3CC12" },
+{id: "canvas_Row8", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc(O)c4c(c3)O[C@H](c3ccc(O)cc3)CC4=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

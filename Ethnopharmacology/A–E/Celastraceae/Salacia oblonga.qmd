@@ -1,0 +1,181 @@
+---
+title: "Salacia oblonga"
+subtitle: "Loài Salacia oblonga (Họ Celastraceae)"
+description: "Loài *Salacia oblonga* thuộc họ Celastraceae phân bố tại một số vùng trên thế giới như nan, Papua New Guinea, unknown or invalid, India, Sri Lanka. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất khử trùng'.Từ loài này đã phân lập và xác định được 32 hoạt chất thuộc  về 5 nhóm gồm ?, flavonoids, glycerolipids, organooxygen compounds, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Salacia%20oblonga%20%285660718169%29.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Salacia oblonga", "Celastraceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Salacia oblonga* thuộc họ Celastraceae phân bố tại một số vùng trên thế giới như nan, Papua New Guinea, unknown or invalid, India, Sri Lanka. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: chất khử trùng'.Từ loài này đã phân lập và xác định được 32 hoạt chất thuộc  về 5 nhóm gồm ?, flavonoids, glycerolipids, organooxygen compounds, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Celastrales
+- **Family:** Celastraceae
+- **Genus:** Salacia
+- **Species:** *Salacia oblonga*
+- **Scientific Name:** *Salacia oblonga Wall. ex Wight & Arn.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[, ]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Celastraceae - Genus: Salacia - Species: *Salacia oblonga* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Salacia%20oblonga%20%285660718169%29.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Salacia%20oblonga%20%285661275470%29.jpg){ group="GIBF" }
+
+![](https://ngcpr.org/magnify/smImg/SalaciaOblongaNgcpr01316.jpg){ group="GIBF" }
+
+![](https://ngcpr.org/magnify/smImg/SalaciaOblongaNgcpr01317.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/54601729/original.jpg){ group="GIBF" }
+
+![](https://ngcpr.org/magnify/smImg/Salacia-oblonga-07.jpg){ group="GIBF" }
+
+![](https://ngcpr.org/magnify/smImg/Salacia-oblonga-08.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Papua New Guinea, unknown or invalid, India, Sri Lanka
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Celastraceae",
+  iso3_codes: ['PNG', 'LKA', 'IND'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Salacia oblonga* đã phân lập và xác định được 32 hoạt chất thuộc  về 5 nhóm gồm ?, flavonoids, glycerolipids, organooxygen compounds, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0188871](https://lotus.naturalproducts.net/compound/lotus_id/LTS0188871)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0143489](https://lotus.naturalproducts.net/compound/lotus_id/LTS0143489)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0251923](https://lotus.naturalproducts.net/compound/lotus_id/LTS0251923)</div></div></div>
+<div class="group-title">Glycerolipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0052845](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052845)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0078625](https://lotus.naturalproducts.net/compound/lotus_id/LTS0078625)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0136053](https://lotus.naturalproducts.net/compound/lotus_id/LTS0136053)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0085693](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085693)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0213607](https://lotus.naturalproducts.net/compound/lotus_id/LTS0213607)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0272557](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272557)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0222296](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222296)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0067299](https://lotus.naturalproducts.net/compound/lotus_id/LTS0067299)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0062089](https://lotus.naturalproducts.net/compound/lotus_id/LTS0062089)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0012947](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012947)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0113066](https://lotus.naturalproducts.net/compound/lotus_id/LTS0113066)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0080274](https://lotus.naturalproducts.net/compound/lotus_id/LTS0080274)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0262158](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262158)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0155285](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155285)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0183884](https://lotus.naturalproducts.net/compound/lotus_id/LTS0183884)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0241114](https://lotus.naturalproducts.net/compound/lotus_id/LTS0241114)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0013597](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013597)</div></div> <div class="molecule-box"> <canvas id="canvas_Row31" width="150" height="150"></canvas> <div class="mol-name">[LTS0259277](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259277)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0189234](https://lotus.naturalproducts.net/compound/lotus_id/LTS0189234)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0271834](https://lotus.naturalproducts.net/compound/lotus_id/LTS0271834)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0155422](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155422)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0112363](https://lotus.naturalproducts.net/compound/lotus_id/LTS0112363)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0157461](https://lotus.naturalproducts.net/compound/lotus_id/LTS0157461)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0225369](https://lotus.naturalproducts.net/compound/lotus_id/LTS0225369)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0021459](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021459)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0069954](https://lotus.naturalproducts.net/compound/lotus_id/LTS0069954)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0017829](https://lotus.naturalproducts.net/compound/lotus_id/LTS0017829)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0087280](https://lotus.naturalproducts.net/compound/lotus_id/LTS0087280)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0125048](https://lotus.naturalproducts.net/compound/lotus_id/LTS0125048)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Chất khử trùng  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "OCC(O)COC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row1", smiles: "OC[C@H]1O[C@H](O[C@H]2[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@H]1O" },
+{id: "canvas_Row2", smiles: "OCC1OC(OCC2OC(OCC3OC(OC4(CO)OC(CO)C(O)C4O)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row3", smiles: "OCC1OC(OCC2OC(OC3(CO)OC(CO)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row4", smiles: "OC[C@@H](O)CO[C@@H]1O[C@H](CO[C@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row5", smiles: "CC(C)c1cc2c(cc1O)[C@@]1(C)CCC[C@](C)(C(=O)O)[C@@H]1CC2" },
+{id: "canvas_Row6", smiles: "OC[C@H]1O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row7", smiles: "COc1c(O)cc(C2Oc3cc(O)cc(O)c3CC2O)cc1O" },
+{id: "canvas_Row8", smiles: "CC(C)c1cc2c(cc1O)C1(C)CCCC(C)(CO)C1CC2" },
+{id: "canvas_Row9", smiles: "CC1(C)[C@@H](O)CC[C@@]2(C)[C@H]1CC[C@]1(C)[C@@H]2CC=C2[C@@H]3C[C@](C)(C(=O)O)C[C@@H](O)[C@]3(C)CC[C@]21C" },
+{id: "canvas_Row10", smiles: "CC1(C)[C@@H](O)CC[C@@]2(C)[C@H]1CC[C@]1(C)[C@@H]2CC=C2[C@@H]3C[C@](C)(C(=O)O)C[C@H](O)[C@]3(C)CC[C@]21C" },
+{id: "canvas_Row11", smiles: "C[C@H]1C(=O)CC(=O)[C@H]2[C@]3(C)CC[C@@]4(C)[C@@H]5CC(C)(C)CC[C@]5(C)CC[C@]4(CO)[C@H]3CC[C@@]21C" },
+{id: "canvas_Row12", smiles: "OCC1OC(OC2C(O)C(O)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row13", smiles: "OCC(O)C(O)C(O)C(O)CO" },
+{id: "canvas_Row14", smiles: "CC(=O)O[C@H]1C[C@]2(CO)[C@H]3CC[C@@]4(C)[C@@H](C(=O)CC(=O)[C@@H]4C)[C@]3(C)CC[C@@]2(C)[C@@H]2CC(C)(C)CC[C@]12C" },
+{id: "canvas_Row15", smiles: "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO[C@H]3O[C@H](CO[C@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row16", smiles: "OC[C@H](O)[C@@H](O)[C@@H](O)[C@H](O)CO" },
+{id: "canvas_Row17", smiles: "CC1C(=O)CC(=O)C2C1(C)CCC1C2(C)CCC2(C)C3CC(C)(C)CCC3(C)CCC12CO" },
+{id: "canvas_Row18", smiles: "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO[C@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row19", smiles: "CC(=O)OC1CC2(CO)C3CCC4(C)C(C)C(=O)CC(=O)C4C3(C)CCC2(C)C2CC(C)(C)CCC12C" },
+{id: "canvas_Row20", smiles: "CC1(C(=O)O)CC(O)C2(C)CCC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C2C1" },
+{id: "canvas_Row21", smiles: "CC(C)c1cc2c(cc1O)C1(C)CCCC(C)(C(=O)O)C1CC2" },
+{id: "canvas_Row22", smiles: "COc1c(O)cc([C@H]2Oc3cc(O)cc(O)c3C[C@H]2O)cc1O" },
+{id: "canvas_Row23", smiles: "CC(C)c1cc2c(cc1O)[C@@]1(C)CCC[C@](C)(CO)[C@@H]1CC2" },
+{id: "canvas_Row24", smiles: "OCC1OC(OC2[C@@H](O)[C@@H](O)C(O)[C@@H](O)[C@@H]2O)C(O)C(O)C1O" },
+{id: "canvas_Row25", smiles: "O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO" },
+{id: "canvas_Row26", smiles: "OCC(O)CO" },
+{id: "canvas_Row27", smiles: "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO[C@H]3O[C@H](CO[C@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@@H](O)[C@@H]3O)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H]1O" },
+{id: "canvas_Row28", smiles: "OC[C@H]1O[C@H](OC2[C@H](O)[C@@H](O)C(O)[C@@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@H]1O" },
+{id: "canvas_Row29", smiles: "O=C(CO)[C@@H](O)[C@H](O)[C@H](O)CO" },
+{id: "canvas_Row30", smiles: "OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row31", smiles: "OCC1(O)OC[C@@H](O)[C@@H](O)[C@@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

@@ -1,0 +1,156 @@
+---
+title: "Malva parviflora"
+subtitle: "Loài Malva parviflora (Họ Malvaceae)"
+description: "Loài *Malva parviflora* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như Israel, Yemen, Kuwait, Portugal, New Zealand, Spain, Greece, Argentina, Malta, United Arab Emirates, Mexico, United States of America, United Kingdom of Great Britain and Northern Ireland, Australia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'egypt: thuốc đắp', 'elsewhere: chất độc, giết người, làm dịu, chất làm mềm', 'south africa: lo lắng, thuốc bổ', 'sudan: chất làm mềm', 'us: có mùi hôi'.Từ loài này đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/%28MHNT%29%20Malva%20parviflora%20-%20Habitus.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Malva parviflora", "Malvaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Malva parviflora* thuộc họ Malvaceae phân bố tại một số vùng trên thế giới như Israel, Yemen, Kuwait, Portugal, New Zealand, Spain, Greece, Argentina, Malta, United Arab Emirates, Mexico, United States of America, United Kingdom of Great Britain and Northern Ireland, Australia. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'egypt: thuốc đắp', 'elsewhere: chất độc, giết người, làm dịu, chất làm mềm', 'south africa: lo lắng, thuốc bổ', 'sudan: chất làm mềm', 'us: có mùi hôi'.Từ loài này đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Malvales
+- **Family:** Malvaceae
+- **Genus:** Malva
+- **Species:** *Malva parviflora*
+- **Scientific Name:** *Malva parviflora L.*  
+- **Mô tả thực vật:** [loài thực vật, loài thực vật]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[Least Mallow, Least Mallow]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Malvaceae - Genus: Malva - Species: *Malva parviflora* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/%28MHNT%29%20Malva%20parviflora%20-%20Habitus.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Dettaglio%20-%20Malvaceae%20Malva%20parviflora%20Lin.%20Erbario%20Frizzi%20Perugia%20n.%203273.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344131186/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344131159/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344131205/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344131220/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344510457/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344549680/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344691745/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344691728/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344691763/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344691787/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Israel, Yemen, Kuwait, Portugal, New Zealand, Spain, Greece, Argentina, Malta, United Arab Emirates, Mexico, United States of America, United Kingdom of Great Britain and Northern Ireland, Australia
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Malvaceae",
+  iso3_codes: ['USA', 'ARG', 'MLT', 'ISR', 'ESP', 'ARE', 'NZL', 'KWT', 'MEX', 'AUS', 'PRT', 'GBR', 'GRC', 'YEM'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Malva parviflora* đã phân lập và xác định được 1 hoạt chất thuộc  về 1 nhóm gồm prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0163589](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163589)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                               |
+|-----------|-----------------|---------------------------------------------|
+| Row0      | Egypt           | Thuốc đắp                                   |
+| Row1      | Elsewhere       | Chất độc, Giết người, Làm dịu, Chất làm mềm |
+| Row2      | South Africa    | Lo lắng, Thuốc bổ                           |
+| Row3      | Sudan           | Chất làm mềm                                |
+| Row4      | US              | có mùi hôi                                  |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

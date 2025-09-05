@@ -1,0 +1,187 @@
+---
+title: "Phryma leptostachya"
+subtitle: "Loài Phryma leptostachya (Họ Phrymaceae)"
+description: "Loài *Phryma leptostachya* thuộc họ Phrymaceae phân bố tại một số vùng trên thế giới như Canada, United States of America, Russian Federation. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc trừ sâu, thuốc trừ sâu, chất làm lạnh, alexiteric', 'elsewhere: thuốc diệt giun'.Từ loài này đã phân lập và xác định được 19 hoạt chất thuộc  về 4 nhóm gồm benzodioxanes, benzodioxoles, furanoid lignans, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Phryma%20leptostachya%20var.%20asiatica%202.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Phryma leptostachya", "Phrymaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Phryma leptostachya* thuộc họ Phrymaceae phân bố tại một số vùng trên thế giới như Canada, United States of America, Russian Federation. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc trừ sâu, thuốc trừ sâu, chất làm lạnh, alexiteric', 'elsewhere: thuốc diệt giun'.Từ loài này đã phân lập và xác định được 19 hoạt chất thuộc  về 4 nhóm gồm benzodioxanes, benzodioxoles, furanoid lignans, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Phrymaceae
+- **Genus:** Phryma
+- **Species:** *Phryma leptostachya*
+- **Scientific Name:** *Phryma leptostachya L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Verbenaceae - Genus: Phryma - Species: *Phryma leptostachya* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Phryma%20leptostachya%20var.%20asiatica%202.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345383046/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345396675/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345396665/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345855292/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345449287/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345449305/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345449208/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345449251/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345449269/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345449224/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347869251/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347869279/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/347869264/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/372161295/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/372174584/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/374784675/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Canada, United States of America, Russian Federation
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Phrymaceae",
+  iso3_codes: ['CAN', 'RUS', 'USA'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Phryma leptostachya* đã phân lập và xác định được 19 hoạt chất thuộc  về 4 nhóm gồm benzodioxanes, benzodioxoles, furanoid lignans, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzodioxanes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0022536](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022536)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0027882](https://lotus.naturalproducts.net/compound/lotus_id/LTS0027882)</div></div></div>
+<div class="group-title">Benzodioxoles</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0210924](https://lotus.naturalproducts.net/compound/lotus_id/LTS0210924)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0197989](https://lotus.naturalproducts.net/compound/lotus_id/LTS0197989)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0247179](https://lotus.naturalproducts.net/compound/lotus_id/LTS0247179)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0229350](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229350)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0243227](https://lotus.naturalproducts.net/compound/lotus_id/LTS0243227)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0253564](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253564)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0031472](https://lotus.naturalproducts.net/compound/lotus_id/LTS0031472)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0049205](https://lotus.naturalproducts.net/compound/lotus_id/LTS0049205)</div></div></div>
+<div class="group-title">Furanoid lignans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0206279](https://lotus.naturalproducts.net/compound/lotus_id/LTS0206279)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0078534](https://lotus.naturalproducts.net/compound/lotus_id/LTS0078534)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0092468](https://lotus.naturalproducts.net/compound/lotus_id/LTS0092468)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0098008](https://lotus.naturalproducts.net/compound/lotus_id/LTS0098008)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0152047](https://lotus.naturalproducts.net/compound/lotus_id/LTS0152047)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0229869](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229869)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0100179](https://lotus.naturalproducts.net/compound/lotus_id/LTS0100179)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0113527](https://lotus.naturalproducts.net/compound/lotus_id/LTS0113527)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0250838](https://lotus.naturalproducts.net/compound/lotus_id/LTS0250838)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                           |
+|-----------|-----------------|---------------------------------------------------------|
+| Row0      | China           | Thuốc trừ sâu, Thuốc trừ sâu, Chất làm lạnh, Alexiteric |
+| Row1      | Elsewhere       | Thuốc diệt giun                                         |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1cc2c(cc1C1OCC3C(c4c(OC)cc5c(c4OC)OCO5)OCC13OC(C)=O)OCO2" },
+{id: "canvas_Row1", smiles: "COc1cc2c(cc1C1OCC3(OC(C)=O)C(Oc4ccc5c(c4)OCO5)OCC13)OCO2" },
+{id: "canvas_Row2", smiles: "COc1cc2c(c(OC)c1[C@H]1OC[C@]3(OC(C)=O)[C@H](c4c(OC)cc5c(c4OC)OCO5)OC[C@H]13)OCO2" },
+{id: "canvas_Row3", smiles: "COc1cc2c(c(OC)c1[C@@H]1OC[C@H]3[C@H](c4c(OC)cc5c(c4OC)OCO5)OC[C@@]13OC(C)=O)OCO2" },
+{id: "canvas_Row4", smiles: "COc1cc2c(c(OC)c1[C@@H]1OC[C@H]3[C@H](c4ccc5c(c4OC)OCO5)OC[C@@]13OC(C)=O)OCO2" },
+{id: "canvas_Row5", smiles: "Oc1c([C@H]2OC[C@]3(O)[C@@H](Oc4ccc5c(c4)OCO5)OC[C@H]23)ccc2c1OCO2" },
+{id: "canvas_Row6", smiles: "COc1cc2c(cc1[C@@H]1OC[C@@H]3[C@@H](c4c(OC)cc5c(c4OC)OCO5)OC[C@]13OC(C)=O)OCO2" },
+{id: "canvas_Row7", smiles: "C[C@@H]1[C@H]2C3=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@@]4(C)[C@]3(C)CC[C@@]2(C(=O)O)CC[C@H]1C" },
+{id: "canvas_Row8", smiles: "COc1cc2c(cc1OC1OCC3C(c4cc5c(cc4OC)OCO5)OCC13OC(C)=O)OCO2" },
+{id: "canvas_Row9", smiles: "COc1c([C@H]2OC[C@]3(O)[C@@H](Oc4ccc5c(c4)OCO5)OC[C@H]23)ccc2c1OCO2" },
+{id: "canvas_Row10", smiles: "COc1cc2c(c(OC)c1C1OCC3(OC(C)=O)C(c4c(OC)cc5c(c4OC)OCO5)OCC13)OCO2" },
+{id: "canvas_Row11", smiles: "COc1cc2c(cc1[C@@H]1OC[C@@]3(OC(C)=O)[C@H](Oc4c(OC)cc5c(c4OC)OCO5)OC[C@@H]13)OCO2" },
+{id: "canvas_Row12", smiles: "COc1cc2c(cc1O[C@@H]1OC[C@@H]3[C@@H](c4cc5c(cc4OC)OCO5)OC[C@]13OC(C)=O)OCO2" },
+{id: "canvas_Row13", smiles: "COCC1Oc2cc(C3OCC4(O)C(Oc5c(OC)cc6c(c5OC)OCO6)OCC34)c(OC)cc2OC1c1ccc2c(c1)OCO2" },
+{id: "canvas_Row14", smiles: "COc1cc2c(cc1[C@@H]1OC[C@]3(OC(C)=O)[C@H]1CO[C@@H]3Oc1ccc3c(c1)OCO3)OCO2" },
+{id: "canvas_Row15", smiles: "COc1cc2c(cc1[C@@H]1OC[C@H]3[C@H](c4c(OC)cc5c(c4OC)OCO5)OC[C@@]13OC(C)=O)OCO2" },
+{id: "canvas_Row16", smiles: "COc1cc2c(cc1O[C@H]1OC[C@H]3[C@H](c4cc5c(cc4OC)OCO5)OC[C@]31OC(C)=O)OCO2" },
+{id: "canvas_Row17", smiles: "COc1cc2c(cc1[C@H]1OC[C@]3(OC(C)=O)[C@H](c4c(OC)cc5c(c4OC)OCO5)OC[C@@H]13)OCO2" },
+{id: "canvas_Row18", smiles: "COC[C@H]1Oc2cc([C@H]3OC[C@]4(O)[C@@H](Oc5c(OC)cc6c(c5OC)OCO6)OC[C@H]34)c(OC)cc2O[C@@H]1c1ccc2c(c1)OCO2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

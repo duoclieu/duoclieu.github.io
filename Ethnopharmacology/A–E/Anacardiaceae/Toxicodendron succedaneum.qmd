@@ -1,0 +1,168 @@
+---
+title: "Toxicodendron succedaneum"
+subtitle: "Loài Toxicodendron succedaneum (Họ Anacardiaceae)"
+description: "Loài *Toxicodendron succedaneum* thuộc họ Anacardiaceae phân bố tại một số vùng trên thế giới như Chinese Taipei, China, Hong Kong, South Africa, New Zealand, Japan, Australia, Macao. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: thuốc long đờm, chất làm se'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 5 nhóm gồm benzene and substituted derivatives, flavonoids, organooxygen compounds, phenols, tannins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Toxicodendron%20succedaneum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-272.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Toxicodendron succedaneum", "Anacardiaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Toxicodendron succedaneum* thuộc họ Anacardiaceae phân bố tại một số vùng trên thế giới như Chinese Taipei, China, Hong Kong, South Africa, New Zealand, Japan, Australia, Macao. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: thuốc long đờm, chất làm se'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 5 nhóm gồm benzene and substituted derivatives, flavonoids, organooxygen compounds, phenols, tannins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Anacardiaceae
+- **Genus:** Toxicodendron
+- **Species:** *Toxicodendron succedaneum*
+- **Scientific Name:** *Toxicodendron succedaneum (L.) Kuntze*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Japanese wax tree]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Anacardiaceae - Genus: Toxicodendron - Species: *Toxicodendron succedaneum* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Toxicodendron%20succedaneum%20-%20K%C3%B6hler%E2%80%93s%20Medizinal-Pflanzen-272.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343809451/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344021734/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344251303/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344393762/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345636598/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Chinese Taipei, China, Hong Kong, South Africa, New Zealand, Japan, Australia, Macao
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Anacardiaceae",
+  iso3_codes: ['NZL', 'AUS', 'HKG', 'CHN', 'MAC', 'ZAF', 'JPN'],
+  color: [1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Toxicodendron succedaneum* đã phân lập và xác định được 21 hoạt chất thuộc  về 5 nhóm gồm benzene and substituted derivatives, flavonoids, organooxygen compounds, phenols, tannins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0222857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0222857)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0043810](https://lotus.naturalproducts.net/compound/lotus_id/LTS0043810)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0150745](https://lotus.naturalproducts.net/compound/lotus_id/LTS0150745)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0142412](https://lotus.naturalproducts.net/compound/lotus_id/LTS0142412)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0187644](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187644)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0248238](https://lotus.naturalproducts.net/compound/lotus_id/LTS0248238)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0063796](https://lotus.naturalproducts.net/compound/lotus_id/LTS0063796)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0029806](https://lotus.naturalproducts.net/compound/lotus_id/LTS0029806)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0018102](https://lotus.naturalproducts.net/compound/lotus_id/LTS0018102)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0213241](https://lotus.naturalproducts.net/compound/lotus_id/LTS0213241)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0088354](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088354)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0003899](https://lotus.naturalproducts.net/compound/lotus_id/LTS0003899)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0197942](https://lotus.naturalproducts.net/compound/lotus_id/LTS0197942)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0086701](https://lotus.naturalproducts.net/compound/lotus_id/LTS0086701)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0124575](https://lotus.naturalproducts.net/compound/lotus_id/LTS0124575)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0098401](https://lotus.naturalproducts.net/compound/lotus_id/LTS0098401)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0065419](https://lotus.naturalproducts.net/compound/lotus_id/LTS0065419)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0015053](https://lotus.naturalproducts.net/compound/lotus_id/LTS0015053)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0047897](https://lotus.naturalproducts.net/compound/lotus_id/LTS0047897)</div></div></div>
+<div class="group-title">Tannins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0089285](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089285)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0037297](https://lotus.naturalproducts.net/compound/lotus_id/LTS0037297)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh               |
+|-----------|-----------------|-----------------------------|
+| Row0      | Turkey          | Thuốc long đờm, Chất làm se |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C/C=C/C=C/C/C=C\CCCCCCCCCc1cc(O)ccc1O" },
+{id: "canvas_Row1", smiles: "O=C(O)C1=C[C@@H](O)[C@@H](O)[C@H](O)C1" },
+{id: "canvas_Row2", smiles: "O=C(O)C1=CC(O)C(O)C(O)C1" },
+{id: "canvas_Row3", smiles: "CCC/C=C/C/C=C\CCCCCCCCCc1cc(O)ccc1O" },
+{id: "canvas_Row4", smiles: "CC1OC(OC2C(Oc3cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc4c3)OC(CO)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row5", smiles: "CC=CC=CCC=CCCCCCCCCCc1cc(O)ccc1O" },
+{id: "canvas_Row6", smiles: "O=C1C[C@H](c2ccc(O)cc2)Oc2cc(O)c(-c3c(O)cc(O)c4c3O[C@H](c3ccc(O)cc3)CC4=O)c(O)c21" },
+{id: "canvas_Row7", smiles: "O=C(O[C@@H]1O[C@@H]2COC(=O)c3cc(O)c(O)c(O)c3-c3c(cc(O)c(O)c3O)C(=O)O[C@H]([C@H]1O)[C@@H]2O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row8", smiles: "O=C(O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row9", smiles: "COC(=O)c1cc(O)c(O)c(O)c1" },
+{id: "canvas_Row10", smiles: "O=c1cc(-c2ccc(Oc3c(O)cc4oc(-c5ccc(O)cc5)cc(=O)c4c3O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row11", smiles: "O=C1CC(c2ccc(O)cc2)Oc2cc(O)c(-c3c(O)cc(O)c4c3OC(c3ccc(O)cc3)CC4=O)c(O)c21" },
+{id: "canvas_Row12", smiles: "O=c1cc(-c2ccc(O)c(-c3c(O)cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc34)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row13", smiles: "CCCCCC/C=C\CCCCCCCCCc1cc(O)ccc1O" },
+{id: "canvas_Row14", smiles: "C[C@@H]1O[C@@H](O[C@H]2[C@H](Oc3cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc4c3)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row15", smiles: "CCCCCCC=CCCCCCCCCCc1cc(O)ccc1O" },
+{id: "canvas_Row16", smiles: "O=c1cc(-c2ccc(O)cc2)oc2cc(O)c(-c3c(O)cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc34)c(O)c12" },
+{id: "canvas_Row17", smiles: "O=c1cc(-c2ccc(O)c(-c3c(O)cc4oc(-c5ccc(O)cc5)cc(=O)c4c3O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row18", smiles: "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)c(-c3c(O)cc(O)c4c3O[C@H](c3ccc(O)cc3)CC4=O)c(O)c21" },
+{id: "canvas_Row19", smiles: "O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23" },
+{id: "canvas_Row20", smiles: "CCCC=CCC=CCCCCCCCCCc1cc(O)ccc1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

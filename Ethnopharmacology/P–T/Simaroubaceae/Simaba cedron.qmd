@@ -1,0 +1,178 @@
+---
+title: "Simaba cedron"
+subtitle: "Loài Simaba cedron (Họ Simaroubaceae)"
+description: "Loài *Simaba cedron* thuộc họ Simaroubaceae phân bố tại một số vùng trên thế giới như Bolivia (Plurinational State of), French Guiana, Venezuela (Bolivarian Republic of), Colombia, Suriname, Brazil, Panama, Costa Rica, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'latin america: thuốc an thần, thuốc bổ, thuốc an thần, thuốc bổ'.Từ loài này đã phân lập và xác định được 33 hoạt chất thuộc  về 3 nhóm gồm furopyrans, lactones, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Simaba%20cedron-Semilla.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Simaba cedron", "Simaroubaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Simaba cedron* thuộc họ Simaroubaceae phân bố tại một số vùng trên thế giới như Bolivia (Plurinational State of), French Guiana, Venezuela (Bolivarian Republic of), Colombia, Suriname, Brazil, Panama, Costa Rica, Guyana. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'latin america: thuốc an thần, thuốc bổ, thuốc an thần, thuốc bổ'.Từ loài này đã phân lập và xác định được 33 hoạt chất thuộc  về 3 nhóm gồm furopyrans, lactones, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Sapindales
+- **Family:** Simaroubaceae
+- **Genus:** Homalolepis
+- **Species:** *Homalolepis cedron*
+- **Scientific Name:** *Simaba cedron Planch.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Simaroubaceae - Genus: Simaba - Species: *Simaba cedron* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Simaba%20cedron-Semilla.jpg){ group="GIBF" }
+
+![](http://fm-digital-assets.fieldmuseum.org/1788/763/V0467379F.jpg){ group="GIBF" }
+
+![](http://fm-digital-assets.fieldmuseum.org/1788/764/V0467380F.jpg){ group="GIBF" }
+
+![](http://jbrj-public-img.s3-sa-east-1.amazonaws.com/JPG/rb/1/37/53/56/01375356.jpg){ group="GIBF" }
+
+![](http://jbrj-public-img.s3-sa-east-1.amazonaws.com/JPG/rb/1/37/53/56/01375356-1.jpg){ group="GIBF" }
+
+![](http://sweetgum.nybg.org/images3/2178/944/02705012.jpg){ group="GIBF" }
+
+![](http://sweetgum.nybg.org/images3/2178/907/02704961.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Bolivia (Plurinational State of), French Guiana, Venezuela (Bolivarian Republic of), Colombia, Suriname, Brazil, Panama, Costa Rica, Guyana
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Simaroubaceae",
+  iso3_codes: ['BRA', 'GUY', 'PAN', 'COL', 'SUR', 'GUF', 'CRI'],
+  color: [1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Simaba cedron* đã phân lập và xác định được 33 hoạt chất thuộc  về 3 nhóm gồm furopyrans, lactones, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Furopyrans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0174736](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174736)</div></div></div>
+<div class="group-title">Lactones</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0061200](https://lotus.naturalproducts.net/compound/lotus_id/LTS0061200)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0037447](https://lotus.naturalproducts.net/compound/lotus_id/LTS0037447)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0118188](https://lotus.naturalproducts.net/compound/lotus_id/LTS0118188)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0134534](https://lotus.naturalproducts.net/compound/lotus_id/LTS0134534)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0085812](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085812)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0163430](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163430)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0088564](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088564)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0145985](https://lotus.naturalproducts.net/compound/lotus_id/LTS0145985)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0155001](https://lotus.naturalproducts.net/compound/lotus_id/LTS0155001)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0156201](https://lotus.naturalproducts.net/compound/lotus_id/LTS0156201)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0172832](https://lotus.naturalproducts.net/compound/lotus_id/LTS0172832)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0114472](https://lotus.naturalproducts.net/compound/lotus_id/LTS0114472)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0057694](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057694)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0276309](https://lotus.naturalproducts.net/compound/lotus_id/LTS0276309)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0036130](https://lotus.naturalproducts.net/compound/lotus_id/LTS0036130)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0220583](https://lotus.naturalproducts.net/compound/lotus_id/LTS0220583)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0220188](https://lotus.naturalproducts.net/compound/lotus_id/LTS0220188)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0218458](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218458)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0210960](https://lotus.naturalproducts.net/compound/lotus_id/LTS0210960)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0188126](https://lotus.naturalproducts.net/compound/lotus_id/LTS0188126)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0051418](https://lotus.naturalproducts.net/compound/lotus_id/LTS0051418)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0185945](https://lotus.naturalproducts.net/compound/lotus_id/LTS0185945)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0014126](https://lotus.naturalproducts.net/compound/lotus_id/LTS0014126)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0130012](https://lotus.naturalproducts.net/compound/lotus_id/LTS0130012)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0272049](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272049)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0008702](https://lotus.naturalproducts.net/compound/lotus_id/LTS0008702)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0025852](https://lotus.naturalproducts.net/compound/lotus_id/LTS0025852)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0019339](https://lotus.naturalproducts.net/compound/lotus_id/LTS0019339)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0208296](https://lotus.naturalproducts.net/compound/lotus_id/LTS0208296)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0022428](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022428)</div></div> <div class="molecule-box"> <canvas id="canvas_Row31" width="150" height="150"></canvas> <div class="mol-name">[LTS0258557](https://lotus.naturalproducts.net/compound/lotus_id/LTS0258557)</div></div> <div class="molecule-box"> <canvas id="canvas_Row32" width="150" height="150"></canvas> <div class="mol-name">[LTS0088903](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088903)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                    |
+|-----------|-----------------|--------------------------------------------------|
+| Row0      | Latin America   | Thuốc an thần, Thuốc bổ, Thuốc an thần, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)[C@H](O)[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]31[C@@H]24" },
+{id: "canvas_Row1", smiles: "CC1=CC(=O)OC1C1(C)CC2OC(=O)C(O)C3C(C)C(O)C4(O)OCC23C14" },
+{id: "canvas_Row2", smiles: "CC1=CC(O)C(O)C2(C)C1CC1OC(=O)CC3C(C)C(O)C4(O)OCC13C42" },
+{id: "canvas_Row3", smiles: "CC1=CC(=O)C(O)C2(C)C1CC(O)C13COC4(C)C(OC(=O)C41)C(O)C23" },
+{id: "canvas_Row4", smiles: "CC1=CC(=O)O[C@H]1[C@@]1(C)C[C@H]2OC(=O)[C@H](O)[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]32[C@@H]14" },
+{id: "canvas_Row5", smiles: "CC1=CC(=O)C(O)C2(C)C1CC(O)C13COC4(C)C(OC(=O)C(O)C41)C(O)C23" },
+{id: "canvas_Row6", smiles: "CC1=CC(=O)OC1C1(C)CC2OC(=O)CC3C(C)C(O)C4(O)OCC23C14" },
+{id: "canvas_Row7", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@@H](O)[C@@]13CO[C@]4(C)[C@@H](OC(=O)[C@@H](O)C[C@@H]41)[C@H](O)[C@H]23" },
+{id: "canvas_Row8", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)[C@H](O)[C@H]3[C@]4(C)OC[C@@]31[C@@H]2[C@@H](O)[C@@H]4O" },
+{id: "canvas_Row9", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)C[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]31[C@@H]24" },
+{id: "canvas_Row10", smiles: "CC1=CC(=O)C(O)C2(C)C1CC1OC(=O)C(O)C3C(C)C(O)C4(O)OCC13C42" },
+{id: "canvas_Row11", smiles: "C[C@@H]1[C@@H]2[C@@H](O)C(=O)O[C@@H]3C[C@@]4(C)C(=C(O[C@@]5(C)CC(=O)O[C@H]54)[C@@H]1O)[C@]23CO" },
+{id: "canvas_Row12", smiles: "CC1=CC(O)C(O)C2(C)C1CC1OC(=O)CC3C(C)C(O)C(=O)C2C13CO" },
+{id: "canvas_Row13", smiles: "C[C@H]1C[C@H](O)[C@H](O)[C@@]2(C)[C@H]1C[C@@H](O)[C@]13CO[C@]4(C)C(OC(=O)[C@@H]41)[C@@H](O)[C@H]23" },
+{id: "canvas_Row14", smiles: "CC[C@@H](C)C(=O)O[C@H]1C(=O)O[C@@H]2C[C@H]3C(C)=CC(=O)[C@@H](O)[C@]3(C)[C@H]3[C@@H](O)[C@H](O)[C@]4(C)OC[C@@]23[C@@H]14" },
+{id: "canvas_Row15", smiles: "CC1=CC(=O)C(O)C2(C)C1CC1OC(=O)C(O)C3C4(C)OCC13C2C(O)C4O" },
+{id: "canvas_Row16", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@@H](O)[C@@]13CO[C@]4(C)[C@@H](OC(=O)[C@@H]41)[C@H](O)[C@H]23" },
+{id: "canvas_Row17", smiles: "CCC(C)C(=O)O[C@H]1C(=O)O[C@@H]2C[C@H]3C(C)=CC(=O)[C@@H](O)[C@]3(C)[C@H]3[C@@H](O)[C@H](O)C4(C)OC[C@@]23[C@@H]14" },
+{id: "canvas_Row18", smiles: "CC1=CC(=O)C(O)C2(C)C1C[C@H]1OC(=O)[C@H](O)[C@@]3(O)[C@]4(C)OC[C@]13C2[C@@H](O)C4O" },
+{id: "canvas_Row19", smiles: "CC1=C[C@H](O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)C[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]31[C@@H]24" },
+{id: "canvas_Row20", smiles: "CC1=C[C@H](O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)[C@H](O)[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]31[C@@H]24" },
+{id: "canvas_Row21", smiles: "CC(=O)O[C@H]1C[C@@](C)([C@H]2OC(=O)C[C@@H]2CO)C2=CC(=O)O[C@@H]3C[C@H]4[C@](C)(O)C=CC(=O)[C@]4(C)[C@@H]1[C@]23C" },
+{id: "canvas_Row22", smiles: "C[C@H]1C[C@H](O)[C@H](O)[C@@]2(C)[C@H]1C[C@@H](O)[C@]13CO[C@]4(C)[C@@H](OC(=O)[C@@H]41)[C@@H](O)[C@H]23" },
+{id: "canvas_Row23", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)[C@H](O)[C@H]3[C@@H](C)[C@@H](O)[C@@]4(O)OC[C@@]31[C@@H]24" },
+{id: "canvas_Row24", smiles: "CC1=CC(=O)C(O)C2(C)C1CC1OC(=O)CC3C(C)C(O)C4(O)OCC13C42" },
+{id: "canvas_Row25", smiles: "CC1=CC(O)C(O)C2(C)C1CC1OC(=O)C(O)C3C(C)C(O)C4(O)OCC13C42" },
+{id: "canvas_Row26", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)C(OC(=O)CC(C)C)[C@H]3[C@]4(C)OC[C@@]31[C@@H]2[C@@H](O)[C@@H]4O" },
+{id: "canvas_Row27", smiles: "CC1=CC(=O)O[C@@H]1[C@@]1(C)C[C@H]2OC(=O)[C@H](O)[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]32[C@@H]14" },
+{id: "canvas_Row28", smiles: "CC(=O)O[C@@H]1C[C@@](C)([C@H]2OC(=O)C[C@@H]2CO)C2=CC(=O)O[C@@H]3C[C@H]4[C@@](C)(O)C=CC(=O)[C@]4(C)[C@@H]1[C@]23C" },
+{id: "canvas_Row29", smiles: "CC1=CC(=O)[C@@H](O)[C@@]2(C)[C@H]1C[C@H]1OC(=O)[C@H](OC(=O)CC(C)C)[C@H]3[C@]4(C)OC[C@@]31[C@@H]2[C@@H](O)[C@@H]4O" },
+{id: "canvas_Row30", smiles: "CC1=CC(=O)O[C@H]1[C@@]1(C)C[C@H]2OC(=O)C[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]32[C@@H]14" },
+{id: "canvas_Row31", smiles: "CC1=CC(=O)O[C@@H]1[C@@]1(C)C[C@H]2OC(=O)C[C@H]3[C@@H](C)[C@@H](O)[C@]4(O)OC[C@@]32[C@@H]14" },
+{id: "canvas_Row32", smiles: "CC(=O)O[C@@H]1C[C@@](C)([C@H]2OC(=O)C[C@@H]2CO)C2=CC(=O)O[C@@H]3C[C@H]4[C@](C)(O)C=CC(=O)[C@]4(C)[C@@H]1[C@]23C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

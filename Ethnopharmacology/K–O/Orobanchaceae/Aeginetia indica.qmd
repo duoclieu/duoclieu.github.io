@@ -1,0 +1,185 @@
+---
+title: "Aeginetia indica"
+subtitle: "Loài Aeginetia indica (Họ Orobanchaceae)"
+description: "Loài *Aeginetia indica* thuộc họ Orobanchaceae phân bố tại một số vùng trên thế giới như Thailand, nan, Philippines, China, Chinese Taipei, Hong Kong, Cambodia, India, Japan, Korea, Republic of, Nepal, Viet Nam. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc bổ'.Từ loài này đã phân lập và xác định được 24 hoạt chất thuộc  về 8 nhóm gồm 2-arylbenzofuran flavonoids, benzene and substituted derivatives, cinnamic acids and derivatives, flavonoids, organooxygen compounds, phenols, prenol lipids, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Aeginetia%20indica.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Aeginetia indica", "Orobanchaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Aeginetia indica* thuộc họ Orobanchaceae phân bố tại một số vùng trên thế giới như Thailand, nan, Philippines, China, Chinese Taipei, Hong Kong, Cambodia, India, Japan, Korea, Republic of, Nepal, Viet Nam. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc bổ'.Từ loài này đã phân lập và xác định được 24 hoạt chất thuộc  về 8 nhóm gồm 2-arylbenzofuran flavonoids, benzene and substituted derivatives, cinnamic acids and derivatives, flavonoids, organooxygen compounds, phenols, prenol lipids, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Lamiales
+- **Family:** Orobanchaceae
+- **Genus:** Aeginetia
+- **Species:** *Aeginetia indica*
+- **Scientific Name:** *Aeginetia indica L.*  
+- **Mô tả thực vật:** []
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** [Tai đất Ấn]
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Rubiaceae - Genus: Aeginetia - Species: *Aeginetia indica* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Aeginetia%20indica.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345675139/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345675131/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363306606/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363306594/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363447273/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363447798/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/363447764/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/364139031/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/364139032/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Thailand, nan, Philippines, China, Chinese Taipei, Hong Kong, Cambodia, India, Japan, Korea, Republic of, Nepal, Viet Nam
+
+**Phấn bố ở Việt nam:** Bình Dương
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Orobanchaceae",
+  iso3_codes: ['IND', 'HKG', 'NPL', 'VNM', 'CHN', 'JPN', 'PHL', 'THA', 'KHM'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Aeginetia indica* đã phân lập và xác định được 24 hoạt chất thuộc  về 8 nhóm gồm 2-arylbenzofuran flavonoids, benzene and substituted derivatives, cinnamic acids and derivatives, flavonoids, organooxygen compounds, phenols, prenol lipids, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">2-arylbenzofuran flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0174398](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174398)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0130349](https://lotus.naturalproducts.net/compound/lotus_id/LTS0130349)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0221597](https://lotus.naturalproducts.net/compound/lotus_id/LTS0221597)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0233365](https://lotus.naturalproducts.net/compound/lotus_id/LTS0233365)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0262802](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262802)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0047485](https://lotus.naturalproducts.net/compound/lotus_id/LTS0047485)</div></div></div>
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0229113](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229113)</div></div></div>
+<div class="group-title">Cinnamic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0215850](https://lotus.naturalproducts.net/compound/lotus_id/LTS0215850)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0133167](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133167)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0168159](https://lotus.naturalproducts.net/compound/lotus_id/LTS0168159)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0149278](https://lotus.naturalproducts.net/compound/lotus_id/LTS0149278)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0211671](https://lotus.naturalproducts.net/compound/lotus_id/LTS0211671)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0065914](https://lotus.naturalproducts.net/compound/lotus_id/LTS0065914)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0266211](https://lotus.naturalproducts.net/compound/lotus_id/LTS0266211)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0050472](https://lotus.naturalproducts.net/compound/lotus_id/LTS0050472)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0253347](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253347)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0259869](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259869)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0104946](https://lotus.naturalproducts.net/compound/lotus_id/LTS0104946)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0259836](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259836)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0140691](https://lotus.naturalproducts.net/compound/lotus_id/LTS0140691)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0009773](https://lotus.naturalproducts.net/compound/lotus_id/LTS0009773)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0048071](https://lotus.naturalproducts.net/compound/lotus_id/LTS0048071)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0204616](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204616)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0201798](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201798)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | Thuốc bổ        |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CC(=O)O[C@@H]1[C@@H](O[C@@H]2O[C@@H](C)[C@H](O)[C@@H](O)[C@H]2O)[C@H](OC(=O)/C=C/c2ccc(O)c(O)c2)[C@@H](CO)O[C@H]1OCCc1ccc(O)c(O)c1" },
+{id: "canvas_Row1", smiles: "CC(=O)OC1C(O)C(C)OC(OC2C(OC(=O)C=Cc3ccc(O)c(O)c3)C(CO)OC(OCCc3ccc(O)c(O)c3)C2OC(C)=O)C1O" },
+{id: "canvas_Row2", smiles: "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](OCCc3ccc(O)c(O)c3)O[C@H](CO)[C@H]2OC(=O)/C=C/c2ccc(O)c(O)c2)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row3", smiles: "COc1cc(C2Oc3c(OC)cc(C=CCOC4OC(CO)C(O)C(O)C4O)cc3C2CO)ccc1O" },
+{id: "canvas_Row4", smiles: "O=c1cc(-c2ccc(O)cc2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row5", smiles: "CC(C=CC1(O)C(C)(C)CCCC1(C)OC1OC(CO)C(O)C(O)C1O)=CCO" },
+{id: "canvas_Row6", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row7", smiles: "COc1cc([C@@H]2Oc3c(OC)cc(/C=C/C=O)cc3[C@H]2CO)ccc1O" },
+{id: "canvas_Row8", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row9", smiles: "CC(=O)OC1C(OCCc2ccc(O)c(O)c2)OC(CO)C(OC(=O)C=Cc2ccc(O)c(O)c2)C1OC1OC(C)C(O)C(O)C1O" },
+{id: "canvas_Row10", smiles: "COc1cc(C=CC=O)ccc1O" },
+{id: "canvas_Row11", smiles: "O=Cc1ccc(O)cc1" },
+{id: "canvas_Row12", smiles: "COc1ccc(CCO[C@@H]2O[C@H](CO)[C@@H](OC(=O)/C=C/c3ccc(O)c(O)c3)[C@H](O[C@@H]3O[C@@H](C)[C@H](O)[C@@H](O)[C@H]3O)[C@H]2O)cc1O" },
+{id: "canvas_Row13", smiles: "CC1OC(OC2C(O)C(CO)OC(OC(=O)C=Cc3ccc(O)c(O)c3)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row14", smiles: "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](OC(=O)/C=C/c3ccc(O)c(O)c3)O[C@H](CO)[C@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row15", smiles: "COc1cc(C2Oc3c(OC)cc(C=O)cc3C2CO)ccc1O" },
+{id: "canvas_Row16", smiles: "CC1OC(OC2C(O)C(OCCc3ccc(O)c(O)c3)OC(CO)C2OC(=O)C=Cc2ccc(O)c(O)c2)C(O)C(O)C1O" },
+{id: "canvas_Row17", smiles: "COc1cc(C2Oc3c(OC)cc(C=CC=O)cc3C2CO)ccc1O" },
+{id: "canvas_Row18", smiles: "COc1ccc(CCOC2OC(CO)C(OC(=O)C=Cc3ccc(O)c(O)c3)C(OC3OC(C)C(O)C(O)C3O)C2O)cc1O" },
+{id: "canvas_Row19", smiles: "COc1cc([C@@H]2Oc3c(OC)cc(C=O)cc3[C@H]2CO)ccc1O" },
+{id: "canvas_Row20", smiles: "COc1cc(/C=C/C=O)ccc1O" },
+{id: "canvas_Row21", smiles: "COc1cc(C(=O)O)ccc1O" },
+{id: "canvas_Row22", smiles: "CC(=O)O[C@@H]1[C@@H](O[C@@H]2O[C@@H](C)[C@H](O)[C@@H](OC(C)=O)[C@H]2O)[C@H](OC(=O)/C=C/c2ccc(O)c(O)c2)[C@@H](CO)O[C@H]1OCCc1ccc(O)c(O)c1" },
+{id: "canvas_Row23", smiles: "COc1cc([C@@H]2Oc3c(OC)cc(/C=C\CO[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)cc3[C@H]2CO)ccc1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

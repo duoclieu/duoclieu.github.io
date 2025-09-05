@@ -1,0 +1,183 @@
+---
+title: "Argemone platyceras"
+subtitle: "Loài Argemone platyceras (Họ Papaveraceae)"
+description: "Loài *Argemone platyceras* thuộc họ Papaveraceae phân bố tại một số vùng trên thế giới như nan, Norway, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico(seri): cầm máu', 'venezuela: gây nôn, có mùi hôi, dễ bị tổn thương, emmenagogue'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 6 nhóm gồm benzophenanthridine alkaloids, flavonoids, isoquinolines and derivatives, pavine alkaloids, protoberberine alkaloids and derivatives, protopine alkaloids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Argemone%20platyceras%20%27Link%26Otto%27%20%28Papaveraceae%29%20plant.JPG
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Argemone platyceras", "Papaveraceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Argemone platyceras* thuộc họ Papaveraceae phân bố tại một số vùng trên thế giới như nan, Norway, Mexico. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'mexico(seri): cầm máu', 'venezuela: gây nôn, có mùi hôi, dễ bị tổn thương, emmenagogue'.Từ loài này đã phân lập và xác định được 25 hoạt chất thuộc  về 6 nhóm gồm benzophenanthridine alkaloids, flavonoids, isoquinolines and derivatives, pavine alkaloids, protoberberine alkaloids and derivatives, protopine alkaloids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ranunculales
+- **Family:** Papaveraceae
+- **Genus:** Argemone
+- **Species:** *Argemone platyceras*
+- **Scientific Name:** *Argemone platyceras Link & Otto*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Papaveraceae - Genus: Argemone - Species: *Argemone platyceras* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Argemone%20platyceras%20%27Link%26Otto%27%20%28Papaveraceae%29%20plant.JPG){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/346468142/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352751086/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352751081/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352751074/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/349910273/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/352100428/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354095843/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354094198/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354090932/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Norway, Mexico
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Papaveraceae",
+  iso3_codes: ['MEX', 'NOR'],
+  color: [1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Argemone platyceras* đã phân lập và xác định được 25 hoạt chất thuộc  về 6 nhóm gồm benzophenanthridine alkaloids, flavonoids, isoquinolines and derivatives, pavine alkaloids, protoberberine alkaloids and derivatives, protopine alkaloids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Benzophenanthridine alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0149026](https://lotus.naturalproducts.net/compound/lotus_id/LTS0149026)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0042292](https://lotus.naturalproducts.net/compound/lotus_id/LTS0042292)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0032845](https://lotus.naturalproducts.net/compound/lotus_id/LTS0032845)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0195312](https://lotus.naturalproducts.net/compound/lotus_id/LTS0195312)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0254337](https://lotus.naturalproducts.net/compound/lotus_id/LTS0254337)</div></div></div>
+<div class="group-title">Isoquinolines and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0204392](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204392)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0181650](https://lotus.naturalproducts.net/compound/lotus_id/LTS0181650)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0059727](https://lotus.naturalproducts.net/compound/lotus_id/LTS0059727)</div></div></div>
+<div class="group-title">Pavine alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0203892](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203892)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0127827](https://lotus.naturalproducts.net/compound/lotus_id/LTS0127827)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0019092](https://lotus.naturalproducts.net/compound/lotus_id/LTS0019092)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0096153](https://lotus.naturalproducts.net/compound/lotus_id/LTS0096153)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0190284](https://lotus.naturalproducts.net/compound/lotus_id/LTS0190284)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0164075](https://lotus.naturalproducts.net/compound/lotus_id/LTS0164075)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0162707](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162707)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0272948](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272948)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0069422](https://lotus.naturalproducts.net/compound/lotus_id/LTS0069422)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0174583](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174583)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0055347](https://lotus.naturalproducts.net/compound/lotus_id/LTS0055347)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0095376](https://lotus.naturalproducts.net/compound/lotus_id/LTS0095376)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0224973](https://lotus.naturalproducts.net/compound/lotus_id/LTS0224973)</div></div></div>
+<div class="group-title">Protoberberine alkaloids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0101484](https://lotus.naturalproducts.net/compound/lotus_id/LTS0101484)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0142299](https://lotus.naturalproducts.net/compound/lotus_id/LTS0142299)</div></div></div>
+<div class="group-title">Protopine alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0080245](https://lotus.naturalproducts.net/compound/lotus_id/LTS0080245)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0174113](https://lotus.naturalproducts.net/compound/lotus_id/LTS0174113)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                      |
+|-----------|-----------------|----------------------------------------------------|
+| Row0      | Mexico(Seri)    | cầm máu                                            |
+| Row1      | Venezuela       | gây nôn, có mùi hôi, dễ bị tổn thương, Emmenagogue |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CN1CCc2cc3c(cc2C(=O)Cc2ccc4c(c2C1)OCO4)OCO3" },
+{id: "canvas_Row1", smiles: "COc1ccc2cc3[n+](cc2c1OC)CCc1cc2c(cc1-3)OCO2" },
+{id: "canvas_Row2", smiles: "COc1ccc2c(c1OC)CN(C)CCc1cc3c(cc1C(=O)C2)OCO3" },
+{id: "canvas_Row3", smiles: "C[n+]1cc2c3c(ccc2c2ccc4cc5c(cc4c21)OCO5)OCO3" },
+{id: "canvas_Row4", smiles: "c1c2c(cc3c1OCO3)-c1cc3ccc4c(c3c[n+]1CC2)OCO4" },
+{id: "canvas_Row5", smiles: "COc1ccc(CC2c3cc(O)c(OC)cc3CCN2C)cc1O" },
+{id: "canvas_Row6", smiles: "COc1cc2c(cc1O)[C@@H]1Cc3cc(OC)c(OC)cc3[C@H](C2)N1C" },
+{id: "canvas_Row7", smiles: "COc1ccc(C[C@H]2c3cc(O)c(OC)cc3CCN2C)cc1O" },
+{id: "canvas_Row8", smiles: "CC1OC(OCC2OC(Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row9", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row10", smiles: "COc1cc2c(cc1O)C1Cc3cc(OC)c(OC)cc3C(C2)N1C" },
+{id: "canvas_Row11", smiles: "COc1cc2c(cc1OC)[C@H]1Cc3ccc(OC)c(O)c3[C@@H](C2)N1C" },
+{id: "canvas_Row12", smiles: "COc1cc2c(cc1OC)[C@H]1Cc3cc(OC)c(OC)cc3[C@@H](C2)N1C" },
+{id: "canvas_Row13", smiles: "O=c1c(OC2OC(CO)C(O)C(O)C2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row14", smiles: "COc1cc2c(cc1OC)C1Cc3ccc(OC)c(O)c3C(C2)N1C" },
+{id: "canvas_Row15", smiles: "COc1cc2c(cc1OC)[C@@H]1Cc3cc(OC)c(OC)cc3[C@H](C2)N1C" },
+{id: "canvas_Row16", smiles: "COc1cc2c(cc1OC)C1Cc3cc(OC)c(OC)cc3[C@H](C2)N1C" },
+{id: "canvas_Row17", smiles: "O=c1c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" },
+{id: "canvas_Row18", smiles: "COc1cc(CC2NCCc3cc(OC)c(O)cc32)ccc1O" },
+{id: "canvas_Row19", smiles: "COc1cc2c(cc1O)[C@H]1Cc3ccc(OC)c(O)c3[C@@H](C2)N1C" },
+{id: "canvas_Row20", smiles: "COc1cc2c(cc1O)[C@H]1Cc3cc(OC)c(OC)cc3[C@@H](C2)N1C" },
+{id: "canvas_Row21", smiles: "COc1cc2c(cc1OC)C1Cc3cc(OC)c(OC)cc3C(C2)N1C" },
+{id: "canvas_Row22", smiles: "COc1cc2c(cc1O)C1Cc3ccc(OC)c(O)c3C(C2)N1C" },
+{id: "canvas_Row23", smiles: "COc1cc2c(cc1OC)C1Cc3ccc(OC)c(OC)c3C(C2)N1C" },
+{id: "canvas_Row24", smiles: "COc1cc2c(cc1OC)[C@@H]1Cc3ccc(OC)c(OC)c3[C@H](C2)N1C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

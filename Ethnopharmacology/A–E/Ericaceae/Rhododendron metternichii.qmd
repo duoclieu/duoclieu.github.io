@@ -1,0 +1,151 @@
+---
+title: "Rhododendron metternichii"
+subtitle: "Loài Rhododendron metternichii (Họ Ericaceae)"
+description: "Loài *Rhododendron metternichii* thuộc họ Ericaceae phân bố tại một số vùng trên thế giới như nan, Latvia, United States of America, unknown or invalid, Fiji, Japan, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc lợi tiểu, chất độc'.Từ loài này đã phân lập và xác định được 10 hoạt chất thuộc  về 1 nhóm gồm prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Rhododendron metternichii", "Ericaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Rhododendron metternichii* thuộc họ Ericaceae phân bố tại một số vùng trên thế giới như nan, Latvia, United States of America, unknown or invalid, Fiji, Japan, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: thuốc lợi tiểu, chất độc'.Từ loài này đã phân lập và xác định được 10 hoạt chất thuộc  về 1 nhóm gồm prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ericales
+- **Family:** Ericaceae
+- **Genus:** Rhododendron
+- **Species:** *Rhododendron japonoheptamerum*
+- **Scientific Name:** *Rhododendron metternichii Siebold & Zucc.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Ericaceae - Genus: Rhododendron - Species: *Rhododendron metternichii* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](http://n2t.net/ark:/65665/m3798dac8a-faf0-4c03-ad52-f9a0a41f0a4b){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/L.2612586/format/large){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/U.1289944/format/large){ group="GIBF" }
+
+![](https://medialib.naturalis.nl/file/id/WAG.1784894/format/large){ group="GIBF" }
+
+![](https://oxalis.br.fgov.be/images/BR0/000/030/471/863/BR0000030471863.jpg){ group="GIBF" }
+
+![](https://iiif-manifest.oxalis.br.fgov.be/specimen/BR0000030471863/manifest){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Latvia, United States of America, unknown or invalid, Fiji, Japan, Korea, Republic of
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Ericaceae",
+  iso3_codes: ['USA', 'JPN', 'LVA', 'FJI'],
+  color: [1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Rhododendron metternichii* đã phân lập và xác định được 10 hoạt chất thuộc  về 1 nhóm gồm prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0088634](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088634)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0189252](https://lotus.naturalproducts.net/compound/lotus_id/LTS0189252)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0120898](https://lotus.naturalproducts.net/compound/lotus_id/LTS0120898)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0143296](https://lotus.naturalproducts.net/compound/lotus_id/LTS0143296)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0166564](https://lotus.naturalproducts.net/compound/lotus_id/LTS0166564)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0229731](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229731)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0187505](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187505)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0086232](https://lotus.naturalproducts.net/compound/lotus_id/LTS0086232)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0214300](https://lotus.naturalproducts.net/compound/lotus_id/LTS0214300)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0057988](https://lotus.naturalproducts.net/compound/lotus_id/LTS0057988)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh            |
+|-----------|-----------------|--------------------------|
+| Row0      | Elsewhere       | Thuốc lợi tiểu, Chất độc |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C(C)C1CCC2(C)CCC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C12" },
+{id: "canvas_Row1", smiles: "CC1(C)[C@H](O)C[C@@H]2[C@@]1(O)[C@@H](O)C[C@@]13C[C@](C)(O)[C@@H](CC[C@@H]1[C@@]2(C)O)[C@H]3O" },
+{id: "canvas_Row2", smiles: "C=C(C)[C@@H]1CC[C@]2(C)CC[C@]3(C)[C@H](CC[C@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@H]12" },
+{id: "canvas_Row3", smiles: "C[C@H]1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@H]4[C@]3(C)CC[C@@H]3C(C)(C)[C@@H](O)CC[C@@]34C)[C@H]2[C@@H]1C" },
+{id: "canvas_Row4", smiles: "CC1CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C2C1C" },
+{id: "canvas_Row5", smiles: "CC(=O)OC1C2CCC3C(C)(O)C4CC(O)C(C)(C)C4(O)C(O)CC13CC2(C)O" },
+{id: "canvas_Row6", smiles: "CC(=O)O[C@@H]1[C@@H]2CC[C@@H]3[C@@](C)(O)[C@@H]4C[C@@H](O)C(C)(C)[C@]4(O)[C@@H](O)C[C@@]31C[C@]2(C)O" },
+{id: "canvas_Row7", smiles: "CC1(O)CC23CC(O)C4(O)C(CC(O)C4(C)C)C(C)(O)C2CCC1C3O" },
+{id: "canvas_Row8", smiles: "C=C(C)C1CCC2(C(=O)O)CCC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C12" },
+{id: "canvas_Row9", smiles: "C=C(C)[C@@H]1CC[C@@]2(C(=O)O)CC[C@@]3(C)[C@@H](CC[C@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@H]5CC[C@]43C)[C@@H]12" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

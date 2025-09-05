@@ -1,0 +1,204 @@
+---
+title: "Picramnia antidesma"
+subtitle: "Loài Picramnia antidesma (Họ Picramniaceae)"
+description: "Loài *Picramnia antidesma* thuộc họ Picramniaceae phân bố tại một số vùng trên thế giới như Mexico, Honduras, Colombia, Nicaragua, Guatemala, Belize, Jamaica, Costa Rica, El Salvador, Panama. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất kích thích, thuốc bổ'.Từ loài này đã phân lập và xác định được 31 hoạt chất thuộc  về 4 nhóm gồm anthracenes, coumarins and derivatives, fatty acyls, steroids and steroid derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Picramnia antidesma", "Picramniaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Picramnia antidesma* thuộc họ Picramniaceae phân bố tại một số vùng trên thế giới như Mexico, Honduras, Colombia, Nicaragua, Guatemala, Belize, Jamaica, Costa Rica, El Salvador, Panama. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'turkey: chất kích thích, thuốc bổ'.Từ loài này đã phân lập và xác định được 31 hoạt chất thuộc  về 4 nhóm gồm anthracenes, coumarins and derivatives, fatty acyls, steroids and steroid derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Picramniales
+- **Family:** Picramniaceae
+- **Genus:** Picramnia
+- **Species:** *Picramnia antidesma*
+- **Scientific Name:** *Picramnia antidesma Sw.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Picramniaceae - Genus: Picramnia - Species: *Picramnia antidesma* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/262932025/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/273775653/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/179814558/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/180928356/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/180928363/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/180928353/original.jpeg){ group="GIBF" }
+
+![](https://bs.plantnet.org/image/o/5dee88ff7ace6d387456ed7f3801fd7520ef2fbb){ group="GIBF" }
+
+![](https://bs.plantnet.org/image/o/38f1b799fa049d3ec78d6aaa01531cb62627dd5d){ group="GIBF" }
+
+![](https://bs.plantnet.org/image/o/775199d9df94a3bcf60e4572e4dba67087255d6a){ group="GIBF" }
+
+![](https://bs.plantnet.org/image/o/a2e2b0ad7e6ea745f1c8bf6d4c112429e12e0a13){ group="GIBF" }
+
+![](https://bs.plantnet.org/image/o/0c5a52f12c6abf909e73430553140f539d8706c6){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192927/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192254/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192906/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192954/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192981/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192919/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192945/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/244192909/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Mexico, Honduras, Colombia, Nicaragua, Guatemala, Belize, Jamaica, Costa Rica, El Salvador, Panama
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Picramniaceae",
+  iso3_codes: ['COL', 'CRI', 'SLV', 'MEX', 'PAN', 'NIC', 'BLZ', 'GTM', 'HND', 'JAM'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Picramnia antidesma* đã phân lập và xác định được 31 hoạt chất thuộc  về 4 nhóm gồm anthracenes, coumarins and derivatives, fatty acyls, steroids and steroid derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Anthracenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0130279](https://lotus.naturalproducts.net/compound/lotus_id/LTS0130279)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0085908](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085908)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0098857](https://lotus.naturalproducts.net/compound/lotus_id/LTS0098857)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0101173](https://lotus.naturalproducts.net/compound/lotus_id/LTS0101173)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0037635](https://lotus.naturalproducts.net/compound/lotus_id/LTS0037635)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0186589](https://lotus.naturalproducts.net/compound/lotus_id/LTS0186589)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0262651](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262651)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0192384](https://lotus.naturalproducts.net/compound/lotus_id/LTS0192384)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0104463](https://lotus.naturalproducts.net/compound/lotus_id/LTS0104463)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0163480](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163480)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0194473](https://lotus.naturalproducts.net/compound/lotus_id/LTS0194473)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0229288](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229288)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0115995](https://lotus.naturalproducts.net/compound/lotus_id/LTS0115995)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0271864](https://lotus.naturalproducts.net/compound/lotus_id/LTS0271864)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0273545](https://lotus.naturalproducts.net/compound/lotus_id/LTS0273545)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0094778](https://lotus.naturalproducts.net/compound/lotus_id/LTS0094778)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0213542](https://lotus.naturalproducts.net/compound/lotus_id/LTS0213542)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0220243](https://lotus.naturalproducts.net/compound/lotus_id/LTS0220243)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0231919](https://lotus.naturalproducts.net/compound/lotus_id/LTS0231919)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0160968](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160968)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0227037](https://lotus.naturalproducts.net/compound/lotus_id/LTS0227037)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0228506](https://lotus.naturalproducts.net/compound/lotus_id/LTS0228506)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0015035](https://lotus.naturalproducts.net/compound/lotus_id/LTS0015035)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0017633](https://lotus.naturalproducts.net/compound/lotus_id/LTS0017633)</div></div></div>
+<div class="group-title">Coumarins and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0162728](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162728)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0102566](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102566)</div></div></div>
+<div class="group-title">Steroids and steroid derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0071224](https://lotus.naturalproducts.net/compound/lotus_id/LTS0071224)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0168132](https://lotus.naturalproducts.net/compound/lotus_id/LTS0168132)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0204616](https://lotus.naturalproducts.net/compound/lotus_id/LTS0204616)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0201798](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201798)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0158828](https://lotus.naturalproducts.net/compound/lotus_id/LTS0158828)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh             |
+|-----------|-----------------|---------------------------|
+| Row0      | Turkey          | Chất kích thích, Thuốc bổ |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "CCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row1", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4CC(O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row2", smiles: "O=C1c2c(O)cccc2Cc2cc(CO)cc(O)c21" },
+{id: "canvas_Row3", smiles: "CC(=O)O[C@@H]1O[C@@H]([C@@H]2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row4", smiles: "O=C1c2cccc(O)c2C(=O)c2c(O)cc(CO)cc21" },
+{id: "canvas_Row5", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row6", smiles: "Cc1cc(O)c2c(c1)C(O)(C1OC(OC(=O)c3ccccc3)C(O)C(O)C1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row7", smiles: "O=C(O[C@@H]1O[C@H]([C@@H]2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)[C@@H](O)[C@H](O)[C@H]1O)c1ccccc1" },
+{id: "canvas_Row8", smiles: "Cc1cc(O)c2c(c1)[C@@H]([C@@H]1O[C@@H](OC(=O)c3ccccc3)[C@H](O)[C@H](O)[C@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row9", smiles: "CC(=O)OC1OC(C2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)C(O)C(O)C1O" },
+{id: "canvas_Row10", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row11", smiles: "CC(=O)O[C@@H]1O[C@H]([C@@H]2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row12", smiles: "Cc1cc(O)c2c(c1)[C@H]([C@H]1O[C@H](OC(=O)c3ccccc3)[C@@H](O)[C@@H](O)[C@@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row13", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" },
+{id: "canvas_Row14", smiles: "Cc1cc(O)c2c(c1)C(=O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row15", smiles: "Cc1cc(O)c2c(c1)C(C1OC(OC(=O)c3ccccc3)C(O)C(O)C1O)c1cccc(O)c1C2=O" },
+{id: "canvas_Row16", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(OC5OC(CO)C(O)C(O)C5O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row17", smiles: "O=c1ccc2ccc(O)cc2o1" },
+{id: "canvas_Row18", smiles: "Cc1cc(O)c2c(c1)[C@@H]([C@H]1O[C@H](OC(=O)c3ccccc3)[C@@H](O)[C@@H](O)[C@@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row19", smiles: "Cc1cc(O)c2c(c1)C(C1OC(OC(=O)c3ccccc3)C(O)C(O)C1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row20", smiles: "Cc1cc(O)c2c(c1)[C@@](O)([C@@H]1O[C@@H](OC(=O)c3ccccc3)[C@H](O)[C@H](O)[C@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row21", smiles: "Cc1cc(O)c2c(c1)[C@](O)([C@H]1O[C@H](OC(=O)c3ccccc3)[C@@H](O)[C@@H](O)[C@@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row22", smiles: "CC(=O)O[C@@H]1O[C@H]([C@H]2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row23", smiles: "O=C(OC1OC(C2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)C(O)C(O)C1O)c1ccccc1" },
+{id: "canvas_Row24", smiles: "Cc1cc(O)c2c(c1)[C@@](O)([C@H]1O[C@H](OC(=O)c3ccccc3)[C@@H](O)[C@@H](O)[C@@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row25", smiles: "Cc1cc(O)c2c(c1)[C@@H]([C@H]1O[C@H](OC(=O)c3ccccc3)[C@@H](O)[C@@H](O)[C@@H]1O)c1cccc(O)c1C2=O" },
+{id: "canvas_Row26", smiles: "Cc1cc(O)c2c(c1)C(=O)c1cccc(O)c1C2=O" },
+{id: "canvas_Row27", smiles: "Cc1cc(O)c2c(c1)[C@H]([C@@H]1O[C@@H](OC(=O)c3ccccc3)[C@H](O)[C@H](O)[C@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row28", smiles: "O=C(O[C@@H]1O[C@@H]([C@@H]2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)[C@H](O)[C@@H](O)[C@@H]1O)c1ccccc1" },
+{id: "canvas_Row29", smiles: "Cc1cc(O)c2c(c1)[C@H]([C@H]1O[C@H](OC(=O)c3ccccc3)[C@@H](O)[C@@H](O)[C@@H]1O)c1cccc(O)c1C2=O" },
+{id: "canvas_Row30", smiles: "CC(=O)O[C@@H]1O[C@@H]([C@H]2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)[C@H](O)[C@@H](O)[C@@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

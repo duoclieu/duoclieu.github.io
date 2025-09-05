@@ -1,0 +1,197 @@
+---
+title: "Rumex japonicus"
+subtitle: "Loài Rumex japonicus (Họ Polygonaceae)"
+description: "Loài *Rumex japonicus* thuộc họ Polygonaceae phân bố tại một số vùng trên thế giới như Myanmar, Chinese Taipei, China, Japan, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc tống hơi, thuốc nhuận tràng, thuốc diệt ký sinh trùng, thuốc tẩy giun, chất khử trùng, làm dịu, thuốc trừ sâu', 'elsewhere: họ sẽ mở'.Từ loài này đã phân lập và xác định được 31 hoạt chất thuộc  về 8 nhóm gồm anthracenes, benzene and substituted derivatives, flavonoids, naphthalenes, organooxygen compounds, phenols, prenol lipids, tetralins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Rumex%20japonicus%202015.05.09%2011-32-57.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Rumex japonicus", "Polygonaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Rumex japonicus* thuộc họ Polygonaceae phân bố tại một số vùng trên thế giới như Myanmar, Chinese Taipei, China, Japan, Korea, Republic of. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'china: thuốc tống hơi, thuốc nhuận tràng, thuốc diệt ký sinh trùng, thuốc tẩy giun, chất khử trùng, làm dịu, thuốc trừ sâu', 'elsewhere: họ sẽ mở'.Từ loài này đã phân lập và xác định được 31 hoạt chất thuộc  về 8 nhóm gồm anthracenes, benzene and substituted derivatives, flavonoids, naphthalenes, organooxygen compounds, phenols, prenol lipids, tetralins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Caryophyllales
+- **Family:** Polygonaceae
+- **Genus:** Rumex
+- **Species:** *Rumex japonicus*
+- **Scientific Name:** *Rumex japonicus Houtt.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Polygonaceae - Genus: Rumex - Species: *Rumex japonicus* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Rumex%20japonicus%202015.05.09%2011-32-57.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/360976097/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/360976075/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/360976090/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/360976078/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354922389/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357140925/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357140904/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357255381/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357255349/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358142663/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/358142544/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Myanmar, Chinese Taipei, China, Japan, Korea, Republic of
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Polygonaceae",
+  iso3_codes: ['JPN', 'MMR', 'CHN'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Rumex japonicus* đã phân lập và xác định được 31 hoạt chất thuộc  về 8 nhóm gồm anthracenes, benzene and substituted derivatives, flavonoids, naphthalenes, organooxygen compounds, phenols, prenol lipids, tetralins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Anthracenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0197267](https://lotus.naturalproducts.net/compound/lotus_id/LTS0197267)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0117442](https://lotus.naturalproducts.net/compound/lotus_id/LTS0117442)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0163480](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163480)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0136582](https://lotus.naturalproducts.net/compound/lotus_id/LTS0136582)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0085858](https://lotus.naturalproducts.net/compound/lotus_id/LTS0085858)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0160968](https://lotus.naturalproducts.net/compound/lotus_id/LTS0160968)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0021210](https://lotus.naturalproducts.net/compound/lotus_id/LTS0021210)</div></div> <div class="molecule-box"> <canvas id="canvas_Row24" width="150" height="150"></canvas> <div class="mol-name">[LTS0052688](https://lotus.naturalproducts.net/compound/lotus_id/LTS0052688)</div></div> <div class="molecule-box"> <canvas id="canvas_Row29" width="150" height="150"></canvas> <div class="mol-name">[LTS0023977](https://lotus.naturalproducts.net/compound/lotus_id/LTS0023977)</div></div></div>
+<div class="group-title">Benzene and substituted derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0229113](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229113)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0263634](https://lotus.naturalproducts.net/compound/lotus_id/LTS0263634)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0046588](https://lotus.naturalproducts.net/compound/lotus_id/LTS0046588)</div></div> <div class="molecule-box"> <canvas id="canvas_Row26" width="150" height="150"></canvas> <div class="mol-name">[LTS0008255](https://lotus.naturalproducts.net/compound/lotus_id/LTS0008255)</div></div></div>
+<div class="group-title">Flavonoids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0032845](https://lotus.naturalproducts.net/compound/lotus_id/LTS0032845)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0042292](https://lotus.naturalproducts.net/compound/lotus_id/LTS0042292)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0090912](https://lotus.naturalproducts.net/compound/lotus_id/LTS0090912)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0218865](https://lotus.naturalproducts.net/compound/lotus_id/LTS0218865)</div></div> <div class="molecule-box"> <canvas id="canvas_Row30" width="150" height="150"></canvas> <div class="mol-name">[LTS0265245](https://lotus.naturalproducts.net/compound/lotus_id/LTS0265245)</div></div></div>
+<div class="group-title">Naphthalenes</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0106925](https://lotus.naturalproducts.net/compound/lotus_id/LTS0106925)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0004901](https://lotus.naturalproducts.net/compound/lotus_id/LTS0004901)</div></div> <div class="molecule-box"> <canvas id="canvas_Row25" width="150" height="150"></canvas> <div class="mol-name">[LTS0012918](https://lotus.naturalproducts.net/compound/lotus_id/LTS0012918)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0229771](https://lotus.naturalproducts.net/compound/lotus_id/LTS0229771)</div></div> <div class="molecule-box"> <canvas id="canvas_Row27" width="150" height="150"></canvas> <div class="mol-name">[LTS0011647](https://lotus.naturalproducts.net/compound/lotus_id/LTS0011647)</div></div></div>
+<div class="group-title">Phenols</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0178554](https://lotus.naturalproducts.net/compound/lotus_id/LTS0178554)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0013744](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013744)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0101460](https://lotus.naturalproducts.net/compound/lotus_id/LTS0101460)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0182293](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182293)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0147054](https://lotus.naturalproducts.net/compound/lotus_id/LTS0147054)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0156783](https://lotus.naturalproducts.net/compound/lotus_id/LTS0156783)</div></div> <div class="molecule-box"> <canvas id="canvas_Row28" width="150" height="150"></canvas> <div class="mol-name">[LTS0102591](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102591)</div></div></div>
+<div class="group-title">Tetralins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0111771](https://lotus.naturalproducts.net/compound/lotus_id/LTS0111771)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                                                                                       |
+|-----------|-----------------|---------------------------------------------------------------------------------------------------------------------|
+| Row0      | China           | thuốc tống hơi, Thuốc nhuận tràng, Thuốc diệt ký sinh trùng, Thuốc tẩy giun, Chất khử trùng, Làm dịu, Thuốc trừ sâu |
+| Row1      | Elsewhere       | Họ sẽ mở                                                                                                            |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row1", smiles: "CC1OC(OCC2OC(Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)C(O)C(O)C2O)C(O)C(O)C1O" },
+{id: "canvas_Row2", smiles: "Oc1cc(O)c2c(c1)OC(c1ccc(O)c(O)c1)C(O)C2" },
+{id: "canvas_Row3", smiles: "COc1cc(C(=O)O)ccc1O" },
+{id: "canvas_Row4", smiles: "O=C(O)c1ccc(O)cc1" },
+{id: "canvas_Row5", smiles: "Cc1cc2c(c(O)c1C(=O)O)C(=O)c1c(O)cc(O)cc1[C@@]2(O)[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row6", smiles: "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@@H](O)[C@@H](O)[C@H]1O" },
+{id: "canvas_Row7", smiles: "CC1CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CC(O)C(O)C(C)(C)C5CCC43C)C2C1(C)O" },
+{id: "canvas_Row8", smiles: "O=C(O)c1c(O)cccc1O" },
+{id: "canvas_Row9", smiles: "C[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@@H](O)[C@@](C)(CO)[C@@H]5CC[C@]43C)[C@@H]2[C@]1(C)O" },
+{id: "canvas_Row10", smiles: "C=C1[C@H](O)[C@H](O)C[C@@]2(C)[C@H]1CC[C@]1(C)[C@@H]2CC=C2[C@H]3[C@](C(=O)O)(CC[C@@H](C)[C@@]3(C)O)CC[C@]21C" },
+{id: "canvas_Row11", smiles: "Cc1cc(O)c2c(c1)[C@](O)([C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row12", smiles: "Oc1ccccc1O" },
+{id: "canvas_Row13", smiles: "C[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@@H](O)[C@]6(CO6)[C@@H]5CC[C@]43C)[C@@H]2[C@]1(C)O" },
+{id: "canvas_Row14", smiles: "Cc1cc(O)c2c(c1)C(=O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row15", smiles: "CC1CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CC(O)C(O)C6(CO6)C5CCC43C)C2C1(C)O" },
+{id: "canvas_Row16", smiles: "Cc1cc2c(c(O)c1C(=O)O)C(=O)c1c(O)cccc1[C@@]2(O)[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row17", smiles: "CC(=O)[C@@]12O[C@]1(C)[C@H](O)c1cccc(O)c1[C@@H]2O" },
+{id: "canvas_Row18", smiles: "COC1=CC(=O)c2c(cc(C)c(C(C)=O)c2O)C1=O" },
+{id: "canvas_Row19", smiles: "O=C1c2c(O)cc(O)cc2[C@@](O)([C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c2cc(CO)cc(O)c21" },
+{id: "canvas_Row20", smiles: "Cc1cc(O)c2c(c1)C(=O)c1cccc(O)c1C2=O" },
+{id: "canvas_Row21", smiles: "CC1CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CC(O)C(O)C(C)(CO)C5CCC43C)C2C1(C)O" },
+{id: "canvas_Row22", smiles: "COc1cc(O)c2c(O)c(C(C)=O)c(C)cc2c1" },
+{id: "canvas_Row23", smiles: "Cc1cc2c(c(O)c1C(=O)O)C(=O)c1c(O)cccc1[C@]2(O)[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O" },
+{id: "canvas_Row24", smiles: "COc1cc(O)c2c(c1)C(=O)c1cc(C)cc(O)c1C2=O" },
+{id: "canvas_Row25", smiles: "CC(=O)c1c(C)cc2cccc(O)c2c1O" },
+{id: "canvas_Row26", smiles: "COc1cc(O)cc(OC)c1C(=O)O" },
+{id: "canvas_Row27", smiles: "C=C1C(O)C(O)CC2(C)C1CCC1(C)C2CC=C2C3C(C(=O)O)(CCC(C)C3(C)O)CCC21C" },
+{id: "canvas_Row28", smiles: "C[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@@H](O)[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]2[C@]1(C)O" },
+{id: "canvas_Row29", smiles: "Cc1cc(O)c2c(c1)[C@](O)([C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)c1cc(O)cc(O)c1C2=O" },
+{id: "canvas_Row30", smiles: "Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@H](O)C2" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

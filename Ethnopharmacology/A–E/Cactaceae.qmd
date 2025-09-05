@@ -1,0 +1,183 @@
+---
+title: Họ Cactaceae
+subtitle: Họ **Cactaceae** gồm Ariocarpus, Carnegiea, Cereus, Echinocereus, Lophophora, Opuntia, Selenicereus, Cylindropuntia chi và 8 loài  được sử dụng ở 10vùng lãnh thổ điều trị 10chứng và bệnh.
+description: Họ **Cactaceae** gồm8 chi và 8loài đã ghi nhận sử dụng làm thuốc tại 10 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất gây say (2 loài), chất gây ảo giác (2 loài), ma túy (1 loài), thuốc an thần (1 loài), thuốc diệt cá (1 loài) . 05 loài thực vật gồm **Lophophora williamsii* (4 chứng và bệnh), *Ariocarpus fissuratus* (2 chứng và bệnh), *Cereus repandus* (1 chứng và bệnh), *Cylindropuntia bigelowii* (1 chứng và bệnh), *Echinocereus enneacanthus* (1 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Selenicereus undatus* ( 34 hoạt chất), *Carnegiea gigantea* ( 18 hoạt chất), *Lophophora williamsii* ( 17 hoạt chất), *Cereus repandus* ( 5 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Hylocereus undatus*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/346082038/original.jpg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Cactaceae
+    contents: Cactaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Cactaceae có tổng cộng 8  chi và 8 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Cactaceae"}
+
+| <RowID>   | genus_GIBF     | species_GIBF              |   Count |
+|-----------|----------------|---------------------------|---------|
+| Row0      | Ariocarpus     | Ariocarpus fissuratus     |       1 |
+| Row1      | Carnegiea      | Carnegiea gigantea        |       1 |
+| Row2      | Cereus         | Cereus repandus           |       1 |
+| Row3      | Cylindropuntia | Cylindropuntia bigelowii  |       1 |
+| Row4      | Echinocereus   | Echinocereus enneacanthus |       1 |
+| Row5      | Lophophora     | Lophophora williamsii     |       1 |
+| Row6      | Opuntia        | Opuntia elatior           |       1 |
+| Row7      | Selenicereus   | Selenicereus undatus      |       1 |
+
+:::
+
+Phân bố họ trên thế giới: nan, United States of America, Mexico, Egypt, Spain, Chinese Taipei, Curaçao, Colombia, Bonaire, Sint Eustatius and Saba, India, Aruba, France, Gibraltar, Kenya, French Polynesia, Venezuela (Bolivarian Republic of), Timor-Leste, South Africa, Australia, Indonesia, Madagascar, Mauritius, Montenegro, Portugal, Guatemala, Brazil, Türkiye, Viet Nam, Thailand, Croatia, Italy, Morocco, Belgium, Malawi, Tanzania, United Republic of, Zambia, Cuba, Cyprus, Seychelles, Réunion, Japan, Norway, Greece, El Salvador, unknown or invalid
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Cactaceae",
+  iso3_codes: ['PYF', 'BEL', 'ESP', 'GTM', 'EGY', 'FRA', 'AUS', 'ABW', 'TUR', 'NOR', 'JPN', 'ZAF', 'MWI', 'THA', 'BRA', 'CYP', 'MUS', 'IDN', 'MAR', 'MNE', 'SLV', 'KEN', 'HRV', 'ITA', 'USA', 'ZMB', 'REU', 'COL', 'PRT', 'GIB', 'SYC', 'GRC', 'CUB', 'MDG', 'TLS', 'TZA', 'MEX', 'CUW', 'VNM', 'IND'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Cactaceae** có tổng cộng 8  chi và 8 loài.đã phân lập và xác định được 97 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Cactaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0007857</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0076396</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0097238</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0012541</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0014306</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Cactaceae** đã được một số công động tại các quốc gia như *Mexico(Huichol), Mexico(Tarahumara), US(Papago), US(Pima), Curacao, US, Elsewhere, Mexico, US(Blackfoot), Mexico(Seri)* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *chất gây ảo giác, ma túy, chất gây say, xà phòng, thuốc diệt cá, thuốc an thần, thuốc trợ tim, thuốc long đờm, thuốc diệt ký sinh trùng, thuốc lợi tiểu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Lophophora williamsii* (4 chứng và bệnh), *Ariocarpus fissuratus* (2 chứng và bệnh), *Cereus repandus* (1 chứng và bệnh), *Cylindropuntia bigelowii* (1 chứng và bệnh), *Echinocereus enneacanthus* (1 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Cactaceae** có thể điều trị là chất gây say (2 loài), chất gây ảo giác (2 loài), ma túy (1 loài), thuốc an thần (1 loài), thuốc diệt cá (1 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Cactaceae"}
+| <RowID>   | genus_GIBF     | Country- Species - Disease                                                                                                                                                                                                                                                                               |
+|-----------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Ariocarpus     | Mexico(Huichol) - (*Ariocarpus fissuratus* - chất gây ảo giác), Mexico(Tarahumara) - (*Ariocarpus fissuratus* - ma túy)                                                                                                                                                                                  |
+| Row1      | Carnegiea      | US(Papago) - (*Carnegiea gigantea* - chất gây say), US(Pima) - (*Carnegiea gigantea* - chất gây say)                                                                                                                                                                                                     |
+| Row2      | Cereus         | Curacao - (*Cereus repandus* - xà phòng)                                                                                                                                                                                                                                                                 |
+| Row3      | Cylindropuntia | Mexico(Seri) - (*Cylindropuntia bigelowii* - thuốc lợi tiểu)                                                                                                                                                                                                                                             |
+| Row4      | Echinocereus   | US - (*Echinocereus enneacanthus* - thuốc diệt cá)                                                                                                                                                                                                                                                       |
+| Row5      | Lophophora     | Elsewhere - (*Lophophora williamsii* - thuốc an thần), Mexico - (*Lophophora williamsii* - thuốc trợ tim, chất gây ảo giác), Mexico(Huichol) - (*Lophophora williamsii* - chất gây ảo giác), US - (*Lophophora williamsii* - chất gây say), US(Blackfoot) - (*Lophophora williamsii* - chất gây ảo giác) |
+| Row6      | Opuntia        | Elsewhere - (*Opuntia elatior* - thuốc long đờm)                                                                                                                                                                                                                                                         |
+| Row7      | Selenicereus   | Mexico - (*Selenicereus undatus* - thuốc diệt ký sinh trùng)                                                                                                                                                                                                                                             |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Cactaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_Row0", smiles: "CN(C)CCc1ccc(O)cc1" },
+{id: "canvas_Row1", smiles: "COc1cc(CCN)cc(OC)c1OC" },
+{id: "canvas_Row2", smiles: "CNCCc1ccc(OC)c(OC)c1" },
+{id: "canvas_Row3", smiles: "COc1cc2c(c(O)c1OC)[C@H](C)N(C)CC2" },
+{id: "canvas_Row4", smiles: "O=C(O)C(O)CC1OC(=O)C(O)C1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

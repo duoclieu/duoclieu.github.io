@@ -1,0 +1,169 @@
+---
+title: "Haemanthus multiflorus"
+subtitle: "Loài Haemanthus multiflorus (Họ Amaryllidaceae)"
+description: "Loài *Haemanthus multiflorus* thuộc họ Amaryllidaceae phân bố tại một số vùng trên thế giới như France, Benin, Ghana, nan, Tanzania, United Republic of, Guinea, China, Rwanda, Senegal, Kenya, Eswatini, Congo, Democratic Republic of the. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'africa: thuốc diệt cá'.Từ loài này đã phân lập và xác định được 24 hoạt chất thuộc  về 4 nhóm gồm , amaryllidaceae alkaloids, benzazepines, quinolines and derivatives."
+author: "TS. Hoàng Lê Sơn"
+image: N/A
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Haemanthus multiflorus", "Amaryllidaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Haemanthus multiflorus* thuộc họ Amaryllidaceae phân bố tại một số vùng trên thế giới như France, Benin, Ghana, nan, Tanzania, United Republic of, Guinea, China, Rwanda, Senegal, Kenya, Eswatini, Congo, Democratic Republic of the. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'africa: thuốc diệt cá'.Từ loài này đã phân lập và xác định được 24 hoạt chất thuộc  về 4 nhóm gồm , amaryllidaceae alkaloids, benzazepines, quinolines and derivatives.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Asparagales
+- **Family:** Amaryllidaceae
+- **Genus:** Haemanthus
+- **Species:** *Haemanthus multiflorus*
+- **Scientific Name:** *Haemanthus multiflorus (Tratt.) Martyn ex Willd.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Liliaceae - Genus: Haemanthus - Species: *Haemanthus multiflorus* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại đã có sự thay đổi*  
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](N/A){ group="GIBF" }
+
+![](http://arbmis.arcosnetwork.org/media_images/API/LWI122981101.jpg){ group="GIBF" }
+
+![](http://arbmis.arcosnetwork.org/media_images/API/LWI278682499.jpg){ group="GIBF" }
+
+![](http://arbmis.arcosnetwork.org/media_images/API/LWI305655338.jpg){ group="GIBF" }
+
+![](http://arbmis.arcosnetwork.org/media_images/API/LWI171647405.jpg){ group="GIBF" }
+
+![](https://specify-attachments.science.ku.dk/static/NHMD_Botany/originals/C10003931.tif){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Benin, Ghana, nan, Tanzania, United Republic of, Guinea, China, Rwanda, Senegal, Kenya, Eswatini, Congo, Democratic Republic of the
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Amaryllidaceae",
+  iso3_codes: ['KEN', 'BEN', 'RWA', 'COG', 'FRA', 'CHN', 'SWZ', 'SEN', 'GIN', 'TZA', 'GHA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Haemanthus multiflorus* đã phân lập và xác định được 24 hoạt chất thuộc  về 4 nhóm gồm , amaryllidaceae alkaloids, benzazepines, quinolines and derivatives. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title"></div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0165669](https://lotus.naturalproducts.net/compound/lotus_id/LTS0165669)</div></div></div>
+<div class="group-title">Amaryllidaceae alkaloids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0038419](https://lotus.naturalproducts.net/compound/lotus_id/LTS0038419)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0137785](https://lotus.naturalproducts.net/compound/lotus_id/LTS0137785)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0043002](https://lotus.naturalproducts.net/compound/lotus_id/LTS0043002)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0107470](https://lotus.naturalproducts.net/compound/lotus_id/LTS0107470)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0194301](https://lotus.naturalproducts.net/compound/lotus_id/LTS0194301)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0266142](https://lotus.naturalproducts.net/compound/lotus_id/LTS0266142)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0156327](https://lotus.naturalproducts.net/compound/lotus_id/LTS0156327)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0187515](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187515)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0231900](https://lotus.naturalproducts.net/compound/lotus_id/LTS0231900)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0170145](https://lotus.naturalproducts.net/compound/lotus_id/LTS0170145)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0186544](https://lotus.naturalproducts.net/compound/lotus_id/LTS0186544)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0001591](https://lotus.naturalproducts.net/compound/lotus_id/LTS0001591)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0000267](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000267)</div></div></div>
+<div class="group-title">Benzazepines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0132664](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132664)</div></div></div>
+<div class="group-title">Quinolines and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0088729](https://lotus.naturalproducts.net/compound/lotus_id/LTS0088729)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0152497](https://lotus.naturalproducts.net/compound/lotus_id/LTS0152497)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0123439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0123439)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0202973](https://lotus.naturalproducts.net/compound/lotus_id/LTS0202973)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0089972](https://lotus.naturalproducts.net/compound/lotus_id/LTS0089972)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0099296](https://lotus.naturalproducts.net/compound/lotus_id/LTS0099296)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0259305](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259305)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0253559](https://lotus.naturalproducts.net/compound/lotus_id/LTS0253559)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0236502](https://lotus.naturalproducts.net/compound/lotus_id/LTS0236502)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Africa          | Thuốc diệt cá   |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2" },
+{id: "canvas_Row1", smiles: "COC1C=C2C3CN(Cc4cc5c(cc43)OCO5)C2CC1O" },
+{id: "canvas_Row2", smiles: "CO[C@H]1C=C2[C@H]3CN(Cc4cc5c(cc43)OCO5)[C@H]2C[C@@H]1O" },
+{id: "canvas_Row3", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4CN(C[C@H]2O)[C@H]3C1)OCO5" },
+{id: "canvas_Row4", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4[C@H](O)N(C[C@H]2O)[C@H]3C1)OCO5" },
+{id: "canvas_Row5", smiles: "O=c1c2cc3c(cc2c2cccc4ccn1c42)OCO3" },
+{id: "canvas_Row6", smiles: "COc1ccc2c3c1OC1CC(O)C=CC31CCN(C)C2" },
+{id: "canvas_Row7", smiles: "CC(=O)O[C@H]1C=C[C@]23CCN(C)Cc4ccc(O)c(c42)O[C@H]3C1" },
+{id: "canvas_Row8", smiles: "O=c1c2c(cc3c1c(O)n1ccc4cccc3c41)OCO2" },
+{id: "canvas_Row9", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4[C@@H](O)N(C[C@H]2O)[C@H]3C1)OCO5" },
+{id: "canvas_Row10", smiles: "OC1CN2Cc3cc4c(cc3C13C=CCCC23)OCO4" },
+{id: "canvas_Row11", smiles: "OC1=N[C@@H]2C(=C[C@H](O)[C@@H](O)[C@H]2O)c2cc3c(c(O)c21)OCO3" },
+{id: "canvas_Row12", smiles: "O[C@@H]1CN2Cc3cc4c(cc3[C@]13C=CCC[C@H]23)OCO4" },
+{id: "canvas_Row13", smiles: "COc1cc2c(cc1O)c(=O)n1ccc3cccc2c31" },
+{id: "canvas_Row14", smiles: "O[C@@H]1CN2Cc3cc4c(cc3[C@@]13C=CCC[C@H]23)OCO4" },
+{id: "canvas_Row15", smiles: "OC1CN2Cc3cc4c(cc3C13CC=CCC23)OCO4" },
+{id: "canvas_Row16", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4C(O)N(C[C@H]2O)[C@H]3C1)OCO5" },
+{id: "canvas_Row17", smiles: "CO[C@@H]1C=C[C@@]23c4cc5c(cc4CN(C[C@@H]2O)[C@H]3C1)OCO5" },
+{id: "canvas_Row18", smiles: "CC(=O)OC1C=CC23CCN(C)Cc4ccc(O)c(c42)OC3C1" },
+{id: "canvas_Row19", smiles: "CN1CC[C@@]23C=C[C@H](O)C[C@@H]2Oc2c(O)ccc(c23)C1" },
+{id: "canvas_Row20", smiles: "O[C@@H]1CN2Cc3cc4c(cc3[C@]13CC=CC[C@H]23)OCO4" },
+{id: "canvas_Row21", smiles: "O[C@H]1C=C2CCN3Cc4cc5c(cc4[C@H]([C@@H]1O)[C@@H]23)OCO5" },
+{id: "canvas_Row22", smiles: "COC1C=CC23c4cc5c(cc4C(O)N(CC2O)C3C1)OCO5" },
+{id: "canvas_Row23", smiles: "OC[C@H]1O[C@@H](O[C@H]2C=C3c4cc5c(c(O)c4C(O)=N[C@H]3[C@H](O)[C@@H]2O)OCO5)[C@H](O)[C@@H](O)[C@@H]1O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

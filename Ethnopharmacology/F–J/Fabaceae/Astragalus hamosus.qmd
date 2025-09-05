@@ -1,0 +1,180 @@
+---
+title: "Astragalus hamosus"
+subtitle: "Loài Astragalus hamosus (Họ Fabaceae)"
+description: "Loài *Astragalus hamosus* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như France, Israel, Spain, Palestine, State of, Russian Federation, Portugal, Algeria, Italy, Greece, Iraq, Albania, Azerbaijan, Türkiye, Ukraine. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'iraq: chất làm se, thuốc tống hơi, gây nôn'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm carboxylic acids and derivatives, fatty acyls, organooxygen compounds."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Astragalus%20hamosus%20kz11.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Astragalus hamosus", "Fabaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Astragalus hamosus* thuộc họ Fabaceae phân bố tại một số vùng trên thế giới như France, Israel, Spain, Palestine, State of, Russian Federation, Portugal, Algeria, Italy, Greece, Iraq, Albania, Azerbaijan, Türkiye, Ukraine. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'iraq: chất làm se, thuốc tống hơi, gây nôn'.Từ loài này đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm carboxylic acids and derivatives, fatty acyls, organooxygen compounds.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Fabales
+- **Family:** Fabaceae
+- **Genus:** Astragalus
+- **Species:** *Astragalus hamosus*
+- **Scientific Name:** *Astragalus hamosus L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Fabaceae - Genus: Astragalus - Species: *Astragalus hamosus* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Astragalus%20hamosus%20kz11.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354365836/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/354365854/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355236499/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/355236515/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356503793/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356503736/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356503763/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/356503752/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357055698/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357055560/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357050118/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357056055/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/357056117/original.jpg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: France, Israel, Spain, Palestine, State of, Russian Federation, Portugal, Algeria, Italy, Greece, Iraq, Albania, Azerbaijan, Türkiye, Ukraine
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Fabaceae",
+  iso3_codes: ['ALB', 'AZE', 'DZA', 'PRT', 'ISR', 'ITA', 'ESP', 'IRQ', 'UKR', 'TUR', 'GRC', 'RUS', 'FRA'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Astragalus hamosus* đã phân lập và xác định được 21 hoạt chất thuộc  về 3 nhóm gồm carboxylic acids and derivatives, fatty acyls, organooxygen compounds. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Carboxylic acids and derivatives</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0042208](https://lotus.naturalproducts.net/compound/lotus_id/LTS0042208)</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0108782](https://lotus.naturalproducts.net/compound/lotus_id/LTS0108782)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0196746](https://lotus.naturalproducts.net/compound/lotus_id/LTS0196746)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0249538](https://lotus.naturalproducts.net/compound/lotus_id/LTS0249538)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0130329](https://lotus.naturalproducts.net/compound/lotus_id/LTS0130329)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0272178](https://lotus.naturalproducts.net/compound/lotus_id/LTS0272178)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0064737](https://lotus.naturalproducts.net/compound/lotus_id/LTS0064737)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0093444](https://lotus.naturalproducts.net/compound/lotus_id/LTS0093444)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0132632](https://lotus.naturalproducts.net/compound/lotus_id/LTS0132632)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0094081](https://lotus.naturalproducts.net/compound/lotus_id/LTS0094081)</div></div></div>
+<div class="group-title">Fatty Acyls</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0079439](https://lotus.naturalproducts.net/compound/lotus_id/LTS0079439)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0261591](https://lotus.naturalproducts.net/compound/lotus_id/LTS0261591)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0171823](https://lotus.naturalproducts.net/compound/lotus_id/LTS0171823)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0256910](https://lotus.naturalproducts.net/compound/lotus_id/LTS0256910)</div></div> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0102566](https://lotus.naturalproducts.net/compound/lotus_id/LTS0102566)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0051907](https://lotus.naturalproducts.net/compound/lotus_id/LTS0051907)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0237766](https://lotus.naturalproducts.net/compound/lotus_id/LTS0237766)</div></div></div>
+<div class="group-title">Organooxygen compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0262158](https://lotus.naturalproducts.net/compound/lotus_id/LTS0262158)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0241114](https://lotus.naturalproducts.net/compound/lotus_id/LTS0241114)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0013597](https://lotus.naturalproducts.net/compound/lotus_id/LTS0013597)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0259277](https://lotus.naturalproducts.net/compound/lotus_id/LTS0259277)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                        |
+|-----------|-----------------|--------------------------------------|
+| Row0      | Iraq            | Chất làm se, thuốc tống hơi, gây nôn |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C[C@H](N)C(=O)O" },
+{id: "canvas_Row1", smiles: "CSCC[C@@H](N)C(=O)O" },
+{id: "canvas_Row2", smiles: "CCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row3", smiles: "CSCC[C@H](N)C(=O)O" },
+{id: "canvas_Row4", smiles: "CC[C@H](C)[C@H](N)C(=O)O" },
+{id: "canvas_Row5", smiles: "N[C@@H](Cc1ccc(O)c(O)c1)C(=O)O" },
+{id: "canvas_Row6", smiles: "CCCCCC/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row7", smiles: "O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO" },
+{id: "canvas_Row8", smiles: "CCCCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row9", smiles: "C[C@@H](N)C(=O)O" },
+{id: "canvas_Row10", smiles: "CCCCCCCC/C=C\CCCCCCCC(=O)O" },
+{id: "canvas_Row11", smiles: "CCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row12", smiles: "N=C(N)NCCC[C@H](N)C(=O)O" },
+{id: "canvas_Row13", smiles: "NCCC[C@H](N)C(=O)O" },
+{id: "canvas_Row14", smiles: "O=C(CO)[C@@H](O)[C@H](O)[C@H](O)CO" },
+{id: "canvas_Row15", smiles: "CCCC[C@H](N)C(=O)O" },
+{id: "canvas_Row16", smiles: "OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row17", smiles: "CCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row18", smiles: "CCCCCCCCCCCCCCCCCC(=O)O" },
+{id: "canvas_Row19", smiles: "OCC1(O)OC[C@@H](O)[C@@H](O)[C@@H]1O" },
+{id: "canvas_Row20", smiles: "N[C@@H](Cc1cnc[nH]1)C(=O)O" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

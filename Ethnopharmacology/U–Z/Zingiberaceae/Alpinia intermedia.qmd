@@ -1,0 +1,173 @@
+---
+title: "Alpinia intermedia"
+subtitle: "Loài Alpinia intermedia (Họ Zingiberaceae)"
+description: "Loài *Alpinia intermedia* thuộc họ Zingiberaceae phân bố tại một số vùng trên thế giới như Chinese Taipei, Hong Kong, China, Japan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: dạ dày'.Từ loài này đã phân lập và xác định được 24 hoạt chất thuộc  về 3 nhóm gồm dihydrofurans, heteroaromatic compounds, prenol lipids."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Alpinia%20intermedia.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Alpinia intermedia", "Zingiberaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Alpinia intermedia* thuộc họ Zingiberaceae phân bố tại một số vùng trên thế giới như Chinese Taipei, Hong Kong, China, Japan. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: dạ dày'.Từ loài này đã phân lập và xác định được 24 hoạt chất thuộc  về 3 nhóm gồm dihydrofurans, heteroaromatic compounds, prenol lipids.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Zingiberales
+- **Family:** Zingiberaceae
+- **Genus:** Alpinia
+- **Species:** *Alpinia intermedia*
+- **Scientific Name:** *Alpinia intermedia Gagnep.*  
+- **Mô tả thực vật:** [, ]
+- **Description (EN):** [species of plant, species of plant]
+ - **Tên tiếng Việt:** [, ]
+ - **Tên tiếng Anh: **[, ]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Zingiberaceae - Genus: Alpinia - Species: *Alpinia intermedia* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Alpinia%20intermedia.jpg){ group="GIBF" }
+
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Alpinia%20japonica%20%28Montage%29.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344006616/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345195323/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345195327/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345206373/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345307883/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345307894/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/345498130/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: Chinese Taipei, Hong Kong, China, Japan
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Zingiberaceae",
+  iso3_codes: ['HKG', 'JPN', 'CHN'],
+  color: [1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Alpinia intermedia* đã phân lập và xác định được 24 hoạt chất thuộc  về 3 nhóm gồm dihydrofurans, heteroaromatic compounds, prenol lipids. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Dihydrofurans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row11" width="150" height="150"></canvas> <div class="mol-name">[LTS0240409](https://lotus.naturalproducts.net/compound/lotus_id/LTS0240409)</div></div> <div class="molecule-box"> <canvas id="canvas_Row17" width="150" height="150"></canvas> <div class="mol-name">[LTS0141914](https://lotus.naturalproducts.net/compound/lotus_id/LTS0141914)</div></div></div>
+<div class="group-title">Heteroaromatic compounds</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0238456](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238456)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0162946](https://lotus.naturalproducts.net/compound/lotus_id/LTS0162946)</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0035003](https://lotus.naturalproducts.net/compound/lotus_id/LTS0035003)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0084972](https://lotus.naturalproducts.net/compound/lotus_id/LTS0084972)</div></div></div>
+<div class="group-title">Prenol lipids</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0096341](https://lotus.naturalproducts.net/compound/lotus_id/LTS0096341)</div></div> <div class="molecule-box"> <canvas id="canvas_Row5" width="150" height="150"></canvas> <div class="mol-name">[LTS0182382](https://lotus.naturalproducts.net/compound/lotus_id/LTS0182382)</div></div> <div class="molecule-box"> <canvas id="canvas_Row6" width="150" height="150"></canvas> <div class="mol-name">[LTS0108818](https://lotus.naturalproducts.net/compound/lotus_id/LTS0108818)</div></div> <div class="molecule-box"> <canvas id="canvas_Row7" width="150" height="150"></canvas> <div class="mol-name">[LTS0139255](https://lotus.naturalproducts.net/compound/lotus_id/LTS0139255)</div></div> <div class="molecule-box"> <canvas id="canvas_Row8" width="150" height="150"></canvas> <div class="mol-name">[LTS0203107](https://lotus.naturalproducts.net/compound/lotus_id/LTS0203107)</div></div> <div class="molecule-box"> <canvas id="canvas_Row9" width="150" height="150"></canvas> <div class="mol-name">[LTS0187394](https://lotus.naturalproducts.net/compound/lotus_id/LTS0187394)</div></div> <div class="molecule-box"> <canvas id="canvas_Row10" width="150" height="150"></canvas> <div class="mol-name">[LTS0191566](https://lotus.naturalproducts.net/compound/lotus_id/LTS0191566)</div></div> <div class="molecule-box"> <canvas id="canvas_Row12" width="150" height="150"></canvas> <div class="mol-name">[LTS0053835](https://lotus.naturalproducts.net/compound/lotus_id/LTS0053835)</div></div> <div class="molecule-box"> <canvas id="canvas_Row13" width="150" height="150"></canvas> <div class="mol-name">[LTS0189837](https://lotus.naturalproducts.net/compound/lotus_id/LTS0189837)</div></div> <div class="molecule-box"> <canvas id="canvas_Row14" width="150" height="150"></canvas> <div class="mol-name">[LTS0201104](https://lotus.naturalproducts.net/compound/lotus_id/LTS0201104)</div></div> <div class="molecule-box"> <canvas id="canvas_Row15" width="150" height="150"></canvas> <div class="mol-name">[LTS0263512](https://lotus.naturalproducts.net/compound/lotus_id/LTS0263512)</div></div> <div class="molecule-box"> <canvas id="canvas_Row16" width="150" height="150"></canvas> <div class="mol-name">[LTS0165615](https://lotus.naturalproducts.net/compound/lotus_id/LTS0165615)</div></div> <div class="molecule-box"> <canvas id="canvas_Row18" width="150" height="150"></canvas> <div class="mol-name">[LTS0163275](https://lotus.naturalproducts.net/compound/lotus_id/LTS0163275)</div></div> <div class="molecule-box"> <canvas id="canvas_Row19" width="150" height="150"></canvas> <div class="mol-name">[LTS0055546](https://lotus.naturalproducts.net/compound/lotus_id/LTS0055546)</div></div> <div class="molecule-box"> <canvas id="canvas_Row20" width="150" height="150"></canvas> <div class="mol-name">[LTS0238098](https://lotus.naturalproducts.net/compound/lotus_id/LTS0238098)</div></div> <div class="molecule-box"> <canvas id="canvas_Row21" width="150" height="150"></canvas> <div class="mol-name">[LTS0015028](https://lotus.naturalproducts.net/compound/lotus_id/LTS0015028)</div></div> <div class="molecule-box"> <canvas id="canvas_Row22" width="150" height="150"></canvas> <div class="mol-name">[LTS0000681](https://lotus.naturalproducts.net/compound/lotus_id/LTS0000681)</div></div> <div class="molecule-box"> <canvas id="canvas_Row23" width="150" height="150"></canvas> <div class="mol-name">[LTS0251341](https://lotus.naturalproducts.net/compound/lotus_id/LTS0251341)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh   |
+|-----------|-----------------|-----------------|
+| Row0      | Elsewhere       | dạ dày          |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C(C)[C@@H]1CC[C@@]2(C)CCCC(=C)[C@@H]2C1" },
+{id: "canvas_Row1", smiles: "CC(=O)[C@@H]1CC[C@H](C)[C@@H]1c1occc1C(C)C" },
+{id: "canvas_Row2", smiles: "CC(=O)C1CCC(C)C1c1occc1C(C)C" },
+{id: "canvas_Row3", smiles: "CC(=O)[C@H]1CC[C@@H](C)[C@H]1c1occc1C(C)C" },
+{id: "canvas_Row4", smiles: "CC(=O)[C@@H]1CC[C@@H](C)[C@H]1c1occc1C(C)C" },
+{id: "canvas_Row5", smiles: "CC(C)C1=C[C@H](O)[C@]2(C)OO[C@H]1[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row6", smiles: "CC(C)C1=CC(=O)[C@]2(C)O[C@@]1(O)[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row7", smiles: "CC(C)C1=CC(=O)C2(C)OOC1C1C(C)CCC12" },
+{id: "canvas_Row8", smiles: "CC(C)C1=CC(O)C2(C)OOC1C1C(C)CCC12" },
+{id: "canvas_Row9", smiles: "CC(C)C1=CC(=O)[C@@]2(C)OO[C@@H]1[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row10", smiles: "CC(C)C1=CC(=O)[C@]2(C)OO[C@H]1[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row11", smiles: "CC(=O)C1CCC(C)C1C1OC(=O)C=C1C(C)C" },
+{id: "canvas_Row12", smiles: "CC(C)C1=CC(=O)C2(C)OC1(O)C1C(C)CCC12" },
+{id: "canvas_Row13", smiles: "CC(C)C1=CC(OO)C2(C)OOC1C1C(C)CCC12" },
+{id: "canvas_Row14", smiles: "CC(C)[C@@]1(O)C=C[C@@]2(C)OO[C@@H]1[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row15", smiles: "CC(C)C1=C[C@H](O)[C@@]2(C)OO[C@@H]1[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row16", smiles: "C=C(C)C1CCC2(C)CCCC(=C)C2C1" },
+{id: "canvas_Row17", smiles: "CC(=O)[C@H]1CC[C@@H](C)[C@H]1[C@H]1OC(=O)C=C1C(C)C" },
+{id: "canvas_Row18", smiles: "C=C(C)C1CCC2(O)CCCC(C)C2(C)C1" },
+{id: "canvas_Row19", smiles: "CC1CCC2C1C1OOC2(C)C=CC1(O)C(C)C" },
+{id: "canvas_Row20", smiles: "CC(C)C1=C[C@H](OO)[C@]2(C)OO[C@H]1[C@H]1[C@@H]2CC[C@H]1C" },
+{id: "canvas_Row21", smiles: "C=C(C)[C@@H]1CC[C@]2(C)CCC[C@](C)(O)[C@H]2C1" },
+{id: "canvas_Row22", smiles: "C=C(C)C1CCC2(C)CCCC(C)(O)C2C1" },
+{id: "canvas_Row23", smiles: "C=C(C)[C@@H]1CC[C@@]2(O)CCC[C@H](C)[C@@]2(C)C1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+

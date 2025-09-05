@@ -1,0 +1,274 @@
+---
+title: Họ Rubiaceae
+subtitle: Họ **Rubiaceae** gồm Adina, Cephalanthus, Chiococca, Chione, Cinchona, Coffea, Coussarea, Coutarea, Crossopteryx, Duroia, Exostema, Faramea, Galium, Gardenia, Genipa, Guettarda, Hamelia, Hedyotis, Hintonia, Hymenodictyon, Isertia, Ixora, Mitchella, Mitragyna, Morinda, Nauclea, Paederia, Pavetta, Randia, Rothmannia, Rubia, Schumanniophyton, Simira, Neonauclea, Corynanthe chi và 46 loài  được sử dụng ở 47vùng lãnh thổ điều trị 38chứng và bệnh.
+description: Họ **Rubiaceae** gồm35 chi và 46loài đã ghi nhận sử dụng làm thuốc tại 47 vùng và lãnh thổ. Thống kê cho thầy các loài thuộc họ này có thể điều trị các chứng và bệnh phổ biến nhất gồm chất làm se (10 loài), thuốc lợi tiểu (10 loài), thuốc bổ (8 loài), chất khử trùng (7 loài), thuốc nhuận tràng (7 loài) . 05 loài thực vật gồm **Coffea arabica* (6 chứng và bệnh), *Galium aparine* (6 chứng và bệnh), *Morinda citrifolia* (6 chứng và bệnh), *Paederia foetida* (5 chứng và bệnh), *Cephalanthus occidentalis* (4 chứng và bệnh)* được xem là sử dụng điều trị nhiều chứng và bệnh nhất. Trong đó, các loài phân lập và xác định được nhiều thành phần nhất gồm *Morinda citrifolia* ( 253 hoạt chất), *Gardenia jasminoides* ( 214 hoạt chất), *Coffea arabica* ( 152 hoạt chất), *Rubia cordifolia* ( 147 hoạt chất), *Cinchona calisaya* ( 85 hoạt chất). Loài dược liệu quan trọng thuộc họ này là *Morinda citrifolia*
+author: "TS. Hoàng Lê Sơn"
+image: https://inaturalist-open-data.s3.amazonaws.com/photos/353032975/original.jpeg
+toc: true
+title-block-banner: true
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+lightbox: auto
+fig-cap-location: bottom
+categories: ['Dược dân tộc']
+listing:
+  - id: Rubiaceae
+    contents: Rubiaceae/*.qmd
+    sort: "subtitle"
+    type: table
+    fields: [image, title, subtitle, description]
+---
+
+## 1.Tổng quan về thực vật
+
+Họ Rubiaceae có tổng cộng 35  chi và 46 loài. 
+
+::: {.table caption="Bảng các loài được sử dụng làm thuốc từ họ Rubiaceae"}
+
+| <RowID>   | genus_GIBF       | species_GIBF                                                    |   Count |
+|-----------|------------------|-----------------------------------------------------------------|---------|
+| Row32     | Rubia            | Rubia argyi, Rubia cordifolia, Rubia peregrina, Rubia tinctorum |       4 |
+| Row4      | Cinchona         | Cinchona calisaya, Cinchona officinalis, Cinchona pubescens     |       3 |
+| Row13     | Galium           | Galium aparine, Galium mollugo, Galium verum                    |       3 |
+| Row0      | Adina            | Adina cordifolia, Adina rubella                                 |       2 |
+| Row14     | Gardenia         | Gardenia gummifera, Gardenia jasminoides                        |       2 |
+| Row25     | Morinda          | Morinda citrifolia, Morinda lucida                              |       2 |
+| Row26     | Nauclea          | Nauclea latifolia, Nauclea orientalis                           |       2 |
+| Row1      | Cephalanthus     | Cephalanthus occidentalis                                       |       1 |
+| Row2      | Chiococca        | Chiococca alba                                                  |       1 |
+| Row3      | Chione           | Chione venosa                                                   |       1 |
+| Row5      | Coffea           | Coffea arabica                                                  |       1 |
+| Row6      | Corynanthe       | Corynanthe johimbe                                              |       1 |
+| Row7      | Coussarea        | Coussarea hydrangeifolia                                        |       1 |
+| Row8      | Coutarea         | Coutarea hexandra                                               |       1 |
+| Row9      | Crossopteryx     | Crossopteryx febrifuga                                          |       1 |
+| Row10     | Duroia           | Duroia hirsuta                                                  |       1 |
+| Row11     | Exostema         | Exostema caribaeum                                              |       1 |
+| Row12     | Faramea          | Faramea occidentalis                                            |       1 |
+| Row15     | Genipa           | Genipa americana                                                |       1 |
+| Row16     | Guettarda        | Guettarda angelica                                              |       1 |
+| Row17     | Hamelia          | Hamelia patens                                                  |       1 |
+| Row18     | Hedyotis         | Hedyotis herbacea                                               |       1 |
+| Row19     | Hintonia         | Hintonia latiflora                                              |       1 |
+| Row20     | Hymenodictyon    | Hymenodictyon orixense                                          |       1 |
+| Row21     | Isertia          | Isertia pittieri                                                |       1 |
+| Row22     | Ixora            | Ixora coccinea                                                  |       1 |
+| Row23     | Mitchella        | Mitchella repens                                                |       1 |
+| Row24     | Mitragyna        | Mitragyna stipulosa                                             |       1 |
+| Row27     | Neonauclea       | Neonauclea sessilifolia                                         |       1 |
+| Row28     | Paederia         | Paederia foetida                                                |       1 |
+| Row29     | Pavetta          | Pavetta indica                                                  |       1 |
+| Row30     | Randia           | Randia armata                                                   |       1 |
+| Row31     | Rothmannia       | Rothmannia longiflora                                           |       1 |
+| Row33     | Schumanniophyton | Schumanniophyton magnificum                                     |       1 |
+| Row34     | Simira           | Simira maxonii                                                  |       1 |
+
+:::
+
+Phân bố họ trên thế giới: Thailand, nan, Myanmar, United States of America, Nigeria, China, Mexico, unknown or invalid, Cambodia, Bangladesh, India, Nepal, Puerto Rico, Indonesia, Sri Lanka, Lao People’s Democratic Republic, Viet Nam, Russian Federation, Chinese Taipei, Korea, Republic of, Canada, Cayman Islands, Haiti, Bahamas, Jamaica, Antigua and Barbuda, Colombia, Belize, Martinique, Virgin Islands (U.S.), Saint Kitts and Nevis, Guatemala, Brazil, Bermuda, Dominican Republic, Ecuador, El Salvador, Guadeloupe, Bonaire, Sint Eustatius and Saba, Nicaragua, Cuba, Panama, Costa Rica, Peru, Bolivia (Plurinational State of), Tanzania, United Republic of, Honduras, Malaysia, Madagascar, Congo, Democratic Republic of the, Sao Tome and Principe, Philippines, Rwanda, Burundi, Réunion, Kenya, Netherlands, Saint Helena, Ascension and Tristan da Cunha, Guinea, Côte d’Ivoire, French Polynesia, Japan, Cameroon, Uganda, Saint Lucia, Tonga, Spain, Hong Kong, South Africa, Australia, Trinidad and Tobago, Argentina, Northern Mariana Islands, Ethiopia, Norway, French Guiana, Namibia, Benin, Ghana, Malawi, Gabon, Mozambique, Burkina Faso, Botswana, Togo, Central African Republic, Sierra Leone, Zimbabwe, Saint Martin (French part), Saint Barthélemy, Dominica, Sint Maarten (Dutch part), Anguilla, France, Germany, Chile, Palestine, State of, Portugal, United Kingdom of Great Britain and Northern Ireland, Italy, New Zealand, Greece, Denmark, Austria, Ireland, Switzerland, Czechia, Belgium, Hungary, Poland, Sweden, Romania, Slovenia, Luxembourg, Belarus, Croatia, Kazakhstan, Micronesia (Federated States of), Macao, Georgia, Paraguay, Venezuela (Bolivarian Republic of), Samoa, Saint Vincent and the Grenadines, Turks and Caicos Islands, Singapore, Virgin Islands (British), Barbados, United Arab Emirates, Aruba, Grenada, Montserrat, Guyana, Angola, Liberia, New Caledonia, Maldives, Fiji, Guam, Niue, Seychelles, Guinea-Bissau, Senegal, Gambia, Timor-Leste, Papua New Guinea, Vanuatu, Bhutan, Equatorial Guinea, Eswatini, Mongolia, Malta, Türkiye, Iraq, Ukraine, Algeria, Morocco, Armenia, Pakistan
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Rubiaceae",
+  iso3_codes: ['CAF', 'PHL', 'NPL', 'HND', 'TGO', 'GEO', 'SLE', 'IND', 'TUR', 'SGP', 'BLZ', 'MDG', 'REU', 'MLT', 'RWA', 'LKA', 'BEL', 'KHM', 'AIA', 'UKR', 'LBR', 'THA', 'ARG', 'BLM', 'GUF', 'GHA', 'BWA', 'SXM', 'HRV', 'GRC', 'NAM', 'CHN', 'CYM', 'MAC', 'SWE', 'ATG', 'LUX', 'MYS', 'HTI', 'PYF', 'IDN', 'KEN', 'COL', 'MEX', 'MSR', 'MAF', 'TLS', 'TZA', 'ZWE', 'IRL', 'GRD', 'CAN', 'GTM', 'CZE', 'SYC', 'MWI', 'MAR', 'ARE', 'PAN', 'PRI', 'CHE', 'BFA', 'VNM', 'NIC', 'COG', 'NGA', 'SEN', 'ETH', 'MNG', 'VUT', 'KNA', 'CUB', 'AUT', 'MNP', 'STP', 'MTQ', 'BHS', 'DNK', 'WSM', 'NZL', 'CRI', 'SLV', 'BLR', 'AGO', 'NCL', 'TTO', 'FJI', 'JPN', 'NLD', 'BRA', 'HUN', 'PNG', 'PER', 'GNQ', 'GAB', 'BTN', 'RUS', 'CHL', 'FRA', 'MOZ', 'BEN', 'POL', 'MMR', 'NIU', 'GMB', 'LCA', 'HKG', 'GBR', 'ABW', 'BDI', 'DZA', 'JAM', 'NOR', 'DOM', 'IRQ', 'ROU', 'GUM', 'AUS', 'ESP', 'BMU', 'PAK', 'BGD', 'CMR', 'PRY', 'MDV', 'SVN', 'UGA', 'GLP', 'GIN', 'ITA', 'PRT', 'ECU', 'GNB', 'KAZ', 'VCT', 'TCA', 'DEU', 'ZAF', 'TON', 'GUY', 'ARM', 'DMA', 'USA', 'BRB', 'SWZ'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+## 2. Tổng quan về thành phần hóa học
+
+Từ **họ Rubiaceae** có tổng cộng 35  chi và 46 loài.đã phân lập và xác định được 2014 hoạt chất từ một số nhóm chính Statistic_Group_Compound. Phân tích sâu hơn về thành phần hóa học giữa các nhóm chúng tôi đề xuất hai hướng tiếp cận sau.
+
+### 2.1 Hợp chất tìm thấy nhiều nhất trong họ Rubiaceae
+
+Sau khi tải dữ liệu từ Lotus, các hợp chất sẽ được thống kê lại xem đâu là hoạt chất có tần số xuất hiện trong các loài nhiều nhất. 
+<div class="group-title">"Hoạt chất phổ biến trong họ"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">LTS0012871</div></div> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">LTS0204616</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">LTS0185641</div></div> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">LTS0193112</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">LTS0201798</div></div></div>
+
+### 2.2 Tìm kiếm sự tương đồng
+
+::: {.callout-note title = "Find Maximum Common Substructure" }
+        
+Thuật toán FMCS (Find Maximum Common Substructure) là một phương pháp được sử dụng để tìm ra cấu trúc chung nhiều nhất (MCS) trong một tập hợp các cấu trúc hóa học. Các bước của thuật toán gồm:
+        
+- Chọn một cấu trúc hóa học là cấu trúc để tạo truy vấn, còn các cấu trúc khác là mục tiêu.
+- Chia nhỏ cấu trúc để tạo truy vấn thành cấu trúc nhỏ hơn dạng chuỗi SMARTS.
+- Kiểm tra chuỗi SMARTS trong các cấu trúc mục tiêu.
+- Tìm kiếm chuỗi SMARTS xuất hiện nhiều nhất.
+
+Để biết thêm chi tiết các bạn có thể xem tại [TeachOpenCADD](https://projects.volkamerlab.org/teachopencadd/talktorials/T006_compound_maximum_common_substructures.html)
+        
+``` python
+pip install rdkit
+def find_core_smiles(smiles_list):
+    mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
+    mcs = rdFMCS.FindMCS(mols)
+    core_smiles = Chem.MolToSmiles(Chem.MolFromSmarts(mcs.smartsString))
+    return core_smiles
+```
+
+:::
+
+<div class="group-title">"Khung của từng nhóm chất dựa MCS"</div>\n<div class="grid-container">" <div class="molecule-box"> <canvas id="canvas_a_Row0#0" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#1" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#2" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#5" width="150" height="150"></canvas> <div class="mol-name">C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#7" width="150" height="150"></canvas> <div class="mol-name">**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#9" width="150" height="150"></canvas> <div class="mol-name">COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#10" width="150" height="150"></canvas> <div class="mol-name">c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#11" width="150" height="150"></canvas> <div class="mol-name">**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#13" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#14" width="150" height="150"></canvas> <div class="mol-name">*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#15" width="150" height="150"></canvas> <div class="mol-name">*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#16" width="150" height="150"></canvas> <div class="mol-name">Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#17" width="150" height="150"></canvas> <div class="mol-name">*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#18" width="150" height="150"></canvas> <div class="mol-name">*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#20" width="150" height="150"></canvas> <div class="mol-name">O=C1c2ccccc2C(c3c1ccc(c3*)*)=O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#21" width="150" height="150"></canvas> <div class="mol-name">c1ccc2c3c1-c4ccccc4CC3NCC2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#22" width="150" height="150"></canvas> <div class="mol-name">Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#24" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1*)CC2NCCc3c2cccc3</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#26" width="150" height="150"></canvas> <div class="mol-name">COc1c(*)cc(cc1)CCNCCc2ccccc2</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#27" width="150" height="150"></canvas> <div class="mol-name">COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#28" width="150" height="150"></canvas> <div class="mol-name">COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#29" width="150" height="150"></canvas> <div class="mol-name">c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#30" width="150" height="150"></canvas> <div class="mol-name">CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#31" width="150" height="150"></canvas> <div class="mol-name">C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#32" width="150" height="150"></canvas> <div class="mol-name">O=C(O)c1cc(O)c(c(c1)O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#33" width="150" height="150"></canvas> <div class="mol-name">*=C(*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#34" width="150" height="150"></canvas> <div class="mol-name">**C(=*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#35" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#36" width="150" height="150"></canvas> <div class="mol-name">*=Cc1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#37" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#38" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#39" width="150" height="150"></canvas> <div class="mol-name">**Cc1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#41" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#42" width="150" height="150"></canvas> <div class="mol-name">C(*)(*)C(O)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#43" width="150" height="150"></canvas> <div class="mol-name">O=C(O)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#44" width="150" height="150"></canvas> <div class="mol-name">*=C(O)c1ccc(c(c1)*)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#46" width="150" height="150"></canvas> <div class="mol-name">c1cccc(c1O)C(=O)O</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#47" width="150" height="150"></canvas> <div class="mol-name">*=CC*Cc1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#48" width="150" height="150"></canvas> <div class="mol-name">C*C(=*)c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#49" width="150" height="150"></canvas> <div class="mol-name">**c1ccc(cc1)*</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#50" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#51" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#52" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#54" width="150" height="150"></canvas> <div class="mol-name">*=*c1ccccc1</div></div> <div class="molecule-box"> <canvas id="canvas_a_Row0#55" width="150" height="150"></canvas> <div class="mol-name">**c1ccccc1</div></div></div>
+
+
+## 3. Tổng quan dược dân tộc học
+
+Họ **Rubiaceae** đã được một số công động tại các quốc gia như *Elsewhere, China, Mexico, US(Amerindian), US(KS), US(Meskwaski), Dominican Republic, Haiti, Latin America, US, Grenada, France, India, Turkey, Japan*, Trinidad, Bolivia, Africa, Colombia, Bahamas, Kurdistan, Mexico(Mazatec), UK, ain, Europe, Panama(Choco), Venezuela, Brazil, South America, English, Liberia, Upper Volta, Java, Malaya, Philippines, Samoa, Sierra Leone, Tonga, C Africa, Ghana, W Africa, Indochina, Thailand, Martinique, Mediterranean, Morocco, Costa Rica* sử dụng trên lâm sàng bao gồm cả chữa bệnh cũng như cảnh báo về độc tính *chất khử trùng, thuốc tống hơi, thuốc nhuận tràng, chất làm se, chất độc, gây nôn, thuốc lợi tiểu, thuốc long đờm, thuốc kích thích tình dục, thuốc gây mê, diệt khuẩn, thuốc hạ sốt, thuốc trợ tim, thôi miên, thuốc giảm đau, chất kích thích, thuốc bổ, bàng quang, giờ mở cửa, cầm máu, họ sẽ mở, chạy, đổ mồ hôi, alexiteric, chống viêm, chất gây say, chống định kỳ, xà phòng, thuốc giải độc, thuốc thanh lọc, thuốc an thần, emmenagogue, thuốc nhỏ mắt, thuốc diệt cá, mỹ phẩm, kem đánh răng, thuốc phá thai, thuốc cầm máu*. Bảng tổng kết chi tiết được trình bày ở dưới đây.
+
+Các loài sử dụng phổ biến đề điều trị bệnh bao gồm *Coffea arabica* (6 chứng và bệnh), *Galium aparine* (6 chứng và bệnh), *Morinda citrifolia* (6 chứng và bệnh), *Paederia foetida* (5 chứng và bệnh), *Cephalanthus occidentalis* (4 chứng và bệnh).
+
+Tiếp cận dựa trên chứng và bệnh để điều trị cho thấy các bệnh phổ biến mà các loài cho họ **Rubiaceae** có thể điều trị là chất làm se (10 loài), thuốc lợi tiểu (10 loài), thuốc bổ (8 loài), chất khử trùng (7 loài), thuốc nhuận tràng (7 loài).
+
+::: {.table caption="Bảng chi tiết các loài được làm thuốc từ họ Rubiaceae"}
+| <RowID>   | genus_GIBF       | Country- Species - Disease                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Row0      | Adina            | Elsewhere - (*Adina cordifolia* - chất khử trùng), China - (*Adina rubella* - thuốc tống hơi)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row1      | Cephalanthus     | Mexico - (*Cephalanthus occidentalis* - thuốc nhuận tràng), US(Amerindian) - (*Cephalanthus occidentalis* - chất làm se), US(KS) - (*Cephalanthus occidentalis* - chất độc), US(Meskwaski) - (*Cephalanthus occidentalis* - gây nôn)                                                                                                                                                                                                                                                                                                                                                                                           |
+| Row2      | Chiococca        | Dominican Republic - (*Chiococca alba* - chất làm se), Haiti - (*Chiococca alba* - thuốc lợi tiểu), Latin America - (*Chiococca alba* - thuốc lợi tiểu), Mexico - (*Chiococca alba* - chất làm se), US - (*Chiococca alba* - thuốc long đờm)                                                                                                                                                                                                                                                                                                                                                                                   |
+| Row3      | Chione           | Grenada - (*Chione venosa* - thuốc kích thích tình dục)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Row4      | Cinchona         | Elsewhere - (*Cinchona calisaya* - thuốc gây mê, thuốc hạ sốt), France - (*Cinchona calisaya* - chất khử trùng), India - (*Cinchona calisaya* - diệt khuẩn), Mexico - (*Cinchona calisaya* - chất khử trùng), Turkey - (*Cinchona calisaya* - chất khử trùng), Elsewhere - (*Cinchona officinalis* - diệt khuẩn), Mexico - (*Cinchona officinalis* - chất khử trùng), Turkey - (*Cinchona officinalis* - chất khử trùng), France - (*Cinchona pubescens* - chất khử trùng), Japan* - (*Cinchona pubescens* - thuốc hạ sốt), Mexico - (*Cinchona pubescens* - chất khử trùng), Turkey - (*Cinchona pubescens* - chất khử trùng) |
+| Row5      | Coffea           | China - (*Coffea arabica* - thuốc trợ tim), Dominican Republic - (*Coffea arabica* - thôi miên), Elsewhere - (*Coffea arabica* - thuốc giảm đau), Haiti - (*Coffea arabica* - thuốc trợ tim), Latin America - (*Coffea arabica* - chất độc), Trinidad - (*Coffea arabica* - chất kích thích), Turkey - (*Coffea arabica* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                     |
+| Row6      | Corynanthe       | Turkey - (*Corynanthe johimbe* - thuốc kích thích tình dục)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Row7      | Coussarea        | Bolivia - (*Coussarea hydrangeifolia* - thuốc bổ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Row8      | Coutarea         | Mexico - (*Coutarea hexandra* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Row9      | Crossopteryx     | Africa - (*Crossopteryx febrifuga* - thuốc bổ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Row10     | Duroia           | Colombia - (*Duroia hirsuta* - bàng quang)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Row11     | Exostema         | Bahamas - (*Exostema caribaeum* - giờ mở cửa), Mexico - (*Exostema caribaeum* - gây nôn)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Row12     | Faramea          | Dominican Republic - (*Faramea occidentalis* - cầm máu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Row13     | Galium           | Elsewhere - (*Galium aparine* - họ sẽ mở), Kurdistan - (*Galium aparine* - chạy), Mexico(Mazatec) - (*Galium aparine* - thuốc hạ sốt), Turkey - (*Galium aparine* - họ sẽ mở), UK - (*Galium aparine* - cầm máu), US - (*Galium aparine* - giờ mở cửa), ain - (*Galium aparine* - thuốc lợi tiểu), Turkey - (*Galium mollugo* - thuốc lợi tiểu), Elsewhere - (*Galium verum* - thuốc lợi tiểu), Europe - (*Galium verum* - thuốc lợi tiểu), Turkey - (*Galium verum* - họ sẽ mở), UK - (*Galium verum* - thuốc kích thích tình dục), ain - (*Galium verum* - thuốc lợi tiểu)                                                   |
+| Row14     | Gardenia         | India - (*Gardenia gummifera* - đổ mồ hôi), China - (*Gardenia jasminoides* - alexiteric), India - (*Gardenia jasminoides* - chất khử trùng), Japan* - (*Gardenia jasminoides* - chống viêm)                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Row15     | Genipa           | Elsewhere - (*Genipa americana* - chất khử trùng), Haiti - (*Genipa americana* - thuốc kích thích tình dục), Panama(Choco) - (*Genipa americana* - chất gây say), Venezuela - (*Genipa americana* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Row16     | Guettarda        | Brazil - (*Guettarda angelica* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row17     | Hamelia          | Elsewhere - (*Hamelia patens* - chất độc), Panama(Choco) - (*Hamelia patens* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Row18     | Hedyotis         | India - (*Hedyotis herbacea* - thuốc bổ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Row19     | Hintonia         | Mexico - (*Hintonia latiflora* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Row20     | Hymenodictyon    | Elsewhere - (*Hymenodictyon orixense* - chống định kỳ), India - (*Hymenodictyon orixense* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Row21     | Isertia          | Elsewhere - (*Isertia pittieri* - xà phòng), Panama(Choco) - (*Isertia pittieri* - xà phòng), South America - (*Isertia pittieri* - xà phòng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Row22     | Ixora            | Elsewhere - (*Ixora coccinea* - chất khử trùng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Row23     | Mitchella        | English - (*Mitchella repens* - thuốc bổ), US - (*Mitchella repens* - chất làm se)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Row24     | Mitragyna        | Africa - (*Mitragyna stipulosa* - thuốc giải độc), Liberia - (*Mitragyna stipulosa* - thuốc lợi tiểu), Upper Volta - (*Mitragyna stipulosa* - thuốc gây mê)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Row25     | Morinda          | Elsewhere - (*Morinda citrifolia* - thuốc thanh lọc), Haiti - (*Morinda citrifolia* - thuốc an thần), Java - (*Morinda citrifolia* - thuốc nhuận tràng), Malaya - (*Morinda citrifolia* - emmenagogue), Philippines - (*Morinda citrifolia* - emmenagogue), Samoa - (*Morinda citrifolia* - thuốc nhỏ mắt), Sierra Leone - (*Morinda citrifolia* - thuốc nhuận tràng), Tonga - (*Morinda citrifolia* - thuốc bổ), Africa - (*Morinda lucida* - emmenagogue), C Africa - (*Morinda lucida* - thuốc lợi tiểu), Ghana - (*Morinda lucida* - thuốc nhuận tràng), W Africa - (*Morinda lucida* - chất làm se)                       |
+| Row26     | Nauclea          | Africa - (*Nauclea latifolia* - gây nôn), Ghana - (*Nauclea latifolia* - thuốc bổ), Elsewhere - (*Nauclea orientalis* - thuốc diệt cá)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Row27     | Neonauclea       | Elsewhere - (*Neonauclea sessilifolia* - thuốc cầm máu)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Row28     | Paederia         | China - (*Paederia foetida* - thuốc tống hơi), Elsewhere - (*Paederia foetida* - chất làm se, thuốc bổ), Indochina - (*Paederia foetida* - chống viêm), Philippines - (*Paederia foetida* - thuốc lợi tiểu)                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Row29     | Pavetta          | Elsewhere - (*Pavetta indica* - thuốc lợi tiểu), Thailand - (*Pavetta indica* - mỹ phẩm)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Row30     | Randia           | Elsewhere - (*Randia armata* - thuốc diệt cá), Martinique - (*Randia armata* - thuốc diệt cá), Mexico - (*Randia armata* - gây nôn)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Row31     | Rothmannia       | Ghana - (*Rothmannia longiflora* - kem đánh răng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Row32     | Rubia            | Elsewhere - (*Rubia argyi* - emmenagogue), China - (*Rubia cordifolia* - chất làm se), Elsewhere - (*Rubia cordifolia* - thuốc bổ), Mediterranean - (*Rubia peregrina* - thuốc phá thai), Morocco - (*Rubia peregrina* - thuốc kích thích tình dục), Elsewhere - (*Rubia tinctorum* - chất làm se), Europe - (*Rubia tinctorum* - giờ mở cửa), Turkey - (*Rubia tinctorum* - thuốc lợi tiểu)                                                                                                                                                                                                                                   |
+| Row33     | Schumanniophyton | Africa - (*Schumanniophyton magnificum* - thuốc kích thích tình dục)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Row34     | Simira           | Costa Rica - (*Simira maxonii* - thuốc nhuận tràng), Elsewhere - (*Simira maxonii* - thuốc nhuận tràng)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+:::
+
+## Chi tiết một số loài 
+
+:::{#Rubiaceae}
+:::
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_a_Row0#0", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3OC)C)ccc1O" },
+{id: "canvas_a_Row0#1", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3O)CCCO)ccc1O" },
+{id: "canvas_a_Row0#2", smiles: "Oc1ccc(cc1)C2Cc3cc(O)cc4c3C(c5c2c(cc(c5)O)O)C(O4)c6ccc(cc6)O" },
+{id: "canvas_a_Row0#5", smiles: "C=CCc1cc(OC)c(cc1)OC(CC)c2ccccc2" },
+{id: "canvas_a_Row0#7", smiles: "**=Cc1cc(OC)c2c(c1)C(C)C(O2)c3ccc(c(c3)OC)O" },
+{id: "canvas_a_Row0#9", smiles: "COc1cc(C2Oc3c(C2CO)cc(cc3)CCCO)ccc1O" },
+{id: "canvas_a_Row0#10", smiles: "c1cccc2c1C(c3cc(O)cc(c3)O)C(O2)c4ccc(cc4)O" },
+{id: "canvas_a_Row0#11", smiles: "**C1C2CC3N(C1*)C4C2C(C5(C3Nc6c5cccc6)C4)O" },
+{id: "canvas_a_Row0#13", smiles: "*c1cc(*)c2c(c1)Cc3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#14", smiles: "*c1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#15", smiles: "*c1ccc2c(c1)C(=O)c3c(C2=O)cccc3" },
+{id: "canvas_a_Row0#16", smiles: "Cc1cc(O)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#17", smiles: "*COC1OC(C2c3cccc(c3C(c4c2cc(cc4O)*)=O)O)C(C(C1O)O)O" },
+{id: "canvas_a_Row0#18", smiles: "*c1cc(*)c2c(c1)C(=O)c3c(C2=O)c(ccc3)O" },
+{id: "canvas_a_Row0#20", smiles: "O=C1c2ccccc2C(c3c1ccc(c3*)*)=O" },
+{id: "canvas_a_Row0#21", smiles: "c1ccc2c3c1-c4ccccc4CC3NCC2" },
+{id: "canvas_a_Row0#22", smiles: "Oc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#24", smiles: "COc1ccc(cc1*)CC2NCCc3c2cccc3" },
+{id: "canvas_a_Row0#26", smiles: "COc1c(*)cc(cc1)CCNCCc2ccccc2" },
+{id: "canvas_a_Row0#27", smiles: "COc1cc2c(cc1O)C(Cc3cccc(c3)O)N(CC2)C" },
+{id: "canvas_a_Row0#28", smiles: "COc1ccc(cc1O)CC2c3c(cc(c(c3)O)OC)CCN2C" },
+{id: "canvas_a_Row0#29", smiles: "c1cc2c(cc1)C(c3ccccc3)C(C(=C2)C)C" },
+{id: "canvas_a_Row0#30", smiles: "CCC1(CCCN2C1C(CC2)(C(=*C(=O)*C)*)c3ccccc3)C" },
+{id: "canvas_a_Row0#31", smiles: "C(CCC1(*)CCCC2=C3C1CC(C3CC2)C(=O)OC)*(C)*" },
+{id: "canvas_a_Row0#32", smiles: "O=C(O)c1cc(O)c(c(c1)O)O" },
+{id: "canvas_a_Row0#33", smiles: "*=C(*)c1ccccc1" },
+{id: "canvas_a_Row0#34", smiles: "**C(=*)c1ccccc1" },
+{id: "canvas_a_Row0#35", smiles: "**c1ccccc1" },
+{id: "canvas_a_Row0#36", smiles: "*=Cc1ccccc1" },
+{id: "canvas_a_Row0#37", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#38", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#39", smiles: "**Cc1ccccc1" },
+{id: "canvas_a_Row0#41", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#42", smiles: "C(*)(*)C(O)c1ccccc1" },
+{id: "canvas_a_Row0#43", smiles: "O=C(O)c1ccccc1" },
+{id: "canvas_a_Row0#44", smiles: "*=C(O)c1ccc(c(c1)*)O" },
+{id: "canvas_a_Row0#46", smiles: "c1cccc(c1O)C(=O)O" },
+{id: "canvas_a_Row0#47", smiles: "*=CC*Cc1ccccc1" },
+{id: "canvas_a_Row0#48", smiles: "C*C(=*)c1ccccc1" },
+{id: "canvas_a_Row0#49", smiles: "**c1ccc(cc1)*" },
+{id: "canvas_a_Row0#50", smiles: "**c1ccccc1" },
+{id: "canvas_a_Row0#51", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#52", smiles: "**c1ccccc1" },
+{id: "canvas_a_Row0#54", smiles: "*=*c1ccccc1" },
+{id: "canvas_a_Row0#55", smiles: "**c1ccccc1" },
+{id: "canvas_Row0", smiles: "Cc1ccc2c(c1O)C(=O)c1ccccc1C2=O" },
+{id: "canvas_Row1", smiles: "CCC(CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C" },
+{id: "canvas_Row2", smiles: "Cc1c(O)cc2c(c1O)C(=O)c1ccccc1C2=O" },
+{id: "canvas_Row3", smiles: "COc1cc2ccc(=O)oc2cc1O" },
+{id: "canvas_Row4", smiles: "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@@]21C)C(C)C" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+

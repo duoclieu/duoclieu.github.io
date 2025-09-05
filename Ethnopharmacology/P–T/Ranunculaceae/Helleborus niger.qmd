@@ -1,0 +1,153 @@
+---
+title: "Helleborus niger"
+subtitle: "Loài Helleborus niger (Họ Ranunculaceae)"
+description: "Loài *Helleborus niger* thuộc họ Ranunculaceae phân bố tại một số vùng trên thế giới như nan, Germany, Spain, Switzerland, Croatia, Italy, Slovenia, Netherlands, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: emmenagogue', 'turkey: tim mạch, thuốc lợi tiểu, emmenagogue, chất độc, ma túy, thuốc thanh lọc, lo lắng', 'uk: thuốc diệt chuột', 'ain: thuốc trợ tim, giãn đồng tử'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 3 nhóm gồm aporphines, dihydrofurans, pyranodioxins."
+author: "TS. Hoàng Lê Sơn"
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Bloem%20van%20een%20kerstroos%20%28Helleborus%20niger%29%2016-12-2021.%20%28d.j.b%29%2002.jpg
+toc: true
+title-block-banner: true
+format:
+  html:
+    code-fold: true
+    html-math-method: katex
+    toc: true
+    toc-depth: 3
+    lightbox: true
+    include-in-header:
+      - text: |
+            <style>
+                .group-title { font-size: 20px; font-weight: bold; margin-top: 30px; }
+                .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+                .molecule-box { text-align: center; }
+                canvas { border: 1px solid #ccc; }
+                .mol-name { margin-top: 5px; font-weight: bold; font-size: 14px; }
+            </style>
+
+lightbox: auto
+fig-cap-location: bottom
+categories: ["Dược dân tộc"]
+tags: ["Helleborus niger", "Ranunculaceae"]
+---
+::: {.callout-tip title="Tóm tắt"}
+
+Loài *Helleborus niger* thuộc họ Ranunculaceae phân bố tại một số vùng trên thế giới như nan, Germany, Spain, Switzerland, Croatia, Italy, Slovenia, Netherlands, Austria. Dược liệu đã được sử dụng ở một số vùng lãnh thổ để điều trị một số chứng và bệnh tại như 'elsewhere: emmenagogue', 'turkey: tim mạch, thuốc lợi tiểu, emmenagogue, chất độc, ma túy, thuốc thanh lọc, lo lắng', 'uk: thuốc diệt chuột', 'ain: thuốc trợ tim, giãn đồng tử'.Từ loài này đã phân lập và xác định được 5 hoạt chất thuộc  về 3 nhóm gồm aporphines, dihydrofurans, pyranodioxins.
+
+:::
+
+## Tổng quan thực vật
+
+- **Kingdom:** Plantae
+- **Phylum:** Tracheophyta
+- **Order:** Ranunculales
+- **Family:** Ranunculaceae
+- **Genus:** Helleborus
+- **Species:** *Helleborus niger*
+- **Scientific Name:** *Helleborus niger L.*  
+- **Mô tả thực vật:** [loài thực vật]
+- **Description (EN):** [species of plant]
+ - **Tên tiếng Việt:** []
+ - **Tên tiếng Anh: **[Christmas rose, black hellebore, Christmas-rose]
+
+Theo tài liệu của Dr. DUKE tên họ, chi và loài như sau Family: Ranunculaceae - Genus: Helleborus - Species: *Helleborus niger* . Phân lọai thực vật theo GIBF cho thấy*khóa phân loại của thực vật vẫn giữ nguyên*
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+![](https://commons.wikimedia.org/wiki/Special:FilePath/Bloem%20van%20een%20kerstroos%20%28Helleborus%20niger%29%2016-12-2021.%20%28d.j.b%29%2002.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343883909/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343888641/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/343888619/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344460353/original.jpeg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344488695/original.jpg){ group="GIBF" }
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/344698710/original.jpeg){ group="GIBF" }
+:::
+
+
+**Phân bố trên thế giới**: nan, Germany, Spain, Switzerland, Croatia, Italy, Slovenia, Netherlands, Austria
+
+**Phấn bố ở Việt nam:** Không có ghi nhận ở Việt Nam
+
+
+
+
+<div id="map-leo" style="width: 100%; height: 600px;"></div>
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script>
+const data = {
+  title: "Bản đồ phân bố: Ranunculaceae",
+  iso3_codes: ['DEU', 'HRV', 'CHE', 'NLD', 'AUT', 'SVN', 'ITA', 'ESP'],
+  color: [1, 1, 1, 1, 1, 1, 1, 1]
+};
+const trace = {
+  type: "choropleth",
+  locationmode: "ISO-3",
+  locations: data.iso3_codes,
+  z: data.color,
+  colorscale: [[0, "#EAEAEA"], [1, "#FFB6C1"]],
+  zmin: 0,
+  zmax: 1,
+  showscale: false
+};
+const layout = {
+  title: {
+    text: data.title,
+    font: { size: 20 }
+  },
+  geo: {
+    projection: { type: "natural earth" },
+    showland: true,
+    landcolor: "#EAEAEA",
+    showcountries: true
+  },
+  margin: { l: 0, r: 0, t: 40, b: 0 }
+};
+Plotly.newPlot("map-leo", [trace], layout);
+</script>
+
+
+
+## Tổng quan về thành phần hóa học
+
+Loài *Helleborus niger* đã phân lập và xác định được 5 hoạt chất thuộc  về 3 nhóm gồm aporphines, dihydrofurans, pyranodioxins. Cấu trúc của từng nhóm trình bày chi tiết dưới đây.
+
+<div class="group-title">Aporphines</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row1" width="150" height="150"></canvas> <div class="mol-name">[LTS0095715](https://lotus.naturalproducts.net/compound/lotus_id/LTS0095715)</div></div> <div class="molecule-box"> <canvas id="canvas_Row2" width="150" height="150"></canvas> <div class="mol-name">[LTS0022981](https://lotus.naturalproducts.net/compound/lotus_id/LTS0022981)</div></div></div>
+<div class="group-title">Dihydrofurans</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row0" width="150" height="150"></canvas> <div class="mol-name">[LTS0133358](https://lotus.naturalproducts.net/compound/lotus_id/LTS0133358)</div></div></div>
+<div class="group-title">Pyranodioxins</div>
+<div class="grid-container"> <div class="molecule-box"> <canvas id="canvas_Row3" width="150" height="150"></canvas> <div class="mol-name">[LTS0196903](https://lotus.naturalproducts.net/compound/lotus_id/LTS0196903)</div></div> <div class="molecule-box"> <canvas id="canvas_Row4" width="150" height="150"></canvas> <div class="mol-name">[LTS0230998](https://lotus.naturalproducts.net/compound/lotus_id/LTS0230998)</div></div></div>
+
+## Dược dân tộc học
+
+| <RowID>   | Vùng lãnh thổ   | Chứng và bệnh                                                                     |
+|-----------|-----------------|-----------------------------------------------------------------------------------|
+| Row0      | Elsewhere       | Emmenagogue                                                                       |
+| Row1      | Turkey          | Tim mạch, Thuốc lợi tiểu, Emmenagogue, Chất độc, Ma túy, Thuốc thanh lọc, Lo lắng |
+| Row2      | UK              | Thuốc diệt chuột                                                                  |
+| Row3      | ain             | Thuốc trợ tim, giãn đồng tử                                                       |
+
+<script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const molecules = [
+        {id: "canvas_Row0", smiles: "C=C1C=CC(=O)O1" },
+{id: "canvas_Row1", smiles: "COc1ccc2c(c1O)-c1c(O)c(OC)cc3c1C(C2)N(C)CC3" },
+{id: "canvas_Row2", smiles: "COc1ccc2c(c1O)-c1c(O)c(OC)cc3c1[C@H](C2)N(C)CC3" },
+{id: "canvas_Row3", smiles: "O=C1CCC2(COC3OC(CO)C(O)C(O)C3O2)O1" },
+{id: "canvas_Row4", smiles: "O=C1CC[C@@]2(CO[C@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O2)O1" }
+    ];
+    const drawer = new SmilesDrawer.Drawer({ width: 150, height: 150 });
+    molecules.forEach(mol => {
+      SmilesDrawer.parse(mol.smiles, function (tree) {
+        drawer.draw(tree, mol.id, "light", false);
+      });
+    });
+  });
+</script>
+
+
